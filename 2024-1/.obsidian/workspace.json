@@ -1,0 +1,158 @@
+{
+  "main": {
+    "id": "0027cbb301f7af8c",
+    "type": "split",
+    "children": [
+      {
+        "id": "76a592b9423f3a75",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7c0d47b6e6c9110b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "435b06131a818b44",
+    "type": "split",
+    "children": [
+      {
+        "id": "793e8575c025b9c2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5b3141549f76c287",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "76754ddbc3aee453",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4a3e4c96cd84ac05",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e1dc8af51c0d9682",
+    "type": "split",
+    "children": [
+      {
+        "id": "3c5472f1c5c8428e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f974b15d90b20605",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "29d3012c963ac852",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f8ecdbd66f74cdea",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6906e0d920f342bc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "7c0d47b6e6c9110b",
+  "lastOpenFiles": [
+    "INTELIGENCIA DE NEGOCIOS/Primera clase.md",
+    "Sin título.canvas",
+    "ARQUITECTURA DE SOFTWARE/MARKDOWN.md",
+    "Horario.png",
+    "Sin título.md",
+    "HORARIO.md",
+    "2024-03-05.md",
+    "Welcome.md",
+    "create a link.md",
+    "INTERNET DE LAS COSAS",
+    "ARQUITECTURA DE SOFTWARE",
+    "GESTIÓN ORGANIZACIONAL",
+    "INTELIGENCIA DE NEGOCIOS",
+    "DATA SCIENCE"
+  ]
+}
