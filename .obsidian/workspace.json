@@ -1,0 +1,161 @@
+{
+  "main": {
+    "id": "f857012538480785",
+    "type": "split",
+    "children": [
+      {
+        "id": "82c254fe6b0bbd57",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "361d1050749b7f52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-1/DATA SCIENCE/11-03-24 INTRODUCCIÓN A LA CIENCIA DE DATOS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "aadcb2c85ebc8b19",
+    "type": "split",
+    "children": [
+      {
+        "id": "41cf93484cd1af19",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d7a78b9cc663cb82",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9dc02afb934c138b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b62941f0b80831b3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0d4e9e9009b7ee87",
+    "type": "split",
+    "children": [
+      {
+        "id": "d5841a29bd538efb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d6d18eb94a142744",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2024-1/DATA SCIENCE/11-03-24 INTRODUCCIÓN A LA CIENCIA DE DATOS.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dd78831f5ab36a23",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2024-1/DATA SCIENCE/11-03-24 INTRODUCCIÓN A LA CIENCIA DE DATOS.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8e4d49341a9c6b28",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "75f317ded24c3283",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2024-1/DATA SCIENCE/11-03-24 INTRODUCCIÓN A LA CIENCIA DE DATOS.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "361d1050749b7f52",
+  "lastOpenFiles": [
+    "Sin título.md",
+    "2024-1/DATA SCIENCE/11-03-24 INTRODUCCIÓN A LA CIENCIA DE DATOS.md",
+    "2024-1/ARQUITECTURA DE SOFTWARE/Primera Clase.md",
+    "2024-1/DATA SCIENCE",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Primera Clase.md",
+    "2024-1/ARQUITECTURA DE SOFTWARE",
+    "2024-1/GESTIÓN ORGANIZACIONAL",
+    "2024-1/Horario.png",
+    "2024-1/INTELIGENCIA DE NEGOCIOS/Primera clase.md"
+  ]
+}
