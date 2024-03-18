@@ -1,3 +1,4 @@
+# Primera Clase
 **Inteligencia de negocios**
 - Parte 1: Power BI
 - Parte 2: Geointeligencia -> GEODA y QGIS
