@@ -5,7 +5,7 @@ Correo profe: ximena.geoffroy@udp.cl
 -Promedio Controles -> 25% -> 3 controles obligatorios, y 1 cuarto por los que faltaron justificadamente
 -Promedio Trabajos ->15%**
 
-Fecha trabajo semestral semana del 10 de junio (aproximadamente) -> Se trata de donde hicimos la práctica, individual se presenta en la oficina de la profe.
+Fecha trabajo semestral semana del 10 de junio (aproximadamente) => Se trata de donde hicimos la práctica, individual se presenta en la oficina de la profe.
 # 12-03-24
 Modelos de administración: esclavitud -> feudalismo -> artesanos
 
@@ -162,3 +162,13 @@ Prox clase ejercicio sobre esto.
 
 ![[Texto 15-03-24.jpeg]]
 
+
+
+# 19-03-24
+## **Planificación estratégica**
+Las empresas tienen que decidir su futuro (anualmente) mirando el mercado, la competencia, clientes propios, clientes de otras empresas.
+Fijar un objetivo y mediante una estrategia (conjunto de acciones) logro llegar a donde quiero.
+- **Nivel estrategico**: Embarga a toda la organizacion, es muy importante porque ahi es donde piensan, hacia donde van en el futuro. ***Aqui se hace la planificación estratégica***
+- **Nivel Tactico:** Donde estan ejecutivos, áreas funcionales, preciso para cada aera. (Largo plazo)
+- **Nivel operativo**: funciones mas rutinarias, donde la gente hace control de la tarea de manera semanal(corto plazo).
+Visión 
