@@ -79,3 +79,8 @@
 
 
 # Enfoque de Contingencia
+- Toda acción de acuerdo a las caracteristicas del entorno, es mas eficiente.
+- Las acciones gerenciales dependen de las características situacionales de la obtención de los resultados organizacionales
+# Modelos de las 7's de McKinsey
+- Usa como base el **Enfoque de contingencia**. Depende del ambiente interno y externo
+- Cuenta con Retro-Alimentacion. Si se cambia un punto, afecta o beneficia a todos los demás
