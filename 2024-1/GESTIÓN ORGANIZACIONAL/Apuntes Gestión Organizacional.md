@@ -172,15 +172,15 @@ Fijar un objetivo y mediante una estrategia (conjunto de acciones) logro llegar 
 - **Nivel Tactico:** Donde estan ejecutivos, áreas funcionales, preciso para cada aera. (Largo plazo)
 - **Nivel operativo**: funciones mas rutinarias, donde la gente hace control de la tarea de manera semanal(corto plazo).
 
-1. *Visión (**Nivel Estratégico**)*  → Sueño → Mediano Largo Plazo → *Cuantitativo*
+1. *Visión (**Nivel Estratégico**)*  → Sueño → Mediano Largo Plazo → *Cualitativa*
 
 2. *Misión (Qué, Cómo, Dónde. **Nivel Estratégico**)* → Largo Plazo → (6-7años) → *Cuantitativo*
 
-3. *Objetivo general (Le entega información a cada función de la empresa a **Nivel Táctico**)* → Mediano Plazo → Máx 2 <span class="symbols-prettifier-unclear">semanas?</span> → *Cuantitativo*
+3. *Objetivo general (Le entega información a cada función de la empresa a **Nivel Táctico**)* → Mediano Plazo → Máx 2 años → *Cuantitativo*
 
-4. Cada Objetivo general se desgloza en *Objetivos Especificos* (siempre va relacionado directamente con el objetivo general del que viene, **Nivel Táctico y Nivel Operativo**)→ menos de 1 año y es *cuantificable*
+4. Cada Objetivo general se desgloza en *Objetivos Especificos* (siempre va relacionado directamente con el objetivo general del que viene, **Nivel Táctico y Nivel Operativo**)→ menos de 1 año y es *Cuantitativo*
 
-5. De los Objetivos especificos sale la *Meta* (Acciones a semanas,**Nivel Operativo**) → *cuantificable*
+5. De los Objetivos especificos sale la *Meta* (Acciones a semanas,**Nivel Operativo**) → *Cuantitativo*
 ![[Texto 19-03-24.jpeg]]
 **Análisis del texto**
 *Modelo Insumo-Producto*:
@@ -192,7 +192,7 @@ Fijar un objetivo y mediante una estrategia (conjunto de acciones) logro llegar 
 *Entropía*: Lo que a el de costo acostumbrarse respecto a los largos plazos de pago de los clientes.
 *Neguentropía*: La cuñada y su ayuda.
 *Recursividad*: El sistema es sinergico y todas sus partes son sinergicas, esto se puede ver ya que el sistema (empresa) funciona bien y no tiene mayores problemas. Por lo tanto la empresa posee Recursividad.
-*Homeostasis*: Capacidad de adaptarse, por ejemplo adaptarse al cambio de localidad de Milán a Santiago.
+*Homeostasis*: No aplica en este caso.
 *Equifinalidad*: Se llega a un mismo fin al cambiar entre los tipos de pastas que venden.
 
 *Sueño*: Pastas frescas, Italia, Milán. "Rescatar las tradiciónes de la pastas frescas de Milán, Italia"
