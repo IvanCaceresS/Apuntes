@@ -16,5 +16,23 @@
       ],
       "key": "P"
     }
+  ],
+  "symbols-prettifier:symbols-prettifier-add-important": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "I"
+    }
+  ],
+  "symbols-prettifier:symbols-prettifier-add-unclear": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "U"
+    }
   ]
 }

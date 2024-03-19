@@ -168,7 +168,36 @@ Prox clase ejercicio sobre esto.
 ## **Planificación estratégica**
 Las empresas tienen que decidir su futuro (anualmente) mirando el mercado, la competencia, clientes propios, clientes de otras empresas.
 Fijar un objetivo y mediante una estrategia (conjunto de acciones) logro llegar a donde quiero.
-- **Nivel estrategico**: Embarga a toda la organizacion, es muy importante porque ahi es donde piensan, hacia donde van en el futuro. ***Aqui se hace la planificación estratégica***
+- **Nivel estrategico**: Embarga a toda la organizacion, es muy importante porque ahi es donde piensan, hacia donde van en el futuro. *Aqui se hace la planificación estratégica*
 - **Nivel Tactico:** Donde estan ejecutivos, áreas funcionales, preciso para cada aera. (Largo plazo)
 - **Nivel operativo**: funciones mas rutinarias, donde la gente hace control de la tarea de manera semanal(corto plazo).
-Visión 
+
+1. *Visión (**Nivel Estratégico**)*  → Sueño → Mediano Largo Plazo → *Cuantitativo*
+
+2. *Misión (Qué, Cómo, Dónde. **Nivel Estratégico**)* → Largo Plazo → (6-7años) → *Cuantitativo*
+
+3. *Objetivo general (Le entega información a cada función de la empresa a **Nivel Táctico**)* → Mediano Plazo → Máx 2 <span class="symbols-prettifier-unclear">semanas?</span> → *Cuantitativo*
+
+4. Cada Objetivo general se desgloza en *Objetivos Especificos* (siempre va relacionado directamente con el objetivo general del que viene, **Nivel Táctico y Nivel Operativo**)→ menos de 1 año y es *cuantificable*
+
+5. De los Objetivos especificos sale la *Meta* (Acciones a semanas,**Nivel Operativo**) → *cuantificable*
+![[Texto 19-03-24.jpeg]]
+**Análisis del texto**
+*Modelo Insumo-Producto*:
+*Corriente de entrada*: Capital, maquina, infraestructura, materia prima, personal, permisos, tecnologia.
+*Corriente de salida*: Marketing, servicios, producto.
+*Retroalimentación*: Variación del entorno, Variación de las políticas, Variación en gusto de clientes.
+
+*Sinergía*: Conocimientos de la esposa, conocimiento de él ...
+*Entropía*: Lo que a el de costo acostumbrarse respecto a los largos plazos de pago de los clientes.
+*Neguentropía*: La cuñada y su ayuda.
+*Recursividad*: El sistema es sinergico y todas sus partes son sinergicas, esto se puede ver ya que el sistema (empresa) funciona bien y no tiene mayores problemas. Por lo tanto la empresa posee Recursividad.
+*Homeostasis*: Capacidad de adaptarse, por ejemplo adaptarse al cambio de localidad de Milán a Santiago.
+*Equifinalidad*: Se llega a un mismo fin al cambiar entre los tipos de pastas que venden.
+
+*Sueño*: Pastas frescas, Italia, Milán. "Rescatar las tradiciónes de la pastas frescas de Milán, Italia"
+*Misión*: Aparte de potenciar nuestra venta Online de Pastas Frescas, lograr instalarnos con un local en el barrio italia.
+*Objetivo general*: 
+- Ver el capital necesario para instalar un local.
+*Objetivo especifico*: Buscar distintos tipos de financiamientos
+*Meta*: Realizar citas con bancos o futuros inversionistas.
