@@ -4,22 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "1f07b00e5d79a3e0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "220c519c26bf64d0",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 1 GO 01-2024.pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "38b42afca4ca2bda",
         "type": "tabs",
         "children": [
@@ -29,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Gestión Organizacional.md",
+                "file": "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Gestión Organizacional.md",
+                "file": "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Gestión Organizacional.md",
+                "file": "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Gestión Organizacional.md"
+                "file": "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md"
               }
             }
           }
@@ -164,10 +148,10 @@
   },
   "active": "a954daad76347a67",
   "lastOpenFiles": [
-    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 1 GO 01-2024.pdf",
     "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Gestión Organizacional.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/14 Principios de la Administración.jpg",
     "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 1 GO 01-2024.pdf",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/14 Principios de la Administración.jpg",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 1. 14-03-2024.md",
     "2024-1/INTELIGENCIA DE NEGOCIOS/Apuntes Inteligencia de negocios.md",
     "2024-1/DATA SCIENCE/Apuntes Data Science.md",

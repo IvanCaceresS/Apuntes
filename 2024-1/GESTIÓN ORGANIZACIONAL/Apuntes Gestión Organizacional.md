@@ -6,10 +6,6 @@ Correo profe: ximena.geoffroy@udp.cl
 -Promedio Trabajos ->15%**
 
 Fecha trabajo semestral semana del 10 de junio (aproximadamente) -> Se trata de donde hicimos la práctica, individual se presenta en la oficina de la profe.
-
-
-
-
 # 12-03-24
 Modelos de administración: esclavitud -> feudalismo -> artesanos
 
