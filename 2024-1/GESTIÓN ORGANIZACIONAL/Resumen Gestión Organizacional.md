@@ -84,3 +84,4 @@
 # Modelos de las 7's de McKinsey
 - Usa como base el **Enfoque de contingencia**. Depende del ambiente interno y externo
 - Cuenta con Retro-Alimentacion. Si se cambia un punto, afecta o beneficia a todos los demás
+- Gerente decide si es rentable realizar el cambio/implementación del modelo.
