@@ -107,3 +107,17 @@ Existen dos escenarios en los cuales una columna de un conjunto de datos no prop
 
 
 # 21-03-24
+## ¿Cuándo cambiar los conjuntos Dev/Test y las métricas?
+PPT clase 4
+- Es importante tener el objetivo del proyecto bien claro 
+- Establecer correctamente los objetivos y la eleccion de metricas son fundamentales para el exito del proyecto
+
+PPT clase 5
+## Ideas de proyectos
+- Sistema de recomendaciones:
+	- Por usuarios similares
+	- Por contenido consumido similar
+- Sistema de detección de fraudes
+- Clasificador de images
+- Generador de descripción de fotos
+- Reconocimiento de señales de tráfico
