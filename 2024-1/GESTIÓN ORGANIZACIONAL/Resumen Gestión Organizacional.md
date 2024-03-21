@@ -150,3 +150,8 @@ Cada una va a llegar a su objetivo de distintas maneras
 Carozi Luchetti , las empresas dicen ya vamos a crecer un 2%. Vamos a quitarle un 2% a la competencia y a lo mejor ambos logran su objetivo, por que quizás Carozi le quita los fideos a la otra y la otra empresa le quita las galletas.
 
 Todo se hace en base a herramientas de análisis, hay que ver en que soy yo mas fuerte que la otra empresa.
+
+# Control tipo 1
+1. La planificación estratégica que realizan las empresas ¿debe obligar a la empresa a seguirla o es un proceso cíclico y permanente?
+2. De la escuela clásica, cuál es el exponente que más afecta a la administración moderna?
+3. 

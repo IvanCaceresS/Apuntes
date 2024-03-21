@@ -104,3 +104,6 @@ Existen dos escenarios en los cuales una columna de un conjunto de datos no prop
 	5. Maldicion de la dimensionalidad: Una tabla con muchas columnas al momento de entrenar perjudica el proceso.
 
 
+
+
+# 21-03-24
