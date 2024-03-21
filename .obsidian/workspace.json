@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "31540039dff155a5",
+        "id": "a36b5f62666f56d9",
         "type": "tabs",
         "children": [
           {
             "id": "7a87e19e35c9e690",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Gestión Organizacional.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Gestión Organizacional.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Gestión Organizacional.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Gestión Organizacional.md"
+              }
             }
           }
         ]
@@ -140,9 +148,9 @@
   },
   "active": "7a87e19e35c9e690",
   "lastOpenFiles": [
-    "2024-1/DATA SCIENCE/Apuntes Data Science.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Gestión Organizacional.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Apuntes Ayudantías.md",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Gestión Organizacional.md",
+    "2024-1/DATA SCIENCE/Apuntes Data Science.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 2 GO 01-2024.pdf",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 1 GO 01-2024.pdf",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantía 2 GO 01-2024.pdf",
