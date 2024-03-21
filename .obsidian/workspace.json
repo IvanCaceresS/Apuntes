@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "51267fd6d6a11d48",
+        "id": "31540039dff155a5",
         "type": "tabs",
         "children": [
           {
-            "id": "bdab93c18b829219",
+            "id": "7a87e19e35c9e690",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-1/DATA SCIENCE/Apuntes Data Science.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-1/DATA SCIENCE/Apuntes Data Science.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-1/DATA SCIENCE/Apuntes Data Science.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2024-1/DATA SCIENCE/Apuntes Data Science.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,8 +138,9 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "d7a78b9cc663cb82",
+  "active": "7a87e19e35c9e690",
   "lastOpenFiles": [
+    "2024-1/DATA SCIENCE/Apuntes Data Science.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Gestión Organizacional.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Apuntes Ayudantías.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 2 GO 01-2024.pdf",
@@ -160,7 +153,6 @@
     "2024-1/GESTIÓN ORGANIZACIONAL/Texto 15-03-24.jpeg",
     "2024-1/GESTIÓN ORGANIZACIONAL/Texto 19-03-24.jpeg.~tmp",
     "2024-1/INTELIGENCIA DE NEGOCIOS/Apuntes Inteligencia de negocios.md",
-    "2024-1/DATA SCIENCE/Apuntes Data Science.md",
     "2024-1/INTERNET DE LAS COSAS/12-03-24.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/15-03-24.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/12-03-24.md",
