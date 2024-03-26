@@ -109,7 +109,9 @@ Continuación de requerimientos no funcionales
 			- Politica centralizada de administración
 			- Punto único de falla
 		## Ejercicio pregunta del profe:
-		Arquitectura: Modelo repositorio ya que de esta manera todos los ministerios pueden tener acces
+		Arquitectura: Modelo repositorio ya que de esta manera todos los ministerios pueden tener acceso a los datos de los demás ministerios, permitiendo una consistencia entre los datos.
+		ventajas: escalable
+		desventajas: punto unico de falla, si falla el repositorio todos los ministerios fallan
 	 - Cliente/Servidor
 	 - Modelo de capas
 	 - Objetos distribuidos
