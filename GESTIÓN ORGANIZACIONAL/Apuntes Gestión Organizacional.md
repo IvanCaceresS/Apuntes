@@ -201,3 +201,31 @@ Fijar un objetivo y mediante una estrategia (conjunto de acciones) logro llegar 
 - Ver el capital necesario para instalar un local.
 *Objetivo especifico*: Buscar distintos tipos de financiamientos
 *Meta*: Realizar citas con bancos o futuros inversionistas.
+
+# 26-03-24
+
+PEST: Analisis del entorno, no de la empresa. SE ESCRIBE COMO DEL ENTORNO NUNCA DE LA EMPRESA. Se ve como está el entorno para definir la misión
+- Vision
+- Misión
+1. Político: Leyes
+2. Económico
+3. Social
+4. Tecnológico
+El PEST va cambiando.
+**Ej en la UDP**
+- Político:
+	- (+) Ley obligatoria para todas la universidades, deben acreditarse.
+	- (-) Ley cambio a 40 horas laborales
+	- (-) Empresas de Chile deben pagar un 6% + de impuesto
+	- (+) Aumento del sueldo mínimo por Ley
+- Económico:
+	- (-) Bajo crecimiento económico respecto del año anterior.
+	- (-) Aumento en el desempleo
+	- (-) Aumento de la inflación
+- Social:
+	- (+) A las personas les interesa estudiar carreras universitarias
+	- (+) Que existan universidades con gratuidad implica que la gente pueda seguir estudiando
+	- (+) Que las personas puedan optar creditos estatales
+- Tecnológico:
+	- (-) Existencia de plataformas educacionales (competencia a la UDP por la U onlines)
+	- (+) Permite la creacion de herramientas de apoyo al estudio

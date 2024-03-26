@@ -1,6 +1,6 @@
 # Primera Clase
 Correo profe: juan.giadach@mail.udp.cl
-
+Sección 2
 Solemne 1: introducción, propiedades no funcionales y arquitecturas de software genéricas.
 
 **NOTA PRESENTACION:**
@@ -37,37 +37,73 @@ Su función es diseñar el sistema, mientras que la del ingeniero de software es
 
 Son requerimientos que no son impresindibles para el funcionamiento del sistema
 
-1. Performance (Rendimiento)
+1. Performance (Rendimiento): Capacidad de procesamiento
 	1. Throughput (mide el flujo, mientras mejor es el flujo mejor será la experiencia del usuario)
 	2. Tiempo de respuesta (Hay un usuario frente a pantalla esperando una respuesta)
 	3. Plazos (Cuanto se va a demorar el proceso)
-2. Escalabilidad
+2. Escalabilidad: Manejar adecuadamente la carga de transacciones
 	1. Carga(tps): Cual es la carga que tiene el sistema, y cuanto puede soportar en un segundo
 	2. Conexiones simultáneas: cuantos equipos son soportados simultáneamente
 	3. Volumen de datos: cantidad de información que es capaz de manejar sin bajar el rendimiento del sistema
 	4. Despliegue: Se mide la facilidad de instalar una nueva instancia del sistema en un nuevo computador
 # 19-03-24
 Continuación de requerimientos no funcionales
-3. Mantenibilidad
+3. Mantenibilidad: 
 	1. Modificable
 	2. Nuevos requerimientos funcionales
-4. Seguridad
+4. Seguridad: Protección de datos y procesos
 	1. Autenticación: Identificar el usuario frente al sistema
 	2. Autorización: Definir las funciones que un usuario puede tener en un sistema.
 	3. Encriptación
 	4. Integridad
 	5. No repudio: Tener un mecanismo que permita verificar que quien hizo una transaccion efectivamente la hizo.
-		Mientras más segura tenga un sistema más lento es generalmente.
-1. Confiabilidad:
+	Mientras más segura tenga un sistema más lento es generalmente.
+5. Confiabilidad: 
 	1. Disponible: Tiempo en el que el sistema está "arriba". 
 	2. Recuperable: En cuanto tiempo el sistema se vuelve a reponer una vez se "cayó"
 	3. Reglo de los cinco nueves(99,999%)
-5. Integrabilidad
+6. Integrabilidad: Interacción con sistemas externos
 	1. Agregación
 	2. Interoperable
 	3. API's
-6. Portabilidad
+7. Portabilidad: (Segun profe no hay sistema portable)
 	1. Independencia de plataforma
-7. Verificabilidad
+8. Verificabilidad: Que tenga elementos que permita herramientas de autocorrección, operacion que se hace antes del error, se anticipa al error
 	1. Testeable
-8. Soportabilidad
+9. Soportabilidad: Podemos diagnosticar y corregir los errores, errores ya sucedieron
+	1. Diagnóstico: Detectar error que se han producido en el sistema. Tener herramientas acotadas de verificación, tengo que saber donde falló. Archivos de vitácora que dicen que va sucediendo
+	2. Corrección de incidencias: 
+
+# 22-03-24
+ ## Arquitecturas de software genéricas
+ **Diseño de Software**
+ 1. Fase 0: Analizar el contexto → Donde se va a instalar
+ 2. Fase 1: Estructuración → Identificar componentes y sus relaciones
+ 3. Fase 2: Modelo de control → Comportamiento de los componentes
+ 4. Fase 3: Descomposición modular → Diseño detallado
+ 
+ **Fase 0: Contexto**
+ 1. Requerimiento funcionales → Lo que debe hacer el sistema
+ 2. Requeriminetos no funcionales → Atributos de calidad requeridos
+ 3. Ambiente Operacional → Hardware y software involucrados
+ 4. Restricciones
+ **Fase 1: Estructuración**
+ - Descompone el sistema en un conjunto de subsistemas
+ - Utiliza un diagrama de bloques que muestra la estructura del sistema
+ - Indica el flujo de datos entre los componentes del sistema
+ - Muestra las interfaces que provee el sistema. En programacion orientada a objetos las interfaces serian los atributos publicos dentro de una clase
+ - **Modelos de estructuración**
+	 - Modelo de repositorio: Ocurre cuando hay grandes cantidades de datos que deben ser compartidos
+		 - Gestion centralizada de datos
+		 - Alamcenamiento centralizado / distribuido
+		 - Modelo pasivo
+		 - Modelo proactivo
+	 - Cliente/Servidor
+	 - Modelo de capas
+	 - Objetos distribuidos
+	 - Arquitectura orientada a servicios
+	 - Arquitectura Cloud
+
+
+
+# 26-03-24

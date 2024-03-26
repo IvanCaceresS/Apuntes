@@ -121,3 +121,26 @@ PPT clase 5
 - Clasificador de images
 - Generador de descripción de fotos
 - Reconocimiento de señales de tráfico
+
+
+
+# 25-03-24
+## Matriz de confusión
+
+| **TRUE POSITIVE**  | **FALSE NEGATIVE** |
+| -------------- | -------------- |
+| **FALSE POSITIVE** | **TRUE NEGATIVE**  |
+**Error tipo 1**: Falsos positivos
+**Error tipo 2:** Falsos negativos
+
+## Overfitting vs Underfitting
+- El problema aparece cuando hablamos del grado polinomial del modelo.
+- El grado del polinomio determina la flexibilidad.
+- Un modelo subajustado (Underfitting) es menos flexible y no es capaz de captar el problema (en algunos casos).
+- Un modelo sobreajustado (Overfitting) es muy flexible pero no sirve para generalizar los problemas por lo que no es muy útil.
+- Underfit: Tendrá error alto tanto en entrenamiento como en las pruebas.
+- Overfit: Tendrá error extremadamente bajo en el entrenamiento pero un error alto en las pruebas.
+## Validación cruzada
+Genera una seríe de experimentos donde voy cambiando los datos para entrenar al modelo, estos datos que se cambian son los grupos de validación
+
+**Obs**: Si tengo un modelo no supervisado no puedo saber si hay o no overfitting o underfitting

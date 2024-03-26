@@ -183,11 +183,32 @@ Es flexible, porque es parte del proceso administrativo
 	- Cuantitativo
 	- Semanas
 # Control tipo 1
+
 1. La planificación estratégica que realizan las empresas ¿debe obligar a la empresa a seguirla o es un proceso cíclico y permanente?
+	R// Es un proceso cíclico y permanente ya que debe ser flexible para adaptarse a los cambios en el entorno.
+	
 2. De la escuela clásica, cuál es el exponente que más afecta a la administración moderna?
+	R// Fayol, ya que el postula los 14 principios de la administracion y formula el proceso administrativo (Planificar, Organizar, Direccionar, Controlar)
+	
 3. ¿Por qué es importante lo que plantean las 7s de McKinsey?
+	R// Ayuda a la toma de decisiones ya que tiene en cuenta como afectaria una modificacion en uno de los 7 pilares afecta tanto positivamente como negativamente para realizar una optima decision
+	
 4. ¿Que partes componen al proceso administrativo?
+	R// (Planificar, Organizar, Direccionar, Controlar)
+	
 5. ¿Qué sistemas son atacados por la entropía?
+	R// Todos los sistemas son atacados por la entropía
+	
 6. ¿Cuáles son los niveles de una piramide organizacional?
+	R// Nivel Estratégico, Nivel Táctica y Nivel Operacional
+	
 7. La planificación estrategica tiene un paso a paso, ¿cuál es?
+	R// 
+	**Visión**: Sueño utópico. El aporte que quiere realizar a la sociedad la empresa(6-7 años). Cualitativo
+	**Misión**: Como, donde, cuando, por que. Habla sobre lo que realiza la empresa hoy para llegar a la visión. Cuantitativo. (5-6 años)
+	**Objetivos Generales**: Cuantitativo. 1.5-2 años. Tienen que servir para cumplir la misión
+	**Objetivos Especificos**: Cuantitativo. 6 meses. Deben cumplir el objetivo especifico
+	**Metas**: Cuantitativo. Semanas
+		
 8. ¿Cómo se desarrolla una TGS o Caja negra?
+	R// 
