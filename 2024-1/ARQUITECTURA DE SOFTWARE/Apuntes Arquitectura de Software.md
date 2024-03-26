@@ -61,7 +61,7 @@ Continuación de requerimientos no funcionales
 5. Confiabilidad: 
 	1. Disponible: Tiempo en el que el sistema está "arriba". 
 	2. Recuperable: En cuanto tiempo el sistema se vuelve a reponer una vez se "cayó"
-	3. Reglo de los cinco nueves(99,999%)
+	3. Regla de los cinco nueves(99,999%)
 6. Integrabilidad: Interacción con sistemas externos
 	1. Agregación
 	2. Interoperable
@@ -96,7 +96,7 @@ Continuación de requerimientos no funcionales
  - **Modelos de estructuración**
 	 - **Modelo de repositorio**: Ocurre cuando hay grandes cantidades de datos que deben ser compartidos
 		 - Gestion centralizada de datos
-		 - Alamcenamiento centralizado / distribuido
+		 - Almacenamiento centralizado / distribuido
 		 - Modelo pasivo: A petición del usuario se verifica si existió un cambio o nueva publicación en el repositorio
 		 - Modelo proactivo: Avisa a los usuarios interesados a con los datos que existió un cambio o nueva publicación en el repositorio
 		 - Ventajas:
@@ -112,7 +112,7 @@ Continuación de requerimientos no funcionales
 		**Arquitectura**: Modelo repositorio con almacenamiento distribuido y gestion centralizada en relación a la cercania de los ministerios a los datos que más les interesa ya que de esta manera todos los ministerios obtienen una consistencia entre los datos de los demás.
 		**ventajas**: escalable, seguro
 		**desventajas**: punto unico de falla, si falla el repositorio todos los ministerios fallan
-		**req. no funcionales**:
+		**req. no funcionales**: confiabilidad, seguridad 
 	 - Cliente/Servidor
 	 - Modelo de capas
 	 - Objetos distribuidos
