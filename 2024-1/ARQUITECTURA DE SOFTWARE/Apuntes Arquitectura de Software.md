@@ -110,8 +110,9 @@ Continuación de requerimientos no funcionales
 			- Punto único de falla
 		## Ejercicio pregunta del profe:
 		Arquitectura: Modelo repositorio ya que de esta manera todos los ministerios pueden tener acceso a los datos de los demás ministerios, permitiendo una consistencia entre los datos.
-		ventajas: escalable
+		ventajas: escalable, seguro
 		desventajas: punto unico de falla, si falla el repositorio todos los ministerios fallan
+		req. no funcionales:
 	 - Cliente/Servidor
 	 - Modelo de capas
 	 - Objetos distribuidos
