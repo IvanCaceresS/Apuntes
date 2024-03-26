@@ -112,7 +112,7 @@ Continuación de requerimientos no funcionales
 		**Arquitectura**: Modelo repositorio con almacenamiento distribuido y gestion centralizada en relación a la cercania de los ministerios a los datos que más les interesa ya que de esta manera todos los ministerios obtienen una consistencia entre los datos de los demás.
 		**ventajas**: escalable, seguro
 		**desventajas**: punto unico de falla, si falla el repositorio todos los ministerios fallan
-		**req. no funcionales**: confiabilidad, seguridad 
+		**req. no funcionales**: confiabilidad, seguridad, performance
 	 - Cliente/Servidor
 	 - Modelo de capas
 	 - Objetos distribuidos
