@@ -92,12 +92,24 @@ Continuación de requerimientos no funcionales
  - Utiliza un diagrama de bloques que muestra la estructura del sistema
  - Indica el flujo de datos entre los componentes del sistema
  - Muestra las interfaces que provee el sistema. En programacion orientada a objetos las interfaces serian los atributos publicos dentro de una clase
+# 26-03-24
  - **Modelos de estructuración**
-	 - Modelo de repositorio: Ocurre cuando hay grandes cantidades de datos que deben ser compartidos
+	 - **Modelo de repositorio**: Ocurre cuando hay grandes cantidades de datos que deben ser compartidos
 		 - Gestion centralizada de datos
 		 - Alamcenamiento centralizado / distribuido
-		 - Modelo pasivo
-		 - Modelo proactivo
+		 - Modelo pasivo: A petición del usuario se verifica si existió un cambio o nueva publicación en el repositorio
+		 - Modelo proactivo: Avisa a los usuarios interesados a con los datos que existió un cambio o nueva publicación en el repositorio
+		 - Ventajas:
+			 - Modo eficiente de compartir datos
+			 - Administracion centralizada de los datos
+			 - Seguridad, escalabilidad, mantenibilidad
+		- Desventajas:
+			- Fuerza un modelo de datos (Una vez se define es muy complejo de modificar)
+			- Dificil cambio del modelo de datos
+			- Politica centralizada de administración
+			- Punto único de falla
+		## Ejercicio pregunta del profe:
+		Arquitectura: Modelo repositorio ya que de esta manera todos los ministerios pueden tener acces
 	 - Cliente/Servidor
 	 - Modelo de capas
 	 - Objetos distribuidos
@@ -106,4 +118,4 @@ Continuación de requerimientos no funcionales
 
 
 
-# 26-03-24
+
