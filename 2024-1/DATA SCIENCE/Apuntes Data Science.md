@@ -224,4 +224,17 @@ Sin embargo, no te rindes y sigues trabajando en mejorar tu algoritmo. Finalment
 	2. Te has ajustado demasiado al conjunto de desarrollo.
 	3. Deberías obtener un conjunto de prueba más grande.
 	4. Te has ajustado insuficientemente al conjunto de desarrollo.
-	**R:** 
+	**R:** 2
+11. Después de trabajar en este proyecto durante un año, finalmente logras: Rendimiento a nivel humano 0,10% Error en el conjunto de entrenamiento 0,05% Error en el conjunto de desarrollo 0,05%. ¿Qué conclusiones se pueden sacar? (Marque todas las opciones que correspondan)
+	1. Es ahora más difícil medir el sesgo evitable, por lo que el progreso será más lento en el futuro.
+	2. Si el conjunto de pruebas es lo suficientemente grande como para que la estimación de error del 0,05% sea precisa, esto implica que el error de Bayes es ≤0,05
+	3. Se trata de una anomalía estadística (o debe ser el resultado de ruido estadístico) ya que no debería ser posible superar el rendimiento humano.
+	4. Con solo un 0,09% de progreso adicional por hacer, deberías ser capaz de cerrar rápidamente la brecha restante hasta el 0%.
+	**R:** 1, 2
+12. ¡Has vencido fácilmente a tu competidor y tu sistema ahora está desplegado en Peacetopia y está protegiendo a los ciudadanos de los pájaros! Pero en los últimos meses, una nueva especie de pájaro ha estado migrando lentamente hacia la zona, por lo que el rendimiento de tu sistema se degrada lentamente porque tus datos están siendo probados en un nuevo tipo de datos. Solo tienes 1.000 imágenes de la nueva especie de pájaro. La ciudad espera un mejor sistema de ti en los próximos 3 meses. ¿Qué deberías hacer primero?
+	1. Usa los datos que tienes para definir una nueva métrica de evaluación (usando un nuevo conjunto de desarrollo/pruebas) teniendo en cuenta la nueva especie y úsala para impulsar un mayor progreso para tu equipo.
+	2. Agrega las 1.000 imágenes al conjunto de entrenamiento para intentar mejorar en estas aves.
+	3. Intenta la ampliación de datos/síntesis de datos para obtener más imágenes del nuevo tipo de pájaro.
+	4. Agrega las 1.000 imágenes a tu conjunto de datos y reorganiza en una nueva división de entrenamiento/desarrollo/pruebas.
+	**R:** 3
+	
