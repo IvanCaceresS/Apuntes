@@ -144,3 +144,54 @@ PPT clase 5
 Genera una seríe de experimentos donde voy cambiando los datos para entrenar al modelo, estos datos que se cambian son los grupos de validación
 
 **Obs**: Si tengo un modelo no supervisado no puedo saber si hay o no overfitting o underfitting
+
+# 28-03-24
+## Reconocimiento de aves en la ciudad de Paecetopia
+- Este ejemplo está adaptado de una aplicación real en producción, pero con detalles disfrazados para proteger la confidencialidad.
+Eres un famoso investigador en la Ciudad de Peacetopia. La gente de Peacetopia tiene una característica común: tienen miedo a las aves. Para salvarlos, tienes que construir un algoritmo que detecte cualquier ave volando sobre Peacetopia y alerte a la población.
+El Ayuntamiento te da un conjunto de datos de 10,000,000 imágenes del cielo sobre Peacetopia, tomadas de las cámaras de seguridad de la ciudad. Están etiquetadas:
+- y = 0: There is no bird on the image
+- y = 1: There is a bird on the image
+
+Tu objetivo es construir un algoritmo capaz de clasificar nuevas imágenes tomadas por las cámaras de seguridad de Peacetopia.
+
+Hay muchas decisiones que tomar:
+**¿Cuál es la métrica de evaluación? ¿Cómo estructuras tus datos en conjuntos de entrenamiento/desarrollo/prueba?**
+### Métrica de éxito
+El Ayuntamiento te dice que quieren un algoritmo que:
+- Tenga una alta precisión. 
+- Funciona rápidamente y solo tarda un corto tiempo en clasificar una nueva imagen. 
+- Pueda caber en una pequeña cantidad de memoria, para que pueda ejecutarse en un pequeño procesador al que la ciudad conectará a muchas cámaras de seguridad diferentes.
+
+**Preguntas respecto al caso:**
+1. Tener tres métricas de evaluación hace que sea más difícil para ti elegir rápidamente entre dos algoritmos diferentes y ralentizará la velocidad con la que tu equipo puede iterar. ¿Verdadero/Falso? **R:** Verdadero
+
+Después de más discusiones, la ciudad reduce sus criterios a:
+Necesitamos un algoritmo que pueda informarnos de que un ave está volando sobre Peacetopia con la mayor precisión posible”. “Queremos que el modelo entrenado no tarde más de 10 segundos en clasificar una nueva imagen”. “Queremos que el modelo quepa en 10MB de memoria”
+
+2. Si tuvieras los tres siguientes modelos, ¿cuál elegirías?
+	1. Precisión de  98%
+	2. Tiempo de ejecución 9 segundos
+	3. Tamaño de memoria 9MB
+	**R:** El tamaño de la memoria, ya que si eso no se cumple el proyecto es inviable
+3. Antes de implementar tu algoritmo, necesitas dividir tus datos en conjuntos de entrenamiento/desarrollo/prueba. ¿Cuál de estos crees que es la mejor opción?
+	- entrenamiento: 50% desarrollo 10%, test: 40%
+	- entrenamiento: 90% desarrollo 5%, test: 5%
+	- entrenamiento: 50% desarrollo 40%, test: 10%
+	- entrenamiento: 50% desarrollo 25%, test: 25%
+	**R:** Ya que hay muchisimos datos (10 millones), la mejor opción es entrenamiento 90%, desarrollo 5% y test 5% ya que de esta forma se entrena un sistema robusto.
+
+Después de configurar tus conjuntos de entrenamiento/desarrollo/prueba, el Ayuntamiento encuentra otras 1.000.000 de imágenes, llamadas “datos de los ciudadanos”. Aparentemente, los ciudadanos de Peacetopia están tan asustados de los pájaros que se ofrecieron voluntariamente para tomar fotos del cielo y etiquetarlas, contribuyendo así con estas 1.000.000 de imágenes adicionales. Estas imágenes son diferentes a la distribución de imágenes que el Ayuntamiento te había dado originalmente, pero crees que podrían ayudar a tu algoritmo.
+4. No deberías agregar los datos de los ciudadanos al conjunto de entrenamiento, porque esto hará que las distribuciones de los conjuntos de entrenamiento y desarrollo/prueba sean diferentes, lo que perjudicará el rendimiento de los conjuntos de desarrollo y prueba. ¿Verdadero/Falso? **R:** Verdadero,no se debe ensuciar el set de datos
+5. Un miembro del Ayuntamiento sabe un poco sobre el aprendizaje automático y cree que deberías agregar las 1.000.000 de imágenes de datos de los ciudadanos al conjunto de prueba. Te opones porque: 
+	1. Las 1.000.000 de imágenes de datos de los ciudadanos no tienen una asignación consistente de x–>y como el resto de los datos
+	2. Un conjunto de prueba más grande reducirá la velocidad de iteración debido al costo computacional de evaluar modelos en el conjunto de prueba.
+	3. Esto haría que las distribuciones de los conjuntos de desarrollo y prueba sean diferentes. Esto es una mala idea porque no estás apuntando a donde quieres llegar.
+	4. El conjunto de prueba ya no refleja la distribución de datos (cámaras de seguridad) que más te importa.
+	**R:** 4
+6. Entrenas un sistema y sus errores son los siguientes (error = 100% - Precisión): Error del conjunto de entrenamiento 4.0% Error del conjunto de desarrollo 4.5%. Esto sugiere que una buena forma de mejorar el rendimiento es entrenar una red más grande para reducir el error de entrenamiento del 4.0%. ¿Estás de acuerdo?
+	1. Sí, porque tener un error de entrenamiento del 4.0% muestra que tienes un sesgo alto.
+	2. Sí, porque esto muestra que tu sesgo es mayor que tu varianza.
+	3. No, porque esto muestra que tu varianza es mayor que tu sesgo.
+	4. No, porque no hay suficiente información para decirlo.
+	**R:** Si tengo mucha varianza aumenta la probabilidad de que los conjuntos de entrenamiento queden distintos. Por lo tanto 3.
