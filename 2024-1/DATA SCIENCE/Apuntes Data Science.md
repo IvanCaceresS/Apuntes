@@ -195,3 +195,27 @@ Después de configurar tus conjuntos de entrenamiento/desarrollo/prueba, el Ayun
 	3. No, porque esto muestra que tu varianza es mayor que tu sesgo.
 	4. No, porque no hay suficiente información para decirlo.
 	**R:** Si tengo mucha varianza aumenta la probabilidad de que los conjuntos de entrenamiento queden distintos. Por lo tanto 3.
+Pides a algunas personas que etiqueten el conjunto de datos para averiguar cuál es el rendimiento a nivel humano. Encuentras los siguientes niveles de precisión: Experto en observación de aves #1 error del 0.3% Experto en observación de aves #2 error del 0.5% Persona normal #1 (no es un experto en observación de aves) error del 1.0% Persona normal #2 (no es un experto en observación de aves) error del 1.2%
+
+7. Si tu objetivo es que el “rendimiento a nivel humano” sea un proxy (o estimación) del error de Bayes, ¿cómo definirías el “rendimiento a nivel humano”?
+	1. 0.0% (porque es imposible hacerlo mejor que esto)
+	2. 0.3% (precisión del experto #1)
+	3. 0.4% (promedio de 0.3 y 0.5)
+	4. 0.75% (promedio de los cuatro números anteriores)
+	**R:** 0.3% 
+8. ¿Con cuál de las siguientes afirmaciones estás de acuerdo?
+	1. El rendimiento del algoritmo de aprendizaje puede ser mejor que el rendimiento a nivel humano pero nunca puede ser mejor que el error de Bayes.
+	2. El rendimiento del algoritmo de aprendizaje nunca puede ser mejor que el rendimiento a nivel humano pero puede ser mejor que el error de Bayes.
+	3. El rendimiento del algoritmo de aprendizaje nunca puede ser mejor que el rendimiento a nivel humano ni mejor que el error de Bayes.
+	4. El rendimiento del algoritmo de aprendizaje puede ser mejor que el rendimiento a nivel humano y mejor que el error de Bayes.
+	**R:** 1
+Imaginemos que has creado un algoritmo para reconocer aves en fotografías. Después de muchas pruebas y ajustes, descubres que un equipo de ornitólogos puede identificar las aves en las imágenes con un rendimiento del 0,1% mejor que tu algoritmo. A partir de ese momento, decides que ese nivel de rendimiento debe ser considerado como "rendimiento a nivel humano".
+
+Sin embargo, no te rindes y sigues trabajando en mejorar tu algoritmo. Finalmente, consigues reducir el error en el conjunto de entrenamiento al 2,0% y el error en el conjunto de validación al 2,1%. Es decir, tu algoritmo ya supera el rendimiento humano en esta tarea en particular.
+
+9. Basado en la evidencia que tienes, ¿cuáles de las siguientes cuatro opciones parecen las más prometedoras para probar? (Selecciona dos opciones).
+	1. Entrenar un modelo más grande para intentar mejorar en el conjunto de entrenamiento.
+	2. Conseguir un conjunto de entrenamiento más grande para reducir la varianza.
+	3. Intentar aumentar la regularización
+	4. Intentar disminuir la regularización
+	**R:**
