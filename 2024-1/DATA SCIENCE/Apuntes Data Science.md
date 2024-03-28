@@ -218,4 +218,10 @@ Sin embargo, no te rindes y sigues trabajando en mejorar tu algoritmo. Finalment
 	2. Conseguir un conjunto de entrenamiento más grande para reducir la varianza.
 	3. Intentar aumentar la regularización
 	4. Intentar disminuir la regularización
-	**R:**
+	**R:** 1,2 y 3
+10. También evalúas tu modelo en el conjunto de prueba y encuentras lo siguiente: rendimiento a nivel humano 0,1%, error en el conjunto de entrenamiento 2,0%, error en el conjunto de desarrollo 2,1%, error en el conjunto de prueba 7,0%. ¿Qué significa esto? (Verifique las dos mejores opciones).
+	1. Deberías intentar obtener un conjunto de desarrollo más grande.
+	2. Te has ajustado demasiado al conjunto de desarrollo.
+	3. Deberías obtener un conjunto de prueba más grande.
+	4. Te has ajustado insuficientemente al conjunto de desarrollo.
+	**R:** 
