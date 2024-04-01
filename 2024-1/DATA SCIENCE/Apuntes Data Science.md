@@ -237,4 +237,8 @@ Sin embargo, no te rindes y sigues trabajando en mejorar tu algoritmo. Finalment
 	3. Intenta la ampliación de datos/síntesis de datos para obtener más imágenes del nuevo tipo de pájaro.
 	4. Agrega las 1.000 imágenes a tu conjunto de datos y reorganiza en una nueva división de entrenamiento/desarrollo/pruebas.
 	**R:** 3
-	
+
+
+# 01-03-24
+## Regularización
+Es un concepto importante en el aprendizaje automatico que se utiliza para prevenir el sobreajuste
