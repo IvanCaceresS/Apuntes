@@ -113,12 +113,18 @@ Continuación de requerimientos no funcionales
 		**ventajas**: escalable, seguro
 		**desventajas**: punto unico de falla, si falla el repositorio todos los ministerios fallan
 		**req. no funcionales**: confiabilidad, seguridad, performance
-	 - Cliente/Servidor
-	 - Modelo de capas
-	 - Objetos distribuidos
-	 - Arquitectura orientada a servicios
-	 - Arquitectura Cloud
+# 02-04-24
 
+**Preguntas tipo control:**
+Analice el siguiente parrafo indicando y corrigiendo los errors:
+- El objetivo del requerimiento funcional de mantenibilidad es mantener operativo el sistema el mayor tiempo posible. **R:// esta definición es de confiabilidad**
+- El optimo a alcanzar es que opere al 99,999% del tiempo, regla conocida como la de los cinco nueves. **R:// Verdadero**
+- Para lograr los cinco nueves, un sistema debe diseñarse con componen redundantes que puedan tomar el control de la operación del sistema en el caso que uno de ellos falle. **R:// Verdadero, porque tener componentes redundantes es una de las soluciones**
+- Si esto ocurre, utilizando los procesos definidos al incluir el requerimiento de mantenibilidad se podra corregir el error y restaurar el sistema a su estado normal del procesamiento. **R:// falso, eso lo realiza soportabilidad**
 
-
-
+- Continuación modelos de estructuración
+	- Cliente/Servidor
+	- Modelo de capas
+	- Objetos distribuidos
+	- Arquitectura orientada a servicios
+	- Arquitectura Cloud
