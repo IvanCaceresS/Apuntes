@@ -123,8 +123,25 @@ Analice el siguiente parrafo indicando y corrigiendo los errors:
 - Si esto ocurre, utilizando los procesos definidos al incluir el requerimiento de mantenibilidad se podra corregir el error y restaurar el sistema a su estado normal del procesamiento. **R:// falso, eso lo realiza soportabilidad**
 
 - Continuación modelos de estructuración
-	- Cliente/Servidor
-	- Modelo de capas
+	- Cliente/Servidor:
+		- Estructurado en base a:
+			- Servidores que ofrecen servicios especificos
+			- Clientes que requieren serviios
+			- Redes de comunicacion que conectan ambos
+		- Es un modelo parcialmente distribuido (el procesamiento está dividido tanto en el cliente como en el servidor)
+		- Ventajas
+			- Procesamiento distribuido
+			- Datos distribuidos
+			- Escalable (definir más instancias de los servidor)
+		- Desventajas
+			- Datos no compartidos (cada servidor tiene sus propios datos)
+			- Administración de datos en cada servidor
+			- Performance deteriorada (ya que existe un medio de comunicacipon entre cliente y servidor, el cuello de botella es la red)
+			- No hay registro centralizado de servicios (No se que servicios están operativos y cuales no, tampoco se donde estan. Todo es en base a prueba y error)
+	- Modelo de capas:
+		- Conjunto de capas de software que ofrecen servicios especificos
+		- Cada capa tiene una interfaz claramente definida
+		- Desarrollo independiente de las capas
 	- Objetos distribuidos
 	- Arquitectura orientada a servicios
 	- Arquitectura Cloud
