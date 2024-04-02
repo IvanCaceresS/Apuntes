@@ -229,3 +229,67 @@ El PEST va cambiando.
 - Tecnológico:
 	- (-) Existencia de plataformas educacionales (competencia a la UDP por la U onlines)
 	- (+) Permite la creacion de herramientas de apoyo al estudio
+
+
+# 02-04-24
+PEST ⇒ Visión/Misión ⇒ FODA
+Si contruí un analisis FODA significa que ya construi el analisis PEST
+FODA:
+- Fortaleza: Son de la Empresa
+- Oportunidades: Son del Entorno (PEST)
+- Debilidades: Son de la Empresa
+- Amenazas: Son del Entorno (PEST)
+---
+Ejemplo estudiante que quiere entrar a estudiar, informática y telecomunicaciones
+- Fortaleza: (estudiante)
+	- Habilidades matemáticas y física
+	- Disciplina
+	- Habilidad lógica
+	- Ser autodidacta
+- Oportunidades: (entorno)
+	- La gratuidad
+	- Disminución de la inflación
+	- Aumento del empleo
+	- Que existan muchas instituciones de ed. superior que ofrecen la carrera
+	- Que existan instituciones en distintos puntos de la capital
+- Debilidades: (estudiante)
+	- Problemas en la ed. media
+	- Tener que trabajar entre estudios
+	- Problemas con el equilibrio mental
+	- Enfermedades
+	- Falta de capacidad de adaptación
+- Amenazas: (entorno)
+	- Que los puntajes suban mucho
+	- Aumento del arancel
+	- Que disminuyan las oportunidades del area
+	- Disminución de vacantes
+	- La competencia para ingresar
+---
+
+**EJEMPLO FODA UDP**
+- Fortaleza:
+	- Planificacion estrategica 2022-2026
+	- Acreditación
+	- Gratuidad
+	- Prestigio
+	- Diversidad de carreras
+	- Ubicación
+	- Buena posicion en el ranking
+	- Posibilidad de intercambio
+- Oportunidades:
+	- Locomoción
+	- Disponibilidad de distintos tipos de vivienda
+	- Muchos lugares para almorzar
+	- Áreas verdes en el sector
+- Debilidades:
+	- Arancel muy alto
+	- Tamaño de la facultad
+	- Horario de clases sin colación
+	- Falta de áreas verdes
+	- La app que se cae
+	- No tenga estacionamiento
+- Amenazas:
+	- Aumento de la delicuencia
+	- Falta de Policia
+Conclusion: (Si no hay conclusión no tiene puntaje)
+La UDP es una universidad que va en crecimientopero debe preocuparse por el aumento de la competencia, falta de areas verdes y el arancel muy alto

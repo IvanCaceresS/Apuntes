@@ -241,4 +241,9 @@ Sin embargo, no te rindes y sigues trabajando en mejorar tu algoritmo. Finalment
 
 # 01-03-24
 ## Regularización
-Es un concepto importante en el aprendizaje automatico que se utiliza para prevenir el sobreajuste
+- Es un concepto importante en el aprendizaje automatico que se utiliza para prevenir el sobreajuste.
+- Se aplica principalmente cuando tienes un modelo con demasiados parámetros o caracteristicas, lo que podria hacer que el modelo se ajuste demasiado a los datos de entrenamiento y no generalice bien a nuevos datos.
+- Dos metodos comunes de regularización:
+	- **Regularización L1 (Lasso):** Agrega la suma de los valores absolutos de los coeficientes como término de penalizacion. Ayuda a forzar algunos coeficientes a ser exactamente cero, lo que significa que algunas características pueden ser ignoradas por completo.
+	- **Regularización L2 (Ridge):** Agrega la suma de los cuadrados de los coeficientes como término de penalización. Esto penaliza los valores extremos pero no los fuerza a ser exactamente cero.
+- **Análisis de componentes principales (PCA):** Es una técnica que se utiliza para reducir la dimensionalidad de un conjunto de datos, especialmente cuando tienes muchas dimensiones y deseas simplificarlas sin perder demasiadas información. No es posible revertir el cambio de dimensionalidad.
