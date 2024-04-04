@@ -247,3 +247,24 @@ Sin embargo, no te rindes y sigues trabajando en mejorar tu algoritmo. Finalment
 	- **Regularización L1 (Lasso):** Agrega la suma de los valores absolutos de los coeficientes como término de penalizacion. Ayuda a forzar algunos coeficientes a ser exactamente cero, lo que significa que algunas características pueden ser ignoradas por completo.
 	- **Regularización L2 (Ridge):** Agrega la suma de los cuadrados de los coeficientes como término de penalización. Esto penaliza los valores extremos pero no los fuerza a ser exactamente cero.
 - **Análisis de componentes principales (PCA):** Es una técnica que se utiliza para reducir la dimensionalidad de un conjunto de datos, especialmente cuando tienes muchas dimensiones y deseas simplificarlas sin perder demasiadas información. No es posible revertir el cambio de dimensionalidad.
+
+
+# 04-04-24
+Todo proceso de data science sigue los siguientes pasos:
+- Mirada rapida a los datos (1 mes)
+- Definir métricas de éxito
+- Identificar los features que sirven
+- Preparación de los datos (sacar columnas vacías, etiquetar, estandarizar los datos) (1 mes)
+- Gráficos, visualización, etc
+
+Metricas a corto plazo:
+- WAU. ej: Numero de usuarios activos semanales con transmisiones de más de 30 segundos de la lista de reproduccion
+Metricas a largo plazo:
+- Monthly_streams30s: Numero de transmisiones de mas de 30 segundos por la lista de reproduccion
+
+Si se quisiera crear una metrica perzonalizada que contenga tanto el rendimiento a corto como a largo plazo. por ejemplo: una combunacion de DAU, WAU, MAU, streams30 hoy, transmisiones mensuales y transmisiones mensuales del propietario:
+- Ponderacion? → si no tengo pesos no se puede
+- Simple multiplicación? → no es trazable
+- Suma? → puede ser, que no haya una metrica negativa. De esta manera es comparale
+- Suma ponderada? → si no tengo pesos no se puede
+
