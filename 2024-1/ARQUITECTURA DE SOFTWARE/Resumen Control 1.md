@@ -99,3 +99,15 @@ Los requerimientos no funcionales son esenciales para garantizar la calidad, efi
 9. **Soportabilidad**: Capacidad para diagnosticar, reportar y corregir errores encontrados en el sistema.
 
 	- **Diagnóstico y Corrección de incidencias**: Herramientas y procedimientos para identificar y solucionar problemas. Ejemplo: Un sistema operativo que proporciona herramientas de diagnóstico y parches regulares para corregir vulnerabilidades y errores.
+
+
+
+# **Preguntas tipo control:**
+Analice el siguiente parrafo indicando y corrigiendo los errors:
+- El objetivo del requerimiento funcional de mantenibilidad es mantener operativo el sistema el mayor tiempo posible. **R://** La **mantenibilidad** se refiere a la facilidad con la que un sistema puede ser modificado para corregir fallos, mejorar su rendimiento o adaptarse a un cambio de entorno. Lo que se describe es más adecuado para la **confiabilidad**, que se enfoca en la capacidad del sistema para funcionar sin fallos bajo condiciones especificadas durante un periodo de tiempo determinado.
+
+- El optimo a alcanzar es que opere al 99,999% del tiempo, regla conocida como la de los cinco nueves. **R://** Esta afirmación es verdadera. La regla de los cinco nueves es un estándar de la industria para sistemas de alta disponibilidad, indicando que el sistema debe estar operativo el 99,999% del tiempo, lo que equivale a aproximadamente 5.26 minutos de tiempo de inactividad no planificado por año.
+
+- Para lograr los cinco nueves, un sistema debe diseñarse con componen redundantes que puedan tomar el control de la operación del sistema en el caso que uno de ellos falle. **R://** Esta afirmación es verdadera. La redundancia de componentes es una estrategia clave para lograr altos niveles de disponibilidad y confiabilidad, permitiendo que el sistema continúe funcionando incluso si parte de sus componentes fallan.
+
+- Si esto ocurre, utilizando los procesos definidos al incluir el requerimiento de mantenibilidad se podra corregir el error y restaurar el sistema a su estado normal del procesamiento. **R://** falso, la soportabilidad se refiere a la capacidad de un sistema para ser soportado, incluyendo actividades de mantenimiento y corrección de errores para restaurar la funcionalidad.
