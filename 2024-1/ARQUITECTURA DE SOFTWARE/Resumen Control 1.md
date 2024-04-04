@@ -157,31 +157,23 @@ Al especificar una arquitectura se deben considerar los siguientes factores:
 
 ## Analisis de Casos
 **Caso 1**  
-A usted le han solicitado el desarrollo urgente de un sistema, cuya primera versi ́on, con el 30% de los requerimientos funcionales implementados, debe estar operativa en dos semanas. Luego, tiene 4 semanas para finalizar la  implementaci ́on de los restantes.  En este contexto, analice tres requerimientos no funcionales que le pueden ayudar a cumplir con el plazo establecido y tres que lo retrasar ́ıan.  
+A usted le han solicitado el desarrollo urgente de un sistema, cuya primera versión, con el 30% de los requerimientos funcionales implementados, debe estar operativa en dos semanas. Luego, tiene 4 semanas para finalizar la  implementación de los restantes.  En este contexto, analice tres requerimientos no funcionales que le pueden ayudar a cumplir con el plazo establecido y tres que lo retrasarían.  
 **Solución**  
 Requerimientos no funcionales que ayudan a cumplir con el plazo establecido:  
-- Mantenibilidad: Si el sistema es mantenible, es m ́as f ́acil implementar el resto de los requerimientos funcionales.  
+- Mantenibilidad: Si el sistema es mantenible, es más fácil implementar el resto de los requerimientos funcionales.  
 - Integrabilidad: Dependiendo del contexto, permitir que el sistema funcione en conjunto con sistemas ya existentes puede disminuir la cantidad de trabajo que debe hacerse.  
-- Escalabilidad: Si el sistema es escalable, se pueden a ̃nadir nuevos requerimientos sin problemas y el sistema  podr ́a crecer a medida que se implenta el resto de los requerimientos.  
+- Escalabilidad: Si el sistema es escalable, se pueden añadir nuevos requerimientos sin problemas y el sistema  podrá crecer a medida que se implementa el resto de los requerimientos.  
 
-Requerimientos no funcionales que retrasar ́ıan el desarrollo:  
+Requerimientos no funcionales que retrasarían el desarrollo:  
 - Confiabilidad: Para lograr confiabilidad se deben tener en cuenta muchos factores que pueden afectar el funcionamiento del sistema.  
-- Verificabilidad: La verificabilidad implica que el sistema pueda probarse a s ́ı mismo, por lo que se requerir ́ıa de trabajo adicional para cada componente del sistema.  
+- Verificabilidad: La verificabilidad implica que el sistema pueda probarse a sí mismo, por lo que se requeriría de trabajo adicional para cada componente del sistema.  
 - Seguridad: Si se requiere un alto nivel de seguridad, puede ser necesario dedicar una cantidad significativa de tiempo para lograrlo. Esto puede retrasar el desarrollo del sistema.  
 **Caso 2**  
-Se requiere desarrollar un sistema que permita ingresar y reportar la votaci ́on obtenida por cada candidato en cada  
-una de las mesas receptoras de sufragios en todo el pa ́ıs. Las mesas receptoras est ́an agrupadas en locales de votaci ́on  
-a cargo de un jefe de local.  
-Entre otras funciones, el jefe de local es el encargado de recolectar las actas de votaci ́on de cada mesa receptora  
-e ingresar los resultados al sistema. Para ello, dispone de un notebook con conexi ́on a internet.  
-Se requiere, adem ́as, que el sistema genere un informe con los resultados disponibles hasta ese momento y  
-consolidados por cada candidato, con una periodicidad preestablecida en el sistema. Este reporte debe considerar  
-varios niveles de agrupaci ́on de los resultados, tales como, a nivel de la mesa receptora, del local de votaci ́on, de la  
-comuna, del distrito (para los diputados), de la regi ́on senatorial (para los senadores) y, finalmente, a nivel pa ́ıs (para  
-el presidente).  
-Considerando que las elecciones son en 23 d ́ıas m ́as, se pide lo siguiente:  
- Analizar y justificar tres requerimientos no funcionales que el sistema debe satisfacer
+Se requiere desarrollar un sistema que permita ingresar y reportar la votación obtenida por cada candidato en cada una de las mesas receptoras de sufragios en todo el país. Las mesas receptoras están agrupadas en locales de votación a cargo de un jefe de local.  
+Entre otras funciones, el jefe de local es el encargado de recolectar las actas de votación de cada mesa receptora e ingresar los resultados al sistema. Para ello, dispone de un notebook con conexión a internet.  
+Se requiere, además, que el sistema genere un informe con los resultados disponibles hasta ese momento y  consolidados por cada candidato, con una periodicidad preestablecida en el sistema. Este reporte debe considerar varios niveles de agrupación de los resultados, tales como, a nivel de la mesa receptora, del local de votaci ́on, de la comuna, del distrito (para los diputados), de la región senatorial (para los senadores) y, finalmente, a nivel país (para el presidente).  
+Considerando que las elecciones son en 23 días más, se pide Analizar y justificar tres requerimientos no funcionales que el sistema debe satisfacer
 **Solución:**
-- Seguridad: Debido a que el sistema manejar ́a datos electorales y los enviar ́a por internet este debe ser seguro.  Una vulnerabilidad en el sistema podr ́ıa causar desde reportes incorrectos hasta fraude electoral.  
-- Verificabilidad: El sistema debe ser capaz de comprobar su propio funcionamiento debido a que ser ́a ejecutado  en distinto hardware a lo largo de todo el pa ́ıs, y se debe asegurar que cada instancia funcione correctamente.  
+- Seguridad: Debido a que el sistema manejará datos electorales y los enviará por internet este debe ser seguro.  Una vulnerabilidad en el sistema podría causar desde reportes incorrectos hasta fraude electoral.  
+- Verificabilidad: El sistema debe ser capaz de comprobar su propio funcionamiento debido a que será ejecutado en distinto hardware a lo largo de todo el país, y se debe asegurar que cada instancia funcione correctamente.  
 - Soportabilidad: En caso de alguna incidencia que perjudice el funcionamiento del sistema, deben existir herramientas de diagn ́ostico con el fin de poder solucionar dichos inconvenientes.

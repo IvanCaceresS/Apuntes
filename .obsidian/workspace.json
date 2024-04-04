@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "20b181c9f8f9873d",
+        "id": "54c35d907ec9e233",
         "type": "tabs",
         "children": [
           {
-            "id": "c5c35285dcd98d87",
+            "id": "137deed1ea3cd956",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-1/INTELIGENCIA DE NEGOCIOS/Apuntes Inteligencia de negocios.md",
+                "file": "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-1/INTELIGENCIA DE NEGOCIOS/Apuntes Inteligencia de negocios.md",
+                "file": "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-1/INTELIGENCIA DE NEGOCIOS/Apuntes Inteligencia de negocios.md",
+                "file": "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-1/INTELIGENCIA DE NEGOCIOS/Apuntes Inteligencia de negocios.md"
+                "file": "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 1.md"
               }
             }
           }
@@ -146,23 +146,21 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "c5c35285dcd98d87",
+  "active": "137deed1ea3cd956",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "2024-1/INTELIGENCIA DE NEGOCIOS/Apuntes Inteligencia de negocios.md",
     "Pasted image 20240404175627.png",
-    "2024-1/DATA SCIENCE/Apuntes Data Science.md",
+    "2024-04-04.md",
     "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 1.md",
-    "2024-1/INTERNET DE LAS COSAS/Apuntes IoT.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
-    "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md",
     "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Ayudantía.md",
-    "2024-1/ARQUITECTURA DE SOFTWARE/Sin título",
-    "README.md",
+    "2024-1/DATA SCIENCE/Apuntes Data Science.md",
+    "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md",
+    "2024-1/Horario.png",
+    "2024-1/INTELIGENCIA DE NEGOCIOS/Apuntes Inteligencia de negocios.md",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Gestión Organizacional.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 2 GO 01-2024.pdf",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 1 GO 01-2024.pdf",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Apuntes Ayudantías.md",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 1 GO 01-2024.pdf",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 2 GO 01-2024.pdf",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantía 2 GO 01-2024.pdf",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/14 Principios de la Administración.jpg",
     "2024-1/GESTIÓN ORGANIZACIONAL/Texto 19-03-24.jpeg",
@@ -180,6 +178,6 @@
     "Sin título.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias",
     "2024-1/INTERNET DE LAS COSAS/Internet de las Cosas_Clase_1_EIT.pdf",
-    "2024-1/Horario.png"
+    "2024-1/INTERNET DE LAS COSAS/Internet de las Cosas_Clase 3_EIT.pdf"
   ]
 }
