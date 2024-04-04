@@ -111,3 +111,77 @@ Analice el siguiente parrafo indicando y corrigiendo los errors:
 - Para lograr los cinco nueves, un sistema debe diseñarse con componen redundantes que puedan tomar el control de la operación del sistema en el caso que uno de ellos falle. **R://** Esta afirmación es verdadera. La redundancia de componentes es una estrategia clave para lograr altos niveles de disponibilidad y confiabilidad, permitiendo que el sistema continúe funcionando incluso si parte de sus componentes fallan.
 
 - Si esto ocurre, utilizando los procesos definidos al incluir el requerimiento de mantenibilidad se podra corregir el error y restaurar el sistema a su estado normal del procesamiento. **R://** falso, la soportabilidad se refiere a la capacidad de un sistema para ser soportado, incluyendo actividades de mantenimiento y corrección de errores para restaurar la funcionalidad.
+
+## Preguntas Teóricas  
+1. El gerente general de la empresa en que usted trabaja ha escuchado el término “Arquitectura de Software” y  como él no es técnico le ha pedido que le explique en que consiste, pero sin utilizar terminología técnica. ¿Qué  haría usted para responder a este requerimiento?  
+**Respuesta:**  La arquitectura de software se refiere a la forma en que un programa de computadora está diseñado y organizado.  Es como el plano de una casa, donde se establecen los cimientos y la estructura para que todo funcione de  manera eficiente y se puedan agregar características adicionales. Al igual que un arquitecto diseña una casa  para que sea funcional y atractiva, un arquitecto de software diseña el programa para que sea fácil de entender,  modificar y mantener.  
+
+2. Describa 4 competencias que debe tener el arquitecto de software.  
+**Respuesta:**  
+- Administraci ́on del riesgo.  
+- Excelentes habilidades de diseño.  
+- Interfaz entre el cliente y el equipo técnico.  
+- Puente de comunicaci ́on entre los equipos de desarrollo.  
+
+3. Explique cuales factores son utilizados para medir la escalabilidad de un sistema de software.  
+**Respuesta:**  
+- Carga: Cantidad de transacciones por segundo que puede soportar el sistema.  
+- Conexiones simultáneas  
+- Volumen de datos  
+
+4. Describa las diferencias que tienen entre si los siguientes requerimientos no funcionales:  
+- Mantenibilidad  
+- Soportabilidad  
+- Verificabilidad  
+**Respuesta:**  
+**Mantenibilidad**: Se refiere a la facilidad con la que un sistema puede ser modificado
+**Soportabilidad**: Está relacionada con la facilidad con la que un sistema puede ser diagnosticado, reparado, o configurado.
+**Verificabilidad**: Hace referencia a la facilidad con la que se pueden realizar pruebas en el sistema para verificar que cumple con los requisitos especificados.
+
+5. Explique qué se debe considerar al especificar una arquitectura de un sistema.  
+**Respuesta:**  
+Al especificar una arquitectura se deben considerar los siguientes factores:  
+- Requerimientos funcionales: Que es lo que debe hacer el sistema.  
+- Requerimientos no funcionales: Que atributos de calidad son requeridos.  
+- Ambiente operacional: Dónde se utilizará el sistema (Hardware y Software involucrados).  
+- Restricciones: Las restricciones pueden ser tecnológicas, temporales, de personal, etc.  
+
+6. Analice cinco requerimientos no funcionales que podrían ser considerados al especificar una arquitectura para un sistema que deba desarrollar.  
+**Respuesta:**  
+- Escalabilidad: Algunas arquitecturas facilitan la escalabilidad del sistema (e.g. Cliente / Servidor) mientras que otras arquitecturas son m ́as dificiles de escalar.  
+- Mantenibilidad: La especificaci ́on de una arquitectura de software puede aumentar la mantenibilidad de un sistema. Debido a que si el sistema se dise ̃na bien (y no es monol ́ıtico), se puede alterar o a ̃nadir  componentes sin afectar el resto del sistema.  
+- Performance: Algunas arquitecturas requieren mayor comunicaci ́on entre componentes que otras (e.g.  SOA), lo que genera un deterioro en la performance en comparaci ́on a un sistema monol ́ıtico.  
+- Seguridad: La arquitectura especificada puede facilitar que el sistema sea seguro (e.g. a ̃nadir una capa de  seguridad en el modelo de capas) mientras que en otras (e.g. Cliente / Servidor) es m ́as complicado.  
+- Integrabilidad: Algunas arquitecturas facilitan el uso de sistemas ya construidos anteriormente (e.g. SOA),  por lo que debe considerarse si se requiere interoperar con otros sistemas.  
+
+
+## Analisis de Casos
+**Caso 1**  
+A usted le han solicitado el desarrollo urgente de un sistema, cuya primera versi ́on, con el 30% de los requerimientos funcionales implementados, debe estar operativa en dos semanas. Luego, tiene 4 semanas para finalizar la  implementaci ́on de los restantes.  En este contexto, analice tres requerimientos no funcionales que le pueden ayudar a cumplir con el plazo establecido y tres que lo retrasar ́ıan.  
+**Solución**  
+Requerimientos no funcionales que ayudan a cumplir con el plazo establecido:  
+- Mantenibilidad: Si el sistema es mantenible, es m ́as f ́acil implementar el resto de los requerimientos funcionales.  
+- Integrabilidad: Dependiendo del contexto, permitir que el sistema funcione en conjunto con sistemas ya existentes puede disminuir la cantidad de trabajo que debe hacerse.  
+- Escalabilidad: Si el sistema es escalable, se pueden a ̃nadir nuevos requerimientos sin problemas y el sistema  podr ́a crecer a medida que se implenta el resto de los requerimientos.  
+
+Requerimientos no funcionales que retrasar ́ıan el desarrollo:  
+- Confiabilidad: Para lograr confiabilidad se deben tener en cuenta muchos factores que pueden afectar el funcionamiento del sistema.  
+- Verificabilidad: La verificabilidad implica que el sistema pueda probarse a s ́ı mismo, por lo que se requerir ́ıa de trabajo adicional para cada componente del sistema.  
+- Seguridad: Si se requiere un alto nivel de seguridad, puede ser necesario dedicar una cantidad significativa de tiempo para lograrlo. Esto puede retrasar el desarrollo del sistema.  
+**Caso 2**  
+Se requiere desarrollar un sistema que permita ingresar y reportar la votaci ́on obtenida por cada candidato en cada  
+una de las mesas receptoras de sufragios en todo el pa ́ıs. Las mesas receptoras est ́an agrupadas en locales de votaci ́on  
+a cargo de un jefe de local.  
+Entre otras funciones, el jefe de local es el encargado de recolectar las actas de votaci ́on de cada mesa receptora  
+e ingresar los resultados al sistema. Para ello, dispone de un notebook con conexi ́on a internet.  
+Se requiere, adem ́as, que el sistema genere un informe con los resultados disponibles hasta ese momento y  
+consolidados por cada candidato, con una periodicidad preestablecida en el sistema. Este reporte debe considerar  
+varios niveles de agrupaci ́on de los resultados, tales como, a nivel de la mesa receptora, del local de votaci ́on, de la  
+comuna, del distrito (para los diputados), de la regi ́on senatorial (para los senadores) y, finalmente, a nivel pa ́ıs (para  
+el presidente).  
+Considerando que las elecciones son en 23 d ́ıas m ́as, se pide lo siguiente:  
+ Analizar y justificar tres requerimientos no funcionales que el sistema debe satisfacer
+**Solución:**
+- Seguridad: Debido a que el sistema manejar ́a datos electorales y los enviar ́a por internet este debe ser seguro.  Una vulnerabilidad en el sistema podr ́ıa causar desde reportes incorrectos hasta fraude electoral.  
+- Verificabilidad: El sistema debe ser capaz de comprobar su propio funcionamiento debido a que ser ́a ejecutado  en distinto hardware a lo largo de todo el pa ́ıs, y se debe asegurar que cada instancia funcione correctamente.  
+- Soportabilidad: En caso de alguna incidencia que perjudice el funcionamiento del sistema, deben existir herramientas de diagn ́ostico con el fin de poder solucionar dichos inconvenientes.
