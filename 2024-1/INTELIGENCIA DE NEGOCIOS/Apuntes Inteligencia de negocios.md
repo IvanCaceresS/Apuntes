@@ -32,3 +32,9 @@ Recuerde que habrá solemne y es de la materia teórica que se comenzará a ver
 **GeoDa**
 - Debe analizar diagrama de dispersión de moran  
 - Hacer analizar cuantiles
+
+
+
+
+![[Pasted image 20240404175627.png]]
+Para el proyecto hay que tener claro esto
