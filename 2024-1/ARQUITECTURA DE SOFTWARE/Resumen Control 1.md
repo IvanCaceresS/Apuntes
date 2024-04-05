@@ -118,7 +118,7 @@ Analice el siguiente parrafo indicando y corrigiendo los errors:
 
 2. Describa 4 competencias que debe tener el arquitecto de software.  
 **Respuesta:**  
-- Administraci ́on del riesgo.  
+- Administración del riesgo.  
 - Excelentes habilidades de diseño.  
 - Interfaz entre el cliente y el equipo técnico.  
 - Puente de comunicaci ́on entre los equipos de desarrollo.  
@@ -133,8 +133,8 @@ Analice el siguiente parrafo indicando y corrigiendo los errors:
 - Mantenibilidad  
 - Soportabilidad  
 - Verificabilidad  
-**Respuesta:**  
-**Mantenibilidad**: Se refiere a la facilidad con la que un sistema puede ser modificado
+**Respuesta:**
+**Mantenibilidad**: Se refiere a la facilidad con la que un sistema puede ser modificado. 
 **Soportabilidad**: Está relacionada con la facilidad con la que un sistema puede ser diagnosticado, reparado, o configurado.
 **Verificabilidad**: Hace referencia a la facilidad con la que se pueden realizar pruebas en el sistema para verificar que cumple con los requisitos especificados.
 
@@ -154,7 +154,41 @@ Al especificar una arquitectura se deben considerar los siguientes factores:
 - Seguridad: La arquitectura especificada puede facilitar que el sistema sea seguro (e.g. a ̃nadir una capa de  seguridad en el modelo de capas) mientras que en otras (e.g. Cliente / Servidor) es m ́as complicado.  
 - Integrabilidad: Algunas arquitecturas facilitan el uso de sistemas ya construidos anteriormente (e.g. SOA),  por lo que debe considerarse si se requiere interoperar con otros sistemas.  
 
+7. Mencione y explique 3 factores utilizados para medir la escalabilidad de un sistema de software
+- Carga: Cantidad de transacciones por segundo que puede soportar el sistema.
+- Conexiones simultanes: Número máximo de usuarios o dispositivos que pueden interactuar con el sistema al mismo tiempo.
+- Volumen de datos: Capacidad del sistema para manejar grandes volúmenes de datos.
 
+8. Se sabe que el diseño de un software está compuesto por 4 fases. Mencione cada una de ellas y descríbalas brevemente.
+- Contexto: Se define qué se quiere hacer , donde se instalará el software y a quíen está dirigido el producto (definir los clientes o usuarios)
+- Estructuración: Se identifican los componentes y sus relaciones 
+- Modelo de control: Su objetivo es evaluar el comportamiento que tendrán los componentes al realizar sus tareas
+- Descomposición modular: Se realiza un diseño detallado del proyecto, descomponiendo los componentes genéricos en partes que componen dicho componente 
+
+9. Analice el siguiente párrafo indicando y corrigiendo los errores
+- El objetivo del requerimiento no funcional de portabilidad es facilitar la incorporación de componentes externos al sistema
+- El óptimo a alcanzar es garantizar la correcta agregación de componentes de terceros, permitiendo así la expansión y mejora continua del sistema.
+- Para lograr una alta confiabilidad, es crucial asegurar la interoperabilidad entre distintos sistemas, como la compatibilidad con contenedores Docker, lo que facilita la implementacion de componentes y ejecucion sin conflictos
+- Ademas, se debe proporcionar una API clara y bien documentada que sirva como interfaz éstandar para la comunicación entre los componentes de nuestro sistema
+**Solucion**:
+- No es correcto , pues la descripción detallada es respecto al atributo de Integrabilidad. Si se cambia portabilidad por integrabilidad estaría correcto
+- Es correcto, en terminos de integrabilidad
+- La interoperabilidad de componentes no es crucial para asegurar una alta confiabilidad, dado que esta me permite agregar nuevos componentes . Por tanto, la oracion estaria correcta si se hablase de integrabilidad
+- El sistema no debe poseer una API para la comunicacion de los componentes del mismo sistema necesariamente. Una API clara es ideal para la integracion de componentes externos del sistema
+
+10. Analice el siguiente párrafo indicando y corrigiendo los errores.
+
+- El objetivo del requerimiento no funcional de Performance es garantizar que el sistema opere de manera eficiente y cumpla con los tiempos esperados para realizar sus tareas.
+
+- Es fundamental considerar el equilibrio entre el carga y las conexiones simultáneas del sistema. Si bien se busca maximizar la cantidad de transacciones procesadas, también se debe asegurar una respuesta rápida a las solicitudes de los usuarios.
+- Además, para garantizar una experiencia de usuario fluida y receptiva, especialmente en aplicaciones interactivas, es crucial minimizar el tiempo de despliegue del sistema.
+- En el caso de procesos no interactivos, como los lotes de procesamiento, se deben establecer plazos claros y realistas para la entrega de resultados, asegurando así la eficiencia y  cumplimiento de los objetivos del sistema.
+**Solucion:**
+
+- La oración es correcta.
+- No es correcto dado que hablamos de performance, por tanto el equilibrio se debe realizar entre throughput y tiempo de respuesta, ya que el primero trata de las transacciones realizadas y el segundo de respuesta rápida.
+- Si se cambia la palabra “despliegue” por “tiempo de respuesta”, la oración estaría correcta.
+- La oración es correcta, en términos de Peformance.
 ## Analisis de Casos
 **Caso 1**  
 A usted le han solicitado el desarrollo urgente de un sistema, cuya primera versión, con el 30% de los requerimientos funcionales implementados, debe estar operativa en dos semanas. Luego, tiene 4 semanas para finalizar la  implementación de los restantes.  En este contexto, analice tres requerimientos no funcionales que le pueden ayudar a cumplir con el plazo establecido y tres que lo retrasarían.  
