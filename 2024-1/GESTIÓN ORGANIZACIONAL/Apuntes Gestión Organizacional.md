@@ -290,6 +290,23 @@ Ejemplo estudiante que quiere entrar a estudiar, informática y telecomunicacion
 	- No tenga estacionamiento
 - Amenazas:
 	- Aumento de la delicuencia
-	- Falta de Policia
+	- Aumento de competitividad
+	- Aumento de cotizacion
+	- Inflación
+
+
 Conclusion: (Si no hay conclusión no tiene puntaje)
 La UDP es una universidad que va en crecimientopero debe preocuparse por el aumento de la competencia, falta de areas verdes y el arancel muy alto
+# 05-04-24
+
+Matriz FODA: me da **acciones** para la misión, objetivos generales, objetivos específicos, metas
+La estrategia a usar es la que posea mas cantidad.
+
+|                            | **F** (cant. fortalezas)                        | **D** (cant. debilidades)                           |
+| -------------------------- | ----------------------------------------------- | --------------------------------------------------- |
+| **O**(cant. oportunidades) | **(Estrategia FO)**<br>Maxi-Maxi.<br>OFENSIVA   | **(Estrategia DO)**<br>Mini-Maxi.<br>REORIENTACIÓN  |
+| **A**(cantidad. amenazas)  | **(Estrategia FA)** <br>Maxi-Mini.<br>DEFENSIVA | **(Estrategia DA)** <br>Mini-Mini.<br>SUPERVIVENCIA |
+**OFENSIVA:** Acciones que con mis fortalezas aprovecho mis oportunidades.
+**REORIENZACION:** Las debilidades son mas fuertes que las fortalezas pero tengo mas oportunidades
+**DEFENSIVA:**  Tengo mas amenazas que oportunidades, con las fortalezas. Debo realizar acciones para que mis fortalezas logren evitar las amenazas
+**SUPERVIVENCIA**: Tengo mas debilidades y amenazas. Una de las acciones posibles es declararse en quiebra.
