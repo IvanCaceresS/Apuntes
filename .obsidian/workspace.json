@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "11ee8e167f1ce4d5",
+        "id": "896fe4a7e5c5c07e",
         "type": "tabs",
         "children": [
           {
-            "id": "131f20afd7c758c7",
+            "id": "90e47bb1a73e80fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-1/INTELIGENCIA DE NEGOCIOS/Proyecto 1 Power BI.md",
+                "file": "2024-1/DATA SCIENCE/Apuntes Data Science.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-1/INTELIGENCIA DE NEGOCIOS/Proyecto 1 Power BI.md",
+                "file": "2024-1/DATA SCIENCE/Apuntes Data Science.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-1/INTELIGENCIA DE NEGOCIOS/Proyecto 1 Power BI.md",
+                "file": "2024-1/DATA SCIENCE/Apuntes Data Science.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-1/INTELIGENCIA DE NEGOCIOS/Proyecto 1 Power BI.md"
+                "file": "2024-1/DATA SCIENCE/Apuntes Data Science.md"
               }
             }
           }
@@ -146,20 +146,21 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "131f20afd7c758c7",
+  "active": "90e47bb1a73e80fc",
   "lastOpenFiles": [
+    "2024-1/INTELIGENCIA DE NEGOCIOS/Apuntes Inteligencia de negocios.md",
+    "2024-1/INTELIGENCIA DE NEGOCIOS/Pasted image 20240404175627.png",
+    "2024-1/Horario.png",
+    "2024-1/DATA SCIENCE/Apuntes Data Science.md",
+    "2024-1/INTELIGENCIA DE NEGOCIOS/Proyecto 1 Power BI.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 4 GO 01-2024.pdf",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 3 GO 01-2024.pdf",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 2 GO 01-2024.pdf",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 1 GO 01-2024.pdf",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Apuntes Ayudantías.md",
-    "2024-1/INTELIGENCIA DE NEGOCIOS/Proyecto 1 Power BI.md",
-    "2024-1/INTELIGENCIA DE NEGOCIOS/Apuntes Inteligencia de negocios.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
     "conflict-files-obsidian-git.md",
     "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 1.md",
-    "Pasted image 20240404175627.png",
-    "2024-1/DATA SCIENCE/Apuntes Data Science.md",
     "2024-1/INTERNET DE LAS COSAS/Apuntes IoT.md",
     "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md",
     "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Ayudantía.md",
@@ -180,7 +181,6 @@
     "2024-1/GESTIÓN ORGANIZACIONAL/RED ADM ESCUELA CLASICA primera clase.doc",
     "2024-1/GESTIÓN ORGANIZACIONAL/Sin título",
     "2024-1/DATA SCIENCE/Clase 3.pptx",
-    "Sin título.md",
-    "2024-1/Horario.png"
+    "Sin título.md"
   ]
 }
