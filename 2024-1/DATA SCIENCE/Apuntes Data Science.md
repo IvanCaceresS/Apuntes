@@ -268,3 +268,15 @@ Si se quisiera crear una metrica perzonalizada que contenga tanto el rendimiento
 - Suma? → puede ser, que no haya una metrica negativa. De esta manera es comparale
 - Suma ponderada? → si no tengo pesos no se puede
 
+
+# 08-04-24
+**Clase despues de 9 mayo comienzan presentaciones y debemos tener datos y algo avanzado aunque sea malo** 
+## Objetivos y Métricas
+PPT: Clase 11
+**Solemne 1 9 mayo:**
+Metricas, analisis exploratorios, resultados preliminares, limpieza de datos, overfitting, underfitting, etc. hasta visualizaciones sin incluir visualizaciones
+
+## Visualizaciones
+Hay 2 tipos de visualizaciones:
+- Como va el desempeño del trabajo
+- Visualizacion de resultado
