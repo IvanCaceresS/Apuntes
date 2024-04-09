@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "15eaf6f7fcbae3de",
+        "id": "896fe4a7e5c5c07e",
         "type": "tabs",
         "children": [
           {
-            "id": "daaf0c3fa7752ad6",
+            "id": "90e47bb1a73e80fc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 286.50152587890625
   },
   "right": {
     "id": "0d4e9e9009b7ee87",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md"
+              }
             }
           }
         ]
@@ -138,26 +146,27 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "daaf0c3fa7752ad6",
+  "active": "90e47bb1a73e80fc",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 1.md",
-    "2024-1/INTELIGENCIA DE NEGOCIOS/Pasted image 20240404175627.png",
     "2024-1/INTELIGENCIA DE NEGOCIOS/Proyecto 1 Power BI.md",
+    "2024-1/DATA SCIENCE/Apuntes Data Science.md",
+    "2024-1/INTELIGENCIA DE NEGOCIOS/Apuntes Inteligencia de negocios.md",
+    "2024-1/INTELIGENCIA DE NEGOCIOS/Pasted image 20240404175627.png",
+    "2024-1/Horario.png",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 4 GO 01-2024.pdf",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 3 GO 01-2024.pdf",
-    "Pasted image 20240404175627.png",
-    "2024-04-04.md",
-    "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Ayudantía.md",
-    "2024-1/DATA SCIENCE/Apuntes Data Science.md",
-    "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md",
-    "2024-1/Horario.png",
-    "2024-1/INTELIGENCIA DE NEGOCIOS/Apuntes Inteligencia de negocios.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Gestión Organizacional.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Apuntes Ayudantías.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 1 GO 01-2024.pdf",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 2 GO 01-2024.pdf",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 1 GO 01-2024.pdf",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Apuntes Ayudantías.md",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
+    "conflict-files-obsidian-git.md",
+    "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 1.md",
+    "2024-1/INTERNET DE LAS COSAS/Apuntes IoT.md",
+    "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md",
+    "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Ayudantía.md",
+    "2024-1/ARQUITECTURA DE SOFTWARE/Sin título",
+    "README.md",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Gestión Organizacional.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantía 2 GO 01-2024.pdf",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/14 Principios de la Administración.jpg",
     "2024-1/GESTIÓN ORGANIZACIONAL/Texto 19-03-24.jpeg",
@@ -172,7 +181,6 @@
     "2024-1/GESTIÓN ORGANIZACIONAL/RED ADM ESCUELA CLASICA primera clase.doc",
     "2024-1/GESTIÓN ORGANIZACIONAL/Sin título",
     "2024-1/DATA SCIENCE/Clase 3.pptx",
-    "Sin título.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias"
+    "Sin título.md"
   ]
 }
