@@ -310,3 +310,57 @@ La estrategia a usar es la que posea mas cantidad.
 **REORIENZACION:** Las debilidades son mas fuertes que las fortalezas pero tengo mas oportunidades
 **DEFENSIVA:**  Tengo mas amenazas que oportunidades, con las fortalezas. Debo realizar acciones para que mis fortalezas logren evitar las amenazas
 **SUPERVIVENCIA**: Tengo mas debilidades y amenazas. Una de las acciones posibles es declararse en quiebra.
+.
+
+# 09-04-24
+Jueves por correo a ximena.geoffroy@udp.cl , empresa datos, mision vision y todos los datos posibles
+
+## **¿Qué es el Marketing?**
+- Estimula la necesidad de que alguien compre, publicidad.
+- Estudios de mercado:
+	- ¿Donde esta la necesidad?
+	- Hacer un producto tipo
+	- Probar un producto tipo en el mercado objetivo
+	- Modificación de producto por cambios de necesidad o de acuerdo a como funcionó en el mercado
+	- Campaña del producto
+	- Vendo
+	- Veo el mercado y busco una nueva necesidad
+
+## Para segmentar un producto se debe considerar:
+
+- **Factores culturales** 
+	- Cultura
+	- Subcultura
+	- Clase social
+- **Factores sociales**
+	- Grupo de referencia
+	- Familia
+	- Roles, status
+- **Factores que alteran al consumidor directamente**
+	- Edad
+	- Ocupación
+	- Ciclo de vida
+	- Estilo de vida
+	- Personalidad
+- **Factores piscológicos**
+	- Motivación
+	- Creencias
+	- Percepción
+	- Aprendizaje
+---
+**Con respecto a la segmentación se puede por**: Ej udp:
+- **Geográfico**:
+	- País: *Chile*
+	- Región: *Metropolitana, la serena,etc*
+	- Comuna: *varias*
+- **Demográfico**:
+	- Edad: *16-25*
+	- Sexo: *indiferente*
+	- Ingreso: *Medio*
+	- Ciclo de vida: *Familiar*
+- **Psicográfico**:
+	- Estilo de vida: *Estudio*
+- **Comportamiento**:
+	- De compra(Diaria, mensual, esporádica, habitual): *Esporádico*
+
+¡¡¡¡**Segmentación no tiene conclusión**!!!!
