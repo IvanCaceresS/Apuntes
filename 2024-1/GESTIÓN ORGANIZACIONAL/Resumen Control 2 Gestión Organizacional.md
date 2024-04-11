@@ -162,7 +162,9 @@ La estrategia a usar es la que posea mas cantidad.
 **Ofensiva (FO):** Aprovechar las fortalezas para aprovechar las oportunidades.
 **Reorientación (DO):** Reorientar las debilidades mediante las oportunidades.
 **Defensiva (FA):** Defenderse de amenazas mediante el aprovechamiento de fortalezas.
-**Supervivencia (DA):** Sobrevivir enfocándose en minimizar las debilidades y amenazas.
+**Supervivencia (DA):** Reducir debilidades y al mismo tiempo evitar las amenazas.
+
+Matriz igual tiene conclusión, establecer estrategia que debe seguir la empresa.
 
 # Ejercicios:
 
@@ -204,7 +206,7 @@ La estrategia a usar es la que posea mas cantidad.
 			- Recesión. 
 			- Alta competencia en el mercado.
 		- CONCLUSIÓN: La empresa tiene una posición fuerte como una de las startups de crecimiento más rápido en India, con entregas eficientes y asociaciones estratégicas. Sin embargo, enfrenta debilidades como la falta de cotización en bolsa y la dependencia excesiva de tiendas fantasmas. Además, las amenazas como la inflación, la recesión y la competencia intensa plantean desafíos. Para mantener su posición y crecer, la empresa debe diversificar su modelo de negocio y reducir la dependencia de terceros, mientras aprovecha las oportunidades del mercado en crecimiento.
-1. https://www.df.cl/empresas/retail/falabella-mantiene-la-tendencia-y-anota-tercer-trimestre-consecutivo-con
+2. https://www.df.cl/empresas/retail/falabella-mantiene-la-tendencia-y-anota-tercer-trimestre-consecutivo-con
 	- FODA:
 		- Fortalezas:
 			- Falabella cuenta con una sólida presencia regional. 
@@ -223,3 +225,51 @@ La estrategia a usar es la que posea mas cantidad.
 			- Recesión. 
 			- Alta competencia en el mercado.
 		- CONCLUSION: Con una sólida presencia regional y una variedad de negocios, Falabella goza de reconocimiento de marca. Sin embargo, enfrenta desafíos como altos niveles de deuda y problemas de gestión. A pesar de las oportunidades en el comercio electrónico y la innovación tecnológica, la empresa debe abordar sus debilidades internas y enfrentar amenazas externas como la inflación y la competencia intensa para asegurar su posición en el mercado.
+3. link: https://www.latercera.com/pulso/noticia/ganancias-de-mall-plaza-se-duplicaron-y-flujo-de-visitas-subio-5-el-tercer-trimestre/XYZNBQPNVJCMNOMTF5KQFSLFCA/
+	- Planificación estratégica:
+		- Visión: Ser la cadena de centros comerciales más grande en el país.
+		- Misión: Aumentar en un 20% la presencia nacional.
+		- Obj. General: Ampliar sucursales.
+		- Obj. Específico: Evaluar vías de financiamiento.
+		- Metas: Realizar campañas publicitarias.
+	- PEST:
+		- Político:
+			- (-) Ley 40 horas
+			- (-) Aumento sueldo mínimo
+		- Económico:
+			- (-) Inflación
+			- (-) Recesión 
+			- (+-) Fluctuación del dolar
+		- Social:
+			- (+) A la gente le gusta ir al mall
+			- (-) A la gente le gusta comprar online
+			- (-) Aumento de la delincuencia
+		- Tecnológico:
+			- (+) Automatización en atención al cliente
+			- (+) Mejora en la entrega de servicion mas innovadores
+	- FODA:
+		- Fortalezas:
+			- Duplicación de las utilidades comparado con el año anterior.
+			- Aumento en el flujo de visitas en un 5%.
+			- Expansión de instalaciones y mejora de la oferta comercial con la inclusión de una zona "Lifestyle".
+		- Oportunidades:
+			- Crecimiento y expansión en el sector de centros comerciales.
+			- Capacidad para atraer a más marcas y visitantes con las nuevas áreas de expansión.
+		- Debilidades:
+			- Incremento en los costos de ventas y gastos generales.
+			- Posibles desafíos en mantener la rentabilidad ante fluctuaciones económicas.
+		- Amenazas:
+			- Cambios en las tendencias de consumo hacia el comercio electrónico.
+			- Posibles impactos negativos de la inflación o devaluaciones monetarias en sus mercados operativos.
+	- Matriz FODA:
+
+| **Fortalezas**                       | **Oportunidades**                           |
+| ------------------------------------ | ------------------------------------------- |
+| - Duplicación de utilidades.         | - Potencial de crecimiento en el sector.    |
+| - Aumento en el flujo de visitantes. | - Expansión y atractivo para nuevas marcas. |
+| - Mejora de la oferta comercial.     |                                             |
+
+|**Debilidades**|**Amenazas**|
+|---|---|
+|- Incremento en costos y gastos.|- Tendencia creciente hacia el comercio electrónico.|
+|- Desafíos en la rentabilidad.|- Impactos de la inflación y devaluaciones.|

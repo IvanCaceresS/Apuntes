@@ -143,5 +143,10 @@ Analice el siguiente parrafo indicando y corrigiendo los errors:
 		- Cada capa tiene una interfaz claramente definida
 		- Desarrollo independiente de las capas
 	- Objetos distribuidos
+# 09-04-24
+- Continuación modelos de estructuración
 	- Arquitectura orientada a servicios
+		- Componentes de la arquitectura:
+			- Bus
+			- Servicios
 	- Arquitectura Cloud
