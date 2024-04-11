@@ -76,8 +76,6 @@ Tópico (Impacto en la empresa) Ejemplo: Económico: Inflación (-). Positivo (+
 - Tecnológico:
 	- (-) Competencia proveniente de plataformas educativas en línea (Universidades Online) que afecta a la UDP.
 	- (+) Desarrollo de herramientas tecnológicas que ayudan en el proceso de estudio y aprendizaje.
-
-
 # FODA
 PEST ⇒ Visión/Misión ⇒ FODA
 El análisis FODA (Fortalezas, Oportunidades, Debilidades y Amenazas), que se construye sobre la base del análisis PEST y proporciona una evaluación interna y externa de la organización.
@@ -205,7 +203,7 @@ La estrategia a usar es la que posea mas cantidad.
 			- Inflación. 
 			- Recesión. 
 			- Alta competencia en el mercado.
-		- CONLUSION: La empresa tiene una posición fuerte como una de las startups de crecimiento más rápido en India, con entregas eficientes y asociaciones estratégicas. Sin embargo, enfrenta debilidades como la falta de cotización en bolsa y la dependencia excesiva de tiendas fantasmas. Además, las amenazas como la inflación, la recesión y la competencia intensa plantean desafíos. Para mantener su posición y crecer, la empresa debe diversificar su modelo de negocio y reducir la dependencia de terceros, mientras aprovecha las oportunidades del mercado en crecimiento.
+		- CONCLUSIÓN: La empresa tiene una posición fuerte como una de las startups de crecimiento más rápido en India, con entregas eficientes y asociaciones estratégicas. Sin embargo, enfrenta debilidades como la falta de cotización en bolsa y la dependencia excesiva de tiendas fantasmas. Además, las amenazas como la inflación, la recesión y la competencia intensa plantean desafíos. Para mantener su posición y crecer, la empresa debe diversificar su modelo de negocio y reducir la dependencia de terceros, mientras aprovecha las oportunidades del mercado en crecimiento.
 1. https://www.df.cl/empresas/retail/falabella-mantiene-la-tendencia-y-anota-tercer-trimestre-consecutivo-con
 	- FODA:
 		- Fortalezas:
