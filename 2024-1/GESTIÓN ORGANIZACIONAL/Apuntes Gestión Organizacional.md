@@ -310,6 +310,7 @@ La estrategia a usar es la que posea mas cantidad.
 **REORIENZACION:** Las debilidades son mas fuertes que las fortalezas pero tengo mas oportunidades
 **DEFENSIVA:**  Tengo mas amenazas que oportunidades, con las fortalezas. Debo realizar acciones para que mis fortalezas logren evitar las amenazas
 **SUPERVIVENCIA**: Tengo mas debilidades y amenazas. Una de las acciones posibles es declararse en quiebra.
+.
 
 # 09-04-24
 Jueves por correo a ximena.geoffroy@udp.cl , empresa datos, mision vision y todos los datos posibles
