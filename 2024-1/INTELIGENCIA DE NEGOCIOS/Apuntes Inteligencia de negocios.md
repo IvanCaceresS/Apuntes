@@ -38,3 +38,4 @@ Recuerde que habrá solemne y es de la materia teórica que se comenzará a ver
 
 ![[Pasted image 20240404175627.png]]
 Para el proyecto hay que tener claro esto
+SOLEMNE ENTRA TODO HASTA JHON SNOW
