@@ -208,3 +208,6 @@ Se pide definir este sistema utilizando la arquitectura SOA.
 5. Paso 5: Especificar el funcionamiento de cada servicio
 6. Paso 6: Definir la interfaz de usuario
 7. Pasos siguientes: Codificar, Probar, etc.
+
+
+# 16-04-24
