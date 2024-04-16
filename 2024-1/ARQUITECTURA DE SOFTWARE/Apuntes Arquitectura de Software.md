@@ -211,4 +211,47 @@ Se pide definir este sistema utilizando la arquitectura SOA.
 
 
 # 16-04-24
-holaaksjdakjsd
+## Revisión Control 1
+1.  **Explique que se debe considerar en el proceso de seleccion de una arquitectura de software para diseñar un sistema.**
+	R: Restricciones (del negocio, tecnicas), ambiente, requerimientos(funcionales y no funcionales)
+2. **Priorice las tres competencias mas importantes que debe tener un arquitecto de software y explique los motivos que lo llevaron a dicha priorizacion.**
+	R: 1. Buen diseño. 2.Buena comunicacion con cliente y equipo de trabajo. 3. Conocimiento de tecnologías actuales.
+3. **A usted le han solicitado el desarrollo urgente de un sistema que tiene 8 requerimientos funcionales y cuya primera versión, con el 25% de los requerimientos funcionales implementados, debe estar operativa en dos semanas. Luego, tiene 4 semanas para finalizar la implementacion de los restantes. En este contexto, analice 3 requeriminetos no funcionales que no deberian ser considerados en el sistema porque le pueden retrasar y, por lo tanto, no cumplir con el plazo requerido.**
+	R: Seguridad, Confiabilidad, Verificabilidad
+4. Analice el siguiente párrafo indicando y corrigiendo los errores.
+	1. **El objetivo del requerimiento no funcional de Verificabilidad es como su nombre lo indica, verificar que el sistema este operativo el mayor tiempo posible.** FALSO,esto es confiabilidad
+	2. **Para lograr este objetivo, el arquitecto de software tuvo que incluir en el sistema un conjunto de procesos cuya misión es generar una traza de cada una de las transacciones procesadas de manera de ayudar a diagnosticar los posibles errores.** FALSO, esto es Soportabilidad
+	3. **Utilizando esa información, el sistema tuvo que pasar por un proceso de verificacion de todas sus funcionalidades de manera de detectar y corregir posibles errores previo al proceso de puesta en producción.** FALSO, porque aqui se habla de QA, no tiene que ver con ningun requerimiento no funcional.
+
+## Continuando con SOA
+### Bus de servicios
+- Punto focal de la arquitectura SOA
+- Gestiona las transacciones que recibe
+- Administra los clientes y servicios conectados
+- Redirige las transacciones de los clientes hacia los servicios que van a procesarlas
+- Retorna a los clientes correspondientes las transacciones de respuesta de los servicios
+- Su ubicacion fisica es un contenedor docker y acepta conexiones en el puerto 5000
+### Estructuras de transacciones
+- TX-in - Transacción de requerimiento: 
+	- Largo: cuantos caracteres vienen a continuación (5 caracteres)
+	- Servi: Identificacion del servicio requerido (5 caracteres)
+	- Datos: datos enviados al servicio para el procesamiento del req.
+	- ej:
+
+| 00017 | HOLAS | HOLA MUNDO!! |
+| ----- | ----- | ------------ |
+- TX-out - Transacción de respuesta del servicio
+	- Largo: cuantos caracteres vienen a continuación (5 caracteres)
+	- Servi: Identificacion del servicio que responde (5 caracteres)
+	- Datos: datos con el resultado del proceso del req. recibido
+
+- TX-out - Transacción de respuesta del bus
+	- Largo: cuantos caracteres vienen a continuación (5 caracteres)
+	- Servi: Identificacion del servicio que genera la transaccion (5 caracteres)
+	- ST: Status de la transacción(OK:correcta O NK:erronea)
+	- Datos: datos con el resultado del proceso del req. recibido
+
+### Servicio
+- Proceso que implementa una o mas funcionalidades
+- Se conecta al bus y se identifica como servicio, usando la transaccion sinit
+- Queda activo en espera de transacciones
