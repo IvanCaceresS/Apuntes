@@ -364,3 +364,31 @@ Jueves por correo a ximena.geoffroy@udp.cl , empresa datos, mision vision y todo
 	- De compra(Diaria, mensual, esporádica, habitual): *Esporádico*
 
 ¡¡¡¡**Segmentación no tiene conclusión**!!!!
+# 16-04-24
+## Rol de la empresa moderna
+- **Competitividad:** 
+- **Empleabilidad:** Voluntad, habiliadad y capacidad de las personas para mantenerse vigentes tecnica y conductualmente, y ser considerando en el mercado laboral.
+- **Calidad de vida:** 
+- **Políticas de inclusión:** Roles de mujeres en empresa, inclusión de personas con discapacidad.
+- **Estructura:**
+- **Cultura:** Personalidad de la empresa, comportamiento organizacional. Cualquier cambio en la cultura cambia los paradigmas.
+
+## Personal
+El grupo/unidad de personal en una empresa, es la que se dedica al ciclo de vida del personal. 
+- **Obtención**: cada unidad que necesite un perfil de cargo,va a tener que describir lo que yo quiero que la persona sepa, o que va a hacer. **ej:** quiero un ing. civil informatico con 3 años de experiencia porque quiero que sea el jefe del area.
+	1. Rol: La unidad de personal no realiza la descripcion del cargo requerido, lo debe hacer alguien del area, alguien que sepa.
+	2. Reclutamiento: esto si lo realiza la unidad de personal
+	3. Seleccion: se realzian entrevistas y el ultimo entrevistado es entrevistado por el encargado del area en cuestion
+	4. Inducción: se realiza la induccion a ese ultimo entrevistado
+- **Mantención y Desarrollo:**
+	1. Evaluacion de desempeño
+	2. Capacitacion y desarrollo
+	3. Bienestar y beneficios
+	4. Relaciones laborales
+- **Egreso**: Se decide que la persona se vaya (por que quiere irse, jubila, es despedida...)
+	1. Rotación: Movimiento del mercado
+	2. Retiro: Llegue al fin de mi vida laboral, me voy
+	3. Despido: Despedido, se va totalmente de la empresa.
+	4. Outplacement: Despido, se va totalmente de la empresa. Se trata a personas que llevan muchisimo tiempo con la empresa y la cultura de la empresa esta en él, pero como la empresa quiere cambiar su cultura y por eso se despide. Sin embargo para no generar problemas con los trabajadores y la cultura organizacional se despide bajo la condicion de outplacement, se le manda a retomar su vida laboral y psicologicamente.
+
+## Finanzas
