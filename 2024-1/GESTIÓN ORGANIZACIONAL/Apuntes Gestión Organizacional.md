@@ -392,3 +392,7 @@ El grupo/unidad de personal en una empresa, es la que se dedica al ciclo de vida
 	4. Outplacement: Despido, se va totalmente de la empresa. Se trata a personas que llevan muchisimo tiempo con la empresa y la cultura de la empresa esta en él, pero como la empresa quiere cambiar su cultura y por eso se despide. Sin embargo para no generar problemas con los trabajadores y la cultura organizacional se despide bajo la condicion de outplacement, se le manda a retomar su vida laboral y psicologicamente.
 
 ## Finanzas
+Liquidez = Ingresos - Deuda
+Objetivo de las finanzas: Obtención y uso de recursos.
+
+**HASTA AQUI ENTRA EN LA SOLEMNE**
