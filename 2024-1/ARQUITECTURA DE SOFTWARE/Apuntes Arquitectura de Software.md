@@ -255,3 +255,4 @@ Se pide definir este sistema utilizando la arquitectura SOA.
 - Proceso que implementa una o mas funcionalidades
 - Se conecta al bus y se identifica como servicio, usando la transaccion sinit
 - Queda activo en espera de transacciones
+SI ENTRA HASTA AQUI
