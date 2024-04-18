@@ -92,3 +92,57 @@ https://www.df.cl/empresas/telecom-tecnologia/conexiones-5g-se-acercan-casi-a-3-
 - Recursividad: se ve la recursividad ya que al crecer el 5g se ve un funcionamiento correcto por lo que el TODO es sinergico, y tambien cada una de las partes, como el aumento de dispositivos que soportan 5g y el alcance a nuevos clientes con fibra optica.
 - Homeostasis: Las demas empresas como entel, claro, movistar... todas experimentan una caida en las redes 3g y 4g pero todas aportan en el crecimiento del 5g mediante los  equipos que lo soportan.
 - Equifinalidad: mediante concursos de 5g y la fibra optica se logra llegar a un mismo fin, el cual es potenciar el aumento del 5g llegando a rincones y mas clientes
+
+
+# 6. 18-04-24
+## Marketing
+Tener el producto adecuado, en el momento adecuado, adaptado a la demanda, en el tiempo correcto, en el precio mas justo.
+- Pasos/ciclos del marketing
+	- Necesidades del consumidor
+	- Estudio del mercado para conocerla
+	- Plan de marketing previo
+	- Toma de decisiones
+	- Preparación de productos
+	- Fabricacion piloto
+	- Prueba de mercado piloto
+	- Modificaciones en la prueba
+	- Produccion a gran escala
+	- Plan de marketing definitivo
+	- Venta al consumidor
+	- Vuelta al principio(Necesidades del consumidor)
+## Departamento de finanzas
+- Se encarga de la obtención y uso de recursos.
+- Trabaja o se enfoca principalmente en Balance, Estados de resultado e indicadores.
+
+## Segmentación
+- Segmentación está dentro de los 12 pasos del marketing
+- Tipos de segmentación
+	- Geográfica
+	- Demográfica
+	- Psicográfica
+	- Comportamiento
+
+## Ingreso
+- Rol (cargo)
+- Reclutamiento
+	- De forma interna: dentro de la empresa
+	- De forma externa: paginas web
+- Selección
+- Inducción
+## Caso 1:
+- Segmentación:
+	- Geografica:
+		- Puerto Rico
+		- América latina
+		- Europa
+	- Demográfica:
+		- Emabrazadas
+		- Niños de 0-5 años
+	- Psicográfica:
+		- Público fanáticos de Nati Natasha
+		- Público ecológico y animalista
+		- Público amante de moda y maquillaje
+	- Comportamiento:
+		- Semanal
+## Caso 2:
+- Cargo/Rol
