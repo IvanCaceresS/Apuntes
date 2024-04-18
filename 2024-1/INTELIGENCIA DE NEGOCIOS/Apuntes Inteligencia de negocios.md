@@ -51,5 +51,5 @@ Cada pregunta en una hoja.
 5. Geoda, graficar, mostrar el diagrama de moran y explicar. Se puede usar el censo(o cualquier otro dataset de internet) pero no se puede usar lo visto en clase(vivienda y educacion no). Pantallazos finales, no es necesario el paso a paso en imagenes, sino que explicar lo que se hizo y con imagenes de los resultados
 6. sistema transaccional es el sistema del dia a dia (en Universidad, ingresar notas. En banco, hacer un giro. Es un sistema que hace consultas) Cuando se usa el mismo repositorio para un sistema transaccional y de BI pasa algo, 
 7. explicar y ejemplo de etl. Puede ser larga. Un esquema explicando el paso a paso.
-8. crear nueva medida, sameperiodlastyear. Probar instruccion en powerBI
+8. crear nueva medida, sameperiodlastyear. Probar instruccion en powerBI. 
 9. minería de datos: son los que hacen predicción , encontrar patron de comportamiento. Sale en las ppt, dice que está en una ppt.
