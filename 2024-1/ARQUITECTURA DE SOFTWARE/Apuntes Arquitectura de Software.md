@@ -256,3 +256,58 @@ Se pide definir este sistema utilizando la arquitectura SOA.
 - Se conecta al bus y se identifica como servicio, usando la transaccion sinit
 - Queda activo en espera de transacciones
 SI ENTRA HASTA AQUI
+
+# 19-04-24
+## Modelo de capas
+- Conjunto de capas de software que ofrecen servicios específicos
+- Cada capa tiene una interfaz claramente definida
+- Desarrollo independiente de las capas
+- Ventajas:
+	- Desarrollo incremental
+	- Flexible
+	- Mantenible
+- Desventajas
+	- Díficil estructuración
+	- Dependencias cruzadas
+	- Baja performance
+## Objetos distribuidos
+- Cada componente (objeto) define los datos y metodos que pueden ser invocados
+- Cada objeto puede proveer y recibir servicios
+- Objetos se comunican a través del sistea ORB (Object Request Broker)
+- Arquitectura compleja
+- Ventajas
+	- Diseño flexible(yo defino las clases que yo quiera)
+	- Facil agregar objetos
+	- Configuración dinámica
+	- Escalabilidad, mantenibilidad
+- Desventajas
+	- Compleja construcción
+	- Bajo rendimiento
+## Arquitectura Cloud
+- Externalización de servicios computacionales
+	- Infraestructura - IaaS
+	- Plataforma - PaaS
+	- Aplicación - SaaS
+- Recursos elásticos (pay what you use)
+- Ventajas
+	- Servicios ubicuos
+	- Reducción de costos
+	- Disponibilidad, escalabilidad, elasticidad
+	- Flexibilidad, movilidad
+- Desventajas
+	- Dependencia de ente externo
+		- Seguridad
+		- Confidencialidad
+		- Conectividad
+## Fase 2: Modelo de Control
+- Control del flujo entre componentes
+- Control Centralizado:
+	- Un componente controla la ejecucion del sistema
+	- Modelo Call-Return
+		- Simple 
+		- Predecible
+		- Rigido
+		- Testeable
+		- Bloqueante
+		- Complejo manejo de excepc
+- Control Basado en Eventos
