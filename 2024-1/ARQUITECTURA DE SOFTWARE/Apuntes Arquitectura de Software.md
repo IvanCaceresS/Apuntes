@@ -299,7 +299,7 @@ SI ENTRA HASTA AQUI
 		- Seguridad
 		- Confidencialidad
 		- Conectividad
-## Fase 2: Modelo de Control
+## **Fase 2: Modelo de Control**
 - Control del flujo entre componentes
 - Control Centralizado:
 	- Un componente controla la ejecucion del sistema
@@ -309,5 +309,26 @@ SI ENTRA HASTA AQUI
 		- Rigido
 		- Testeable
 		- Bloqueante
-		- Complejo manejo de excepc
+		- Complejo manejo de excepciones
+	- Modelo Administrador
+		- No bloqueante
+		- Coordinación de procesos
+		- Lógica centralizada
+		- Posible cuello de botella
 - Control Basado en Eventos
+	- Control descentralizado
+	- Control no bloqueante
+	- Manejan eventos generados externamente
+		- Transmisión Múltiple (Broadcast)
+		- Manejador de Interrupciones
+	- Usan modelo Publicador-Suscriptor
+		- Componentes distribuidos
+			- Publican servicios
+			- Gatillan eventos
+			- Suscriben eventos
+	- Manejo de Interrupciones
+		- Sistemas en tiempo de real
+		- Manejador para cada tipo de interrupción
+		- Respuesta inmediata
+		- No bloqueante
+		- Procesamiento paralelo
