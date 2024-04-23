@@ -332,3 +332,31 @@ SI ENTRA HASTA AQUI
 		- Respuesta inmediata
 		- No bloqueante
 		- Procesamiento paralelo
+## **Fase 3: Descomposición Modular**
+- Componentes divididos en módulos
+- Posibilita visualizar 
+### Modelo de Objetos
+- Conjunto de clases bien definidas
+- Identifica atributos y métodos
+- Objetos creados a partir de las clases
+- Coordinación de operaciones entre objetos
+### Modelo de Flujo de Datos
+- Descomposición en procesos funcionales
+- Transformación de entradas en salidas
+- Dependencia entre procesos
+- Flujo predeterminado
+- Adecuado para procesos batch
+---
+			FIN DE ARQUITECTURAS GENÉRICAS
+--
+# 23-04-24
+## Arquitecturas de Dominio Específico
+- Modelos específicos para algún dominio
+- Arquitecturas genéricas
+	- Generalización de sistemas reales
+	- Análisis de sistemas existentes
+- Arquitecturas de referencia
+	- Idealización de una arquitectura específica
+	- Estudio del dominio de una aplicación
+	- Estándar de facto en su dominio
+- Diferencia entre estas arquitecturas: La generica dice, esta es la arquitectura, implementala.. la deja lista. La de referencia es similar pero no es aplicable a la realidad, es lo que deberias tener pero no necesariamente lo tendrás, ejemplo de arquitectura de referencia puede ser
