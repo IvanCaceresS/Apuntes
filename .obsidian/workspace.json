@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2da2be280a3c2cf5",
+        "id": "fb6ef58e088dfbc6",
         "type": "tabs",
         "children": [
           {
-            "id": "ba6f4e2648a54bba",
+            "id": "95c392c3eccb1356",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,8 +138,10 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "ba6f4e2648a54bba",
+  "active": "95c392c3eccb1356",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 6 GO 01-2024.pdf",
     "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 2 Gestión Organizacional.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 1 Gestión Organizacional.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
@@ -152,7 +154,6 @@
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Apuntes Ayudantías.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/14 Principios de la Administración.jpg",
     "Sin título.md",
-    "conflict-files-obsidian-git.md",
     "2024-1/INTELIGENCIA DE NEGOCIOS/Proyecto 1 Power BI.md",
     "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 1.md",
     "2024-1/INTELIGENCIA DE NEGOCIOS/Pasted image 20240404175627.png",
@@ -173,7 +174,6 @@
     "2024-1/DATA SCIENCE/18-03-24.md",
     "2024-1/DATA SCIENCE/14-03-24.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/RED ADM ESCUELA CLASICA primera clase.doc",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Sin título",
-    "2024-1/DATA SCIENCE/Clase 3.pptx"
+    "2024-1/GESTIÓN ORGANIZACIONAL/Sin título"
   ]
 }

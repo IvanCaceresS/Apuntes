@@ -150,3 +150,213 @@ Analice el siguiente parrafo indicando y corrigiendo los errors:
 			- Bus
 			- Servicios
 	- Arquitectura Cloud
+
+# 12-04-24
+## Arquitectura SOA
+**Ejercicio -SOA**:
+Un banco requiere un sistema para manejar las cuentas corrientes de sus clientes el que debe comtemplar las siguientes operaciones:
+- Consulta del saldo de una cuenta
+- Deposito en una cuenta
+- Giro desde una cuenta
+- Transferencia entre cuentas
+Se pide definir este sistema utilizando la arquitectura SOA.
+
+1. Paso 1: Identificar los servicios. Por lo menos son 4 servicios, ya que se puede incluir un servicio de base de datos(este servicio se conecta directamente a la base de datos) o servicios que son utilizados por los 4 servicios principales (recordar que si un servicio quiere solicitar a otro servicio debe pasar por el Bus)
+	1. Servicio de transferencias
+	2. Servicio de Giros
+	3. Servicio de Depósitos
+	4. Servicio de consulta saldo
+2. Paso 2: Definir las transacciones que se procesarán cada uno de los servicios:
+	1. Servicio de consulta de saldos:
+		1. INPUT
+			1. COSAL
+			2. Cuenta destino
+		2. OUTPUT
+			1. COSAL
+			2. Monto Saldo
+			3. Resultado Consulta Saldo
+	2. Servicio de Depositos
+		1. INPUT
+			1. DEPOS
+			2. Cuenta Origen
+			3. Monto
+		2. OUTPUT
+			1. DEPOS
+			2. Monto Nuevo Saldo
+			3. Resultado Deposito
+	3. Servicio de giros: debe hacer uso del servicio de consulta de saldo mediante el bus para saber si es posible hacer un giro, luego realiza el giro
+	4. Servicio de transferencias: Debe realizar un giro y el giro a su vez debe hacer una consulta de saldo y luego debe hacer un deposito y para esto debe hacer uso del servicio de deposito todo esto mediante el bus
+		1. INPUT:
+			1. TRANS
+			2. Cuenta Origen
+			3. Cuenta Destino
+			4. Monto a Transferir
+		2. OUTPUT:
+			1. TRANS
+			2. Monto Nuevo Saldo Cuenta Origen
+			3. Resultado Transferencia
+3. Paso 3: Especificar las interacciones entre los servicios
+	1. Servicio de giros
+		1. Servicio de consulta de saldos
+	2. Servicio de deposito
+		1. Servicio de consulta de saldos
+	3. Servicio de transferencias
+		1. Servicio de consulta de saldos
+		2. Servicio de giros
+		3. Servicio de depositos
+4. Paso 4: Definir el modelo de datos
+5. Paso 5: Especificar el funcionamiento de cada servicio
+6. Paso 6: Definir la interfaz de usuario
+7. Pasos siguientes: Codificar, Probar, etc.
+
+
+# 16-04-24
+## Revisión Control 1
+1.  **Explique que se debe considerar en el proceso de seleccion de una arquitectura de software para diseñar un sistema.**
+	R: Restricciones (del negocio, tecnicas), ambiente, requerimientos(funcionales y no funcionales)
+2. **Priorice las tres competencias mas importantes que debe tener un arquitecto de software y explique los motivos que lo llevaron a dicha priorizacion.**
+	R: 1. Buen diseño. 2.Buena comunicacion con cliente y equipo de trabajo. 3. Conocimiento de tecnologías actuales.
+3. **A usted le han solicitado el desarrollo urgente de un sistema que tiene 8 requerimientos funcionales y cuya primera versión, con el 25% de los requerimientos funcionales implementados, debe estar operativa en dos semanas. Luego, tiene 4 semanas para finalizar la implementacion de los restantes. En este contexto, analice 3 requeriminetos no funcionales que no deberian ser considerados en el sistema porque le pueden retrasar y, por lo tanto, no cumplir con el plazo requerido.**
+	R: Seguridad, Confiabilidad, Verificabilidad
+4. Analice el siguiente párrafo indicando y corrigiendo los errores.
+	1. **El objetivo del requerimiento no funcional de Verificabilidad es como su nombre lo indica, verificar que el sistema este operativo el mayor tiempo posible.** FALSO,esto es confiabilidad
+	2. **Para lograr este objetivo, el arquitecto de software tuvo que incluir en el sistema un conjunto de procesos cuya misión es generar una traza de cada una de las transacciones procesadas de manera de ayudar a diagnosticar los posibles errores.** FALSO, esto es Soportabilidad
+	3. **Utilizando esa información, el sistema tuvo que pasar por un proceso de verificacion de todas sus funcionalidades de manera de detectar y corregir posibles errores previo al proceso de puesta en producción.** FALSO, porque aqui se habla de QA, no tiene que ver con ningun requerimiento no funcional.
+
+## Continuando con SOA
+### Bus de servicios
+- Punto focal de la arquitectura SOA
+- Gestiona las transacciones que recibe
+- Administra los clientes y servicios conectados
+- Redirige las transacciones de los clientes hacia los servicios que van a procesarlas
+- Retorna a los clientes correspondientes las transacciones de respuesta de los servicios
+- Su ubicacion fisica es un contenedor docker y acepta conexiones en el puerto 5000
+### Estructuras de transacciones
+- TX-in - Transacción de requerimiento: 
+	- Largo: cuantos caracteres vienen a continuación (5 caracteres)
+	- Servi: Identificacion del servicio requerido (5 caracteres)
+	- Datos: datos enviados al servicio para el procesamiento del req.
+	- ej:
+
+| 00017 | HOLAS | HOLA MUNDO!! |
+| ----- | ----- | ------------ |
+- TX-out - Transacción de respuesta del servicio
+	- Largo: cuantos caracteres vienen a continuación (5 caracteres)
+	- Servi: Identificacion del servicio que responde (5 caracteres)
+	- Datos: datos con el resultado del proceso del req. recibido
+
+- TX-out - Transacción de respuesta del bus
+	- Largo: cuantos caracteres vienen a continuación (5 caracteres)
+	- Servi: Identificacion del servicio que genera la transaccion (5 caracteres)
+	- ST: Status de la transacción(OK:correcta O NK:erronea)
+	- Datos: datos con el resultado del proceso del req. recibido
+
+### Servicio
+- Proceso que implementa una o mas funcionalidades
+- Se conecta al bus y se identifica como servicio, usando la transaccion sinit
+- Queda activo en espera de transacciones
+SI ENTRA HASTA AQUI
+
+# 19-04-24
+## Modelo de capas
+- Conjunto de capas de software que ofrecen servicios específicos
+- Cada capa tiene una interfaz claramente definida
+- Desarrollo independiente de las capas
+- Ventajas:
+	- Desarrollo incremental
+	- Flexible
+	- Mantenible
+- Desventajas
+	- Díficil estructuración
+	- Dependencias cruzadas
+	- Baja performance
+## Objetos distribuidos
+- Cada componente (objeto) define los datos y metodos que pueden ser invocados
+- Cada objeto puede proveer y recibir servicios
+- Objetos se comunican a través del sistea ORB (Object Request Broker)
+- Arquitectura compleja
+- Ventajas
+	- Diseño flexible(yo defino las clases que yo quiera)
+	- Facil agregar objetos
+	- Configuración dinámica
+	- Escalabilidad, mantenibilidad
+- Desventajas
+	- Compleja construcción
+	- Bajo rendimiento
+## Arquitectura Cloud
+- Externalización de servicios computacionales
+	- Infraestructura - IaaS
+	- Plataforma - PaaS
+	- Aplicación - SaaS
+- Recursos elásticos (pay what you use)
+- Ventajas
+	- Servicios ubicuos
+	- Reducción de costos
+	- Disponibilidad, escalabilidad, elasticidad
+	- Flexibilidad, movilidad
+- Desventajas
+	- Dependencia de ente externo
+		- Seguridad
+		- Confidencialidad
+		- Conectividad
+## **Fase 2: Modelo de Control**
+- Control del flujo entre componentes
+- Control Centralizado:
+	- Un componente controla la ejecucion del sistema
+	- Modelo Call-Return
+		- Simple 
+		- Predecible
+		- Rigido
+		- Testeable
+		- Bloqueante
+		- Complejo manejo de excepciones
+	- Modelo Administrador
+		- No bloqueante
+		- Coordinación de procesos
+		- Lógica centralizada
+		- Posible cuello de botella
+- Control Basado en Eventos
+	- Control descentralizado
+	- Control no bloqueante
+	- Manejan eventos generados externamente
+		- Transmisión Múltiple (Broadcast)
+		- Manejador de Interrupciones
+	- Usan modelo Publicador-Suscriptor
+		- Componentes distribuidos
+			- Publican servicios
+			- Gatillan eventos
+			- Suscriben eventos
+	- Manejo de Interrupciones
+		- Sistemas en tiempo de real
+		- Manejador para cada tipo de interrupción
+		- Respuesta inmediata
+		- No bloqueante
+		- Procesamiento paralelo
+## **Fase 3: Descomposición Modular**
+- Componentes divididos en módulos
+- Posibilita visualizar 
+### Modelo de Objetos
+- Conjunto de clases bien definidas
+- Identifica atributos y métodos
+- Objetos creados a partir de las clases
+- Coordinación de operaciones entre objetos
+### Modelo de Flujo de Datos
+- Descomposición en procesos funcionales
+- Transformación de entradas en salidas
+- Dependencia entre procesos
+- Flujo predeterminado
+- Adecuado para procesos batch
+---
+			FIN DE ARQUITECTURAS GENÉRICAS
+--
+# 23-04-24
+## Arquitecturas de Dominio Específico
+- Modelos específicos para algún dominio
+- Arquitecturas genéricas
+	- Generalización de sistemas reales
+	- Análisis de sistemas existentes
+- Arquitecturas de referencia
+	- Idealización de una arquitectura específica
+	- Estudio del dominio de una aplicación
+	- Estándar de facto en su dominio
+- Diferencia entre estas arquitecturas: La generica dice, esta es la arquitectura, implementala.. la deja lista. La de referencia es similar pero no es aplicable a la realidad, es lo que deberias tener pero no necesariamente lo tendrás, ejemplo de arquitectura de referencia puede ser
