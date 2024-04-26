@@ -269,7 +269,7 @@ Matriz igual tiene conclusión, establecer estrategia que debe seguir la empresa
 | - Aumento en el flujo de visitantes. | - Expansión y atractivo para nuevas marcas. |
 | - Mejora de la oferta comercial.     |                                             |
 
-|**Debilidades**|**Amenazas**|
-|---|---|
-|- Incremento en costos y gastos.|- Tendencia creciente hacia el comercio electrónico.|
-|- Desafíos en la rentabilidad.|- Impactos de la inflación y devaluaciones.|
+| **Debilidades**                  | **Amenazas**                                         |
+| -------------------------------- | ---------------------------------------------------- |
+| - Incremento en costos y gastos. | - Tendencia creciente hacia el comercio electrónico. |
+| - Desafíos en la rentabilidad.   | - Impactos de la inflación y devaluaciones.          |
