@@ -378,7 +378,7 @@ El grupo/unidad de personal en una empresa, es la que se dedica al ciclo de vida
 - **Obtención**: cada unidad que necesite un perfil de cargo,va a tener que describir lo que yo quiero que la persona sepa, o que va a hacer. **ej:** quiero un ing. civil informatico con 3 años de experiencia porque quiero que sea el jefe del area.
 	1. Rol: La unidad de personal no realiza la descripcion del cargo requerido, lo debe hacer alguien del area, alguien que sepa.
 	2. Reclutamiento: esto si lo realiza la unidad de personal
-	3. Seleccion: se realzian entrevistas y el ultimo entrevistado es entrevistado por el encargado del area en cuestion
+	3. Seleccion: se realizan entrevistas y el ultimo entrevistado es entrevistado por el encargado del area en cuestion
 	4. Inducción: se realiza la induccion a ese ultimo entrevistado
 - **Mantención y Desarrollo:**
 	1. Evaluacion de desempeño
