@@ -372,7 +372,6 @@ Jueves por correo a ximena.geoffroy@udp.cl , empresa datos, mision vision y todo
 - **Políticas de inclusión:** Roles de mujeres en empresa, inclusión de personas con discapacidad.
 - **Estructura:**
 - **Cultura:** Personalidad de la empresa, comportamiento organizacional. Cualquier cambio en la cultura cambia los paradigmas.
-
 ## Personal
 El grupo/unidad de personal en una empresa, es la que se dedica al ciclo de vida del personal. 
 - **Obtención**: cada unidad que necesite un perfil de cargo,va a tener que describir lo que yo quiero que la persona sepa, o que va a hacer. **ej:** quiero un ing. civil informatico con 3 años de experiencia porque quiero que sea el jefe del area.
