@@ -367,7 +367,7 @@ Jueves por correo a ximena.geoffroy@udp.cl , empresa datos, mision vision y todo
 # 16-04-24
 ## Rol de la empresa moderna
 - **Competitividad:** 
-- **Empleabilidad:** Voluntad, habiliadad y capacidad de las personas para mantenerse vigentes tecnica y conductualmente, y ser considerando en el mercado laboral.
+- **Empleabilidad:** Voluntad, habilidad y capacidad de las personas para mantenerse vigentes tecnica y conductualmente, y ser considerando en el mercado laboral.
 - **Calidad de vida:** 
 - **Políticas de inclusión:** Roles de mujeres en empresa, inclusión de personas con discapacidad.
 - **Estructura:**
