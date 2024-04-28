@@ -96,11 +96,10 @@ Los requerimientos no funcionales son esenciales para garantizar la calidad, efi
 8. **Verificabilidad**: Capacidad del sistema para incorporar elementos o mecanismos que no solo permitan su evaluación a través de pruebas, sino también faciliten la autocorrección y la prevención de errores antes de que estos afecten al usuario o al funcionamiento del sistema
 	1. Testeable: Indica cuán fácilmente se puede comprobar un sistema para asegurar que cumple con los requisitos definidos. Un sistema testeable facilita la identificación y corrección de errores, permitiendo pruebas eficientes de sus componentes individuales y de su funcionamiento global. Ejemplo: Una aplicación web de comercio electrónico estructurada para permitir pruebas automatizadas de su función de búsqueda y proceso de pago, garantizando que los usuarios puedan buscar productos y completar compras sin errores tras cada actualización.
 9. **Soportabilidad**: Capacidad para diagnosticar, reportar y corregir errores encontrados en el sistema.
-
 	- **Diagnóstico y Corrección de incidencias**: Herramientas y procedimientos para identificar y solucionar problemas. Ejemplo: Un sistema operativo que proporciona herramientas de diagnóstico y parches regulares para corregir vulnerabilidades y errores.
 # Arquitecturas de software genéricas
  - **Modelo de repositorio**: Ocurre cuando hay grandes cantidades de datos que deben ser compartidos
-		 - Gestion centralizada de datos
+	- Gestion centralizada de datos
 		 - Almacenamiento centralizado / distribuido
 		 - Modelo pasivo: A petición del usuario se verifica si existió un cambio o nueva publicación en el repositorio
 		 - Modelo proactivo: Avisa a los usuarios interesados a con los datos que existió un cambio o nueva publicación en el repositorio
