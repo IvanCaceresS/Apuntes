@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d00840fb5f50beb5",
+        "id": "01501e4a6965cb1d",
         "type": "tabs",
         "children": [
           {
-            "id": "85000fda0e33eb42",
+            "id": "132990c1713b3ca9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
+                "file": "2024-1/INTELIGENCIA DE NEGOCIOS/Proyecto 1 Power BI.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
+                "file": "2024-1/INTELIGENCIA DE NEGOCIOS/Proyecto 1 Power BI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
+                "file": "2024-1/INTELIGENCIA DE NEGOCIOS/Proyecto 1 Power BI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md"
+                "file": "2024-1/INTELIGENCIA DE NEGOCIOS/Proyecto 1 Power BI.md"
               }
             }
           }
@@ -146,35 +146,36 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "85000fda0e33eb42",
+  "active": "132990c1713b3ca9",
   "lastOpenFiles": [
+    "2024-1/INTELIGENCIA DE NEGOCIOS/Pasted image 20240404175627.png",
+    "2024-1/INTELIGENCIA DE NEGOCIOS/Apuntes Inteligencia de negocios.md",
+    "2024-1/INTELIGENCIA DE NEGOCIOS/Proyecto 1 Power BI.md",
     "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Solemne 1.md",
     "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md",
-    "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Ayudantía.md",
     "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 1.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 6 GO 01-2024.pdf",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 1 GO 01-2024.pdf",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 1 Gestión Organizacional.md",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Texto 19-03-24.jpeg",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Texto 15-03-24.jpeg",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 2 Gestión Organizacional.md",
+    "Sin título.canvas",
+    "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Ayudantía.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 5 GO 01-2024.pdf",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 4 GO 01-2024.pdf",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 3 GO 01-2024.pdf",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 2 GO 01-2024.pdf",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 1 GO 01-2024.pdf",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Apuntes Ayudantías.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/14 Principios de la Administración.jpg",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 2 Gestión Organizacional.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 1 Gestión Organizacional.md",
     "conflict-files-obsidian-git.md",
     "2024-1/Horario.png",
-    "2024-1/INTELIGENCIA DE NEGOCIOS/Apuntes Inteligencia de negocios.md",
     "Sin título.md",
-    "2024-1/INTELIGENCIA DE NEGOCIOS/Proyecto 1 Power BI.md",
-    "2024-1/INTELIGENCIA DE NEGOCIOS/Pasted image 20240404175627.png",
     "Pasted image 20240404175627.png",
     "2024-04-04.md",
     "2024-1/DATA SCIENCE/Apuntes Data Science.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantía 2 GO 01-2024.pdf",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Texto 19-03-24.jpeg",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Texto 15-03-24.jpeg",
     "2024-1/GESTIÓN ORGANIZACIONAL/Texto 19-03-24.jpeg.~tmp",
     "2024-1/INTERNET DE LAS COSAS/12-03-24.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/15-03-24.md",
