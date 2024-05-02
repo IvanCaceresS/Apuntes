@@ -108,22 +108,62 @@
 
 ### 5. **Distribución Geográfica de Pedidos**
 
-**Objetivo**: Visualizar dónde se realizan y envían más pedidos.
+**Objetivo**: Visualizar la distribución y concentración de pedidos para identificar áreas de alta demanda y eficiencia logística.
 
 **Datos Utilizados**: Ciudad, Estado, País, Ventas, Cantidad.
 
-**Visualizaciones**:
+**Visualizaciones Propuestas**:
 
-- **Mapa con Burbujas (Mapas)**:
-    - **Descripción**: Muestra la ubicación y el volumen de pedidos, con burbujas de tamaño variable según la cantidad de ventas.
-
+1. **Mapa de Calor**:
+    
+    - **Descripción**: En lugar de utilizar un mapa con burbujas, opta por un mapa de calor que muestre la concentración de pedidos por área. Esto puede ayudar a identificar 'puntos calientes' donde hay una alta densidad de pedidos.
+    - **Datos Mostrados**: Utiliza la densidad o el número de pedidos en cada área para determinar la intensidad del color en el mapa de calor.
+2. **Gráfico de Columnas con Detalle Geográfico**:
+    
+    - **Descripción**: Complementa el mapa con un gráfico de columnas que muestra las ventas y la cantidad de pedidos por las principales ciudades o estados. Esto permitirá comparaciones directas de rendimiento entre diferentes ubicaciones.
+    - **Datos Mostrados**: Ventas y cantidad por ciudad o estado, mostrando las comparaciones lado a lado.
+3. **Gráfico de Área Apilada**:
+    
+    - **Descripción**: Utiliza un gráfico de área apilada para mostrar las tendencias de pedidos a lo largo del tiempo por región. Esto puede ayudar a identificar tendencias estacionales o crecimiento en áreas específicas.
+    - **Datos Mostrados**: Cantidad de pedidos por período (mes, trimestre) apilados por región.
 ### 6. **Desempeño de Productos**
 
-**Objetivo**: Evaluar el rendimiento de diferentes productos y categorías. **Datos Utilizados**: Categoría, Subcategoría, Nombre del Producto, Ventas, Descuento, Ganancia. **Visualizaciones**:
+**Objetivo**: Evaluar el rendimiento de diferentes productos y categorías, analizando las ventas, ganancias y descuentos aplicados.
 
-- **Gráfico de Torta** (Gráficos): Ventas por subcategoría de productos.
-- **Gráfico de Columnas Apiladas** (Gráficos): Descuento medio y ganancia por categoría de producto.
-- **Tarjeta Múltiple** (Tarjeta múltiple): Para datos como precio promedio y tasa de retorno de cada categoría.
+**Datos Utilizados**: Categoría, Subcategoría, Nombre del Producto, Ventas, Cantidad, Descuento, Ganancia.
+
+**Visualizaciones**:
+
+1. **Gráfico de Barras Apiladas**:
+    
+    - **Descripción**: Analiza las ventas y ganancias por categoría de producto.
+    - **Campos**:
+        - **Eje (Axis)**: `Categoría`
+        - **Valores (Values)**: `Ventas` y `Ganancia`
+        - **Leyenda (Legend)**: Diferenciar entre `Ventas` y `Ganancia`
+    - **Interactividad**: Permite hacer clic en las categorías para ver un desglose detallado en las subcategorías.
+2. **Gráfico Circular para Análisis de Descuentos**:
+    
+    - **Descripción**: Muestra el porcentaje de descuentos aplicados por categoría de producto.
+    - **Campos**:
+        - **Detalles (Details)**: `Categoría`
+        - **Valores (Values)**: Suma de `Descuento`
+    - **Configuración**: Usa diferentes colores para representar las distintas categorías, lo que permite una visualización clara de qué categorías tienen descuentos más agresivos.
+3. **Gráfico de Área Apilada**:
+    
+    - **Descripción**: Visualiza la cantidad de unidades vendidas por categoría de producto a lo largo del tiempo.
+    - **Campos**:
+        - **Eje X (Axis)**: `Fecha de Pedido`
+        - **Valores (Values)**: `Cantidad`
+        - **Leyenda (Legend)**: `Categoría`
+    - **Configuración**: Esto permitirá visualizar tendencias de ventas a lo largo del tiempo para cada categoría, proporcionando una perspectiva sobre la estacionalidad o cualquier cambio en las preferencias de compra.
+4. **Tarjeta Múltiple**:
+    
+    - **Descripción**: Proporciona métricas clave como el precio promedio por unidad y la ganancia promedio por venta.
+    - **Campos**:
+        - **Precio Promedio por Unidad**: `Average Unit Price = SUM(Ventas) / SUM(Cantidad)`
+        - **Ganancia Promedio por Venta**: `Average Profit per Sale = SUM(Ganancia) / COUNT(ID de Pedido)`
+    - **Configuración**: Mostrar estos cálculos en una tarjeta múltiple para proporcionar una rápida referencia de la rentabilidad y el valor de los productos vendidos.
 
 ### 7. **Eficiencia de Envío y Prioridades**
 
