@@ -53,3 +53,4 @@ Cada pregunta en una hoja.
 7. explicar y ejemplo de etl. Puede ser larga. Un esquema explicando el paso a paso.
 8. crear nueva medida, sameperiodlastyear. Probar instruccion en powerBI. 
 9. minería de datos: son los que hacen predicción , encontrar patron de comportamiento. Sale en las ppt, dice que está en una ppt.
+hola

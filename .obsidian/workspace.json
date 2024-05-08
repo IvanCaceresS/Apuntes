@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "01501e4a6965cb1d",
+        "id": "48c0d0012259dd0a",
         "type": "tabs",
         "children": [
           {
-            "id": "132990c1713b3ca9",
+            "id": "4e243e464f4ddec3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-1/INTELIGENCIA DE NEGOCIOS/Proyecto 1 Power BI.md",
+                "file": "2024-1/INTELIGENCIA DE NEGOCIOS/Apuntes Inteligencia de negocios.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-1/INTELIGENCIA DE NEGOCIOS/Proyecto 1 Power BI.md",
+                "file": "2024-1/INTELIGENCIA DE NEGOCIOS/Apuntes Inteligencia de negocios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-1/INTELIGENCIA DE NEGOCIOS/Proyecto 1 Power BI.md",
+                "file": "2024-1/INTELIGENCIA DE NEGOCIOS/Apuntes Inteligencia de negocios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-1/INTELIGENCIA DE NEGOCIOS/Proyecto 1 Power BI.md"
+                "file": "2024-1/INTELIGENCIA DE NEGOCIOS/Apuntes Inteligencia de negocios.md"
               }
             }
           }
@@ -146,11 +146,12 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "132990c1713b3ca9",
+  "active": "4e243e464f4ddec3",
   "lastOpenFiles": [
-    "2024-1/INTELIGENCIA DE NEGOCIOS/Apuntes Inteligencia de negocios.md",
     "2024-1/INTELIGENCIA DE NEGOCIOS/Pasted image 20240404175627.png",
     "2024-1/INTELIGENCIA DE NEGOCIOS/Proyecto 1 Power BI.md",
+    "2024-1/INTELIGENCIA DE NEGOCIOS/Apuntes Inteligencia de negocios.md",
+    "2024-1/INTERNET DE LAS COSAS/Apuntes IoT.md",
     "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Solemne 1.md",
     "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md",
     "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 1.md",
