@@ -395,3 +395,26 @@ Liquidez = Ingresos - Deuda
 Objetivo de las finanzas: Obtención y uso de recursos.
 
 **HASTA AQUI ENTRA EN LA SOLEMNE**
+# 10-05-24
+Cuando hablo de estrategia genérica hablo de que la empresa cuando comenzó a fabricar este producto, ¿Que decisión tomó el dueño de la empresa para la fabricación del producto?
+3 Estrategias
+
+| - Liderazgo en costo. (hacemos economia de escala, significa que cada vez que hago una cosa más me sale más barato) | - Diferenciación (Está enfocada en la cálidad) | PARA TODO EL MERCADO        |
+| ------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- | --------------------------- |
+| - Enfoque en liderado en costo                                                                                      | - Enfoque en diferenciación                    | PARA UN SEGMENTO ESPECÍFICO |
+Estrategias de Crecimiento: Decision que toma la empresa para crecer
+- Estrategia Intensiva: La empresa hace una encuesta, un sondeo de area para ver como va el producto, y eso dice si el marketing está erroneo y si dice o no que el segmento está mal escogido. Por lo tanto despues de darse cuenta de ese error la estrategia dice AUMENTA EL MARKETING
+- Estrategia Integrante: Para tomar esta estrategia debe ser una empresa muy grande con mucho dinero.
+	- Estrategia Integrante al lado: le compro a la competencia
+	- Estrategia Integrante atrás: le compro al proveedor
+	- Estrategia Integrante adelante: le compro al distribuidor
+
+Matriz de Ansoff:
+
+|                | Producto Actual         | Producto Nuevo         |
+| -------------- | ----------------------- | ---------------------- |
+| Mercado Actual | Intensiva (Penetración) | Desarrollo de producto |
+| Mercado Nuevo  | Desarrollo de mercado   | Diversificación        |
+
+Ciclo de vida de un producto
+![[Pasted image 20240510123824.png]]

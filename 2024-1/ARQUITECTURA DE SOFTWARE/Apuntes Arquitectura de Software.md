@@ -359,4 +359,5 @@ SI ENTRA HASTA AQUI
 	- Idealización de una arquitectura específica
 	- Estudio del dominio de una aplicación
 	- Estándar de facto en su dominio
-- Diferencia entre estas arquitecturas: La generica dice, esta es la arquitectura, implementala.. la deja lista. La de referencia es similar pero no es aplicable a la realidad, es lo que deberias tener pero no necesariamente lo tendrás, ejemplo de arquitectura de referencia puede ser
+- Diferencia entre estas arquitecturas: La generica dice, esta es la arquitectura, implementala.. la deja lista. La de referencia es similar pero no es aplicable a la realidad, es lo que deberias tener pero no necesariamente lo tendrás, ejemplo de arquitectura de referencia puede ser.
+
