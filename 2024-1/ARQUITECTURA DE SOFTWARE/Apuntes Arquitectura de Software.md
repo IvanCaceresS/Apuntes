@@ -361,3 +361,39 @@ SI ENTRA HASTA AQUI
 	- Estándar de facto en su dominio
 - Diferencia entre estas arquitecturas: La generica dice, esta es la arquitectura, implementala.. la deja lista. La de referencia es similar pero no es aplicable a la realidad, es lo que deberias tener pero no necesariamente lo tendrás, ejemplo de arquitectura de referencia puede ser.
 
+# 10-05-24
+## Patrones de arquitectura
+- Solución de diseño a un problema
+- Características
+	- Esquema genérico
+	- Probado
+	- Recurrente
+- Especificación
+	- Componentes
+	- Responsabilidades
+	- Relaciones
+#### Descripción de un Patrón
+- Nombre del patrón
+- Contexto
+	- Situacion que origina el problema
+- Problema (Requerimiento)
+	- Descripción genérica del problema
+	- Define lo que se debe resolver
+	- Fuerzas presentes en el contexto
+		- Propiedades
+		- Requisitos (funcionales y no funcionales)
+		- Restricciones
+- Solución
+	- Esquema de solución del problema
+	- Balance de fuerzas
+	- Estructura
+		- Componentes
+		- Relaciones
+	- Comportamiento
+		- Organización de componentes
+	- Priorización de fuerzas
+#### Patrones simples
+- Capas
+- Tubos y filtros
+- Pizarrón
+- Repositorio
