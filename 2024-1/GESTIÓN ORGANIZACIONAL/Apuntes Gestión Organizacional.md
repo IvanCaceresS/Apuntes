@@ -396,7 +396,7 @@ Objetivo de las finanzas: Obtención y uso de recursos.
 
 **HASTA AQUI ENTRA EN LA SOLEMNE**
 # 10-05-24
-Cuando hablo de estrategia genérica hablo de que la empresa cuando comenzó a fabricar este producto, ¿Que decisión tomó el dueño de la empresa para la fabricación del producto?
+Cuando hablo de estrategia genérica hablo de cuando la empresa comenzó a fabricar eL producto, ¿Que decisión tomó el dueño de la empresa para la fabricación del producto?
 3 Estrategias
 
 | - Liderazgo en costo. (hacemos economia de escala, significa que cada vez que hago una cosa más me sale más barato) | - Diferenciación (Está enfocada en la cálidad) | PARA TODO EL MERCADO        |
@@ -409,7 +409,7 @@ Estrategias de Crecimiento: Decision que toma la empresa para crecer
 	- Estrategia Integrante atrás: le compro al proveedor
 	- Estrategia Integrante adelante: le compro al distribuidor
 
-Matriz de Ansoff:
+Matriz de Ansoff: Aumenta la cantidad de estrategias de crecimiento en 2 más
 
 |                | Producto Actual         | Producto Nuevo         |
 | -------------- | ----------------------- | ---------------------- |
@@ -418,3 +418,31 @@ Matriz de Ansoff:
 
 Ciclo de vida de un producto
 ![[Pasted image 20240510123824.png]]
+
+# 14-05-24
+## 5 Fuerzas de Porter
+Para ver el atractivo de la industia, la empresa hace eso en 2 momentos:
+- Ver su posición de la empresa en la industria.
+- Cuando está evaluando el atractivo de la industria para entrar.
+Nunca habla de la empresa.
+--- 
+Ejemplo:
+*Industria:* Retail.
+*Ciclo de vida:* Madurez.
+![[Pasted image 20240514114925.png]]
+1. **Amenaza nuevos entrantes:** La industria que está en madurez lo que implica que ha desarrollado barreras, lo que me de da un riesgo bajo lo que implica una rentabilidad esperada alta.
+	1. Barreras de entrada: Capital, tecnología, Contratos a futuro, mano de obra calificada. 
+2. **Peligro Alianza Proveedores:** En esta industria los proveedores son fragmentados, lo que me da un riesgo bajo y una restabilidad esperada alta.
+3. **Peligro Alianza Clientes:** En esta industria losclioentes son fragmentados lo que me da un riesgo bajo y rentabilidad esperada alta
+4. **Sustitutos:** Algo que reemplaza la satisfacción de la necesidad a un precio igual o menor. Existen muchos sustitos pero el poder de sustitución es bajo.
+5. **Rivalidad de la Industria:** La industria al estar en madurez implica que ya no es muy atractiva por las barreras de entrada que posee y a competencia adentro de ella es feroz, lo cual le da un riesgo alto y una rentabilidad esperada baja. 
+
+Cada Fuerza se analiza de acuerdo a:
+
+|                                | Riesgo | Rentabilidad (Atractivo) |
+| ------------------------------ | ------ | ------------------------ |
+| 1. Amenaza nuevos entrantes    |        |                          |
+| 2. Peligro Alianza Proveedores |        |                          |
+| 3. Peligro Alianza Clientes    |        |                          |
+| 4. Sustitutos                  |        |                          |
+| 5. Rivalidad de la Industria   |        |                          |
