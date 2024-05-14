@@ -446,4 +446,4 @@ Cada Fuerza se analiza de acuerdo a:
 | 3. Peligro Alianza Clientes    | bajo   | alta                     |
 | 4. Sustitutos                  | bajo   | alta                     |
 | 5. Rivalidad de la Industria   | alto   | baja                     |
-Conclusión: La industria es muy atractiva pero  para los que están adentro ya, los que quieren entrar son destruidos.
+Conclusión: La industria es muy atractiva pero para los que están adentro ya, los que quieren entrar son destruidos.

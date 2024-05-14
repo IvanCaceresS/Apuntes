@@ -392,8 +392,48 @@ SI ENTRA HASTA AQUI
 	- Comportamiento
 		- Organización de componentes
 	- Priorización de fuerzas
-#### Patrones simples
+# 14-05-24
+#### Clasificación de patrones
+##### Patrones simples
 - Capas
+	- Estructura aplicaciones descomponiendolas en tareas con diferentes niveles de abstracción
+	- **Contexto**: Sistemas estructurados con diversos niveles de acción
+	- **Requerimiento**: Organización inadecuada genera problemas de escalabilidad y mantenibilidad.
+	- **Solución**: Estructuración en esquema multi-capa
+		- Capa base con nivel de abstracción más bajo
+		- Avanzar capa a capa utilizando los servicios de la capa inmediatamente anterior.
+		- Componentes estructurados en módulos relacionados
+		- Características:
+			- La capa K se relaciona solamente con la capa K-1.
+			- No hay otras dependencias entre capas.
+			- Cada capa puede estar integrada por distintos componentes.
+			- Los componentes pueden interactuar entre sí, pero quedan acoplados.
+			- Cada capa expone una interfaz con los servicios que provee.
+			- El comportamiento puede ser top-down o bottom-up.
+		- Implementación:
+			- Determinar el número de capas según el nivel de abstracción requerido.
+			- Asignar responsabilidades a cada capa.
+			- Especificar los servicios ofrecidos por cada capa.
+			- Definir la estructura de cada capa.
+			- Especificar la interfaz de cada capa.
+			- Especificar el método de comunicación intercapas.
+			- Definir el esquema para el manejo de errores.
+	- Ejercicio
+		- Un banco requiere un sistema para manejar las cuentas corrientes de sus clientes. Especificamente requiere las siguientes operaciones:
+			- Consulta del saldo de una cuenta
+			- Deposito en una cuenta
+			- Giro desde una cuenta
+			- Transferencia entre cuentas
+		- Se pide definir este sistema utilizando la arquitectura de Capas
+		- Solución:
+			- Definir Capas:
+				- UI
+				- Transferencia
+				- Giro | Deposito
+				- Consulta.
+				- Datos
+			- 
 - Tubos y filtros
 - Pizarrón
 - Repositorio
+
