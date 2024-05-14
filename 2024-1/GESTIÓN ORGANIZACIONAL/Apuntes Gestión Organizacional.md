@@ -441,8 +441,9 @@ Cada Fuerza se analiza de acuerdo a:
 
 |                                | Riesgo | Rentabilidad (Atractivo) |
 | ------------------------------ | ------ | ------------------------ |
-| 1. Amenaza nuevos entrantes    |        |                          |
-| 2. Peligro Alianza Proveedores |        |                          |
-| 3. Peligro Alianza Clientes    |        |                          |
-| 4. Sustitutos                  |        |                          |
-| 5. Rivalidad de la Industria   |        |                          |
+| 1. Amenaza nuevos entrantes    | bajo   | alta                     |
+| 2. Peligro Alianza Proveedores | bajo   | alta                     |
+| 3. Peligro Alianza Clientes    | bajo   | alta                     |
+| 4. Sustitutos                  | bajo   | alta                     |
+| 5. Rivalidad de la Industria   | alto   | baja                     |
+Conclusion: La industria es muy atractiva pero  para los que están adentro ya, los que quieren entrar son destruidos.
