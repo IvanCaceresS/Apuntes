@@ -442,6 +442,8 @@ SI ENTRA HASTA AQUI
 				- Consulta.
 				- Datos
 - Tubos y filtros
+	- Estructura aplicaciones en actividades para procesar flujos de datos en que cada actividad (o transformación) es un filtro que está unido por un tubo a los filtros contiguos. 
+	- Contexto: Procesar flujos de datos.
 - Pizarrón
 - Repositorio
 
