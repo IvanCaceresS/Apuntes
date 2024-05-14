@@ -418,6 +418,15 @@ SI ENTRA HASTA AQUI
 			- Especificar la interfaz de cada capa.
 			- Especificar el método de comunicación intercapas.
 			- Definir el esquema para el manejo de errores.
+	- Analisis
+		- Ventajas:
+			- Componentes estandarizados
+			- Cambios afectan el nivel local
+			- Reutilizacion de capas/componentes
+		- Desventajas
+			- Cambios afectan en cascada
+			- Ineficiencia
+			- Complejo de definir
 	- Ejercicio
 		- Un banco requiere un sistema para manejar las cuentas corrientes de sus clientes. Especificamente requiere las siguientes operaciones:
 			- Consulta del saldo de una cuenta
@@ -432,7 +441,6 @@ SI ENTRA HASTA AQUI
 				- Giro | Deposito
 				- Consulta.
 				- Datos
-			- 
 - Tubos y filtros
 - Pizarrón
 - Repositorio
