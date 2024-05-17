@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7abda5f261ebf02a",
+        "id": "471c31b21c9aac37",
         "type": "tabs",
         "children": [
           {
-            "id": "2285c531db6a8513",
+            "id": "eab618d231f047e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md",
+                "file": "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md",
+                "file": "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md",
+                "file": "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md"
+                "file": "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md"
               }
             }
           }
@@ -146,12 +146,13 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "2285c531db6a8513",
+  "active": "eab618d231f047e5",
   "lastOpenFiles": [
+    "Pasted image 20240517121557.png",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Pasted image 20240510123824.png",
+    "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
     "Pasted image 20240514114925.png",
-    "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Pasted image 20240510123824.png",
     "Sin título.canvas",
     "Pasted image 20240510123520.png",
     "Pasted image 20240510123436.png",

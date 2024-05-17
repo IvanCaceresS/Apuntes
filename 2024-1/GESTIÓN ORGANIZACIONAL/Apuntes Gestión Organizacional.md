@@ -447,3 +447,43 @@ Cada Fuerza se analiza de acuerdo a:
 | 4. Sustitutos                  | bajo   | alta                     |
 | 5. Rivalidad de la Industria   | alto   | baja                     |
 Conclusión: La industria es muy atractiva pero para los que están adentro ya, los que quieren entrar son destruidos.
+# 17-05-24
+## Tempano Organizacional
+Lo que se vé es la organizacion formal, lo que no se vé es la organizacion informal
+- Organización formal (visible):
+	- Diseño estructural
+	- Descripción de cargo
+	- Planes
+	- Reglas
+- Organización informal (espontánea):
+	- Amistad
+	- Influencia social
+### Modelo del Diseño Organizacional
+
+- Variables situacionales:
+	- Estrategia de la Empresa
+	- Tamaño
+	- Características del entorno
+	- Control (Rangos)
+	- Tecnología
+- Características
+	- Complejidad (Grado de diferenciación horizontal, vertical y espacial de esa organización)
+	- Formalidad
+	- Centralizado y/o Descentralizado
+- Modelos Organizacionales
+	- Orgánico
+	- Mecánico
+		- Departamento
+			- Funcional
+			- X Clientes
+- Resultados
+	- Variación de Productividad
+	- Eficiencia
+	- Mayor satisfacción al cliente (cliente interno como el personal)
+
+El resultado es lo que busca la empresa en su planificación estratégica, para eso debo tener claridad en las variables situacionales. Las caracteristas del diseño
+
+*En Organigrama*
+- Lineas continuas: Actividades que tienen relacion directa con lo que se hace en la organizacion (con el giro de la empresa).
+- Lineas segmentadas: Actividades que no tienen directa relacion con la actividad o giro de la empresa.
+![[Pasted image 20240517121557.png]]
