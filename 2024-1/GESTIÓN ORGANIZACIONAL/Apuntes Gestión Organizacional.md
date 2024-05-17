@@ -484,6 +484,6 @@ Lo que se vé es la organizacion formal, lo que no se vé es la organizacion inf
 El resultado es lo que busca la empresa en su planificación estratégica, para eso debo tener claridad en las variables situacionales. Las caracteristas del diseño
 
 *En Organigrama*
-- Lineas continuas: Actividades que tienen relacion directa con lo que se hace en la organizacion (con el giro de la empresa).
-- Lineas segmentadas: Actividades que no tienen directa relacion con la actividad o giro de la empresa.
+- Lineas continuas: Actividades que tienen relacion directa con lo que se hace en la organización (con el giro de la empresa).
+- Lineas segmentadas: Actividades que no tienen directa relación con la actividad o giro de la empresa.
 ![[Pasted image 20240517121557.png]]
