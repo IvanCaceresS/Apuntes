@@ -489,6 +489,27 @@ El resultado es lo que busca la empresa en su planificación estratégica, para 
 ![[Pasted image 20240517121557.png]]
 
 # 24-05-24
-### Estilos de liderazgo
+## Estilos de liderazgo
 - Autoritario
-	- El lider es duro e impositivo. El comportamiento grupal muestra fuerte tensión, agresión, falta de iniciativa, falta de espontaneidad y falta de formación de grupos de amistad. El trabajo sólo se realiza cuando el líder esta presente fisicamente. dice SEXOOOOOOOOOOO
+	- El lider es duro e impositivo. El comportamiento grupal muestra fuerte tensión, agresión, falta de iniciativa, falta de espontaneidad y falta de formación de grupos de amistad. El trabajo sólo se realiza cuando el líder esta presente fisicamente.
+## Teoría de la motivacion e higiene
+Establece que la satisfacción en el trabajo es el resultado de la pesencia de motivadores intrínsecos y que la insatisfacción se deriva de la ausencia de factores externos,
+- Teoría de dos factores de herzberg
+	- Motivadores: tienen que ver con el trabajo que realizan los trabajadores de la empresa
+		- Sentimiento de logro
+		- Trabajo con significado
+		- Oportunidad de avanzar
+		- Reconocimiento
+		- Oportunidad de crecimiento
+	- Higiene: Tienen que ver con el entorno de trabajo
+		- Paga
+		- Estatus
+		- Condición laboral
+		- Beneficios laborales
+		- Relaciones interpersonales 
+**CONTROL N°3**
+- Estrategias Genéricas
+- Estrategias de Crecimiento
+- Ciclo de vida
+- 5 fuerzas
+- Estructura (Organizacion- Mecanica) ⇒ Departamentalización
