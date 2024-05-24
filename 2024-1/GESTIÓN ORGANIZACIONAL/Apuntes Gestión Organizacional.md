@@ -487,3 +487,8 @@ El resultado es lo que busca la empresa en su planificación estratégica, para 
 - Lineas continuas: Actividades que tienen relacion directa con lo que se hace en la organización (con el giro de la empresa).
 - Lineas segmentadas: Actividades que no tienen directa relación con la actividad o giro de la empresa.
 ![[Pasted image 20240517121557.png]]
+
+# 24-05-24
+### Estilos de liderazgo
+- Autoritario
+	- El lider es duro e impositivo. El comportamiento grupal muestra fuerte tensión, agresión, falta de iniciativa, falta de espontaneidad y falta de formación de grupos de amistad. El trabajo sólo se realiza cuando el líder esta presente fisicamente. dice SEXOOOOOOOOOOO
