@@ -395,3 +395,121 @@ Liquidez = Ingresos - Deuda
 Objetivo de las finanzas: Obtención y uso de recursos.
 
 **HASTA AQUI ENTRA EN LA SOLEMNE**
+# 10-05-24
+Cuando hablo de estrategia genérica hablo de cuando la empresa comenzó a fabricar eL producto, ¿Que decisión tomó el dueño de la empresa para la fabricación del producto?
+3 Estrategias
+
+| - Liderazgo en costo. (hacemos economia de escala, significa que cada vez que hago una cosa más me sale más barato) | - Diferenciación (Está enfocada en la cálidad) | PARA TODO EL MERCADO        |
+| ------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- | --------------------------- |
+| - Enfoque en liderado en costo                                                                                      | - Enfoque en diferenciación                    | PARA UN SEGMENTO ESPECÍFICO |
+Estrategias de Crecimiento: Decision que toma la empresa para crecer
+- Estrategia Intensiva: La empresa hace una encuesta, un sondeo de area para ver como va el producto, y eso dice si el marketing está erroneo y si dice o no que el segmento está mal escogido. Por lo tanto despues de darse cuenta de ese error la estrategia dice AUMENTA EL MARKETING
+- Estrategia Integrante: Para tomar esta estrategia debe ser una empresa muy grande con mucho dinero.
+	- Estrategia Integrante al lado: le compro a la competencia
+	- Estrategia Integrante atrás: le compro al proveedor
+	- Estrategia Integrante adelante: le compro al distribuidor
+
+Matriz de Ansoff: Aumenta la cantidad de estrategias de crecimiento en 2 más
+
+|                | Producto Actual         | Producto Nuevo         |
+| -------------- | ----------------------- | ---------------------- |
+| Mercado Actual | Intensiva (Penetración) | Desarrollo de producto |
+| Mercado Nuevo  | Desarrollo de mercado   | Diversificación        |
+
+Ciclo de vida de un producto
+![[Pasted image 20240510123824.png]]
+
+# 14-05-24
+## 5 Fuerzas de Porter
+Para ver el atractivo de la industia, la empresa hace eso en 2 momentos:
+- Ver su posición de la empresa en la industria.
+- Cuando está evaluando el atractivo de la industria para entrar.
+Nunca habla de la empresa.
+--- 
+Ejemplo:
+*Industria:* Retail.
+*Ciclo de vida:* Madurez.
+![[Pasted image 20240514114925.png]]
+1. **Amenaza nuevos entrantes:** La industria que está en madurez lo que implica que ha desarrollado barreras, lo que me de da un riesgo bajo lo que implica una rentabilidad esperada alta.
+	1. Barreras de entrada: Capital, tecnología, Contratos a futuro, mano de obra calificada. 
+2. **Peligro Alianza Proveedores:** En esta industria los proveedores son fragmentados, lo que me da un riesgo bajo y una restabilidad esperada alta.
+3. **Peligro Alianza Clientes:** En esta industria losclioentes son fragmentados lo que me da un riesgo bajo y rentabilidad esperada alta
+4. **Sustitutos:** Algo que reemplaza la satisfacción de la necesidad a un precio igual o menor. Existen muchos sustitos pero el poder de sustitución es bajo.
+5. **Rivalidad de la Industria:** La industria al estar en madurez implica que ya no es muy atractiva por las barreras de entrada que posee y a competencia adentro de ella es feroz, lo cual le da un riesgo alto y una rentabilidad esperada baja. 
+
+Cada Fuerza se analiza de acuerdo a:
+
+|                                | Riesgo | Rentabilidad (Atractivo) |
+| ------------------------------ | ------ | ------------------------ |
+| 1. Amenaza nuevos entrantes    | bajo   | alta                     |
+| 2. Peligro Alianza Proveedores | bajo   | alta                     |
+| 3. Peligro Alianza Clientes    | bajo   | alta                     |
+| 4. Sustitutos                  | bajo   | alta                     |
+| 5. Rivalidad de la Industria   | alto   | baja                     |
+Conclusión: La industria es muy atractiva pero para los que están adentro ya, los que quieren entrar son destruidos.
+# 17-05-24
+## Tempano Organizacional
+Lo que se vé es la organizacion formal, lo que no se vé es la organizacion informal
+- Organización formal (visible):
+	- Diseño estructural
+	- Descripción de cargo
+	- Planes
+	- Reglas
+- Organización informal (espontánea):
+	- Amistad
+	- Influencia social
+### Modelo del Diseño Organizacional
+
+- Variables situacionales:
+	- Estrategia de la Empresa
+	- Tamaño
+	- Características del entorno
+	- Control (Rangos)
+	- Tecnología
+- Características
+	- Complejidad (Grado de diferenciación horizontal, vertical y espacial de esa organización)
+	- Formalidad
+	- Centralizado y/o Descentralizado
+- Modelos Organizacionales
+	- Orgánico
+	- Mecánico
+		- Departamento
+			- Funcional
+			- X Clientes
+- Resultados
+	- Variación de Productividad
+	- Eficiencia
+	- Mayor satisfacción al cliente (cliente interno como el personal)
+
+El resultado es lo que busca la empresa en su planificación estratégica, para eso debo tener claridad en las variables situacionales. Las caracteristas del diseño
+
+*En Organigrama*
+- Lineas continuas: Actividades que tienen relacion directa con lo que se hace en la organización (con el giro de la empresa).
+- Lineas segmentadas: Actividades que no tienen directa relación con la actividad o giro de la empresa.
+![[Pasted image 20240517121557.png]]
+
+# 24-05-24
+## Estilos de liderazgo
+- Autoritario
+	- El lider es duro e impositivo. El comportamiento grupal muestra fuerte tensión, agresión, falta de iniciativa, falta de espontaneidad y falta de formación de grupos de amistad. El trabajo sólo se realiza cuando el líder esta presente fisicamente.
+## Teoría de la motivacion e higiene
+Establece que la satisfacción en el trabajo es el resultado de la pesencia de motivadores intrínsecos y que la insatisfacción se deriva de la ausencia de factores externos,
+- Teoría de dos factores de herzberg
+	- Motivadores: tienen que ver con el trabajo que realizan los trabajadores de la empresa
+		- Sentimiento de logro
+		- Trabajo con significado
+		- Oportunidad de avanzar
+		- Reconocimiento
+		- Oportunidad de crecimiento
+	- Higiene: Tienen que ver con el entorno de trabajo
+		- Paga
+		- Estatus
+		- Condición laboral
+		- Beneficios laborales
+		- Relaciones interpersonales 
+**CONTROL N°3**
+- Estrategias Genéricas
+- Estrategias de Crecimiento
+- Ciclo de vida
+- 5 fuerzas
+- Estructura (Organizacion- Mecanica) ⇒ Departamentalización

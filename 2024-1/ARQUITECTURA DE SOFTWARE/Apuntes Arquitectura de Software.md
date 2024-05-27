@@ -359,4 +359,126 @@ SI ENTRA HASTA AQUI
 	- Idealización de una arquitectura específica
 	- Estudio del dominio de una aplicación
 	- Estándar de facto en su dominio
-- Diferencia entre estas arquitecturas: La generica dice, esta es la arquitectura, implementala.. la deja lista. La de referencia es similar pero no es aplicable a la realidad, es lo que deberias tener pero no necesariamente lo tendrás, ejemplo de arquitectura de referencia puede ser
+- Diferencia entre estas arquitecturas: La generica dice, esta es la arquitectura, implementala.. la deja lista. La de referencia es similar pero no es aplicable a la realidad, es lo que deberias tener pero no necesariamente lo tendrás, ejemplo de arquitectura de referencia puede ser.
+
+# 10-05-24
+## Patrones de arquitectura
+- Solución de diseño a un problema
+- Características
+	- Esquema genérico
+	- Probado
+	- Recurrente
+- Especificación
+	- Componentes
+	- Responsabilidades
+	- Relaciones
+#### Descripción de un Patrón
+- Nombre del patrón
+- Contexto
+	- Situacion que origina el problema
+- Problema (Requerimiento)
+	- Descripción genérica del problema
+	- Define lo que se debe resolver
+	- Fuerzas presentes en el contexto
+		- Propiedades
+		- Requisitos (funcionales y no funcionales)
+		- Restricciones
+- Solución
+	- Esquema de solución del problema
+	- Balance de fuerzas
+	- Estructura
+		- Componentes
+		- Relaciones
+	- Comportamiento
+		- Organización de componentes
+	- Priorización de fuerzas
+# 14-05-24
+#### Clasificación de patrones
+##### Patrones simples
+- Capas
+	- Estructura aplicaciones descomponiendolas en tareas con diferentes niveles de abstracción
+	- **Contexto**: Sistemas estructurados con diversos niveles de acción
+	- **Requerimiento**: Organización inadecuada genera problemas de escalabilidad y mantenibilidad.
+	- **Solución**: Estructuración en esquema multi-capa
+		- Capa base con nivel de abstracción más bajo
+		- Avanzar capa a capa utilizando los servicios de la capa inmediatamente anterior.
+		- Componentes estructurados en módulos relacionados
+		- Características:
+			- La capa K se relaciona solamente con la capa K-1.
+			- No hay otras dependencias entre capas.
+			- Cada capa puede estar integrada por distintos componentes.
+			- Los componentes pueden interactuar entre sí, pero quedan acoplados.
+			- Cada capa expone una interfaz con los servicios que provee.
+			- El comportamiento puede ser top-down o bottom-up.
+		- Implementación:
+			- Determinar el número de capas según el nivel de abstracción requerido.
+			- Asignar responsabilidades a cada capa.
+			- Especificar los servicios ofrecidos por cada capa.
+			- Definir la estructura de cada capa.
+			- Especificar la interfaz de cada capa.
+			- Especificar el método de comunicación intercapas.
+			- Definir el esquema para el manejo de errores.
+	- Analisis
+		- Ventajas:
+			- Componentes estandarizados
+			- Cambios afectan el nivel local
+			- Reutilizacion de capas/componentes
+		- Desventajas
+			- Cambios afectan en cascada
+			- Ineficiencia
+			- Complejo de definir
+	- Ejercicio
+		- Un banco requiere un sistema para manejar las cuentas corrientes de sus clientes. Especificamente requiere las siguientes operaciones:
+			- Consulta del saldo de una cuenta
+			- Deposito en una cuenta
+			- Giro desde una cuenta
+			- Transferencia entre cuentas
+		- Se pide definir este sistema utilizando la arquitectura de Capas
+		- Solución:
+			- Definir Capas:
+				- UI
+				- Transferencia
+				- Giro | Deposito
+				- Consulta.
+				- Datos
+# 24-05-24
+- Tubos y filtros
+	- Estructura aplicaciones en actividades para procesar flujos de datos en que cada actividad (o transformación) es un filtro que está unido por un tubo a los filtros contiguos. 
+	- Contexto: Procesar flujos de datos.
+	- Requerimiento:
+		- Descomponer el procesamientoen una serie de actividades(filtros) que transforman datos de entrada (recibidos desde un tubo) en datos de salida (entregados en un tubo).
+		- Las transformaciones son independientes y no tienen estado
+		- Cada actividad es un filtro
+		- Los filtros se comunican entre sí mediante tubos
+	- Solución:
+		- Tubos(pipe)
+			- Conecta origen de datos con un filtro
+			- Conecta filtro con filtro
+			- Conecta filtro con salida de datos
+			- Esquema de procesamiento FIFO
+		- Filtro(filter)
+			- Aplica procesos de transformación de datos de entrada en datos de salida
+			- Implementa un flujo que solicita datos (al filtro anterior)
+			- Implementa un flujo que entrega datos (al filtro siguiente)
+			- Filtros independientes
+				- Estado no compartido
+				- Desconocimiento de otros filtros
+				- Filtros activos o pasivos
+	- Implementación:
+		- Dividir el sistema en una secuencia de procesos ordenados e independientes.
+		- Definir el formato de los datos transmitidos por los tubos (rendimiento o flexibilidad)
+		- Especificar el procesamiento de cada filtro
+		- Construir los filtros
+		- Definir el esquema para el manejo de errores
+	- Ventajas:
+		- Arquitectura flexible
+		- No requiere de archivos intermedios
+		- Filtros reutulizables
+		- Procesamiento paralelo(eficiencia). (generar nuevas instancias de filtros manteniendo la misma cantidad de tubos)
+		- Construcción independiente
+	- Desventajas
+		- Información no compartida
+		- Conversión de datos (ineficiencia)
+		- Errores pueden afectar el flujo de procesamiento
+- MVC (Modelo Vista Controlador)
+- PAC (Presentación Abstracción y Control)
