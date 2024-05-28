@@ -513,3 +513,5 @@ Establece que la satisfacción en el trabajo es el resultado de la pesencia de m
 - Ciclo de vida
 - 5 fuerzas
 - Estructura (Organizacion- Mecanica) ⇒ Departamentalización
+# 28-05-24
+Comunicación

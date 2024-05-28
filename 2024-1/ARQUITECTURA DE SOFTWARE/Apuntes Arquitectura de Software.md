@@ -480,5 +480,33 @@ SI ENTRA HASTA AQUI
 		- Información no compartida
 		- Conversión de datos (ineficiencia)
 		- Errores pueden afectar el flujo de procesamiento
-- MVC (Modelo Vista Controlador)
-- PAC (Presentación Abstracción y Control)
+	- MVC (Modelo Vista Controlador)
+	- PAC (Presentación Abstracción y Control)
+# 28-05-24
+- Pizarrón 
+	- Patrón útil cuando:
+		- No hay una solución completa y específica para un problema
+		- Participan varios sistemas que aportan su conocimiento
+		- Ejemplos: inteligencia artificial, reconocimiento de imagenes, toma de decisiones.
+	- Contexto: dominio en el que no hay una solución completa
+	- Problema:
+		- Conocimiento parcial de la solución
+		- Cada solución requiere diferentes paradigmas
+		- El problema abarca muchas especialidades
+		- No es factible una solución completa
+		- Hay soluciones parciales que cubren parte del problema
+		- Módulos aportal parcialmente a la solución
+	- Solución:
+		- Conjunto de sistemas independientes
+		- Trabajo colaborativo
+		- Datos compartidos
+		- Cada sistema se especializa en parte del problema
+		- Control centralizado que coordina la ejecución de los sistemas
+		- Genera soluciones parciales que pueden ser desechadas
+		- No hay comunicación directa entre los sistemas
+		- Almacenamiento centralizado de información (repositorio)
+		- Diccionario de datos del contenido del pizarrón
+		- Sistemas especializados independientes leen y escriben en el pizarrón
+		- Monitoreo centralizado del estado del sistema
+		- Decisión centralizada de las acciones a seguir basada en el progreso alcanzado
+		- Determinación si la solución es aceptable o insoluble
