@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fe808f05a53d8cf4",
+        "id": "9d4ca7eca1ce9f5e",
         "type": "tabs",
         "children": [
           {
-            "id": "aa07ccc24edff3b3",
+            "id": "015eab061002f3b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md",
+                "file": "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md",
+                "file": "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md",
+                "file": "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md"
+                "file": "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 2.md"
               }
             }
           }
@@ -146,42 +146,42 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "aa07ccc24edff3b3",
+  "active": "015eab061002f3b6",
   "lastOpenFiles": [
-    "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 3.md",
-    "conflict-files-obsidian-git.md",
-    "Pasted image 20240527012012.png",
     "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md",
-    "2024-1/DATA SCIENCE/Apuntes Data Science.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Apuntes Ayudantías.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 2 Gestión Organizacional.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 1 Gestión Organizacional.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Untitled Diagram 1.svg",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Untitled Diagram.svg",
-    "Sin título.canvas",
-    "Pasted image 20240517121557.png",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Pasted image 20240510123824.png",
-    "Pasted image 20240514114925.png",
-    "Pasted image 20240510123520.png",
-    "Pasted image 20240510123436.png",
-    "Pasted image 20240510123515.png",
+    "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 2.md",
     "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Solemne 1.md",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 3.md",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 2 Gestión Organizacional.md",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
+    "Pasted image 20240527012012.png",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 1 Gestión Organizacional.md",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Apuntes Ayudantías.md",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/14 Principios de la Administración.jpg",
+    "conflict-files-obsidian-git.md",
+    "Pasted image 20240517121557.png",
+    "Pasted image 20240514114925.png",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Untitled Diagram.svg",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Untitled Diagram 1.svg",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Pasted image 20240510123824.png",
     "2024-1/INTERNET DE LAS COSAS/Apuntes IoT.md",
     "2024-1/INTELIGENCIA DE NEGOCIOS/Apuntes Inteligencia de negocios.md",
-    "2024-1/INTELIGENCIA DE NEGOCIOS/Proyecto 1 Power BI.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 6 GO 01-2024.pdf",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 4 GO 01-2024.pdf",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 2 GO 01-2024.pdf",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 1 GO 01-2024.pdf",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 5 GO 01-2024.pdf",
     "2024-1/INTELIGENCIA DE NEGOCIOS/Pasted image 20240404175627.png",
-    "README.md",
-    "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Ayudantía.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 3 GO 01-2024.pdf",
+    "2024-1/INTELIGENCIA DE NEGOCIOS/Proyecto 1 Power BI.md",
     "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 1.md",
-    "2024-1/ARQUITECTURA DE SOFTWARE/Sin título",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Gestión Organizacional.md",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 6 GO 01-2024.pdf",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 1 GO 01-2024.pdf",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Texto 19-03-24.jpeg",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Texto 15-03-24.jpeg",
+    "Sin título.canvas",
+    "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Ayudantía.md",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 5 GO 01-2024.pdf",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 4 GO 01-2024.pdf",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 3 GO 01-2024.pdf",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 2 GO 01-2024.pdf",
+    "Sin título.md",
+    "2024-04-04.md",
+    "2024-1/DATA SCIENCE/Apuntes Data Science.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantía 2 GO 01-2024.pdf",
     "2024-1/GESTIÓN ORGANIZACIONAL/Texto 19-03-24.jpeg.~tmp",
     "2024-1/INTERNET DE LAS COSAS/12-03-24.md",
@@ -191,6 +191,6 @@
     "2024-1/DATA SCIENCE/18-03-24.md",
     "2024-1/DATA SCIENCE/14-03-24.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/RED ADM ESCUELA CLASICA primera clase.doc",
-    "Sin título.md"
+    "2024-1/GESTIÓN ORGANIZACIONAL/Sin título"
   ]
 }

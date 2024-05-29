@@ -1,0 +1,234 @@
+# Patrones de arquitectura
+- Solución de diseño a una necesidad.
+- Características
+	- Esquema genérico
+	- Probado
+	- Recurrente
+- Especificación
+	- Componentes
+	- Responsabilidades
+	- Relaciones
+# Descripción de un patrón
+- Nombre del patrón
+- Contexto
+	- Situación que origina la necesidad
+	- Ámbito de la necesidad
+	- Descripción de las situaciones que la originan
+		- Descripción general
+		- Descripción detallada
+	- Difícil de precisar completamente
+- Requerimiento
+	- Descripción genérica de la necesidad
+	- Define lo que se debe resolver
+	- Fuerzas presentes en el contexto
+		- Propiedades
+		- Requisitos
+		- Restricciones
+- Solución
+	- Esquema de solución de la necesidad
+	- Balance de fuerzas
+	- Estructura
+		- Componentes
+		- Relaciones
+	- Comportamiento
+		- Organización de componentes
+	- Priorización de fuerzas
+# Clasificación de patrones 
+## 1. Patrones simples
+### A. Capas (Layers)
+- Estructura aplicaciones descomponiéndolas en tareas con diferentes niveles de abstracción
+- **Contexto:** sistemas estructurados con diversos niveles de acción
+- **Requerimiento:** organización inadecuada genera problemas de escalabilidad y mantenibilidad
+- **Solución:** estructuración en esquema multi-capa
+	- Capa base con nivel de abstracción más bajo
+	- Avanzar capa a capa utilizando los servicios de la capa inmediatamente anterior
+	- Componentes estructurados en módulos relacionados
+	- **Características**
+		- La capa K se relaciona solamente con la capa K-1
+		- No hay otras dependencias entre capas
+		- Cada capa puede estar integrada por distintos componentes
+		- Los componentes pueden interactuar entre sí, pero quedan acoplados .
+		- Cada capa expone una interfaz con los servicios que provee
+		- El comportamiento puede ser top-down o bottom-up
+- **Implementación**
+	- Determinar el número de capas según el nivel de abstracción requerido
+	- Asignar responsabilidades a cada capa
+	- Especificar los servicios ofrecidos por cada capa
+	- Definir la estructura de cada capa
+	- Especificar la interfaz de cada capa
+	- Especificar el método de comunicación intercapas
+	- Definir el esquema para el manejo de errores
+- **Análisis**
+	- Ventajas:
+		- Componentes estandarizados
+		- Cambios afectan el nivel local
+		- Reutilizacion de capas/componentes
+	- Desventajas
+		- Cambios afectan en cascada
+		- Ineficiencia
+		- Complejo de definir
+### B. Tubos y filtros
+- Estructura aplicaciones en actividades para procesar flujos de datos en que cada actividad (o transformación) es un filtro que está unido por un tubo a los filtros contiguos
+- **Contexto:** Procesar flujos de datos
+- **Requerimiento:** 
+	- Descomponer el procesamiento en una serie de actividades (filtros) que transforman datos de entrada (recibidos de un tubo) en datos de salida (entregados por un tubo)
+	- Transformaciones independientes y sin estado
+	- Cada actividad es un filtro
+	- Los filtros se comunican entre sí mediante tubos
+- **Solución:** 
+	- Tubos (pipes)
+		- Conecta origen de datos con un filtro
+		- Conecta filtro con filtro
+		- Conecta filtro con salida de datos
+		- Esquema de procesamiento FIFO
+	- Filtro (filter)
+		- Aplica procesos de transformación de datos de entrada en datos de salida
+		- Implementa un flujo que solicitan datos (al filtro anterior)
+		- Implementa un flujo que entrega datos (al filtro siguiente)
+		- Filtros independientes
+			- Estado no compartido
+			- Desconocimiento de otros filtros
+			- Filtros activos o pasivos
+- **Implementación**
+	- Dividir el sistema en una secuencia de procesos ordenados e independientes
+	- Definir el formato de los datos transmitidos por los tubos (rendimiento o flexibilidad, no ambas)
+	- Especificar el procesamiento de cada filtro
+	- Contruir los filtros
+	- Definir el esquema para el manejo de errores
+- **Análisis**
+	- Ventajas
+		- Arquitectura flexible
+		- No requiere de archivos intermedios
+		- Filtros reutilizables
+		- Procesamiento paralelo(eficiencia). (generar nuevas instancias de filtros manteniendo la misma cantidad de tubos)
+		- Construcción independiente
+	- Desventajas
+		- Información no compartida
+		- Conversión de datos (ineficiencia)
+		- Errores pueden afectar el flujo de procesamiento
+### C. Pizarrón
+- Patrón útil cuando
+	- No hay una solución completa y específica para un problema
+	- Participan varios sistemas que aportan su conocimiento 
+	- Ejemplos: inteligencia artificial, reconocimiento de imagenes, toma de decisiones.
+- **Contexto:** Dominio en el que no hay una solución completa
+- **Problema:**
+	- Conocimiento parcial de la solución
+	- Cada solución requiere diferentes paradigmas
+	- El problema abarca muchas especialidades
+	- No es factible una solución completa
+	- Hay soluciones parciales que cubren parte del problema
+	- Módulos aportan parcialmente a la solución
+	- Cada sistema contribuyente usa sus datos en diferentes representaciones 
+- **Solución**
+	- Conjunto de sistemas independientes
+	- Trabajo colaborativo
+	- Datos compartidos
+	- Cada sistema se especializa en parte del problema
+	- Control centralizado que coordina la ejecución de los sistemas
+	- Genera soluciones parciales que pueden ser desechadas
+	- No hay comunicación directa entre los sistemas
+	-  Almacenamiento centralizado de información (repositorio)
+	- Diccionario de datos del contenido del pizarrón
+	- Sistemas especializados independientes leen y escriben en el pizarrón
+	- Monitoreo centralizado del estado del sistema
+	- Decisión centralizada de las acciones a seguir basada en el progreso alcanzado
+	- Determinación si la solución es aceptable o insoluble
+### D. Repositorio
+## 2. Sistemas interactivos
+### A. Modelo Vista Controlador (MVC)
+- **Qué es**
+	- El sistema se divide en tres partes
+	- Modelo: Datos y funcionalidad esencial
+	- Vista: Comunicación con el usuario
+	- Controlador: controla cambios al modelo
+	- Interfaz de usuario: vista + controlador
+	- Lógica del negocio: controlador + modelo
+	- Controlador desacoplala vista del modelo
+	- Flexibilidad, mantenibilidad, adaptabilidad
+- **Contexto**: Sistemas interactivos con interfaz flexible
+- **Requerimiento:**
+	- Interfaz con diferente representación
+		- Texto, gráficos, listas, iconos
+	- Paradigmas de ingreso diversos
+		- Digitación: cajas de texto
+		- Selección: listas desplegables, iconos
+		- Ingreso mixto
+	- Interfaz cambiante: mejora, evolución
+	- Facilidad de modificación de la interfaz
+	- Funcionalidad nueva implica modifica interfaz
+	- Presentación de la información en multi-formato
+- **Solución:**
+	- Tres componentes:
+		- Comunicación (Vista)
+			- Envía requerimientos del usuario
+			- Recibe datos (del modelo) y los despliega al usuario
+		- Administración (Controlador)
+			- Define el comportamiento del sistema
+			- Recibe eventos (desde la interfaz de usuario) y solicita servicios al modelo
+		- Procesamiento (Modelo)
+			- Provee la funcionalidad requeridapor las vistas
+			- Encapsula el manejo de los datos
+- **Implementación**
+	- Separa la funcionalidad de la interacción del usuario
+	- Diseñar e implementar
+		- El modelo
+		- Las vistas
+		- Los controladores
+		- Las relaciones entre vistas y controladores
+- **Análisis**
+	- Ventajas
+		- Modelo soporta múltiples vistas
+		- Flexible, mantenible, adaptable
+		- Frameworks implementan MVC
+	- Desventajas
+		- Modelo acoplado con vistas y controladores
+		- Vistas sin acceso a los datos (ineficiencia)
+		- Complejidad
+### B. Presentación Abstracción Control
+- Estructura jerárquica de agentes cooperativos
+- Provee la funcionalidad de la aplicación
+- Agente es responsable de una parte de la funcionalidad
+- Compuesto por tres componentes
+	- Presentación: interfaz
+	- Abstacción: funcionalidad
+	- Control: comunicación con agentes
+- Segmentación del sistema en subsistemas especializados
+- **Contexto:** Sistemas interactivos desarrollados utilizados agentes
+- **Requerimiento**
+	- Estructurar un sistema interactivo mediante agentes funcionando en forma integrada
+	- Generar interfaces flexibles de usuario
+	- Separar la presentación de la funcionalidad
+	- Bajo acoplamiento
+	- Agentes con interfaces propias de comunicación
+	- Agentes con estado y datos privados
+	- Trabajo cooperativo de los agentes
+- **Solución**
+	- Definir estructura jerárquica de tres niveles de agentes
+		- Alto nivel: Funcionalidad central del sistema, interfaz global de usuario
+		- Bajo nivel: Manejo interfaz específica de usuarios
+		- Intermedios: Relaciona agentes de bajo nivel
+	- Cada agente es responsable de una parte de la funcionalidad del sistema
+	- Agente está compuesto por 
+		- Presentación: Aspecto visible del agente
+		- Abstracción: Modelo de datos interno y operaciones sobre ellos
+		- Control: Conexión entre presentación y abstracción, comunicación con otros agentes
+- **Implementación**
+	- Definir la funcionalidad central del sistema
+	- Estructurar la jerarquía de agentes
+	- Definir e implementar cada agente
+		- Funcionalidad
+		- Interfaz
+		- Modelo de datos
+		- Mecanismo de control
+- **Análisis**
+	- Ventajas:
+		- Asigna responsabilidades específicas
+		- Funcionamiento independiente
+		- Soporta multitarea
+	- Desventajas:
+		- Sistema complejo
+		- Baja eficiencia
+		- Complejo mecanismo de control
+## 3. Patrones adaptables
+## 4. Sistemas distribuidos
