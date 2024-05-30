@@ -54,3 +54,6 @@ Cada pregunta en una hoja.
 8. crear nueva medida, sameperiodlastyear. Probar instruccion en powerBI. 
 9. minería de datos: son los que hacen predicción , encontrar patron de comportamiento. Sale en las ppt, dice que está en una ppt.
 hola
+
+# 30-05-24
+Solemne 2, será  de modelo huff cada uno tendrá una comuna distinta y algo distinto que analizar como lo que se hizo en clase
