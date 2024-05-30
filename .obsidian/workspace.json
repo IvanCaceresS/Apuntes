@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md",
+                "file": "2024-1/INTERNET DE LAS COSAS/Apuntes IoT.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md",
+                "file": "2024-1/INTERNET DE LAS COSAS/Apuntes IoT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md",
+                "file": "2024-1/INTERNET DE LAS COSAS/Apuntes IoT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md"
+                "file": "2024-1/INTERNET DE LAS COSAS/Apuntes IoT.md"
               }
             }
           }
@@ -148,11 +148,12 @@
   },
   "active": "aa07ccc24edff3b3",
   "lastOpenFiles": [
+    "2024-1/Horario.png",
+    "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 3.md",
     "conflict-files-obsidian-git.md",
     "Pasted image 20240527012012.png",
-    "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md",
     "2024-1/DATA SCIENCE/Apuntes Data Science.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Apuntes Ayudantías.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 2 Gestión Organizacional.md",
