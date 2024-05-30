@@ -363,7 +363,7 @@ SI ENTRA HASTA AQUI
 
 # 10-05-24
 ## Patrones de arquitectura
-- Solución de diseño a un problema
+- Solución de diseño a una necesidad.
 - Características
 	- Esquema genérico
 	- Probado
@@ -375,7 +375,7 @@ SI ENTRA HASTA AQUI
 #### Descripción de un Patrón
 - Nombre del patrón
 - Contexto
-	- Situacion que origina el problema
+	- Situacion que origina la necesidad
 - Problema (Requerimiento)
 	- Descripción genérica del problema
 	- Define lo que se debe resolver
@@ -473,7 +473,7 @@ SI ENTRA HASTA AQUI
 	- Ventajas:
 		- Arquitectura flexible
 		- No requiere de archivos intermedios
-		- Filtros reutulizables
+		- Filtros reutilizables
 		- Procesamiento paralelo(eficiencia). (generar nuevas instancias de filtros manteniendo la misma cantidad de tubos)
 		- Construcción independiente
 	- Desventajas
@@ -495,7 +495,8 @@ SI ENTRA HASTA AQUI
 		- El problema abarca muchas especialidades
 		- No es factible una solución completa
 		- Hay soluciones parciales que cubren parte del problema
-		- Módulos aportal parcialmente a la solución
+		- Módulos aportan parcialmente a la solución
+		- Cada sistema contribuyente usa sus datos en diferentes representaciones 
 	- Solución:
 		- Conjunto de sistemas independientes
 		- Trabajo colaborativo
@@ -513,6 +514,5 @@ SI ENTRA HASTA AQUI
 
 **PARA CONTROL 2 ENTRA PPT 3 Y 4 DE LAS QUE SE LLAMAN 01,02,03,04**:
 - [ArquiSW_03.pdf](https://udp.instructure.com/courses/26976/modules/items/1379679 "ArquiSW_03.pdf")
-- Archivo adjunto
-    [ArquiSW_04.pdf](https://udp.instructure.com/courses/26976/modules/items/1382383 "ArquiSW_04.pdf")
+- [ArquiSW_04.pdf](https://udp.instructure.com/courses/26976/modules/items/1382383 "ArquiSW_04.pdf")
 
