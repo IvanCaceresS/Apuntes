@@ -546,16 +546,19 @@ Barreras de comunicación:
 Solemne 2 entra:
 - P
 	- Estrategias genéricas
-	- Estrategias crecimiento
-	- 5 fuerzas
+	- Estrategias de crecimiento
+	- 5 fuerzas de porter
 - O
 	- Estructura organigrama (organico, mecanico):
 		- Caracterización: Compleja, formal, ....
 - D
-	- Niveles (LD, MD, CD)
 	- Liderazgo
 	- Comunicación
 	- Motivación
 - C
+	- Niveles (LD, MD, CD)
 	- Cultura: que y como se puede modificar
 	- DO: cambio planificado
+Capitulo 17
+Hasta aqui
+
