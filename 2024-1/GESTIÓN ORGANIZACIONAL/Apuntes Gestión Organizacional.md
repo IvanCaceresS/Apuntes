@@ -514,4 +514,48 @@ Establece que la satisfacción en el trabajo es el resultado de la pesencia de m
 - 5 fuerzas
 - Estructura (Organizacion- Mecanica) ⇒ Departamentalización
 # 28-05-24
-Comunicación
+## Comunicación
+Barreras de comunicación:
+- Prejuicios sobre la persona
+- No saber decir bien lo que necesito
+# 31-05-24
+## Componentes de la cultura organizacional
+
+- Artefactos: Estructuras y procesos organizacionales visibles.
+- Valores compartidos: Filosofías, estrategias y objetivos.
+- Presunciones básicas: Creencias inconscientes percepciones, pensamientos y sentimientos.
+- La estabilidad de la cultura depende de:
+	- La propia estabilidad del grupo
+	- La intensidad de las convicciones del fundador y de los directivos que le sucedan
+	- El tiempo que lleven los fundadores liderando al grupo
+	- El tiempo que lleve el grupo trabajando como tal
+	- La cantidad de problemas que hayan tenido que enfrentar
+
+## ¿Cómo crear una cultura?
+
+- Ningún cambio cultural sucede fácil ni rápidamente. Se requiere de 5 a 10 años para conseguir un cambio profundo. Pero, ya que la alternativa puede ser la defunción de la empresa, merece la pena realizarlo
+- Un director debe definir una visión, pera la visión mas brillante definida no cambiara ninguna cultura a no ser que este respaldada por la acción.
+- D.O D.O implica → Un cambio planeado El cambio debe ser propuesto por alguien externo, ya que si es alguien interno ya está envenenado con la cultura actual de la empresa. Tres elementos principales:
+
+- El sistema:
+	- Puede ser un individuo, un grupo, una comunidad, una organización, un país o incluso toda una región del mundo.
+- El agente de cambio:
+- Un estado deseado:
+	- Estado al que se espera que el sistema debe llegar
+# 04-06-24
+Solemne 2 entra:
+- P
+	- Estrategias genéricas
+	- Estrategias crecimiento
+	- 5 fuerzas
+- O
+	- Estructura organigrama (organico, mecanico):
+		- Caracterización: Compleja, formal, ....
+- D
+	- Niveles (LD, MD, CD)
+	- Liderazgo
+	- Comunicación
+	- Motivación
+- C
+	- Cultura: que y como se puede modificar
+	- DO: cambio planificado
