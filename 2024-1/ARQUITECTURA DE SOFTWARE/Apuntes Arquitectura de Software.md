@@ -516,3 +516,84 @@ SI ENTRA HASTA AQUI
 - [ArquiSW_03.pdf](https://udp.instructure.com/courses/26976/modules/items/1379679 "ArquiSW_03.pdf")
 - [ArquiSW_04.pdf](https://udp.instructure.com/courses/26976/modules/items/1382383 "ArquiSW_04.pdf")
 
+
+# 04-06-24
+Revisión control 2a
+1. Explique en qué consiste el patrón de capas y analice tres de las actividades que hay que realizar en la etapa de implementación de dicho patrón en el desarrollo de un sistema.
+R: El patrón de capas establece las actividades a realizar para diseñar un sistema utilizando la arquitectura de capas. Para lograrlo, el sistema debe ser tal que pueda dividirse en diferentes niveles de abstracción de manera que el procesamiento de los requerimientos deba pasar por todos ellos. Cada nicel define una capa de procesamiento que aporta incrementalmente a la solución del requerimiento.
+Para implementar un sistema con este patrón las actividades a realizar son las siguientes:
+- determinar el numero de capas requeridas
+- establecer el procesamiento que hará cada capa
+- definir los servicios ofrecidos por cada capa
+- definir la estructura de los componentes de cada capa
+- definir la interfaz(interna) de cada capa
+- definir el esquema de comunicación entre las capas
+- determinar el esquema de manejo de errores.
+
+2. Analice las ventajas y desventajas del uso del patrón PAC en el desarrollo de un sistema interactivo que va a atender los requerimientos de miles de usuarios.
+R: ventajas:
+- Cada agente se puede desarrollar independiente del resto, por lo que se puede distribuir el desarrollo en distintas personas.
+- Permite implementar procesamiento paralelo (multitasking)
+- Distribución en varios computadores
+desventajas:
+- sistema complejo de diseñar
+- baja eficiencia debido a la distribución de responsabilidades
+- mecanismo de control complejo
+
+3. La compañia de seguros vista en clase ha utilizado el patrón de Tubos y Filtros para el desarrollo e implementación de su sistema de venta de seguros. Ahora, y continuando con su proceso de modernización, requiere un sistema online de Pagos que facilite a sus clientes el pago de las cuotas de los seguros contratados
+El sistema debe considerar los siguientes requerimientos:
+- autenticación del cliente
+- despliegue de las coutas próximas a vencer
+- selección de las cuotas a pagar
+- elección del medio de pago a utilizar
+- redirección al medio de pago seleccionado
+- recepción del resultado del pago
+- registro del pago realizado (si fuera exitoso)
+- emisión del comprobante de pago (si correspondiese)
+R: 
+a) Elegir y justificar el patrón de arquitectura a usar en el desarrollo del sistema
+R: 
+tubos y filtros, ya que la compañia ya conoce el patrón y los requerimientos son secuenciable. es un flujo de trabajo.
+b) Analizar 2 requerimientos no funcionales que debiesen ser considerados.
+R:
+- Seguridad, ya que hay datos importantes involucrados en el proceso por que deberia estar encriptado.
+- Confiabilidad, el sistema debe estar operativo siempre.
+c) describir 3 de los componentes del sistema
+los filtros y su descripción
+# 07-06-24
+## Patrones adaptables
+- MicroKernel
+	- Sistemas que deben adaptarse a cambios en los requerimientos o de tecnología
+	- Requisitos cambiantes
+	- Separa funcionalidad en:
+		- Minima: común a todos los clientes
+		- Extendida: específica de un cliente
+	- Contexto:
+		- Sistemas con interfaces de programación parecidas
+		- Basados en el mismo núcleo funcional
+	- Problema:
+		- Sistemas que perduran en el tiempo (legacy)
+		- Deben adaptarse a cambios en la infraestructura (hardware / software)
+		- Debe ser:
+			- Extensible a nuevas tecnologías
+			- Portable 
+			- Adaptable
+	- Solución:
+		- Microkernel: componente central (núcleo)
+			- Funcionalidad básica
+			- Administración de recursos
+			- Servicio de comunicación entre componentes
+		- Servidores internos: Servicios especificos de la plataforma
+		- Servidores externos: Interfaz de acceso al núcleo
+		- Adaptadores: mecanismo de comunicación cliente con servidor externo
+		- Clientes
+	- Análisis:
+		- Adaptabilidad
+		- Portabilidad
+		- Flexibilidad
+		- Escalabilidad, confiabilidad
+	- Desventajas:
+		- Sistema complejo
+		- Baja eficiencia, demasiadas comunicaciones en el sistema para hacer algo por lo que se procesa a velocidad de la red y no a la velocidad del procesador
+		- Compleja implementación
+- Reflection
