@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "56a84167e55d0d76",
+        "id": "712c7b21a3e09c31",
         "type": "tabs",
         "children": [
           {
-            "id": "e5e2ef16c7de3b74",
+            "id": "2f67b89d07885764",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,7 +138,7 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "e5e2ef16c7de3b74",
+  "active": "2f67b89d07885764",
   "lastOpenFiles": [
     "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md",
     "Pasted image 20240527012012.png",
