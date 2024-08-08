@@ -11,8 +11,12 @@
             "id": "a67b1ea33e2f9eeb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2024-2/Algoritmos de ruteo y redes resilientes/Apuntes.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2024-2/Algoritmos de ruteo y redes resilientes/Apuntes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2024-2/Algoritmos de ruteo y redes resilientes/Apuntes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2024-2/Algoritmos de ruteo y redes resilientes/Apuntes.md"
+              }
             }
           }
         ]
@@ -140,6 +148,11 @@
   },
   "active": "a67b1ea33e2f9eeb",
   "lastOpenFiles": [
+    "Sin título.md",
+    "2024-2/Algoritmos de ruteo y redes resilientes/Apuntes.md",
+    "2024-2/Algoritmos de ruteo y redes resilientes",
+    "Sin nombre",
+    "2024-2",
     "conflict-files-obsidian-git.md",
     "Pasted image 20240625191238.png",
     "Pasted image 20240625183256.png",
@@ -175,16 +188,12 @@
     "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Ayudantía.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 3 GO 01-2024.pdf",
     "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 1.md",
-    "2024-1/ARQUITECTURA DE SOFTWARE/Sin título",
     "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Gestión Organizacional.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantía 2 GO 01-2024.pdf",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Texto 19-03-24.jpeg.~tmp",
     "2024-1/INTERNET DE LAS COSAS/12-03-24.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/15-03-24.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/12-03-24.md",
     "2024-1/ARQUITECTURA DE SOFTWARE/12-03-24.md",
     "2024-1/DATA SCIENCE/18-03-24.md",
-    "2024-1/DATA SCIENCE/14-03-24.md",
-    "Sin título.md"
+    "2024-1/DATA SCIENCE/14-03-24.md"
   ]
 }
