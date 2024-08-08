@@ -9,3 +9,6 @@ _Algunas de las herramientas a utilizar en este curso son:
 - QGIS
 - Gurobi
 - Mentimeter
+
+2 Trabajos individuales
+1 Trabajo grupal a lo largo de todo el semestre (Informe con presentaciones)
