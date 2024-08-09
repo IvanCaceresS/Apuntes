@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-2/Simulación y biología programable/Apuntes.md",
+                "file": "2024-2/Comunicación por luz visible/Apuntes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-2/Simulación y biología programable/Apuntes.md",
+                "file": "2024-2/Comunicación por luz visible/Apuntes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-2/Simulación y biología programable/Apuntes.md",
+                "file": "2024-2/Comunicación por luz visible/Apuntes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-2/Simulación y biología programable/Apuntes.md"
+                "file": "2024-2/Comunicación por luz visible/Apuntes.md"
               }
             }
           }
@@ -148,8 +148,12 @@
   },
   "active": "ae2f242ef2b87765",
   "lastOpenFiles": [
-    "2024-2/Evaluación de proyectos/Apuntes.md",
+    "2024-2/Big Data/Apuntes.md",
+    "2024-2/Comunicación por luz visible/Apuntes.md",
+    "2024-2/Comunicación por luz visible",
     "2024-2/Simulación y biología programable/Apuntes.md",
+    "2024-2/Big Data",
+    "2024-2/Evaluación de proyectos/Apuntes.md",
     "2024-2/Simulación y biología programable",
     "2024-2/Algoritmos de ruteo y redes resilientes/Apuntes.md",
     "2024-2/Evaluación de proyectos",
@@ -185,15 +189,11 @@
     "2024-1/INTELIGENCIA DE NEGOCIOS/Proyecto 1 Power BI.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 6 GO 01-2024.pdf",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 4 GO 01-2024.pdf",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 2 GO 01-2024.pdf",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Ayudantía 1 GO 01-2024.pdf",
     "README.md",
     "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Ayudantía.md",
     "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 1.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Gestión Organizacional.md",
     "2024-1/INTERNET DE LAS COSAS/12-03-24.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/15-03-24.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/12-03-24.md",
-    "2024-1/ARQUITECTURA DE SOFTWARE/12-03-24.md"
+    "2024-1/GESTIÓN ORGANIZACIONAL/15-03-24.md"
   ]
 }
