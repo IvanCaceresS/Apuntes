@@ -11,7 +11,6 @@
 	- Software (2 personas)
 	- Hardware (3 personas)
 
-
 - Tx
 	- Leds
 - Canal

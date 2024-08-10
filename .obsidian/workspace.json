@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0fa69325141000da",
+        "id": "f48097f771c55e42",
         "type": "tabs",
         "children": [
           {
-            "id": "8f22dd19f75565d6",
+            "id": "bc0b8f2d780e4d84",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,14 +138,14 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "8f22dd19f75565d6",
+  "active": "bc0b8f2d780e4d84",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "2024-2/Simulación y biología programable/Apuntes.md",
     "2024-2/Evaluación de proyectos/Apuntes.md",
     "2024-2/Comunicación por luz visible/Apuntes.md",
     "2024-2/Big Data/Apuntes.md",
     "2024-2/Algoritmos de ruteo y redes resilientes/Apuntes.md",
+    "conflict-files-obsidian-git.md",
     "2024-2/Simulación y biología programable",
     "2024-2/Evaluación de proyectos",
     "2024-2/Comunicación por luz visible",
