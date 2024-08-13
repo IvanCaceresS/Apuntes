@@ -22,3 +22,9 @@ NF = AP x 0,3 + PD x 0,1 + SA+S x
 Condicion aprovacion:
 - FP >=4.0
 - Asistencia 70%
+# Clase 13-08
+Paper: https://www.usenix.org/system/files/atc23-song.pdf
+- **Abstract**: El abstract debe presentar una contextualización clara del problema abordado en la investigación y una propuesta específica para solucionarlo. Esta propuesta debe estar respaldada por una contribución claramente definida y relevante en el campo de estudio.
+- **Introducción**: La introducción debe ofrecer un contexto adecuado que permita al lector comprender la importancia del problema investigado. Además, es crucial que se incluyan citas relevantes que refuercen y justifiquen las ideas presentadas, subrayando la relevancia del estudio.
+- **Background o marco teórico**: Es fundamental proporcionar al lector una contextualización exhaustiva en esta sección, de modo que pueda entender completamente los conceptos y teorías clave relacionados con la investigación.
+- **State of the Art**: En esta sección se debe cubrir exhaustivamente todo lo relacionado con el problema en cuestión, incluyendo cómo ha sido abordado en investigaciones previas. El objetivo es identificar y destacar las lagunas o brechas en el conocimiento existente que aún no han sido abordadas, lo cual justifica la necesidad del presente estudio.

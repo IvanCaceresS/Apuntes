@@ -29,3 +29,81 @@ Finanzas:
 9. FLUJO DE CAJA
 10. EVALUACIÓN T.I.R(tasa interna retorno) V.A.N(valor actualizado neto)
 11. SENSIBILAD (QUE PASA SI??????)
+# Clase 12-08
+Banco realiza **captación**, capta dinero de la gente con un 0,6% por mes por ej. y luego el banco presta ese dinero al 1% por mes, esto se llama **colocación**.
+La diferencia entre el interes de colocación con el de captación se llama **spread**, con eso el banco tiene utilidad.
+
+## Matemática financiera
+- **Interés simple:**  se calcula sobre el mismo capital (se paga todo al final)
+	- Un crédito de $5000 a una tasa de interés del 8% anual durante 5 años.
+		- Cálculo del interés anual: $5000 * 8% = $400
+		- Como el interés es simple, se paga el mismo monto de interés cada año.
+		- Interés total al final de 5 años: $400 * 5 = **$2000**
+		- Monto total a pagar al final del periodo: $5000 (capital inicial) + $2000 (interés total) = **$7000**
+- **Interés compuesto**: se calcula sobre monto anterior con interes.
+	- Supongamos un crédito de $5000 al 8% anual durante 5 años, donde los intereses se reinvierten al final de cada año.
+        1. **Año 1:**
+            - Capital inicial: $5000
+            - Interés del primer año: $5000 * 8% = $400
+            - Monto al final del año 1: $5000 + $400 = **$5400**
+        2. **Año 2:**
+            - Capital inicial: $5400
+            - Interés del segundo año: $5400 * 8% = $432
+            - Monto al final del año 2: $5400 + $432 = **$5832**
+        3. **Año 3:**
+            - Capital inicial: $5832
+            - Interés del tercer año: $5832 * 8% = $466.56
+            - Monto al final del año 3: $5832 + $466.56 = **$6298.56**
+        4. **Año 4:**
+            - Capital inicial: $6298.56
+            - Interés del cuarto año: $6298.56 * 8% = $503.88
+            - Monto al final del año 4: $6298.56 + $503.88 = **$6802.44**
+        5. **Año 5:**
+            - Capital inicial: $6802.44
+            - Interés del quinto año: $6802.44 * 8% = $544.20
+            - Monto al final del año 5: $6802.44 + $544.20 = **$7346.64**
+        - Entonces, al final de 5 años, el monto total con interés compuesto es **$7346.64**.
+
+## Fórmulas:
+### **Interés Simple**
+
+La fórmula del interés simple es:
+I=P×i×n
+- **I**: Interés total
+- **P**: Capital (monto inicial)
+- **i**: Tasa de interés por periodo (en decimal, por ejemplo, 8% = 0.08)
+- **n**: Número de periodos
+El monto total a pagar al final del periodo es:
+F=P+I
+- **F**: Monto total a pagar
+- **P**: Capital
+- **I**: Interés total
+### **Interés Compuesto**
+La fórmula del interés compuesto es:
+F=P×(1+i)^n
+- **F**: Monto total al final del periodo
+- **P**: Capital
+- **i**: Tasa de interés por periodo (en decimal)
+- **n**: Número de periodos
+Para calcular solo el interés acumulado en un esquema de interés compuesto:
+I=M−P
+- **I**: Interés total acumulado
+- **M**: Monto total al final del periodo
+- **P**: Capital
+## Tabla desarrollo al crédito
+**Fórmula para calcular la cuota (A)**
+![[Pasted image 20240812170541.png]]
+Donde:
+- **P**: Capital (monto del préstamo)
+- **A**: Cuota periódica (monto a pagar cada periodo)
+- **i**: Tasa de interés por periodo (en decimal)
+- **n**: Número de periodos
+Por lo tanto: A=1252,28
+
+| Periodo | Interés (8%) | Cuota   | Amortización | Saldo               |
+| ------- | ------------ | ------- | ------------ | ------------------- |
+| 1       | 400          | 1252,28 | 852,28       | 5000-852,28=4147,72 |
+| 2       | 331,82       | 1252,28 | 920,46       | 3227,26             |
+| 3       | 258,18       | 1252,28 | 994,1        | 2233,16             |
+| 4       | 178,65       | 1252,28 | 1073,63      | 1159,53             |
+| 5       | 92,76        | 1252,28 | 1159,52      | 0,01                |
