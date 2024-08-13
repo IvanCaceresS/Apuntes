@@ -52,7 +52,7 @@ f = c / long.onda
 		- El espectro de luz visible es 10000 veces mayor al espectro electromanético WiFi
 	- Seguridad y Costo: 
 		- El atacante debe tener acceso a la luz, ya que la luz no traspasa paredes, por tanto tiene que estar iluminado por la misma luz que ellos quieran vulnerar.
-		- No es encesario un gran gasto en cables y antes, ya que todo eso pasaráa ser sustituido por una lámpara de luz LED
+		- No es necesario un gran gasto en cables y antenas, ya que todo eso pasaráa ser sustituido por una lámpara de luz LED
 	- Aplicaciones:
 		- Aplicaciones médicas: es crítico disminuir interferencias electromagnéticas
 		- Bajo el agua.
