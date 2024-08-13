@@ -46,15 +46,15 @@ El espectro visible va entre [380 nm - 780 nm] la frecuencia [411 THz - 789 THz]
 f = c / long.onda
 
 
-- Ventajas de la comunicación por LED
-	- Velocidad de transmición, una conexión VLC puede alcanzar los 224Gbps, es decir entre 100 y 400 veces superior a la que es capaz de hacerlo WiFi.
-	- Interferencia EM: No es posible que se interfieran entre las bandas de WiFi con las del espectro visible.
-		- El espectro de luz visible es 10000 veces mayor al espectro electromanético WiFi
-	- Seguridad y Costo: 
-		- El atacante debe tener acceso a la luz, ya que la luz no traspasa paredes, por tanto tiene que estar iluminado por la misma luz que ellos quieran vulnerar.
-		- No es necesario un gran gasto en cables y antenas, ya que todo eso pasaráa ser sustituido por una lámpara de luz LED
-	- Aplicaciones:
-		- Aplicaciones médicas: es crítico disminuir interferencias electromagnéticas
-		- Bajo el agua.
-		- En aviones
-		- 
+**Ventajas de la Comunicación por LED**
+- **Velocidad de Transmisión**:  
+    La comunicación por luz visible (VLC) puede alcanzar velocidades de hasta 224 Gbps, lo que es entre 100 y 400 veces más rápido que las velocidades típicas del WiFi.
+- **Interferencia Electromagnética (EM)**:  
+    No hay interferencia entre las bandas de WiFi y el espectro visible. Además, el espectro de luz visible es 10,000 veces mayor que el espectro electromagnético utilizado por el WiFi, lo que reduce significativamente la posibilidad de interferencias.
+- **Seguridad y Costo**:
+    - **Seguridad**: La luz no atraviesa paredes, por lo que un atacante debe estar dentro del área iluminada para intentar acceder a la red, lo que incrementa la seguridad.
+    - **Costo**: No se requiere una gran inversión en cables y antenas, ya que las lámparas LED pueden sustituir esos elementos, reduciendo costos.
+- **Aplicaciones**:
+    - **Aplicaciones médicas**: Es crucial reducir las interferencias electromagnéticas en entornos médicos, y la comunicación por LED es ideal para estos casos.
+    - **Comunicación bajo el agua**: VLC es útil en ambientes submarinos donde las señales de radio no se propagan eficientemente.
+    - **Uso en aviones**: La tecnología VLC es ideal para la comunicación en aviones, donde la interferencia electromagnética puede ser problemática.
