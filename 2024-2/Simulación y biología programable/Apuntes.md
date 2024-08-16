@@ -36,5 +36,29 @@ Estas cadenas de ADN (genotipo) definen:
 
 ![[Pasted image 20240813121959.png]]
 ![[Pasted image 20240813122011.png]]
+# Clase 16-08
 ## Organismos, organismos modelo y su rol.
-La celula está compuesta de una membrana, un úcle y el citoplasma. Estos llevan a cabo funciones que mantienen al ente vivo. Se relacionan directamente con el lenguaje de los seres vivos (ADN).
+**La celula** está compuesta de una membrana, un núcleo y el citoplasma. Estos llevan a cabo funciones que mantienen al ente vivo. Se relacionan directamente con el lenguaje de los seres vivos (ADN). Es el elemento vivo más pequeño, la unidad mínima de ser vivo.
+
+- Las proteínas son las responsables de la función celular y de gatillar a cabo funciones celulares.
+
+# Ejemplos de funciones celulares
+- **Repressilator:** Es el circuito #1 que surgió en biología sintética. Un oscilador que se enciende y se apaga, basado en represiones de genes.
+![[Pasted image 20240816120813.png]]
+- **Circuito bi-estable:** es el circuito #2 que surgió en biología sintética. Encender y apagar.
+- **Ruta metabólica de la glucosa:** Los organismos no crecen si no tienen glucosa, si no tienen buscan otra fuente de energía que puede durar un rato hasta volver a encontrar glucosa.
+- Desplazamiento de bacterias inducido por **propulsión flagelar**, esto puede verse fomentado por la busqueda de glucosa.
+- **Reporter:** GFP (Green Fluorecent Protein)
+ ![[Pasted image 20240816121149.png]]
+
+# Células
+- La célula es la unidad de operación/procesamiento para ejecutar estos circuitos los cuales están simplificados a una abstracción más alta que permite definir la implementación de funcionalidad.
+- **Clases de células:**
+	- **Eucariotas**: Son aquellas células que, dentro de su membrana exterior, poseen orgánulos que cumplen funciones específicas para la vida de la célula. Tienen un núcleo definido, rodeado por una membrana interna, que alberga el genoma. Este tipo de células comprende las células animales y la mayoría de los organismos pluricelulares. Como organismo modelo de estudio para este tipo de células, se utiliza _Saccharomyces cerevisiae_ (levadura).
+	- **Procariotas**: Son células que presentan una estructura más simple; generalmente no tienen membrana interna, y su material genético se encuentra en el citoplasma. En esta categoría se incluyen las bacterias y las arqueas. Aunque estos organismos pueden vivir en consorcios (colonias) y actuar de manera coordinada, su funcionamiento es menos complejo que el de las eucariotas. El organismo modelo de estudio para las procariotas es _Escherichia coli_ (_E. coli_).
+- **Funciones celulares:**
+	- Conociendo la clasificación de las células, es importante identificar aquellas funciones principales que se deben considerar y, posiblemente, utilizar como herramientas:
+		- **Expresión genética**: Aplicación del Dogma Central de la Biología, que constituye el origen y la operativa fundamental detrás de la biología programable para nuestros fines.
+		- **Crecimiento y división**: Implica un ciclo mediante el cual la célula crece (producto de la absorción de nutrientes) y se reproduce.
+		- **Señalización**: Es el proceso por el cual las células se comunican entre sí o con el entorno.
+		- **Evolución**: Las células cambian a lo largo del tiempo, adaptándose y recogiendo características externas, efectuando los cambios necesarios para su propia supervivencia.
