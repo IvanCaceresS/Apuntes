@@ -58,3 +58,18 @@ f = c / long.onda
     - **Aplicaciones médicas**: Es crucial reducir las interferencias electromagnéticas en entornos médicos, y la comunicación por LED es ideal para estos casos.
     - **Comunicación bajo el agua**: VLC es útil en ambientes submarinos donde las señales de radio no se propagan eficientemente.
     - **Uso en aviones**: La tecnología VLC es ideal para la comunicación en aviones, donde la interferencia electromagnética puede ser problemática.
+# Clase 16-08
+## Transmisión óptica
+- Configuración básica de un sistema VLC/LiFi
+	- Sistema VLC/LiFi
+		- Los datos tienen que llegar de algun lado, por ejemplo desde internet.
+		- Lamp Driver: es un hardware que controla la electricidad que le llega al led para que no se queme.
+		- LiFi Dongle: Recibe la luz como un fotoreceptor pero incluye un circuito para realizar un procesamiento y transformar la luz a electricidad.
+	- Transmisión
+		1. Modulación y codificación (OOK, PAM, OFOM)
+		2. Pre-distorsionador: Añade distorsión para quitar otra distorción, la que generan los mismos LED.
+		3. Conversión Digital/Analógica: la electricidad es analógica
+		4. Pulse Shaping: Sirve para mitigar la ISI
+		5. DC biasing: Suma a la corriente alterna una corriente continua, para mover la alterna en el eje +Y, de esta manera el led puede responder ya que no funciona con corriente negativa. Unipolar(positiva) y real(no complejo).
+		6. No se usan ampolletas porque generan calor y ruido térmico.
+		7. Lumenes: Cuantos rayos de luz se emiten en un área determinada.

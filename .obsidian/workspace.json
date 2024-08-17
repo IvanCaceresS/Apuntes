@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f1e41f433020dbdc",
+        "id": "9dfadcb4eff7b86f",
         "type": "tabs",
         "children": [
           {
-            "id": "4416de993d5294f9",
+            "id": "cb85fd333e199f9e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-2/Simulación y biología programable/Apuntes.md",
+                "file": "2024-2/Comunicación por luz visible/Apuntes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-2/Simulación y biología programable/Apuntes.md",
+                "file": "2024-2/Comunicación por luz visible/Apuntes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-2/Simulación y biología programable/Apuntes.md",
+                "file": "2024-2/Comunicación por luz visible/Apuntes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-2/Simulación y biología programable/Apuntes.md"
+                "file": "2024-2/Comunicación por luz visible/Apuntes.md"
               }
             }
           }
@@ -146,17 +146,17 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "4416de993d5294f9",
+  "active": "cb85fd333e199f9e",
   "lastOpenFiles": [
+    "2024-2/Big Data/Apuntes.md",
+    "2024-2/Simulación y biología programable/Apuntes.md",
     "2024-2/Simulación y biología programable/Pasted image 20240816121149.png",
     "2024-2/Simulación y biología programable/Pasted image 20240816120813.png",
     "2024-2/Simulación y biología programable/Pasted image 20240816120808.png",
     "2024-2/Simulación y biología programable/Pasted image 20240813121959.png",
-    "2024-2/Simulación y biología programable/Apuntes.md",
     "2024-2/Comunicación por luz visible/Apuntes.md",
     "conflict-files-obsidian-git.md",
     "2024-1/INTERNET DE LAS COSAS/Resumen Solemne 2.md",
-    "2024-2/Big Data/Apuntes.md",
     "2024-2/Simulación y biología programable/Pasted image 20240813122011.png",
     "2024-2/Evaluación de proyectos/Apuntes.md",
     "2024-2/Evaluación de proyectos/Pasted image 20240812170541.png",
@@ -174,7 +174,6 @@
     "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Solemne 2.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Imagenes/Texto 19-03-24.jpeg",
     "2024-1/GESTIÓN ORGANIZACIONAL/Imagenes/Texto 15-03-24.jpeg",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Imagenes/Pasted image 20240625182417.png",
     "2024-1/GESTIÓN ORGANIZACIONAL/Imagenes",
     "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
