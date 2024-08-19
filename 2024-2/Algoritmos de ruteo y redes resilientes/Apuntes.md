@@ -38,3 +38,6 @@ Ejemplos o herramientas:
 - **CVE:** Busca vulnerabilidades.
 - **TOR + Proxychains4:** Se utilizan para realizar solicitudes web a través de la red Tor, con el fin de ocultar la dirección IP real del usuario y navegar de manera anónima.
 - **Escaneo de Puertos (Masscan con Proxychains4):** Realizar un escaneo de puertos sobre una lista de direcciones IP (u objetivos) de manera anónima.
+
+## Trabajo, excel se publica a las 21:00 hrs
+Elegir la infraestructura (temática), cual es la metadata que voy a asociar a esa infraestructura (verificar que se puedan obtener las metadatas) y cuales son las amenazas (son temporales, no es que sucedan siempre).
