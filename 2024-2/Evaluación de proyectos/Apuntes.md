@@ -107,3 +107,44 @@ Por lo tanto: A=1252,28
 | 3       | 258,18       | 1252,28 | 994,1        | 2233,16             |
 | 4       | 178,65       | 1252,28 | 1073,63      | 1159,53             |
 | 5       | 92,76        | 1252,28 | 1159,52      | 0,01                |
+
+# Clase 19-08
+## Matemática Financiera
+- Ejemplo 1: ¿Cuál es el valor a obtener si deposita hoy $1000 a 5 años al 8% anual?
+	- F = P x (1+i)^n
+	- F = 1000 x (1,08)^5
+	- F = 1469,32
+- Ejemplo 2: ¿A que tasa de interés se quintuplica 1000 en 5 años?
+	- 5000 = 1000 x (1+i)^5
+	- 1,3797 = 1+i
+	- i = 37,97%
+- Ejemplo 3: ¿A cuanto equivale hoy un monto que es $450 hace un año y equivaldrá a $550 el próximo año?
+	- 550 = 450(1+i)^2
+	- 1+i = 1,1055
+	- i = 10,55%
+	- Ahora para HOY:
+		- F = 450(1,1055) = $497,5 equivale hoy
+- Ejemplo 4:  Calcule cuota de un crédito de $5000 a 5 años, tasa anual 8%
+	- ![[Pasted image 20240812170541.png]]
+	- P = 5000
+	- i = 0,08
+	- n = 5
+	- A = 5000 x 0,08 (1,08)^5 /(1,08)^5 -1
+	- A = $1252,28
+- Ejemplo 5: Cuántos pagos de $500 debo realizar para pagar un crédito de $5000 al 6% por periodo?
+	- ![[Pasted image 20240812170541.png]]
+	- P = 5000
+	- A = 500
+	- i = 0,06
+	- n =?
+	- 10 = 1,06^n - 1 / (0,06 x 1,06^n)
+	- 0,6 x 1,06^n = 1,06^n -1
+	- n = 15,72 aprox 16
+- Ejemplo 6: Calcule en t=6 despues de 6 años el valor de maquina que cuesta 1000 y debo hacer mantenciones anuales por 500 y además en t=2 y en t=4 debo hacer ajustes por 800 cada uno. Otra pregunta: Aceptaria otra maquina similar que cuesta 4700 en t=0 e incluye todas las mantenciones? **Tasa de interes 10% anual**
+	- 1. 1000(1,1)^6 = 1771,56
+	- 2. 500 [1,1^6 -1]/0,1 = 3857,8
+	- 3. 800(1,1)^4 = 1171,28
+	- 4. 800(1,1)^2 = 968
+	-  entonces en t=6 el valor de la maquina es 7768,64
+	- Entonces si volvemos a t=0, dividiendo por 1,1^6 da 4385,19
+	- por lo que no aceptaria otra maquina similar que cuesta 4700 en t=0
