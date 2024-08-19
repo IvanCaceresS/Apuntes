@@ -22,3 +22,19 @@ _Algunas de las herramientas a utilizar en este curso son:
 
 Vantage Points
 - Son puntos de observación que se utilizan para realizar mediciones. Existen proyectos que los utilizan tales como: CAIDA y RIPE 
+# Clase 19-08
+## Metadata
+Es información adicional sobre algo que yo ya conozco, y me permite tomar mejores decisiones.
+Ejemplos o herramientas:
+- **Geolocation**: no siempre fiarse de las coordenadas porque no siempre son correctas, por eso se debe limpiar la información.
+- **IP2Trace:** Segun la IP, dice por que ciudades va pasando el traceroute, de igual manera se debe investigar si realmente existe un datacenter en esa ciudad, para verificar que la info que otorga IP2Trace es correcta.
+- **IP2Location:** Es una API, donde se consulta por una IP y entrega datos geográficos más confiables.
+- **Maxmind:** Otra API similar.
+- **LatLon 2 Address:** Otra API similar.
+- **RapidAPI:** API Search Engine, para buscar APIs.
+- **Hurricane Electric Internet Services:** Tiene mucha info, pero no está actualizada, por lo que generalmente no sirve.
+- **Shodan search engine:** Es un metabuscador, permite buscar información sobre IPs, hace consultas a distintos puertos de las maquinas para obtener esa información
+- **Shodan API:** Es la API de shodan search engine, entrega la ip en bits, junta todos los octetos y los pasa a un numero.
+- **CVE:** Busca vulnerabilidades.
+- **TOR + Proxychains4:** Se utilizan para realizar solicitudes web a través de la red Tor, con el fin de ocultar la dirección IP real del usuario y navegar de manera anónima.
+- **Escaneo de Puertos (Masscan con Proxychains4):** Realizar un escaneo de puertos sobre una lista de direcciones IP (u objetivos) de manera anónima.
