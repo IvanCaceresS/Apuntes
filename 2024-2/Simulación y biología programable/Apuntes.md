@@ -39,10 +39,8 @@ Estas cadenas de ADN (genotipo) definen:
 # Clase 16-08
 ## Organismos, organismos modelo y su rol.
 **La celula** está compuesta de una membrana, un núcleo y el citoplasma. Estos llevan a cabo funciones que mantienen al ente vivo. Se relacionan directamente con el lenguaje de los seres vivos (ADN). Es el elemento vivo más pequeño, la unidad mínima de ser vivo.
-
 - Las proteínas son las responsables de la función celular y de gatillar a cabo funciones celulares.
-
-# Ejemplos de funciones celulares
+## Ejemplos de funciones celulares
 - **Repressilator:** Es el circuito #1 que surgió en biología sintética. Un oscilador que se enciende y se apaga, basado en represiones de genes.
 ![[Pasted image 20240816120813.png]]
 - **Circuito bi-estable:** es el circuito #2 que surgió en biología sintética. Encender y apagar.
@@ -51,7 +49,7 @@ Estas cadenas de ADN (genotipo) definen:
 - **Reporter:** GFP (Green Fluorecent Protein)
  ![[Pasted image 20240816121149.png]]
 
-# Células
+## Células
 - La célula es la unidad de operación/procesamiento para ejecutar estos circuitos los cuales están simplificados a una abstracción más alta que permite definir la implementación de funcionalidad.
 - **Clases de células:**
 	- **Eucariotas**: Son aquellas células que, dentro de su membrana exterior, poseen orgánulos que cumplen funciones específicas para la vida de la célula. Tienen un núcleo definido, rodeado por una membrana interna, que alberga el genoma. Este tipo de células comprende las células animales y la mayoría de los organismos pluricelulares. Como organismo modelo de estudio para este tipo de células, se utiliza _Saccharomyces cerevisiae_ (levadura).
@@ -62,3 +60,34 @@ Estas cadenas de ADN (genotipo) definen:
 		- **Crecimiento y división**: Implica un ciclo mediante el cual la célula crece (producto de la absorción de nutrientes) y se reproduce.
 		- **Señalización**: Es el proceso por el cual las células se comunican entre sí o con el entorno.
 		- **Evolución**: Las células cambian a lo largo del tiempo, adaptándose y recogiendo características externas, efectuando los cambios necesarios para su propia supervivencia.
+# Clase 20-08
+## Expresión genética: procesos y actores asociados
+- A veces no se requiere de células para que los sistemas funcionen en la biología sintética.
+- Hoy vamos a analizar, con un grado de abstracción más alto que el de las primeras clases, la acción del ADN, ARN y proteínas en la biología programable.
+- **Dogma central de la biología: ** ADN → ARN → PROTEINAS
+
+- Glosario
+	- Componentes que son útiles en la construcción de sistemas biológicos![[Pasted image 20240820114812.png]]
+		- En el promotor: ARN polimerasa, realiza la transcripción de ADN a ARN.
+		- Ribosoma toma los codones de ARN (aminoacidos) y los traduce a proteina.
+		- RBS es el "promotor" de la traduccion.
+		- CDS es el molde de ADN que sirve de guía o plantilla.
+		- Terminador: marca el termino de la region a transcribir.
+	- Interacciones que nos son útiles para representar la dinámica entre los componentes presentados.![[Pasted image 20240820115018.png]]
+		- Represión: no deja que se realice la transcripción por lo que no se produce la proteina. Compuerta logica NOT
+		- Activación: Es aquella interacción que promueve la transcripción y posterior traducción de una secuencia de ADN. Compuerta YES
+	- Agrupaciones para construcción de circuitos genéticos:
+		- Operón: Conjunto de genes cuya transcripción y posterior traducción está regulado por un único promotor.
+		- Plásmido: Fragmento circular de ADN que agrupa operones y que generalmente aisla funcionalidad específicas. 
+		- ![[Pasted image 20240820122725.png]]
+
+- Ejemplos:
+	- Circuito 1:
+		- ![[Pasted image 20240820123656.png]]
+		- Promotor constitutivo (Pconst): no requiere ningun estimulo para estar activo.
+		- Promotor BAD: requiere de arabinosa para activarse. Y cuando hay lugares donde igual se activa GFP donde "no deberia" es porque promotor BAD  se "rompió" o mutó, por lo que ya no hay condicion para que se produzca GFP.
+	- Circuito 2:
+		- ![[Pasted image 20240820124430.png]]
+		- Es un NOT de la GFP.
+		- El primero es constitutivo porque no tiene nada abajo.
+		- Si hay lacl entonces no se prende gfp. Pero como siempre se genera entonces CHAO.
