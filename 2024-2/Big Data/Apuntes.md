@@ -49,3 +49,9 @@ Hacer 3 slides diciendo:
 		- **Carga equilibrada**: La carga de trabajo se distribuye de manera uniforme entre los nodos, evitando cuellos de botella o sobrecargas en nodos específicos.
 
 En conclusión, los experimentos confirman que el PHT es una solución práctica y efectiva para habilitar consultas más complejas sobre DHTs sin sacrificar las propiedades fundamentales de escalabilidad y robustez que hacen a las DHTs tan útiles en sistemas distribuidos.
+# Clase 20-08
+¿Que es Big Data?
+Las 3 V's
+- Volume: the amount of data matters. Data size challenging to store and process (e.g how to index?)
+- Velocity: data generation rate and analysis rate (e.g )
+- Variety: data heterogeneity because of different data types (e.g text, audio, video) and degree of structure.
