@@ -98,6 +98,7 @@ Donde:
 - **A**: Cuota periódica (monto a pagar cada periodo)
 - **i**: Tasa de interés por periodo (en decimal)
 - **n**: Número de periodos
+- **Amortización:** Cuota - interés
 Por lo tanto: A=1252,28
 
 | Periodo | Interés (8%) | Cuota   | Amortización | Saldo               |
@@ -148,3 +149,26 @@ Por lo tanto: A=1252,28
 	-  entonces en t=6 el valor de la maquina es 7768,64
 	- Entonces si volvemos a t=0, dividiendo por 1,1^6 da 4385,19
 	- por lo que no aceptaria otra maquina similar que cuesta 4700 en t=0
+
+# Clase 22-08
+- Tasa real efectiva: se calcula a partir de tasa nominal (nombre)
+	- Flujo financiero:
+		- Anual → tasa de interés anual
+		- Semestral → tasa de interés semestral
+		- Trimestras → tasa de interés trimestral
+	- Forma de cálculo:
+		- Método 1: Se divide la tasa nominal por periodos de composición y luego se eleva a periodos requeridos.
+		- Método 2: fórmula: Tasa_real_efectiva = (1 + tasa_nominal/periodos_composición)^periodosRequeridos -1
+- Ejemplos:
+	1. Si la tasa nominal anual es 12% compuesta mensual calcule:
+		1. Tasa real efectiva mensual
+		2. Tasa real efectiva trimestral
+		3. Tasa real efectiva semestral
+		4. Tasa real efectiva anual
+		Desarrollo:
+			Excel...
+				Cuando la composicion es mensual los periodos de composicion son 12, cuando es semestral es por 2, trimestral es por 4.
+	2. Una persona deposita $500 cada 6 meses por 7 a una tasa nominal anual del 20% compuesta trimestral. ¿cuanto tendrá al final de los 7 años?
+		Desarrollo:
+			Excel...
+	3. Suponga que usted contrata un crédito con el banco Edwards por $65.000.000 con un interés anual del 8% nominal anual  compuesto semestral  por  8 años, cuotas anuales . Luego de pagar la 3° cuota, el banco BCI  se contacta con usted ofreciendo la oportunidad de reprogramar su crédito por el monto restante a 3 años con una tasa del 5% anual . Le consultan: a)Dado lo anterior se pide realizar las tablas de desarrollo de  cada crédito . B) Calcule el total pagado en valor presente , suponiendo tasa de interés del 3% anual. C)  Si banco  Edwards   le aplica una multa de tres  meses  de intereses al 1% por mes , sobre saldo insoluto  por prepago de deuda , que se financia con  crédito total de  banco BCI , calcule el monto del nuevo crédito con banco BCI.
