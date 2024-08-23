@@ -91,3 +91,34 @@ Estas cadenas de ADN (genotipo) definen:
 		- Es un NOT de la GFP.
 		- El primero es constitutivo porque no tiene nada abajo.
 		- Si hay lacl entonces no se prende gfp. Pero como siempre se genera entonces CHAO.
+# Clase 23-08
+## Otras herramientas y consideraciones
+- Sistema CRISPR/Cas9 (Clustered Regularly Intersapced Short Palindromic Repeats)
+	- Se trata de un sistema inicialmente empleado alrededor del año 2012, y que proviene originalmente del “sistema inmune” de las bacterias y arqueas.
+	- Dicho sistema fue cambiado de su propósito original para usarlo en la biología programable para la edici´on de cadenas de ADN.
+	- Los componentes más importantes que integra este sistema son 2:
+		- Proteína Cas9 (Misil teledirigido): Es una proteína que cumple la función de reconocer una cierta secuencia y “cortarla”. 
+		- gRNA (Guia del misil): Se trata de una secuencia de ARN que sirve de guía para la proteína Cas9 y en base a la cual reconoce el sitio en la cadena de ADN que debe cortar.
+	- De esta manera sabe donde debe cortar, donde quiere que vaya el misil teledirigido.
+	- Aplicar Cas9 a una bacteria representa una carga metabólico significativa  por lo que el resto de procesos le costará más.
+	- Si llega una infección traida por un fago, Cas9 toma ese trozo de ADN del virus y lo pega para "Acordarse de él en un futuro" y combatirlo. Y la misma Cas9 destruye al ADN infeccioso.
+	- CRISPR/Cas9 se puede usar especificamente para:
+		- ![[Pasted image 20240823120853.png]]
+		- Insertar una porción precisa de ADN en una secuencia existente.
+		- Eliminar una sección precisa de ADN de una secuencia existente.
+		- Aplicar represión con dCas9: d significa death, eso ocurre cuando la rompen y Cas9 ya no "corta", por lo que desde el punto de vista funcional está muerta. Por lo que sirve de tope, ya que identifica el trozo de ADN pero no lo corta por lo que es un mecanismo de represión y de esta manera se dice "Para ahi y no dejes que pase la transcripción para allá"
+		- Las dos primeras funcionalidades expuestas son cruciales, puesto que permiten modificar un circuito “en tiempo de ejecución”.
+- Crecimiento y división celular
+	- Es uno de los procesos básicos de la célula: consumen nutrientes y además de proveer la energía para llevar a cabo todos los procesos celulares necesarios para la vida, también se traduce en un aumento de la biomasa del ente. 
+	- Dicho crecimiento conduce a la reproducción y proliferación de la células. 
+	- Cada tipo de célula tiene su forma de dividirse
+	- ![[Pasted image 20240823120912.png]]
+	- El crecimiento es una métrica de que tan bien va la celula, o cuán "a gusto" está la célula en su condición actual. También mide cuánta carga metabólica tiene.
+	- Los tiempos de división típicos van desde los 20 a 40 minutos. Por lo general las de 40 minutos son las que tienen circuitos y más funciones internas que producen más carga metabólica.
+- Completando la asociación
+	- Un YES ← y un NOT ->![[Pasted image 20240823121604.png]]
+	- Dada la interpretación de estos circuitos, quisiéramos tener un par más de operaciones de la lógica para poder tener un control más acabado y completo sobre nuestros circuitos. ¿Qué funciones cumplen los siguientes circuitos? ![[Pasted image 20240823121734.png]]
+	- El primero: El promotor constitutivo expresa proteina A y esta induce al Pa que expresa gfp. Igual con la B. Por lo que es un OR, ya que si está A se enciende, si está B se enciende, si están ambos se enciende, pero si no hay ninguno no se enciende.
+	- El segundo: Es un ADN, requiere que estén A y B al mismo tiempo.
+	- ¿Y este?![[Pasted image 20240823122147.png]]
+	- Es un NAND ya que si está A y B expresa C, y C a su vez reprime Pc y no se enciende.

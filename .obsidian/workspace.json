@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "554a179b90235705",
+        "id": "22c0680bcd75c4b2",
         "type": "tabs",
         "children": [
           {
-            "id": "3107d875f6a7ae25",
+            "id": "d699fabda8f81c68",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-2/Evaluación de proyectos/Apuntes.md",
+                "file": "2024-2/Simulación y biología programable/Apuntes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-2/Evaluación de proyectos/Apuntes.md",
+                "file": "2024-2/Simulación y biología programable/Apuntes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-2/Evaluación de proyectos/Apuntes.md",
+                "file": "2024-2/Simulación y biología programable/Apuntes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-2/Evaluación de proyectos/Apuntes.md"
+                "file": "2024-2/Simulación y biología programable/Apuntes.md"
               }
             }
           }
@@ -146,8 +146,17 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "3107d875f6a7ae25",
+  "active": "d699fabda8f81c68",
   "lastOpenFiles": [
+    "2024-2/Simulación y biología programable/Pasted image 20240823122147.png",
+    "2024-2/Simulación y biología programable/Pasted image 20240823121734.png",
+    "2024-2/Simulación y biología programable/ppt/OtrasHerr.pdf",
+    "2024-2/Simulación y biología programable/Apuntes.md",
+    "2024-2/Simulación y biología programable/Pasted image 20240823121604.png",
+    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240823120912.png",
+    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240823120853.png",
+    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240813121959.png",
+    "2024-2/Evaluación de proyectos/Apuntes.md",
     "2024-2/Evaluación de proyectos/Excels/AE28CB00",
     "2024-2/Evaluación de proyectos/Excels/4A71AB00",
     "2024-2/Evaluación de proyectos/Excels/CB248B00",
@@ -157,23 +166,14 @@
     "2024-2/Evaluación de proyectos/Excels",
     "2024-2/Evaluación de proyectos/Nueva carpeta",
     "2024-2/Big Data/Apuntes.md",
-    "2024-2/Simulación y biología programable/Apuntes.md",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240820114812.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240820124430.png",
     "2024-2/Simulación y biología programable/ppt/ExpGen.pdf",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240820123656.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240820123644.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240820122725.png",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240820115018.png",
-    "2024-2/Evaluación de proyectos/Imagenes",
-    "2024-2/Simulación y biología programable/ppt/Pasted image 20240813121959.png",
-    "2024-2/Simulación y biología programable/ppt/Pasted image 20240816121149.png",
-    "2024-2/Simulación y biología programable/Imagenes",
-    "2024-2/Evaluación de proyectos/Apuntes.md",
     "2024-2/Algoritmos de ruteo y redes resilientes/Apuntes.md",
     "2024-2/Comunicación por luz visible/Apuntes.md",
-    "2024-2/Simulación y biología programable/ppt/Pasted image 20240816120813.png",
-    "2024-2/Simulación y biología programable/ppt/Pasted image 20240816120808.png",
     "conflict-files-obsidian-git.md",
     "2024-1/INTERNET DE LAS COSAS/Resumen Solemne 2.md",
     "Sin título.md",
