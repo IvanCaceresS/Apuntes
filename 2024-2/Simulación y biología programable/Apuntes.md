@@ -122,3 +122,4 @@ Estas cadenas de ADN (genotipo) definen:
 	- El segundo: Es un ADN, requiere que estén A y B al mismo tiempo.
 	- ¿Y este?![[Pasted image 20240823122147.png]]
 	- Es un NAND ya que si está A y B expresa C, y C a su vez reprime Pc y no se enciende.
+	- Tanto la compuerta **NAND** como la **NOR** son lo que se conoce como **compuertas lógicas universales**. Esto significa que puedes construir cualquier otra compuerta lógica (como AND, OR, NOT, XOR, etc.) utilizando solo compuertas NAND o solo compuertas NOR.
