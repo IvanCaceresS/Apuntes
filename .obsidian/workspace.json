@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d529a257e623b753",
+        "id": "a5a7615d5019e1e7",
         "type": "tabs",
         "children": [
           {
-            "id": "01d0fb63dee7adbd",
+            "id": "1aa87afbaa904fdb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-2/Simulación y biología programable/Apuntes.md",
+                "file": "2024-2/Evaluación de proyectos/Apuntes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-2/Simulación y biología programable/Apuntes.md",
+                "file": "2024-2/Evaluación de proyectos/Apuntes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-2/Simulación y biología programable/Apuntes.md",
+                "file": "2024-2/Evaluación de proyectos/Apuntes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-2/Simulación y biología programable/Apuntes.md"
+                "file": "2024-2/Evaluación de proyectos/Apuntes.md"
               }
             }
           }
@@ -146,10 +146,14 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "01d0fb63dee7adbd",
+  "active": "1aa87afbaa904fdb",
   "lastOpenFiles": [
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240823122147.png",
+    "2024-2/Evaluación de proyectos/Excels/EDBD4000",
+    "2024-2/Evaluación de proyectos/Excels/DDAB4000",
+    "2024-2/Evaluación de proyectos/Excels/5A102000",
+    "2024-2/Evaluación de proyectos/Excels/~$Clase_22-08.xlsx",
     "2024-2/Simulación y biología programable/Apuntes.md",
+    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240823122147.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240823121734.png",
     "2024-2/Simulación y biología programable/ppt/OtrasHerr.pdf",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240823121604.png",
@@ -162,13 +166,10 @@
     "2024-2/Evaluación de proyectos/Excels/CB248B00",
     "2024-2/Evaluación de proyectos/Excels/Clase_22-08.xlsx",
     "2024-2/Evaluación de proyectos/Excels/15048B00",
-    "2024-2/Evaluación de proyectos/Excels/~$Clase_22-08.xlsx",
     "2024-2/Evaluación de proyectos/Excels",
-    "2024-2/Evaluación de proyectos/Nueva carpeta",
     "2024-2/Big Data/Apuntes.md",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240820114812.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240820124430.png",
-    "2024-2/Simulación y biología programable/ppt/ExpGen.pdf",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240820123656.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240820123644.png",
     "2024-2/Algoritmos de ruteo y redes resilientes/Apuntes.md",

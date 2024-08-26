@@ -159,7 +159,7 @@ Por lo tanto: A=1252,28
 	- Forma de cálculo:
 		- Método 1: Se divide la tasa nominal por periodos de composición y luego se eleva a periodos requeridos.
 		- Método 2: fórmula: Tasa_real_efectiva = (1 + tasa_nominal/periodos_composición)^periodosRequeridos -1
-- Ejemplos:
+- Ejemplos: (EN EL EXCEL Clase_22-08)
 	1. Si la tasa nominal anual es 12% compuesta mensual calcule:
 		1. Tasa real efectiva mensual
 		2. Tasa real efectiva trimestral
@@ -172,3 +172,9 @@ Por lo tanto: A=1252,28
 		Desarrollo:
 			Excel...
 	3. Suponga que usted contrata un crédito con el banco Edwards por $65.000.000 con un interés anual del 8% nominal anual  compuesto semestral  por  8 años, cuotas anuales . Luego de pagar la 3° cuota, el banco BCI  se contacta con usted ofreciendo la oportunidad de reprogramar su crédito por el monto restante a 3 años con una tasa del 5% anual . Le consultan: a)Dado lo anterior se pide realizar las tablas de desarrollo de  cada crédito . B) Calcule el total pagado en valor presente , suponiendo tasa de interés del 3% anual. C)  Si banco  Edwards   le aplica una multa de tres  meses  de intereses al 1% por mes , sobre saldo insoluto  por prepago de deuda , que se financia con  crédito total de  banco BCI , calcule el monto del nuevo crédito con banco BCI.
+# Clase 26-08
+- Continuando ejemplos...(EN EL EXCEL Clase_22-08)
+	4. 
+		a) Calcule diferencia de jubilación hombre y mujer , siendo que el hombre en Chile se jubila a los 65 años y a la mujer a los 60 años y ambos comienzan a imponer en su vida laboral a los 25 años, siendo la expectativa de vida hombre 85 años y mujer 90 años. Adicionalmente la mujer en Chile tiene un sueldo 20% menor al hombre para el mismo cargo. Suponga el hombre gana un sueldo mensual de $1.670.000 y la mujer un 20% menos. En ambos casos su renta mensual está afecta a descuentos del 13% AFP y 7% Isapre y el diferencial se aplica un impuesto del 10% en cada caso. Suponga rentabilidad de los fondos AFP es del 0,2% por mes.  
+		
+		b)Si el hombre desea jubilarse con $300.000 mensual adicional y la mujer con $500.000 mensual, adicional ¿cuanto mas deberá aportar a su fondo previsional durante su vida laboral?.
