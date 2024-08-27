@@ -3,6 +3,12 @@ Correo: nicolas.hidalgo@mail.udp.cl
 Presentaciones eligiendo alguno de los papers.
 Proyectos, slides y papers se escriben en inglés.
 
+Article presentation: Nos toca Storage, entonces presentamos 7 octubre. Rúbrica: Evaluacion Presentaciones Articulos.pdf
+
+Para lo del paper: Semana del 9 sept. Se tiene que tener listo que se va a hacer individualmente (La definición del problema relacionado con Big Data, lo que sea) y lo evaluado es el papaer a entregar (Formato IEEE), hay presentaciones voluntarias para guíar el trabajo.
+
+Luego en grupos de 3 se selecciona uno de los trabajos y se continua con ese.
+![[Pasted image 20240827144951.png]]
 Topics:
 - Introduction to big data
 - Resources Management
@@ -55,3 +61,42 @@ Las 3 V's
 - Volume: the amount of data matters. Data size challenging to store and process (e.g how to index?)
 - Velocity: data generation rate and analysis rate (e.g )
 - Variety: data heterogeneity because of different data types (e.g text, audio, video) and degree of structure.
+# Clase 27-08
+## Big data process (ciclo)
+1. Acquisition:
+	1. Requiere
+		1. Seleccionar datos
+		2. Filtrado de datos
+		3. Generar metadata
+		4. Gestionar la provenencia de la data
+2. Extraction
+	1. Requiere:
+		1. Transformación
+		2. Normalización
+		3. Limpieza
+		4. Agregación
+		5. Manejo de errores
+3. Integration
+	1. Requiere
+		1. Estandarización
+		2. Eliminación de conflictos
+		3. Reconciliar datos de fuentes diferentes
+		4. Mapear esos datos a estructuras que permitan manejarla
+4. Analysis
+	1. Requiere
+		1. Exploración de los datos
+		2. Minería de los datos
+		3. Aplicación de técnicas de machine learning
+		4. Visualización
+5. Interpretation
+	1. Requiere
+		1. Conocimiento del dominio
+		2. Conocimiento de la provenencia
+		3. Identificación de patrones de interés
+		4. Flexibilidad del proceso
+6. Decision
+
+## Best Practices
+- Alineación de los datos con el proposito del proyecto.
+- Alinear las cosas estructuradas con las no estructuradas.
+- Alinear con el Cloud

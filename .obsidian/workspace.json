@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3db53b4db4ad8a2a",
+        "id": "771ffe8036899f96",
         "type": "tabs",
         "children": [
           {
-            "id": "cefdf18839dbfa7a",
+            "id": "45c5f857d24e4b50",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,8 +138,11 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "cefdf18839dbfa7a",
+  "active": "45c5f857d24e4b50",
   "lastOpenFiles": [
+    "2024-2/Big Data/Apuntes.md",
+    "2024-2/Big Data/Imagenes",
+    "2024-2/Big Data/Imagenes/Pasted image 20240827144951.png",
     "2024-2/Evaluación de proyectos/Apuntes.md",
     "2024-2/Evaluación de proyectos/Excels/7E7EC400",
     "2024-2/Evaluación de proyectos/Excels/~$Clase_22-08.xlsx",
@@ -159,11 +162,8 @@
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240823120853.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240813121959.png",
     "2024-2/Evaluación de proyectos/Excels/AE28CB00",
-    "2024-2/Evaluación de proyectos/Excels/4A71AB00",
-    "2024-2/Big Data/Apuntes.md",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240820114812.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240820124430.png",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240820123656.png",
     "2024-2/Algoritmos de ruteo y redes resilientes/Apuntes.md",
     "2024-2/Comunicación por luz visible/Apuntes.md",
     "conflict-files-obsidian-git.md",
