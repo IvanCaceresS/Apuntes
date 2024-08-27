@@ -123,3 +123,34 @@ Estas cadenas de ADN (genotipo) definen:
 	- ¿Y este?![[Pasted image 20240823122147.png]]
 	- Es un NAND ya que si está A y B expresa C, y C a su vez reprime Pc y no se enciende.
 	- Tanto la compuerta **NAND** como la **NOR** son lo que se conoce como **compuertas lógicas universales**. Esto significa que puedes construir cualquier otra compuerta lógica (como AND, OR, NOT, XOR, etc.) utilizando solo compuertas NAND o solo compuertas NOR.
+# Clase 27-08
+## Diseño de circuitos
+Lineamientos de diseño de circuitos y su interpretación para ser estudiados.
+
+En los circuitos que hemos visto, los **transcripcionales** hay una estructura general en que cada operón del circuito se organiza de la siguiente forma:
+- Promotor
+- Operador
+- RBS
+- Genes
+- Terminador
+## Simplificación de notación de un circuito
+![[Pasted image 20240827114021.png]]
+SBOL, es un lenguaje gráfico de diseño de circuitos, sino que además provee de un ontología que vincula a los elementos de la biología y a su información.
+
+## En que cancha jugamos
+- Genoma y plásmido, no conviene generalmente alterar el genoma ya que se pueden tocar funciones vitales, por eso se hace generalmente en el plásmido.
+- Por que querriamos hacerlo en el plásmido:
+	- Control: Permite aislamiento (de ADN)
+	- Maleabilidad evolutiva: Si el plásmido es muy pesado metabólicamente hablando, al dividirse van a intentar dejarlo de lado, perdiendose en las futuras generaciones, y si es muy liviando puede haber una proliferación descontrolada. Al ser los plásmidos elementos móviles e independientes, estos se pueden perder (y adquirir) en el proceso evolutivo de forma mucho más simple que respecto de un cambio en el genoma.
+	- "Instalación" del circuito: Es más simple integrar un circuito al organismo en un plásmido que intervenir su genoma. Para ello, las bacterias se transforman con el plásmido (transformar es un proceso, ej: Electrocutarlas y que se "traguen" el ADN al "abrir" la membrana).
+- Ahora, ya sabiendo donde conviene alojar los circuitos sinteticos (en el plásmido). Estos son otros lineamientos:
+	- Carga metabólica: Es importante considerarlo, el circuito podría dañar el correcto desarrollo del organismo, asi como ser eliminado por evolución. **¿Que pasa si queremos diseñar un circuito complejo?** R: Hay alternativas que tratan con ese problema.
+	- Hay sistemas o partes más complejas que ya están definidas y se pueden integrar directamente a los circuitos. (SynBioHub, Biobricks o iGem).
+
+## Circuitos Complejos
+¿Cómo hacemos si necesitamos trabajar con circuitos más complejos?
+- Varias posibles miradas para poder diseñar e implementar circuitos complejos: 
+	- **Simplemente diseñar y adosar el circuito al organismo.** Esta vía es muy arriesgada y posiblemente falle por razones metabólicas y evolutivas.
+	- **Vincular el circuito diseñado a algún proceso vital del organismo.** En el ejemplo de la glucosa, la asimilación de ATP es un proceso importante para el organismo, por lo que se privilegiará la optimización evolutiva y permanencia del circuito que hace posible el proceso.
+	- **Alojamiento del circuito en un chassis mínimo del organismo objetivo.** Hay un área avanzada de investigación que guarda relación con la búsqueda de una organización genética mínima para la vida. Usando estos chassis, es posible cargar al organismo metabólicamente. (Célula que se le quita muchas cosas teniendo lo minimo, así va a tener menos peso metabólico)
+	- **Comunicación celular.** Usando conjuntos de organismos (consorcios), es posible atacar tareas complejas al repartir computación entre los organismos. En esta asignatura, nosotros nos enfocaremos en esta estrategia y mostraremos varias formas de comunicación y su uso combinado.

@@ -6,6 +6,7 @@
       {
         "id": "a5a7615d5019e1e7",
         "type": "tabs",
+        "dimension": 70.46263345195729,
         "children": [
           {
             "id": "1aa87afbaa904fdb",
@@ -13,9 +14,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-2/Evaluación de proyectos/Apuntes.md",
+                "file": "2024-2/Simulación y biología programable/Apuntes.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "dcba1b38a4ec2d5f",
+        "type": "tabs",
+        "dimension": 29.537366548042705,
+        "children": [
+          {
+            "id": "8478b40d49f32df9",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "2024-2/Simulación y biología programable/ppt/DisenoCircs.pdf"
               }
             }
           }
@@ -69,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "0d4e9e9009b7ee87",
@@ -85,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-2/Evaluación de proyectos/Apuntes.md",
+                "file": "2024-2/Simulación y biología programable/Apuntes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-2/Evaluación de proyectos/Apuntes.md",
+                "file": "2024-2/Simulación y biología programable/Apuntes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-2/Evaluación de proyectos/Apuntes.md"
+                "file": "2024-2/Simulación y biología programable/Apuntes.md"
               }
             }
           }
@@ -148,11 +167,15 @@
   },
   "active": "1aa87afbaa904fdb",
   "lastOpenFiles": [
+    "2024-2/Simulación y biología programable/ppt/DisenoCircs.pdf",
+    "2024-2/Simulación y biología programable/Apuntes.md",
+    "2024-2/Simulación y biología programable/Pasted image 20240827114021.png",
+    "2024-2/Simulación y biología programable/ppt/DisenoCircs.pdf.crdownload",
+    "2024-2/Evaluación de proyectos/Apuntes.md",
     "2024-2/Evaluación de proyectos/Excels/EDBD4000",
     "2024-2/Evaluación de proyectos/Excels/DDAB4000",
     "2024-2/Evaluación de proyectos/Excels/5A102000",
     "2024-2/Evaluación de proyectos/Excels/~$Clase_22-08.xlsx",
-    "2024-2/Simulación y biología programable/Apuntes.md",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240823122147.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240823121734.png",
     "2024-2/Simulación y biología programable/ppt/OtrasHerr.pdf",
@@ -160,18 +183,13 @@
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240823120912.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240823120853.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240813121959.png",
-    "2024-2/Evaluación de proyectos/Apuntes.md",
     "2024-2/Evaluación de proyectos/Excels/AE28CB00",
     "2024-2/Evaluación de proyectos/Excels/4A71AB00",
     "2024-2/Evaluación de proyectos/Excels/CB248B00",
-    "2024-2/Evaluación de proyectos/Excels/Clase_22-08.xlsx",
-    "2024-2/Evaluación de proyectos/Excels/15048B00",
-    "2024-2/Evaluación de proyectos/Excels",
     "2024-2/Big Data/Apuntes.md",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240820114812.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240820124430.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240820123656.png",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240820123644.png",
     "2024-2/Algoritmos de ruteo y redes resilientes/Apuntes.md",
     "2024-2/Comunicación por luz visible/Apuntes.md",
     "conflict-files-obsidian-git.md",
