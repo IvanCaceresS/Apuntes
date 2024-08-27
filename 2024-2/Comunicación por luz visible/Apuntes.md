@@ -73,3 +73,31 @@ f = c / long.onda
 		5. DC biasing: Suma a la corriente alterna una corriente continua, para mover la alterna en el eje +Y, de esta manera el led puede responder ya que no funciona con corriente negativa. Unipolar(positiva) y real(no complejo).
 		6. No se usan ampolletas porque generan calor y ruido térmico.
 		7. Lumenes: Cuantos rayos de luz se emiten en un área determinada.
+
+# Clase 27-08
+## Recepción óptica
+- VLC Receiver: Se tiene un elemento que hace la transformación Optico a eléctrico, TIA (Trans-impedance amplifier) (Amplificación), DSP.
+	- Una vez que la señal sale del transmisor y llega al receptor.
+	- Factores a considerar en el transmisor:
+		- Ruido (Ruido térmico, ocurre cuando la señal está ya en el receptor)
+			- AWGN (Ruido ideal, gaussiana)
+		- Interferencia (Se produce en el canal de transmision)
+		- Luego de que llega la señal al receptor una vez se le añaden los ruidos se debe **sincronizar**. De esta manera se saben los tiempos de muestreo y poder muestrearla correctamente
+		- **Matched filter:** Importante en entornos donde hay mucho ruido, asi se puede eliminar gran cantidad de ruido.
+		- Una vez está lo más limpia posible la señal se realiza la conversion Analógica/Digital
+		- Luego se utiliza un **Equalizador**, aumenta o disminuye la amplitud de la señal. Ayuda para reducir la ISI que se produce a altas velocidades, por lo que a velocidades bajas es practicamente inútil usarlo.
+		- Demodulación y decodificación, respocto a la modulación y codificación usada. Se utilizan métricas para saber si llegó bien la señal. BER (Bit error rate) y SER (Symbol error rate).
+	- Elementos que incluyen al receptor:
+		- Optical filter and concetrator:
+			- Filtro óptico:
+				- Capa traslucida que permite pasar ciertos rangos de longitudes de onda.
+				- La onda que atraviesa el filtro depende del angulo de incidencia
+			- Concentrador:
+				- Su funcion es concentrar la luz a un punto específico sin importar como llega o en que angulo llegue. Sin el concentrador no todas las ondas llegarian al foto receptor
+		- Photo-diode:
+			- Semiconductor de tipo P-I-N
+			- Material: Silicon, Germanium, InGaAs. Cada material tiene su responsividad.
+			- Tiene un AP (Area activa)
+		- TIA
+		- Procesamiento
+	- 
