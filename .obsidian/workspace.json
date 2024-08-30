@@ -11,8 +11,12 @@
             "id": "0002cfeb1ce7a068",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "conflict-files-obsidian-git.md"
+              }
             }
           }
         ]
@@ -138,8 +146,10 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "d7a78b9cc663cb82",
+  "active": "0002cfeb1ce7a068",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "2024-2/Evaluación de proyectos/Excels/EVAPTIC-CONTROL_1-IVAN_CACERES_SATORRES.xlsx",
     "2024-2/Evaluación de proyectos/Apuntes.md",
     "2024-2/Evaluación de proyectos/Excels/A8AD4200",
     "2024-2/Evaluación de proyectos/Excels/39AC4200",
@@ -150,7 +160,6 @@
     "2024-2/Evaluación de proyectos/Excels/773FE100",
     "2024-2/Evaluación de proyectos/Excels/~$Estudio_C1.xlsx",
     "2024-2/Evaluación de proyectos/Excels/3FE96100",
-    "2024-2/Evaluación de proyectos/Excels/~$Clase_22-08.xlsx",
     "Sin título.md",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240827114021.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240823122147.png",
@@ -166,7 +175,6 @@
     "2024-2/Comunicación por luz visible/Apuntes.md",
     "2024-2/Big Data/Apuntes.md",
     "2024-2/Algoritmos de ruteo y redes resilientes/Apuntes.md",
-    "conflict-files-obsidian-git.md",
     "2024-1/INTERNET DE LAS COSAS/Resumen Solemne 2.md",
     "2024-1/INTERNET DE LAS COSAS/Apuntes IoT.md",
     "file-ydNBMvUokNFHOxDwc7LrMDV6.md",
