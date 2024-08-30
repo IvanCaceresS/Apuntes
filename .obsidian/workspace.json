@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d1db86489bd90281",
+        "id": "5899bcd5019c3403",
         "type": "tabs",
         "children": [
           {
-            "id": "0002cfeb1ce7a068",
+            "id": "98cacba61881bd6b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "2024-2/Simulación y biología programable/Tareas/Tarea 1/Resumen de los articulos cientificos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "2024-2/Simulación y biología programable/Tareas/Tarea 1/Resumen de los articulos cientificos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "2024-2/Simulación y biología programable/Tareas/Tarea 1/Resumen de los articulos cientificos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "2024-2/Simulación y biología programable/Tareas/Tarea 1/Resumen de los articulos cientificos.md"
               }
             }
           }
@@ -146,20 +146,21 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "0002cfeb1ce7a068",
+  "active": "98cacba61881bd6b",
   "lastOpenFiles": [
+    "2024-2/Simulación y biología programable/Tareas/Tarea 1/Resumen de los articulos cientificos.md",
+    "2024-2/Simulación y biología programable/Tareas/Tarea 1/T1_SBP22024.pdf",
+    "2024-2/Simulación y biología programable/Tareas/Tarea 1/Milo et al. - 2002 - Network motifs simple building blocks of complex networks.pdf",
+    "2024-2/Simulación y biología programable/Tareas/Tarea 1/Lu, Collins - 2007 - Dispersing biofilms with engineered enzymatic bacteriophage.pdf",
+    "2024-2/Simulación y biología programable/Tareas/Tarea 1/Keasling - 2010 - Manufacturing molecules through metabolic engineering.pdf",
+    "2024-2/Simulación y biología programable/Tareas/Tarea 1",
+    "2024-2/Simulación y biología programable/Tareas/Nueva carpeta",
+    "2024-2/Simulación y biología programable/Tareas",
+    "2024-2/Simulación y biología programable/Nueva carpeta",
     "conflict-files-obsidian-git.md",
     "2024-2/Evaluación de proyectos/Excels/EVAPTIC-CONTROL_1-IVAN_CACERES_SATORRES.xlsx",
     "2024-2/Evaluación de proyectos/Apuntes.md",
     "2024-2/Evaluación de proyectos/Excels/A8AD4200",
-    "2024-2/Evaluación de proyectos/Excels/39AC4200",
-    "2024-2/Evaluación de proyectos/Excels/8BD33200",
-    "2024-2/Evaluación de proyectos/Excels/CB5A2200",
-    "2024-2/Evaluación de proyectos/Excels/8E400200",
-    "2024-2/Evaluación de proyectos/Excels/618FE100",
-    "2024-2/Evaluación de proyectos/Excels/773FE100",
-    "2024-2/Evaluación de proyectos/Excels/~$Estudio_C1.xlsx",
-    "2024-2/Evaluación de proyectos/Excels/3FE96100",
     "Sin título.md",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240827114021.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240823122147.png",
@@ -192,7 +193,6 @@
     "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 1.md",
     "2024-1/INTELIGENCIA DE NEGOCIOS/Apuntes Inteligencia de negocios.md",
     "2024-1/INTELIGENCIA DE NEGOCIOS/Proyecto 1 Power BI.md",
-    "Sin título.canvas",
-    "2024-04-04.md"
+    "Sin título.canvas"
   ]
 }
