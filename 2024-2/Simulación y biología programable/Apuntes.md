@@ -155,3 +155,38 @@ SBOL, es un lenguaje gráfico de diseño de circuitos, sino que además provee d
 	- **Alojamiento del circuito en un chassis mínimo del organismo objetivo.** Hay un área avanzada de investigación que guarda relación con la búsqueda de una organización genética mínima para la vida. Usando estos chassis, es posible cargar al organismo metabólicamente. (Célula que se le quita muchas cosas teniendo lo minimo, así va a tener menos peso metabólico)
 	- **Comunicación celular.** Usando conjuntos de organismos (consorcios), es posible atacar tareas complejas al repartir computación entre los organismos. En esta asignatura, nosotros nos enfocaremos en esta estrategia y mostraremos varias formas de comunicación y su uso combinado.
 # Clase 30-08
+## Comunicación intercelular
+Es necesario conectar a las células.
+- Quorum sensing (QS): Sistema descubierto en 1979. Cada organismo puede estimar la densidad poblacional que le rodea de modo de efectuar o no alguna accion de forma coordinada. El sistema trabaja con pequeñas moléculas que se expelen/sienten en el entorno y denominadas **autoinductores**
+- ¿Qué son los autoinductores?
+	- Son moléculas emitidas por las células al ambiente. Imaginar como gritar en la sala y si hay mucho ruido se sabe que hay mucha gente se puede realizar una estimación.
+	- Permite a la célula estimar a cantidad de organismos próximos (y no tan próximos) que tiene al sentir la concentración de autoinductores en el ambiente.
+	- Los autoinductores no sirven como vehiculo de ADN. No transportan una gran cantidad de información ni mucho menos un circuito.
+- Así como se emiten, tambien se reciben
+	- Ya que se envían autoinductores, es porque se deben leer por los demás organismos, para esto esta el sistema **lux**
+	- Sistema lux
+		- Proviene de un circuito responsable de bioluminiscencia.
+		- El sistema consiste de un gen de emisión (luxl) de autoinductores (AHL) y otro gen distinto de recepción (luxR) de AHL que genera (esos pacman) que captan los AHL.
+		- ![[Pasted image 20240830115116.png]] 
+		- ![[Pasted image 20240830115248.png]]Los más importantes son
+		-  El promotor de luxR siempre está activo pero con una pequeña actividad (actividad basal), generando poca cantidad de AHL pero cuando ya recibe más genera más
+		- El promotor lux tambien está activo con una pequeña cantidad.
+		- Es por esto que se genera está actividad cuando existe mucha densidad de organismos, osea que se aumenta la concentración de AHL, lo que interesa es el circulo completo de AHL.
+		- **Caracterización del sistema lux**
+			- Es un método de comunicación y coordinación intercelular de largo alcance para construir consorcios.
+			- Los AHL se expelen al ambiente.
+			- Señal que el organismo difunde en el entorno.
+			- El sistema es programable, ya que se pueden colocar genes que estén downstream (aguas abajo) del operón de recepción y que hagan un tarea (ej: brillo verde).
+			- Información transportada mínima.
+			- El alcance se determina por si sigue generando o no AHL, ya que el nuevo empuja al viejo llegando más lejos. AHL es tan pequeño que simplemente atraviesa la membrana.
+		- **¿Qué es lo bueno del sistema lux?**
+			- Simple de programar.
+			- Comunicación de largo alcance.
+			- Peso metabólico bajo para el organismo.
+			- Método de comunicacón inter-especie.
+			- Sistema más usado en la biología programable.
+		- **¿Qué es lo malo?**
+			- Baja cantidad de información transmitida.
+			- No es posible direccionar información ya que es un broadcast.
+			- Puede haber crosstalk con sistemas parecidos (por ejemplo sistema Las).
+			- No se determina con exactitud la densidad celular, sino que se utilizan umbrales de concentración de autoinductores.

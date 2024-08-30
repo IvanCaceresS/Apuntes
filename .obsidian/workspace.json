@@ -20,22 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "8b2a8865b8e54568",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2f2116f1efcb3a30",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "2024-2/Simulación y biología programable/ppt/Intercell1.pdf"
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -166,6 +150,8 @@
   "lastOpenFiles": [
     "2024-2/Simulación y biología programable/ppt/Intercell1.pdf",
     "2024-2/Simulación y biología programable/Apuntes.md",
+    "2024-2/Simulación y biología programable/Pasted image 20240830115248.png",
+    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240830115116.png",
     "2024-2/Simulación y biología programable/ppt/InVivoAI1.pdf",
     "2024-2/Simulación y biología programable/ppt/InVivoAI1.pdf.crdownload",
     "2024-2/Simulación y biología programable/ppt/SSB6.pdf",
@@ -175,7 +161,6 @@
     "2024-2/Simulación y biología programable/ppt/SSB4.pdf",
     "2024-2/Simulación y biología programable/ppt/SSB4.pdf.crdownload",
     "2024-2/Simulación y biología programable/ppt/SSB3.pdf",
-    "2024-2/Simulación y biología programable/ppt/SSB3.pdf.crdownload",
     "2024-2/Comunicación por luz visible/Apuntes.md",
     "2024-2/Simulación y biología programable/Tareas/Tarea 1/Resumen de los articulos cientificos.md",
     "conflict-files-obsidian-git.md",
@@ -190,8 +175,6 @@
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240823120912.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240823120853.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240813121959.png",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240820114812.png",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240820124430.png",
     "2024-2/Algoritmos de ruteo y redes resilientes/Apuntes.md",
     "2024-1/INTERNET DE LAS COSAS/Resumen Solemne 2.md",
     "Sin título.md",
