@@ -100,4 +100,3 @@ f = c / long.onda
 			- Tiene un AP (Area activa)
 		- TIA
 		- Procesamiento
-	- 
