@@ -95,8 +95,41 @@ Las 3 V's
 		3. Identificación de patrones de interés
 		4. Flexibilidad del proceso
 6. Decision
-
 ## Best Practices
 - Alineación de los datos con el proposito del proyecto.
 - Alinear las cosas estructuradas con las no estructuradas.
 - Alinear con el Cloud
+# Clase 30-08
+## Resource Management
+- Outline
+	- Motivation (Por qué RM)
+			- Big data evolution: increase of data is generating resource management issues
+			- Offline to online
+		- Posible solution
+			- Run multiple frameworks on a single cluster
+			- Partición de maquinas de manera estática.
+			- No es muy eficiente ya que hay veces que la carga puede variar, funcionaría si las tareas son homogeneas siempre. Eso no ocurre.
+	- Apache Mesos (Manejador de recursos)
+		- Poder desplegar servicios de gran escala.
+		- Generar una capa de software que permite abstraerse de las maquinas.
+		- Las maquinas tendrán tareas de todos.
+		- Metas de Apache mesos
+			- Ser un sistema aprueba de fallas.
+		- Cada framework tiene unos trabajos y esos trabajos son un conjunto de tareas
+		- Mesos trabaja a un nivel de grado fijo, poder administrar las tareas mediante monitorio de las tareas y detectar fallos. Si una tarea está pegada mata la tarea y libera el recurso, asignandoselo a otro framework que lo requiere.
+		- Arquitectura
+			- Maestro-esclavo
+			- El esclavo publica los recursos disponibles al maestro
+			- El maestro ofrece los recursos a los frameworks
+			- Punto unico de falla si muere el maestro.
+			- Es centralizado para evitar el costo que implicaría tener una red distribuida de maestros porque la comunicación entre ellos sería muy costosa
+			- El maestro al tener muy poca carga es más facil escalarlo, ya que el maestro funciona como un proxy.
+			- Ya que cada planificador (Hadoop scheduler) planifica su framework no hay un vision general de los recursos para optimizar la carga de los recursos.
+			- Si se cae un maestro, se elige a otra maquina para realizar la tarea de maestro
+	- Apache YARN (Manejador de recursos)
+		- Manejo de localidad
+		- Alta optimización utilización de recursos
+		- Es confiable
+		- Es escalable
+	- MESOS vs YARN
+		- Slide 43 de la ppt
