@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5899bcd5019c3403",
+        "id": "77129087bc4bf44a",
         "type": "tabs",
         "children": [
           {
-            "id": "98cacba61881bd6b",
+            "id": "f6cb7e0cb8660640",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-2/Simulación y biología programable/Tareas/Tarea 1/Resumen de los articulos cientificos.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-2/Simulación y biología programable/Tareas/Tarea 1/Resumen de los articulos cientificos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-2/Simulación y biología programable/Tareas/Tarea 1/Resumen de los articulos cientificos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2024-2/Simulación y biología programable/Tareas/Tarea 1/Resumen de los articulos cientificos.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,8 +138,12 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "98cacba61881bd6b",
+  "active": "d7a78b9cc663cb82",
   "lastOpenFiles": [
+    "2024-2/Notas.xlsx",
+    "2024-2/Comunicación por luz visible/Apuntes.md",
+    "2024-2/Evaluación de proyectos/Apuntes.md",
+    "2024-2/Big Data/Apuntes.md",
     "2024-2/Simulación y biología programable/Tareas/Tarea 1/Resumen de los articulos cientificos.md",
     "2024-2/Simulación y biología programable/Tareas/Tarea 1/T1_SBP22024.pdf",
     "2024-2/Simulación y biología programable/Tareas/Tarea 1/Milo et al. - 2002 - Network motifs simple building blocks of complex networks.pdf",
@@ -159,7 +155,6 @@
     "2024-2/Simulación y biología programable/Nueva carpeta",
     "conflict-files-obsidian-git.md",
     "2024-2/Evaluación de proyectos/Excels/EVAPTIC-CONTROL_1-IVAN_CACERES_SATORRES.xlsx",
-    "2024-2/Evaluación de proyectos/Apuntes.md",
     "2024-2/Evaluación de proyectos/Excels/A8AD4200",
     "Sin título.md",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240827114021.png",
@@ -173,8 +168,6 @@
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240820123644.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240820122725.png",
     "2024-2/Simulación y biología programable/Apuntes.md",
-    "2024-2/Comunicación por luz visible/Apuntes.md",
-    "2024-2/Big Data/Apuntes.md",
     "2024-2/Algoritmos de ruteo y redes resilientes/Apuntes.md",
     "2024-1/INTERNET DE LAS COSAS/Resumen Solemne 2.md",
     "2024-1/INTERNET DE LAS COSAS/Apuntes IoT.md",
