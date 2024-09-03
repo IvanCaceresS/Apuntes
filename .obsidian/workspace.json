@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "adb64924d2c8e416",
+        "id": "431c1a107664e9d5",
         "type": "tabs",
         "children": [
           {
-            "id": "be7e4541cf53ba80",
+            "id": "e2776a5423f6bef9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-2/Comunicación por luz visible/Apuntes.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-2/Comunicación por luz visible/Apuntes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-2/Comunicación por luz visible/Apuntes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2024-2/Comunicación por luz visible/Apuntes.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,8 +138,9 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "be7e4541cf53ba80",
+  "active": "d7a78b9cc663cb82",
   "lastOpenFiles": [
+    "2024-2/Comunicación por luz visible/Apuntes.md",
     "2024-2/Big Data/Apuntes.md",
     "2024-2/Simulación y biología programable/Apuntes.md",
     "2024-2/Simulación y biología programable/ppt/Intercell1.pdf",
@@ -162,7 +155,6 @@
     "2024-2/Simulación y biología programable/ppt/SSB4.pdf",
     "2024-2/Simulación y biología programable/ppt/SSB4.pdf.crdownload",
     "2024-2/Simulación y biología programable/ppt/SSB3.pdf",
-    "2024-2/Comunicación por luz visible/Apuntes.md",
     "2024-2/Simulación y biología programable/Tareas/Tarea 1/Resumen de los articulos cientificos.md",
     "conflict-files-obsidian-git.md",
     "2024-2/Big Data/Imagenes/Pasted image 20240827144951.png",

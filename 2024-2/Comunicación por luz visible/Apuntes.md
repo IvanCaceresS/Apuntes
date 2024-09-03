@@ -98,5 +98,17 @@ f = c / long.onda
 			- Semiconductor de tipo P-I-N
 			- Material: Silicon, Germanium, InGaAs. Cada material tiene su responsividad.
 			- Tiene un AP (Area activa)
+			- Efecto fotoeléctrico
+			- Responsividad (capacidad de transformar la luz en electricidad)
 		- TIA
 		- Procesamiento
+	- Tipos de ruidos
+		- Ruido térmico
+			- A medida aumenta la frecuencia disminuye la densidad del ruido.
+		- Ruido shot
+			- Ocurre cuando se conecta un aparato o se energiza el circuito puede producirse un pick de voltaje en ese momento.
+		- Ruido ambiental
+			- Humedad que puede afectar en el fotodiodo, puede empañar el vidrio o plastico.
+		- La cantidad de ruido depende del area del fotodiodo, a mayor area del fotodiodo mayor ruido
+	- Interferencia
+		- Se puede mitigar la interferencia mediante la creacion de un ADRs que es un arreglo de fotodiodos en forma de piramide donde por ejemplo son 4, cada uno de esos 4 recibe la señal de una manera distinta a alguna le llega mas interferencia que a otras, entonces luego se suman o se hace algun calculo a las 4 señales recibidas se puede mejorar la SINR
