@@ -155,7 +155,7 @@ SBOL, es un lenguaje gráfico de diseño de circuitos, sino que además provee d
 	- **Alojamiento del circuito en un chassis mínimo del organismo objetivo.** Hay un área avanzada de investigación que guarda relación con la búsqueda de una organización genética mínima para la vida. Usando estos chassis, es posible cargar al organismo metabólicamente. (Célula que se le quita muchas cosas teniendo lo minimo, así va a tener menos peso metabólico)
 	- **Comunicación celular.** Usando conjuntos de organismos (consorcios), es posible atacar tareas complejas al repartir computación entre los organismos. En esta asignatura, nosotros nos enfocaremos en esta estrategia y mostraremos varias formas de comunicación y su uso combinado.
 # Clase 30-08
-## Comunicación intercelular
+## Comunicación intercelular I
 Es necesario conectar a las células.
 - Quorum sensing (QS): Sistema descubierto en 1979. Cada organismo puede estimar la densidad poblacional que le rodea de modo de efectuar o no alguna accion de forma coordinada. El sistema trabaja con pequeñas moléculas que se expelen/sienten en el entorno y denominadas **autoinductores**
 - ¿Qué son los autoinductores?
@@ -190,3 +190,35 @@ Es necesario conectar a las células.
 			- No es posible direccionar información ya que es un broadcast.
 			- Puede haber crosstalk con sistemas parecidos (por ejemplo sistema Las).
 			- No se determina con exactitud la densidad celular, sino que se utilizan umbrales de concentración de autoinductores.
+# Clase 03-09
+## Comunicación intercelular II
+Otro método de comunicación entre células: **Infección por bacteriófagos**
+- Los fagos son virus (no vivos) que infectan a la células.
+- Llevan carga genética, una hebra de ADN.
+- Son muy especificos, un fago buscará un tipo específico de organísmo.
+- No tienen un proceso autónomo ni procesos centrales para la vida.
+- **¿Qué hacen los fagos?**
+	- Infecta a la célula insertando el ADN/ARN que trae a través de la membrana celular.
+	- Este ADN/ARN trae todas las instrucciones para secuestrar la maquinaria de la célula para replicarse.
+- **¿Cómo funciona?**
+	- ![[Pasted image 20240903115056.png]]
+	- ![[Pasted image 20240903120827.png]]
+	- **Ciclo Lisogénico:** En este ciclo, el fago (virus) inserta su ADN en el genoma de la bacteria. Este ADN viral se integra en el ADN bacteriano y se replica de manera silenciosa y asintomática a medida que la bacteria se divide. En este estado, el virus no destruye la célula huésped inmediatamente.
+	- **Ciclo Lítico:** En este ciclo, el ADN del fago utiliza la maquinaria de la bacteria para producir nuevos virus. Durante la fase de ensamblaje ("assembly"), se ensamblan nuevas partículas de fago dentro de la bacteria. Finalmente, en la fase de lisis ("lysis"), la bacteria se rompe (o lisa), liberando los nuevos fagos, lo que resulta en la muerte de la célula bacteriana.
+- **¿Por qué hariamos esto a nuestras bacterias?**
+	- El ADN/ARN no tiene por que ser maligno, puede ser benéfico como información de otras amenazas.
+- **Caracterización del uso de fagos**
+	- Beneficios
+		- Se puede ver como un metodo de comuncación y coordinación intercelular de largo alcance.
+		- Permite programabilidad a la célula
+		- La señal de información transportada es mayor que en el caso del QS, es posible entregar circuitos completos en el destino
+	- Los malo
+		- No es posible direccionar la comunicación completamente
+		- Se debe ser preciso y cuidadoso con la organización del circuito a transportar.
+		- No responden a antibióticos, son muy dificiles de controlar puesto que no tiene un proceso de vida.
+	- Uso
+		- El uso es muy bajo aún, porque es un campo que se ha estudiado poco aún.
+		- Técnicas basadas en el uso de fagos
+			- Phage therapy
+			- Phage display
+			- Lispeza por fagos (carne)
