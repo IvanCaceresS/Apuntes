@@ -133,3 +133,38 @@ Las 3 V's
 		- Es escalable
 	- MESOS vs YARN
 		- Slide 43 de la ppt
+# Clase 03-09
+## Presentación de resource management
+SLA-Aware Energy-Efficient Scheduling Scheme for Hadoop YARN
+- Resumen(lineas): Es un esquema para mejorar el manejo de recursos..
+	- Conexto: Optimizar recursos tipicos de computación pero con un gran enfoque en la energía. 
+		- SLA: un acuerdo que tiene el proveedor de la app con el cliente, para ver lo que se espera del rendimiento de la app. Limites de tiempos (Deadlines). 
+	- YARN, componentes
+		- Resource manager
+		- NodeManager
+		- ApplicationMaster
+		- Container
+	- Problematica:
+		- Asignación generalizada y uniforme de los recursos, no prioriza
+		- Eficiencia energética no contemplada
+		- Impacto en rendimiento ya que las apps requieren tiempos significativos
+	- Propuesta:
+		- Caracterizar el rendimiento de las aplicaciones, adoptando el peor caso posible
+		- Energía, diseñar un esquema DVFS. Toma la diferencia entre el tiempo real con el tiempo teorico de lo que demora la tarea.
+		- Obtener información de la tarea para un posterior uso en el calendarizador.
+	- Estructura:
+		- Job Profiler: le llega el trabajo y debe obtener la info de entrada, deadline, paralelismo,etc. Debe poder extraer las metricas mas importantes de cada fase: initialize, map, shuffle y reduce.
+		- Parallelism Estimator: calcula el grado minimo de paralelismo para enviar el resultado al calendarizador
+		- Calendarizador: asigna tareas de acuerdo a los resultado previos. usa el algoritmo EDF (Early Deadline First)
+		- Performance monitor: Obtiene todos los trabajos en el momento y los divide en 3: Los terminados, los que aun no inician, y los en trabajo actual.
+		- Frequency Estimator: Ajusta la frecuencia dentro del procesador con DVFS para cada app.
+	- La solucion que propone el paper es eficiente y reduce el consumo energetico. ya que permite cumplir con los deadlines con un uso eficiente de la energía y recursos.
+- 2 Preguntas:
+	- 1. Como funciona el paralelismo de las aplicación, se utilizan varios nucleos para asignar cada tarea a cada nucleo?: Cada aplicacion tiene el performance monitor y frequency estimator. Por lo que cada procesador puede paralelisar varias tareas segun la frecuencia definida para la tarea.
+	- 2. 
+- Nota sugerida: 7.0
+- RESUMEN: Este esquema propone una mejora en la gestión de recursos en entornos de computación distribuidos, enfocándose particularmente en la eficiencia energética sin comprometer los acuerdos de nivel de servicio (SLA). El esquema está diseñado para optimizar el uso de recursos, asegurando que las aplicaciones cumplan con sus plazos establecidos mientras se minimiza el consumo de energía.
+- Pregunta 1: **¿Cómo funciona el paralelismo de las aplicaciones en este esquema?**
+	- **Respuesta**: Cada aplicación utiliza el Performance Monitor y el Frequency Estimator, lo que permite que el procesador paralelice varias tareas, ajustando la frecuencia de cada tarea según sea necesario.
+- Pregunta 2: **¿Qué impacto tendría este esquema en la latencia de las aplicaciones?**
+- Nota sugerida: 7.0

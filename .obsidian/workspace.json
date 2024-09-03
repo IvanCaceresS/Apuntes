@@ -4,36 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "dd71bb38dd8623b8",
+        "id": "3067511349902ca5",
         "type": "tabs",
-        "dimension": 65.62162162162161,
         "children": [
           {
-            "id": "b200b9a698f3422f",
+            "id": "00ecdfb62b0b5f2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-2/Simulación y biología programable/Apuntes.md",
+                "file": "2024-2/Comunicación por luz visible/Apuntes.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "2057d7385a97ecdc",
-        "type": "tabs",
-        "dimension": 34.37837837837838,
-        "children": [
-          {
-            "id": "7556b670a6ce80fb",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "2024-2/Simulación y biología programable/ppt/Intercell2.pdf"
               }
             }
           }
@@ -87,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0d4e9e9009b7ee87",
@@ -104,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-2/Simulación y biología programable/Apuntes.md",
+                "file": "2024-2/Comunicación por luz visible/Apuntes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-2/Simulación y biología programable/Apuntes.md",
+                "file": "2024-2/Comunicación por luz visible/Apuntes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-2/Simulación y biología programable/Apuntes.md"
+                "file": "2024-2/Comunicación por luz visible/Apuntes.md"
               }
             }
           }
@@ -165,17 +146,17 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "b200b9a698f3422f",
+  "active": "00ecdfb62b0b5f2a",
   "lastOpenFiles": [
-    "2024-2/Simulación y biología programable/ppt/Intercell2.pdf",
+    "2024-2/Big Data/Apuntes.md",
+    "2024-2/Comunicación por luz visible/Apuntes.md",
     "2024-2/Simulación y biología programable/Apuntes.md",
+    "2024-2/Simulación y biología programable/ppt/Intercell2.pdf",
     "2024-2/Simulación y biología programable/Pasted image 20240903120827.png",
     "2024-2/Simulación y biología programable/Pasted image 20240903120749.png",
     "2024-2/Simulación y biología programable/Pasted image 20240903115056.png",
     "conflict-files-obsidian-git.md",
     "2024-2/Notas.xlsx",
-    "2024-2/Comunicación por luz visible/Apuntes.md",
-    "2024-2/Big Data/Apuntes.md",
     "2024-2/Simulación y biología programable/ppt/Intercell1.pdf",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240830115248.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240830115116.png",
