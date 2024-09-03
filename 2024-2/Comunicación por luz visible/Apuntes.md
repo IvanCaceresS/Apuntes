@@ -112,3 +112,26 @@ f = c / long.onda
 		- La cantidad de ruido depende del area del fotodiodo, a mayor area del fotodiodo mayor ruido
 	- Interferencia
 		- Se puede mitigar la interferencia mediante la creacion de un ADRs que es un arreglo de fotodiodos en forma de piramide donde por ejemplo son 4, cada uno de esos 4 recibe la señal de una manera distinta a alguna le llega mas interferencia que a otras, entonces luego se suman o se hace algun calculo a las 4 señales recibidas se puede mejorar la SINR
+# Clase 03-09
+## Modelo de canal
+- Alámbrico
+	- Medio físico:
+		- Lineas de fuga
+		- Fibra óptica
+		- Cobre
+		- Semiconductores
+	- Modelamiento matemático probabilistico/estadístico.
+	- Mientras más distancia, más atenuamiento. Pathloss.
+- Inalámbrico
+	- Medio físico:
+		- Aire
+		- Vacío
+		- Agua
+	- Mucha más atenuación, shadowing, scattering
+- Configuraciones de tx y rx:
+	- LoS imagen A
+	- Solo Reflexion imagen C
+	- Tracking LoS (angulo de incidencia) Imagen D
+	- Reflexion y linea de vista. Imagen B
+- Indoor optical wireless communication channel
+	- 
