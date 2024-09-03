@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "431c1a107664e9d5",
+        "id": "dd71bb38dd8623b8",
         "type": "tabs",
         "children": [
           {
-            "id": "e2776a5423f6bef9",
+            "id": "b200b9a698f3422f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,8 +138,10 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "d7a78b9cc663cb82",
+  "active": "b200b9a698f3422f",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "2024-2/Notas.xlsx",
     "2024-2/Comunicación por luz visible/Apuntes.md",
     "2024-2/Big Data/Apuntes.md",
     "2024-2/Simulación y biología programable/Apuntes.md",
@@ -154,9 +156,7 @@
     "2024-2/Simulación y biología programable/ppt/SSB5.pdf.crdownload",
     "2024-2/Simulación y biología programable/ppt/SSB4.pdf",
     "2024-2/Simulación y biología programable/ppt/SSB4.pdf.crdownload",
-    "2024-2/Simulación y biología programable/ppt/SSB3.pdf",
     "2024-2/Simulación y biología programable/Tareas/Tarea 1/Resumen de los articulos cientificos.md",
-    "conflict-files-obsidian-git.md",
     "2024-2/Big Data/Imagenes/Pasted image 20240827144951.png",
     "2024-2/Evaluación de proyectos/Apuntes.md",
     "README.md",
