@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "311debcfe104c028",
+        "id": "3067511349902ca5",
         "type": "tabs",
         "children": [
           {
-            "id": "adf9066b043f30c4",
+            "id": "00ecdfb62b0b5f2a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2024-2/Comunicación por luz visible/Apuntes.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 200
   },
   "right": {
     "id": "0d4e9e9009b7ee87",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2024-2/Comunicación por luz visible/Apuntes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2024-2/Comunicación por luz visible/Apuntes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2024-2/Comunicación por luz visible/Apuntes.md"
+              }
             }
           }
         ]
@@ -140,51 +148,52 @@
   },
   "active": "d7a78b9cc663cb82",
   "lastOpenFiles": [
+    "2024-2/Evaluación de proyectos/Excels/4B9FC330",
+    "2024-2/Evaluación de proyectos/Excels/289FC330",
+    "2024-2/Evaluación de proyectos/Excels/~$Estudio_C1.xlsx",
+    "2024-2/Evaluación de proyectos/Excels/Clase_05-09.xlsx",
+    "2024-2/Evaluación de proyectos/Excels/2B46A330",
+    "2024-2/Evaluación de proyectos/Excels/~$Clase_05-09.xlsx",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240903120827.png",
-    "2024-2/Simulación y biología programable/Tareas/Tarea 1/Resumen de los articulos cientificos.md",
-    "2024-2/Simulación y biología programable/Apuntes.md",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240903115056.png",
     "2024-2/Big Data/Apuntes.md",
-    "conflict-files-obsidian-git.md",
-    "README.md",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240830115248.png",
-    "2024-2/Simulación y biología programable/ppt/SSB6.pdf",
-    "2024-2/Simulación y biología programable/ppt/SSB5.pdf",
-    "2024-2/Simulación y biología programable/ppt/SSB4.pdf",
-    "2024-2/Simulación y biología programable/ppt/SSB3.pdf",
-    "2024-2/Simulación y biología programable/ppt/SSB2.pdf",
-    "2024-2/Simulación y biología programable/ppt/SSB1.pdf",
-    "2024-2/Simulación y biología programable/ppt/Intercell3.pdf",
-    "2024-2/Simulación y biología programable/ppt/Intercell2.pdf",
-    "2024-2/Simulación y biología programable/ppt/Intercell1.pdf",
-    "2024-2/Simulación y biología programable/ppt/InVivoAI1.pdf",
-    "2024-2/Simulación y biología programable/Pasted image 20240830115248.png",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240830115116.png",
     "2024-2/Comunicación por luz visible/Apuntes.md",
+    "2024-2/Simulación y biología programable/Apuntes.md",
+    "2024-2/Simulación y biología programable/ppt/Intercell2.pdf",
+    "2024-2/Simulación y biología programable/Pasted image 20240903120827.png",
+    "2024-2/Simulación y biología programable/Pasted image 20240903120749.png",
+    "2024-2/Simulación y biología programable/Pasted image 20240903115056.png",
+    "conflict-files-obsidian-git.md",
+    "2024-2/Notas.xlsx",
+    "2024-2/Simulación y biología programable/ppt/Intercell1.pdf",
+    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240830115248.png",
+    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240830115116.png",
+    "2024-2/Simulación y biología programable/ppt/InVivoAI1.pdf",
+    "2024-2/Simulación y biología programable/ppt/InVivoAI1.pdf.crdownload",
+    "2024-2/Simulación y biología programable/Tareas/Tarea 1/Resumen de los articulos cientificos.md",
+    "2024-2/Big Data/Imagenes/Pasted image 20240827144951.png",
     "2024-2/Evaluación de proyectos/Apuntes.md",
-    "Sin título.md",
+    "README.md",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240827114021.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240823122147.png",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240823121734.png",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240823121604.png",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240823120912.png",
     "2024-2/Algoritmos de ruteo y redes resilientes/Apuntes.md",
     "2024-1/INTERNET DE LAS COSAS/Resumen Solemne 2.md",
-    "2024-1/INTERNET DE LAS COSAS/Apuntes IoT.md",
-    "file-ydNBMvUokNFHOxDwc7LrMDV6.md",
-    "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 2.md",
-    "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Ayudantía.md",
-    "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md",
-    "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Solemne 1.md",
-    "2024-1/DATA SCIENCE/Apuntes Data Science.md",
+    "Sin título.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Solemne 2.md",
+    "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 3.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 1 Gestión Organizacional.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 2 Gestión Organizacional.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Apuntes Ayudantías.md",
-    "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 1.md",
+    "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 2.md",
+    "2024-1/DATA SCIENCE/Apuntes Data Science.md",
     "2024-1/INTELIGENCIA DE NEGOCIOS/Apuntes Inteligencia de negocios.md",
-    "Sin título.canvas"
+    "2024-1/INTERNET DE LAS COSAS/Apuntes IoT.md",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 3.md",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Apuntes Ayudantías.md",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 2 Gestión Organizacional.md",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 1 Gestión Organizacional.md",
+    "Sin título.canvas",
+    "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Solemne 1.md",
+    "2024-1/INTELIGENCIA DE NEGOCIOS/Proyecto 1 Power BI.md",
+    "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Ayudantía.md",
+    "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 1.md"
   ]
 }
