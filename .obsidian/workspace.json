@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9ed3adcddad1048a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-2/Simulación y biología programable/Apuntes.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-2/Simulación y biología programable/Apuntes.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-2/Simulación y biología programable/Apuntes.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -146,8 +159,11 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "00ecdfb62b0b5f2a",
+  "active": "9ed3adcddad1048a",
   "lastOpenFiles": [
+    "2024-2/Simulación y biología programable/Apuntes.md",
+    "conflict-files-obsidian-git.md",
+    "2024-2/Simulación y biología programable/Resumen Control 1.md",
     "2024-2/Comunicación por luz visible/Apuntes.md",
     "2024-2/Evaluación de proyectos/Excels/4B9FC330",
     "2024-2/Evaluación de proyectos/Excels/289FC330",
@@ -158,12 +174,10 @@
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240903120827.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240903115056.png",
     "2024-2/Big Data/Apuntes.md",
-    "2024-2/Simulación y biología programable/Apuntes.md",
     "2024-2/Simulación y biología programable/ppt/Intercell2.pdf",
     "2024-2/Simulación y biología programable/Pasted image 20240903120827.png",
     "2024-2/Simulación y biología programable/Pasted image 20240903120749.png",
     "2024-2/Simulación y biología programable/Pasted image 20240903115056.png",
-    "conflict-files-obsidian-git.md",
     "2024-2/Notas.xlsx",
     "2024-2/Simulación y biología programable/ppt/Intercell1.pdf",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240830115248.png",
