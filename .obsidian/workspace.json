@@ -4,22 +4,116 @@
     "type": "split",
     "children": [
       {
-        "id": "3067511349902ca5",
+        "id": "311debcfe104c028",
         "type": "tabs",
         "children": [
           {
-            "id": "00ecdfb62b0b5f2a",
+            "id": "adf9066b043f30c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-2/Comunicación por luz visible/Apuntes.md",
+                "file": "2024-2/Simulación y biología programable/Resumen Control 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ]
+      },
+      {
+        "id": "093c3e0fbcd51432",
+        "type": "split",
+        "children": [
+          {
+            "id": "e61891a6a5e33951",
+            "type": "tabs",
+            "dimension": 35.28846153846154,
+            "children": [
+              {
+                "id": "3302dc8c660e9e9f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2024-2/Simulación y biología programable/Apuntes.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "4186442910a927cf",
+            "type": "tabs",
+            "dimension": 64.71153846153847,
+            "children": [
+              {
+                "id": "558de8a680d59de2",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "2024-2/Simulación y biología programable/ppt/Intro.pdf"
+                  }
+                }
+              },
+              {
+                "id": "8f0a4869298092ab",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "2024-2/Simulación y biología programable/ppt/RepasoBio.pdf"
+                  }
+                }
+              },
+              {
+                "id": "4f559636e6be42a4",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "2024-2/Simulación y biología programable/ppt/Organismos.pdf"
+                  }
+                }
+              },
+              {
+                "id": "ceee10a9fa4e3cc9",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "2024-2/Simulación y biología programable/ppt/ExpGen.pdf"
+                  }
+                }
+              },
+              {
+                "id": "cd2e7f3efbb574ff",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "2024-2/Simulación y biología programable/ppt/OtrasHerr.pdf"
+                  }
+                }
+              },
+              {
+                "id": "348c6f727a8990db",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "2024-2/Simulación y biología programable/ppt/DisenoCircs.pdf"
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -69,7 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 284.5
   },
   "right": {
     "id": "0d4e9e9009b7ee87",
@@ -85,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-2/Comunicación por luz visible/Apuntes.md",
+                "file": "2024-2/Simulación y biología programable/Resumen Control 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-2/Comunicación por luz visible/Apuntes.md",
+                "file": "2024-2/Simulación y biología programable/Resumen Control 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-2/Comunicación por luz visible/Apuntes.md"
+                "file": "2024-2/Simulación y biología programable/Resumen Control 1.md"
               }
             }
           }
@@ -146,54 +240,53 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "d7a78b9cc663cb82",
+  "active": "adf9066b043f30c4",
   "lastOpenFiles": [
-    "2024-2/Evaluación de proyectos/Excels/4B9FC330",
-    "2024-2/Evaluación de proyectos/Excels/289FC330",
-    "2024-2/Evaluación de proyectos/Excels/~$Estudio_C1.xlsx",
+    "2024-2/Simulación y biología programable/ppt/RepasoBio.pdf",
+    "2024-2/Simulación y biología programable/Resumen Control 1.md",
+    "2024-2/Simulación y biología programable/ppt/DisenoCircs.pdf",
+    "2024-2/Simulación y biología programable/ppt/OtrasHerr.pdf",
+    "2024-2/Simulación y biología programable/ppt/ExpGen.pdf",
+    "2024-2/Simulación y biología programable/ppt/Organismos.pdf",
+    "2024-2/Simulación y biología programable/ppt/Intro.pdf",
+    "2024-2/Simulación y biología programable/Apuntes.md",
     "2024-2/Evaluación de proyectos/Excels/Clase_05-09.xlsx",
-    "2024-2/Evaluación de proyectos/Excels/2B46A330",
-    "2024-2/Evaluación de proyectos/Excels/~$Clase_05-09.xlsx",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240903120827.png",
+    "2024-2/Simulación y biología programable/Tareas/Tarea 1/Resumen de los articulos cientificos.md",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240903115056.png",
     "2024-2/Big Data/Apuntes.md",
-    "2024-2/Comunicación por luz visible/Apuntes.md",
-    "2024-2/Simulación y biología programable/Apuntes.md",
-    "2024-2/Simulación y biología programable/ppt/Intercell2.pdf",
-    "2024-2/Simulación y biología programable/Pasted image 20240903120827.png",
-    "2024-2/Simulación y biología programable/Pasted image 20240903120749.png",
-    "2024-2/Simulación y biología programable/Pasted image 20240903115056.png",
     "conflict-files-obsidian-git.md",
-    "2024-2/Notas.xlsx",
-    "2024-2/Simulación y biología programable/ppt/Intercell1.pdf",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240830115248.png",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240830115116.png",
-    "2024-2/Simulación y biología programable/ppt/InVivoAI1.pdf",
-    "2024-2/Simulación y biología programable/ppt/InVivoAI1.pdf.crdownload",
-    "2024-2/Simulación y biología programable/Tareas/Tarea 1/Resumen de los articulos cientificos.md",
-    "2024-2/Big Data/Imagenes/Pasted image 20240827144951.png",
-    "2024-2/Evaluación de proyectos/Apuntes.md",
     "README.md",
+    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240830115248.png",
+    "2024-2/Simulación y biología programable/ppt/SSB6.pdf",
+    "2024-2/Simulación y biología programable/ppt/SSB5.pdf",
+    "2024-2/Simulación y biología programable/ppt/SSB4.pdf",
+    "2024-2/Simulación y biología programable/Pasted image 20240830115248.png",
+    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240830115116.png",
+    "2024-2/Comunicación por luz visible/Apuntes.md",
+    "2024-2/Evaluación de proyectos/Apuntes.md",
+    "Sin título.md",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240827114021.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240823122147.png",
+    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240823121734.png",
+    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240823121604.png",
+    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240823120912.png",
     "2024-2/Algoritmos de ruteo y redes resilientes/Apuntes.md",
     "2024-1/INTERNET DE LAS COSAS/Resumen Solemne 2.md",
-    "Sin título.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Solemne 2.md",
-    "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
-    "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 2.md",
-    "2024-1/DATA SCIENCE/Apuntes Data Science.md",
-    "2024-1/INTELIGENCIA DE NEGOCIOS/Apuntes Inteligencia de negocios.md",
     "2024-1/INTERNET DE LAS COSAS/Apuntes IoT.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 3.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Apuntes Ayudantías.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 2 Gestión Organizacional.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 1 Gestión Organizacional.md",
-    "Sin título.canvas",
-    "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Solemne 1.md",
-    "2024-1/INTELIGENCIA DE NEGOCIOS/Proyecto 1 Power BI.md",
+    "file-ydNBMvUokNFHOxDwc7LrMDV6.md",
+    "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 2.md",
     "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Ayudantía.md",
-    "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 1.md"
+    "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md",
+    "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Solemne 1.md",
+    "2024-1/DATA SCIENCE/Apuntes Data Science.md",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Solemne 2.md",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 3.md",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 1 Gestión Organizacional.md",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 2 Gestión Organizacional.md",
+    "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Apuntes Ayudantías.md",
+    "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 1.md",
+    "Sin título.canvas"
   ]
 }

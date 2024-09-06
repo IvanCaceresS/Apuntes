@@ -17,7 +17,7 @@ Tesis doctoral profe → Cap 2 es lo básico.
 **Nota:** El sistema operativo de un organismo sería el genoma y el ADN sería el leguaje de programación.
 Estas cadenas de ADN (genotipo) definen:  
 - Las propiedades observables de un organismo (fenotipo) 
-- Los procesos de operaci ́on de un organismo (por ejemplo, comunicación intercelular, ejecución de rutas metabólicas o lisis programada) 
+- Los procesos de operación de un organismo (por ejemplo, comunicación intercelular, ejecución de rutas metabólicas o lisis programada) 
 - Patrones para la síntesis de proteínas
 
 ### Terminología
