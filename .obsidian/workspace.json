@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "3067511349902ca5",
+        "id": "c6d891b95a441103",
         "type": "tabs",
         "children": [
           {
-            "id": "00ecdfb62b0b5f2a",
+            "id": "bee5413c2921eed5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-2/Simulación y biología programable/Apuntes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9ed3adcddad1048a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "2024-2/Simulación y biología programable/Resumen Control 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "2024-2/Simulación y biología programable/Resumen Control 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "2024-2/Simulación y biología programable/Resumen Control 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,16 +125,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "2024-2/Simulación y biología programable/Resumen Control 1.md"
               }
             }
+          },
+          {
+            "id": "9e594239a5d3dca8",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 298.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,12 +151,26 @@
       "canvas:Crear nuevo lienzo": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian-git:Open Git source control": false,
+      "excel:Create Excel File": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "9ed3adcddad1048a",
+  "active": "d7a78b9cc663cb82",
   "lastOpenFiles": [
+    "2024-2/24242000",
+    "2024-2/3C142000",
+    "2024-2/44912000",
+    "2024-2/93912000",
+    "2024-2/39EF1000",
     "2024-2/Simulación y biología programable/Apuntes.md",
+    "2024-2/Excel 2024-09-08 19.01.04.sheet.md",
+    "Sin título.md",
+    "a.sheet.md",
+    "2024-2/~$Notas.xlsx",
+    "2024-2/Sin nombre",
     "conflict-files-obsidian-git.md",
     "2024-2/Simulación y biología programable/Resumen Control 1.md",
     "2024-2/Comunicación por luz visible/Apuntes.md",
@@ -169,20 +178,14 @@
     "2024-2/Evaluación de proyectos/Excels/289FC330",
     "2024-2/Evaluación de proyectos/Excels/~$Estudio_C1.xlsx",
     "2024-2/Evaluación de proyectos/Excels/Clase_05-09.xlsx",
-    "2024-2/Evaluación de proyectos/Excels/2B46A330",
-    "2024-2/Evaluación de proyectos/Excels/~$Clase_05-09.xlsx",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240903120827.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240903115056.png",
     "2024-2/Big Data/Apuntes.md",
-    "2024-2/Simulación y biología programable/ppt/Intercell2.pdf",
     "2024-2/Simulación y biología programable/Pasted image 20240903120827.png",
     "2024-2/Simulación y biología programable/Pasted image 20240903120749.png",
     "2024-2/Simulación y biología programable/Pasted image 20240903115056.png",
-    "2024-2/Notas.xlsx",
-    "2024-2/Simulación y biología programable/ppt/Intercell1.pdf",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240830115248.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240830115116.png",
-    "2024-2/Simulación y biología programable/ppt/InVivoAI1.pdf",
     "2024-2/Simulación y biología programable/Tareas/Tarea 1/Resumen de los articulos cientificos.md",
     "2024-2/Big Data/Imagenes/Pasted image 20240827144951.png",
     "2024-2/Evaluación de proyectos/Apuntes.md",
@@ -191,7 +194,6 @@
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240823122147.png",
     "2024-2/Algoritmos de ruteo y redes resilientes/Apuntes.md",
     "2024-1/INTERNET DE LAS COSAS/Resumen Solemne 2.md",
-    "Sin título.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Solemne 2.md",
     "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Arquitectura de Software.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
@@ -204,9 +206,6 @@
     "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 2 Gestión Organizacional.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 1 Gestión Organizacional.md",
     "Sin título.canvas",
-    "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Solemne 1.md",
-    "2024-1/INTELIGENCIA DE NEGOCIOS/Proyecto 1 Power BI.md",
-    "2024-1/ARQUITECTURA DE SOFTWARE/Apuntes Ayudantía.md",
-    "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 1.md"
+    "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Solemne 1.md"
   ]
 }
