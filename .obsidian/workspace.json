@@ -152,13 +152,10 @@
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
       "command-palette:Abrir paleta de comandos": false,
-      "obsidian-git:Open Git source control": false,
-      "excel:Create Excel File": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d7a78b9cc663cb82",
+  "active": "9e594239a5d3dca8",
   "lastOpenFiles": [
     "2024-2/24242000",
     "2024-2/3C142000",
