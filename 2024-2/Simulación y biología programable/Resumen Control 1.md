@@ -208,4 +208,3 @@ Para diseñar circuitos más complejos, existen varias estrategias:
 ---
 ### 7. Próxima clase
 - Se abordará la **comunicación intercelular** y cómo aprovecharla para coordinar poblaciones de células en la realización de tareas complejas.
-a
