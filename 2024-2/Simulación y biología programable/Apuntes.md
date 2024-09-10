@@ -222,3 +222,49 @@ Otro método de comunicación entre células: **Infección por bacteriófagos**
 			- Phage therapy
 			- Phage display
 			- Lispeza por fagos (carne)
+# Clase 06-09
+## Comunicación intercelular III
+La conjugación bacteriana consiste en el traspaso de un plásmido completo desde una bacteria portadora a otra vecina. Es un método de transferencia **horizontal** de genes (HGT)
+- Transferencia horizontal:
+	- Es cuando los microbios intercambian material genético entre individuos que no son descendientes directos. Esto ocurre entre microbios de la misma o incluso diferentes especies. Hay tres principales formas de transferencia horizontal en microbios:
+	- **Transformación**: Una célula capta ADN libre del entorno.
+	- **Conjugación**: Dos células se unen y transfieren ADN a través de un puente citoplasmático.
+	- **Transducción**: Un virus bacteriófago transfiere ADN de una bacteria a otra.
+- Transferencia vertical:
+	- Es la transmisión de material genético de una generación a la siguiente, es decir, de "padre a hijo". En los microbios, esto ocurre cuando una célula madre se divide y transmite su ADN a sus descendientes. Es el tipo de herencia tradicional, similar a lo que ocurre en organismos multicelulares.
+- **¿Cómo sucede esto exactamente?**
+	- ![[Pasted image 20240906114627.png]] Bacteria de la izq. conjugando el plásmido rojo a la bacteria de la derecha
+- **¿Cuándo sucede la conjugación?**
+	- Existen condiciones (supuestas, ya que aun no está totalmente desvelado)
+		- Hay un tiempo suficiente de ese contacto entre organismos.
+		- Existe un plásmido que se puede trasladar
+		- El plásmido debe tener la capacidad de formar un pilus de tipo T4SS (Secretion System). Este es el puente de transporte.
+		- La membrana de la bacteria receptora es capaz de dejar pasar y alojar el plásmido en su citoplasma.
+	- ![[Pasted image 20240906115213.png]]
+	- a) Relaxasa, es una proteina que es causante de la conjugación. Corta una de las 2 hebras de ADN justo en ori T.
+	- b) T4CP(la azul), agarra el ADN desde el ori T y lo arrastra a T4SS(la verde, el pilus),
+	- c) Ambos organismos tienen la información genética.
+- **¿Programabilidad?**
+	- Se puede programar en 2 niveles:
+		- A nivel de plásmido, hay estapas que se pueden condicionar al estar controladas por proteínas específicas:
+			- Corte de una de las hebras del plásmido (Relaxasa - Rel) en la zona del origen de transferencia (oriT)
+			- Ensamblaje del canal de transferencia hacia la otra bacteria (T4SS)
+			- Desenrollado y guía de la hebra hacia el canal de transmisión (T4CP)
+		- El segundo nivel es el de la bacteria de destino, es posible programar la membrana de modo que implemente exclusión y el canal de la bacteria emisora no pueda acceder a la receptora.
+- **Caracterización de la conjugación bacteriana**
+	- La transferencia de información que causa la conjugación es muchisimo mayor que la de QS y la de fagos pues transporta un plasmido de ADN.
+	- Es comunicación local (corta distancia)
+	- Es posible dirigir ( hasta cierto punto) por medio de exclusión de entrada a las bacterias receptoras. No es preciso.
+	- Es programable.
+- **Ventajas**
+	- El nivel de programabilidad de la conjugación bacteriana es muy elevado. Mucha alteración posible a los circuitos.
+	- Mayor cantidad de información trasladada.
+	- La comunicación es de corto alcance y bastante más controlada que en QS y los fagos.
+- **Desventajas**
+	- Muy lento
+	- No es posible direccionar completamente la comunicación.
+	- Se debe ser cuidadoso con el diseño del plásmido a transportar, ya que el peso metabólico adicional implique que se diluya evolutivamente.
+- **Uso**
+	- El uso de esta técnica en biología programable es algo poco usado aun.
+	- Compartir rasgos beneficiosos con la colonia.
+	- Neutralizar la resistencia a antibióticos y trasladar 

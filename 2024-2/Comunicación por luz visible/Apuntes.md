@@ -134,4 +134,44 @@ f = c / long.onda
 	- Tracking LoS (angulo de incidencia) Imagen D
 	- Reflexion y linea de vista. Imagen B
 - Indoor optical wireless communication channel
-	- 
+# Clase 06-09
+## LOS propagation model
+- Linea de vista directa.
+- No hay obstrucciones.
+- Escenario ideal
+### Light Source Model
+![[Pasted image 20240906161521.png]]
+(1) El ángulo de irradiancia es con respecto a la normal en el led, si el angulo del haz de luz está en 0° con respecto a la normal se alcanza el máximo de intensidad.
+(2)
+El semiángulo de la mitad de potencia va entre [60°-90°)]
+Siendo 90°el peor
+A medida que se amplía el angulo más se dispersa la luz, mientras que con menos angulo, mas concentrada está la potencia.
+
+### Light Detectors
+![[Pasted image 20240906162547.png]](3) Ángulo de incidencia, lo ideal es que sea 0°
+(4) n es el coeficiente de reflexión
+
+Todo se une en la siguiente formula:
+![[Pasted image 20240906163656.png]]
+
+Pauta Solemne 1 2022-2
+Calcular y graficar la respuesta al impulso ( magnitud vs tiempo) de la componente de canal LoS de un sistema 
+Angulo de incidencia = 30°
+Angulo de irradiancia = 45°
+Posición del led = (2, 4, 4)
+Posición del PD = (1, 4, 1)
+Área efectiva del PD = 12 mm^2
+Asumir ganancia unitaria y modo lambertiano de 1
+distancia se saca con los puntos = raiz(1+0+9) = raiz(10)
+Aeff = Ap x cos(ang_inc)
+Ap = 12 / cos(30°) = 10,39 mm^2
+Ap = 1,39 x 10^-3
+m se asume como 1
+H_LoS = (1+1) x 1,39 x 10^-3  x cos(45) x cos (30) x 1 /(2 x pi x 10)
+H_LoS = 2 x 1,39 x 10^-3  x 0,707106 x 0,866025 / (20 x pi)
+**H_LoS = 2,71 x 10 ^-5**
+
+tiempo que va a demorar en llegar al receptor
+d/c = raiz(10) / (3x10^8) = **1,05 x 10^-8 segundos** = 0,105 nanosegundos
+Ahora graficar eje X tiempo(ns) y eje Y (adimensional) se dibuja un pulso en los 0,105 ns con una altura de 2,71 x10^-5
+
