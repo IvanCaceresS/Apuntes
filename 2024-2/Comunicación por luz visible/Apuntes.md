@@ -155,13 +155,14 @@ Todo se une en la siguiente formula:
 ![[Pasted image 20240906163656.png]]
 
 Pauta Solemne 1 2022-2
-Calcular y graficar la respuesta al impulso ( magnitud vs tiempo) de la componente de canal LoS de un sistema 
-Angulo de incidencia = 30°
-Angulo de irradiancia = 45°
-Posición del led = (2, 4, 4)
-Posición del PD = (1, 4, 1)
-Área efectiva del PD = 12 mm^2
-Asumir ganancia unitaria y modo lambertiano de 1
+**Calcular y graficar la respuesta al impulso ( magnitud vs tiempo) de la componente de canal LoS de un sistema** 
+**Angulo de incidencia = 30°**
+**Angulo de irradiancia = 45°**
+**Posición del led = (2, 4, 4)**
+**Posición del PD = (1, 4, 1)**
+**Área efectiva del PD = 12 mm^2**
+**Asumir ganancia unitaria y modo lambertiano de 1**
+
 distancia se saca con los puntos = raiz(1+0+9) = raiz(10)
 Aeff = Ap x cos(ang_inc)
 Ap = 12 / cos(30°) = 10,39 mm^2
@@ -174,4 +175,25 @@ H_LoS = 2 x 1,39 x 10^-3  x 0,707106 x 0,866025 / (20 x pi)
 tiempo que va a demorar en llegar al receptor
 d/c = raiz(10) / (3x10^8) = **1,05 x 10^-8 segundos** = 0,105 nanosegundos
 Ahora graficar eje X tiempo(ns) y eje Y (adimensional) se dibuja un pulso en los 0,105 ns con una altura de 2,71 x10^-5
-
+# Clase 10-09
+**PREGUNTAS TIPO SOLEMNE**
+1. **El rango de longitudes de onda de trabajo de luz visible es:** 400nm a 700nm
+2. **Intensity modulation/Direct Detection (IM/DD) se refiere a:** Real y positiva
+3. **¿Cual es una limitación importante de la comunicación por luz visible?:** Dependencia de las condiciones del entorno
+4. **¿Cuál es la funcion principal del modulador en un transmisor óptico?:** Modificar la intensidad o la fase de la señal óptica para llevar información
+5. **¿Qúe componente se utilzia para separar las señales ópticas de diferentes longitudes de onda en un receptor óptico?:**  Filtro óptico
+6. **¿Qué es la atenuación en la comunicación por luz visible en la componente LoS?:** La disminución de la intensidad de la señal a medida que viaja a través del
+7. **¿Cómo afecta la distancia a la componente LoS en la comunicación por luz visible?**: A medida que la dist. aumenta, aumenta la atenuación
+8. **¿Como se representa tipicamente la respuesta al impulso del canal en un sistema vlc?:** Como un grafico de barras en el tiempo
+9. En un grafico la componente LoS es la que llega más rapido y es más alta, el resto son reflexiones, dispersiones. Si tienen la misma forma entonces tienen la misma cantidad de reflexiones. No se puede concluir el desempeño de los sitemas si no se tiene todo el contexto.
+1. 
+Angulo de incidencia = 30°
+Angulo de irradiancia=45°
+Area efectiva del PD = 12mm^2
+Asumir ganancia unitaria y modo lambertiano de 1
+DISTRACCION
+tiempo se saca del grafico
+TIEMPO = D/C
+8,5ns = d/(3x10^8m/s)
+d = (8,5 x 10^-9) x 3x10^8
+d= 2,55 m
