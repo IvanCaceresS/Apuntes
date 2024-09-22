@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5c97ec8fc56dad7f",
+        "id": "b118c9c793496638",
         "type": "tabs",
         "children": [
           {
-            "id": "0d091694bca6e92c",
+            "id": "0a379c04bee85083",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-2/Simulación y biología programable/Resumen Control 1.md",
+                "file": "2024-2/Big Data/Apuntes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-2/Simulación y biología programable/Resumen Control 1.md",
+                "file": "2024-2/Big Data/Apuntes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-2/Simulación y biología programable/Resumen Control 1.md",
+                "file": "2024-2/Big Data/Apuntes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-2/Simulación y biología programable/Resumen Control 1.md"
+                "file": "2024-2/Big Data/Apuntes.md"
               }
             }
           },
@@ -156,10 +156,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0d091694bca6e92c",
+  "active": "0a379c04bee85083",
   "lastOpenFiles": [
-    "2024-2/Simulación y biología programable/Apuntes.md",
+    "2024-2/Big Data/Apuntes.md",
+    "2024-2/Comunicación por luz visible/Apuntes.md",
+    "2024-2/Evaluación de proyectos/Apuntes.md",
     "2024-2/Simulación y biología programable/Resumen Control 1.md",
+    "2024-2/Simulación y biología programable/Apuntes.md",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240909185031.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240910001522.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240909213753.png",
@@ -180,14 +183,11 @@
     "Sin título.md",
     "a.sheet.md",
     "conflict-files-obsidian-git.md",
-    "2024-2/Comunicación por luz visible/Apuntes.md",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240903120827.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240903115056.png",
-    "2024-2/Big Data/Apuntes.md",
     "2024-2/Simulación y biología programable/Pasted image 20240903120827.png",
     "2024-2/Simulación y biología programable/Pasted image 20240903120749.png",
     "2024-2/Simulación y biología programable/Tareas/Tarea 1/Resumen de los articulos cientificos.md",
-    "2024-2/Evaluación de proyectos/Apuntes.md",
     "README.md",
     "2024-2/Algoritmos de ruteo y redes resilientes/Apuntes.md",
     "2024-1/INTERNET DE LAS COSAS/Resumen Solemne 2.md",
