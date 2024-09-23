@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6e10366b735a80f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-2/Big Data/Apuntes.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-2/Big Data/Apuntes.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-2/Big Data/Apuntes.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -156,9 +169,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0a379c04bee85083",
+  "active": "6e10366b735a80f7",
   "lastOpenFiles": [
     "2024-2/Big Data/Apuntes.md",
+    "conflict-files-obsidian-git.md",
+    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240906115213.png",
+    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240906114627.png",
+    "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240906163656.png",
+    "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240906162547.png",
+    "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240906161521.png",
+    "2024-2/Comunicación por luz visible/Imagenes",
     "2024-2/Comunicación por luz visible/Apuntes.md",
     "2024-2/Evaluación de proyectos/Apuntes.md",
     "2024-2/Simulación y biología programable/Resumen Control 1.md",
@@ -168,7 +188,6 @@
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240909213753.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240909204304.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240909204258.png",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240909185002.png",
     "2024-2/Simulación y biología programable/ppt/DisenoCircs.pdf",
     "2024-2/Simulación y biología programable/ppt/OtrasHerr.pdf",
     "2024-2/Simulación y biología programable/ppt/ExpGen.pdf",
@@ -178,15 +197,9 @@
     "2024-2/3C142000",
     "2024-2/44912000",
     "2024-2/93912000",
-    "2024-2/39EF1000",
     "2024-2/Excel 2024-09-08 19.01.04.sheet.md",
     "Sin título.md",
     "a.sheet.md",
-    "conflict-files-obsidian-git.md",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240903120827.png",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240903115056.png",
-    "2024-2/Simulación y biología programable/Pasted image 20240903120827.png",
-    "2024-2/Simulación y biología programable/Pasted image 20240903120749.png",
     "2024-2/Simulación y biología programable/Tareas/Tarea 1/Resumen de los articulos cientificos.md",
     "README.md",
     "2024-2/Algoritmos de ruteo y redes resilientes/Apuntes.md",
