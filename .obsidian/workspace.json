@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "2024-2/Evaluación de proyectos/Apuntes.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "2024-2/Evaluación de proyectos/Apuntes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "2024-2/Evaluación de proyectos/Apuntes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "2024-2/Evaluación de proyectos/Apuntes.md"
               }
             }
           },
@@ -166,12 +166,22 @@
       "canvas:Crear nuevo lienzo": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "obsidian-git:Open Git source control": false
+      "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "6e10366b735a80f7",
+  "active": "d7a78b9cc663cb82",
   "lastOpenFiles": [
+    "2024-2/Evaluación de proyectos/Excels/CED93300",
+    "2024-2/Evaluación de proyectos/Excels/~$Ejercicios_sol_1.xlsx",
+    "2024-2/Evaluación de proyectos/Excels/DD583300",
+    "2024-2/Evaluación de proyectos/Excels/6AC73300",
+    "2024-2/Evaluación de proyectos/Excels/~$24..2.1 VENTAS POR DOS PRODUCTOS PARA PROYECCIN 08.24.xlsx",
+    "2024-2/Evaluación de proyectos/Excels/53C82300",
+    "2024-2/Evaluación de proyectos/Excels/60C82300",
+    "2024-2/Evaluación de proyectos/Excels/BDF62300",
+    "2024-2/Evaluación de proyectos/Excels/CCF62300",
+    "2024-2/Evaluación de proyectos/Excels/19F62300",
+    "2024-2/Evaluación de proyectos/Excels/Ejercicios_sol_1.xlsx",
     "2024-2/Big Data/Apuntes.md",
     "conflict-files-obsidian-git.md",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240906115213.png",
@@ -179,7 +189,6 @@
     "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240906163656.png",
     "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240906162547.png",
     "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240906161521.png",
-    "2024-2/Comunicación por luz visible/Imagenes",
     "2024-2/Comunicación por luz visible/Apuntes.md",
     "2024-2/Evaluación de proyectos/Apuntes.md",
     "2024-2/Simulación y biología programable/Resumen Control 1.md",
@@ -189,15 +198,6 @@
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240909213753.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240909204304.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240909204258.png",
-    "2024-2/Simulación y biología programable/ppt/DisenoCircs.pdf",
-    "2024-2/Simulación y biología programable/ppt/OtrasHerr.pdf",
-    "2024-2/Simulación y biología programable/ppt/ExpGen.pdf",
-    "2024-2/Simulación y biología programable/ppt/Organismos.pdf",
-    "2024-2/Simulación y biología programable/ppt/RepasoBio.pdf",
-    "2024-2/24242000",
-    "2024-2/3C142000",
-    "2024-2/44912000",
-    "2024-2/93912000",
     "2024-2/Excel 2024-09-08 19.01.04.sheet.md",
     "Sin título.md",
     "a.sheet.md",
