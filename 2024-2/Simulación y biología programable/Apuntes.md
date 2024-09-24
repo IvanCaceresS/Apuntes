@@ -268,3 +268,23 @@ La conjugación bacteriana consiste en el traspaso de un plásmido completo desd
 	- El uso de esta técnica en biología programable es algo poco usado aun.
 	- Compartir rasgos beneficiosos con la colonia.
 	- Neutralizar la resistencia a antibióticos y trasladar 
+# Clase 24-09
+SIMULACIÓN CON GRO
+'kdiff': que tanto se esparse la gota
+'kdeg': que tanto se degrada la difusion
+'genes': es un operón
+	'proteins': es la salida del operón
+	'promoter': define la logica del promotor (YES, TRUE, NOT)
+	'transcription_factors': Que activa al promotor
+	'noise': simula fallos como, toOff probabilidad de que se pague el promotor si o si, toOn probalidad que este encendido si o si, noise_time tiempo desde el que comienza a regir estas probabilidades
+	'prot_act_times': tiempo en minutos con distribucion normal que simula la subida en la concentración de las proteinas
+	'prot_deg_times': tiempo en minutos con distribucion normal que simula la bajada en la concentración de las proteinas
+'plasmids_genes': define los operones dentro del plasmido
+'c_ecolis': c_ecolis(100,0,0,80,{"pYES"}, program p()) 
+	define un circulo con :cantidad de ecolis 100, en el centro (0,0) el radio es 80, que ciruito se aplica a esta colonia
+'action': pintar o QS(quorum sensitive)
+	'd_paint': define como cambian los colores con ausencia o expresión de por ej gfp, cuando es 1 significa que se va encendiendo y con -1 va apagandose. el resto de 0,0,0 son como rgb pero b es cyan.
+	's_get_QS':huele la arabinosa por ejemplo cuando la concentración es mayor a 0,5 entonces se activa arac
+	'set_growth_rate': define cuando se duplican por ej 0.017 son 40 minutos.
+En el main se aplican cosas acada fotograma relacionadas con el entorno completo
+	's_set_signal': es como dejar caer una gota de por ej arabinosa de 20 en 20 cada fotograma en 0,0.
