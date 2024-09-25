@@ -170,11 +170,11 @@ Ap = 1,39 x 10^-3
 m se asume como 1
 H_LoS = (1+1) x 1,39 x 10^-3  x cos(45) x cos (30) x 1 /(2 x pi x 10)
 H_LoS = 2 x 1,39 x 10^-3  x 0,707106 x 0,866025 / (20 x pi)
-**H_LoS = 2,71 x 10 ^-5**
+**H_LoS = 2.025711 x 10^-7
 
 tiempo que va a demorar en llegar al receptor
 d/c = raiz(10) / (3x10^8) = **1,05 x 10^-8 segundos** = 0,105 nanosegundos
-Ahora graficar eje X tiempo(ns) y eje Y (adimensional) se dibuja un pulso en los 0,105 ns con una altura de 2,71 x10^-5
+Ahora graficar eje X tiempo(ns) y eje Y (adimensional) se dibuja un pulso en los 0,105 ns con una altura de 2.025711 x 10^-7
 # Clase 10-09
 **PREGUNTAS TIPO SOLEMNE**
 1. **El rango de longitudes de onda de trabajo de luz visible es:** 400nm a 700nm

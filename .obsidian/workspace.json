@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "7987c6ba5f256f11",
+        "id": "aa84110d4ad453e1",
         "type": "tabs",
         "children": [
           {
-            "id": "ad2bd08d8252d62c",
+            "id": "54c20300d0a379d7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2024-2/Comunicación por luz visible/Resumen Sol 1.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2024-2/Comunicación por luz visible/Resumen Sol 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2024-2/Comunicación por luz visible/Resumen Sol 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2024-2/Comunicación por luz visible/Resumen Sol 1.md"
+              }
             }
           },
           {
@@ -148,36 +156,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ad2bd08d8252d62c",
+  "active": "54c20300d0a379d7",
   "lastOpenFiles": [
-    "2024-2/Big Data/Apuntes.md",
+    "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240925183158.png",
+    "2024-2/Comunicación por luz visible/Apuntes.md",
+    "2024-2/Comunicación por luz visible/Resumen Sol 1.md",
+    "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240924205859.png",
+    "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240924194510.png",
+    "Sin título.md",
     "conflict-files-obsidian-git.md",
+    "2024-2/Evaluación de proyectos/Excels/Ejercicios_sol_1.xlsx",
+    "2024-2/Evaluación de proyectos/Excels/24.2.1 EJERCICIO TIPO SOLEMNE  TIC.docx",
+    "2024-2/Evaluación de proyectos/Excels/24.2.1 EJEMPLO   TIC  I  09.24.docx",
+    "2024-2/Evaluación de proyectos/Excels/24..2.1 VENTAS POR DOS PRODUCTOS PARA PROYECCIN 08.24.xlsx",
+    "2024-2/Big Data/Apuntes.md",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240906115213.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240906114627.png",
     "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240906163656.png",
     "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240906162547.png",
     "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240906161521.png",
     "2024-2/Comunicación por luz visible/Imagenes",
-    "2024-2/Comunicación por luz visible/Apuntes.md",
     "2024-2/Evaluación de proyectos/Apuntes.md",
     "2024-2/Simulación y biología programable/Resumen Control 1.md",
     "2024-2/Simulación y biología programable/Apuntes.md",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240909185031.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240910001522.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240909213753.png",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240909204304.png",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240909204258.png",
     "2024-2/Simulación y biología programable/ppt/DisenoCircs.pdf",
     "2024-2/Simulación y biología programable/ppt/OtrasHerr.pdf",
     "2024-2/Simulación y biología programable/ppt/ExpGen.pdf",
     "2024-2/Simulación y biología programable/ppt/Organismos.pdf",
     "2024-2/Simulación y biología programable/ppt/RepasoBio.pdf",
-    "2024-2/24242000",
-    "2024-2/3C142000",
-    "2024-2/44912000",
-    "2024-2/93912000",
     "2024-2/Excel 2024-09-08 19.01.04.sheet.md",
-    "Sin título.md",
     "a.sheet.md",
     "2024-2/Simulación y biología programable/Tareas/Tarea 1/Resumen de los articulos cientificos.md",
     "README.md",
@@ -194,7 +204,6 @@
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Apuntes Ayudantías.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 2 Gestión Organizacional.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 1 Gestión Organizacional.md",
-    "Sin título.canvas",
-    "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Solemne 1.md"
+    "Sin título.canvas"
   ]
 }
