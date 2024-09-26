@@ -11,15 +11,36 @@
             "id": "54c20300d0a379d7",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240926174414.png"
+              }
+            }
+          },
+          {
+            "id": "f84d0d12be7ea580",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240926174414.png"
+              }
+            }
+          },
+          {
+            "id": "0e468fee1418608c",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-2/Comunicación por luz visible/Resumen Sol 1.md",
+                "file": "2024-2/Comunicación por luz visible/Apuntes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-2/Comunicación por luz visible/Resumen Sol 1.md",
+                "file": "2024-2/Comunicación por luz visible/Apuntes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-2/Comunicación por luz visible/Resumen Sol 1.md",
+                "file": "2024-2/Comunicación por luz visible/Apuntes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-2/Comunicación por luz visible/Resumen Sol 1.md"
+                "file": "2024-2/Comunicación por luz visible/Apuntes.md"
               }
             }
           },
@@ -156,11 +177,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "54c20300d0a379d7",
+  "active": "0e468fee1418608c",
   "lastOpenFiles": [
-    "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240925183158.png",
-    "2024-2/Comunicación por luz visible/Apuntes.md",
     "2024-2/Comunicación por luz visible/Resumen Sol 1.md",
+    "2024-2/Comunicación por luz visible/Apuntes.md",
+    "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240926174326.png",
+    "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240926174414.png",
+    "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240925183158.png",
     "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240924205859.png",
     "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240924194510.png",
     "Sin título.md",
@@ -179,9 +202,6 @@
     "2024-2/Evaluación de proyectos/Apuntes.md",
     "2024-2/Simulación y biología programable/Resumen Control 1.md",
     "2024-2/Simulación y biología programable/Apuntes.md",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240909185031.png",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240910001522.png",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240909213753.png",
     "2024-2/Simulación y biología programable/ppt/DisenoCircs.pdf",
     "2024-2/Simulación y biología programable/ppt/OtrasHerr.pdf",
     "2024-2/Simulación y biología programable/ppt/ExpGen.pdf",

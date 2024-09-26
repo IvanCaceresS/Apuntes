@@ -63,7 +63,34 @@ nanosegundos, ¿cuál será la duración temporal del impulso eléctrico generad
 	R// 
 
 # Solemne 1 - 2023
-2. Calcular la respuesta al impulso de la componente de canal LoS de un sistema  
+1. Preguntas
+- El rango de longitudes de onda de trabajo de la luz visible es: **c) Ninguna de las anteriores, es 430 THz a 770 THz**
+    
+- Intensity Modulation/Direct Detection (IM/DD) se refiere a: **b) La señal óptica debe ser real y positiva**
+    
+- ¿Cuál es una limitación importante de la comunicación por luz visible? **c) Dependencia de condiciones del entorno**
+    
+- ¿Cuál es la función principal del modulador en un transmisor óptico? **c) Modificar la intensidad o la fase de la señal óptica para llevar información**
+    
+- ¿Qué componente se utiliza para separar las señales ópticas de diferentes longitudes de onda en un receptor óptico? **c) Filtro óptico**
+    
+- ¿Qué es la atenuación en la comunicación por luz visible en la componente LoS? **b) La disminución de la intensidad de la señal a medida que viaja a través del canal debido a la dispersión y absorción de la luz**
+    
+- ¿Cómo afecta la distancia entre el transmisor y el receptor a la componente LoS en la comunicación por luz visible? **b) A medida que la distancia aumenta, la atenuación en la componente LoS puede aumentar, lo que puede requerir dispositivos de mayor potencia**
+    
+- ¿Cómo se representa típicamente la respuesta al impulso del canal en un sistema VLC? **b) Como un gráfico de barras que muestra la amplitud de la señal en función del tiempo.**
+- ![[Pasted image 20240926174326.png]]
+	b) El sistema que tiene mejor desempeño es el presentado en el gráfico a.  
+	d) Los tres sistemas representados tienen la misma cantidad de reflexiones de la  
+	señal óptica.    
+	f) La dispersión temporal de la señal en el sistema representado en el gráfico c  
+	es el más alto.
+Problemas
+1. ![[Pasted image 20240926174414.png]]
+tiempo = 13 x 10^-9 seg
+d = t x v = 3 x 13 x 10^-1
+d = 3,9 metros
+3. Calcular la respuesta al impulso de la componente de canal LoS de un sistema  
 VLC bajo los siguientes parámetros:  
 • Ángulo de incidencia: 20°  
 • Ángulo de irradiancia: 60°  
