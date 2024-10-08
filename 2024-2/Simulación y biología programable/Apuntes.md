@@ -288,3 +288,4 @@ SIMULACIÓN CON GRO
 	'set_growth_rate': define cuando se duplican por ej 0.017 son 40 minutos.
 En el main se aplican cosas acada fotograma relacionadas con el entorno completo
 	's_set_signal': es como dejar caer una gota de por ej arabinosa de 20 en 20 cada fotograma en 0,0.
+# Clase 08-10
