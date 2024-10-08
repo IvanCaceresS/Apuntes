@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b118c9c793496638",
+        "id": "0daa2a5a042dbb5c",
         "type": "tabs",
         "children": [
           {
-            "id": "0a379c04bee85083",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-2/Big Data/Apuntes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6e10366b735a80f7",
+            "id": "6514641e0b8bfbad",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,23 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "7324e7b7ff4c0d67",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6e10366b735a80f7",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "2024-2/Simulación y biología programable/ppt/SSB1.pdf"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -169,8 +172,12 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "6e10366b735a80f7",
+  "active": "6514641e0b8bfbad",
   "lastOpenFiles": [
+    "2024-2/Simulación y biología programable/ppt/SSB1.pdf",
+    "2024-2/Simulación y biología programable/Apuntes.md",
+    "2024-2/Simulación y biología programable/Pasted image 20241008122223.png",
+    "2024-2/Simulación y biología programable/ppt/SSB2.pdf",
     "2024-2/Big Data/Apuntes.md",
     "2024-2/Evaluación de proyectos/Excels/92519C20",
     "2024-2/Evaluación de proyectos/Excels/08AF8C20",
@@ -180,8 +187,6 @@
     "2024-2/Evaluación de proyectos/Excels/868F8C20",
     "2024-2/Evaluación de proyectos/Excels/958F8C20",
     "2024-2/Evaluación de proyectos/Excels/E48F8C20",
-    "2024-2/Evaluación de proyectos/Excels/048F8C20",
-    "2024-2/Evaluación de proyectos/Excels/438F8C20",
     "2024-2/Comunicación por luz visible/Resumen Sol 1.md",
     "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240926174414.png",
     "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240926174326.png",
@@ -193,11 +198,9 @@
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240906114627.png",
     "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240906163656.png",
     "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240906162547.png",
-    "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240906161521.png",
     "2024-2/Comunicación por luz visible/Apuntes.md",
     "2024-2/Evaluación de proyectos/Apuntes.md",
     "2024-2/Simulación y biología programable/Resumen Control 1.md",
-    "2024-2/Simulación y biología programable/Apuntes.md",
     "2024-2/Excel 2024-09-08 19.01.04.sheet.md",
     "Sin título.md",
     "a.sheet.md",

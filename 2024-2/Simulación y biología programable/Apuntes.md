@@ -289,3 +289,29 @@ SIMULACIÓN CON GRO
 En el main se aplican cosas acada fotograma relacionadas con el entorno completo
 	's_set_signal': es como dejar caer una gota de por ej arabinosa de 20 en 20 cada fotograma en 0,0.
 # Clase 08-10
+**Control 2:** Materia que se dejó antes de las solemnes y un poco de lo visto en estas clases.
+## Biología sintética y de sistemas I
+
+Ya habiendo visto una gran variedad de elementos que participan en la implementación de circuitos, ahora nos centraremos en analizar los usos principales que se les da a circuitos y sistemas del área.
+
+**¿Qué es un sistema?**
+- Conjunto de organismos o entes que actúan coordinadamente mostrando un comportamiento único y que apunta a un objetivo particular.
+- Un ejemplo de estos sistemas es el **Repressilator**
+
+La biología programable toca dos áreas de estudio:
+- Biología sintética:
+	- Rama de la biología que consiste en construir circuitos/sistemas que exhiben un comportamiento artificial
+	- Es la ingeniería de la biología
+	- Parte en el año 2000 con la publicación de 2 circuitos funcionales:
+		- Repressilator:
+			- Sistema oscilatorio integrado por tres operones que se reprimen en secuencia y generan un periodo de expresión de cada una de las proteínas de cada operon.
+			- Funciona con Feedback negativo: Es como un oscilador pero estabilizador al mediano/largo plazo, ya que va a variar las concentraciones hasta que se estabiliza(autorregulación). Ya que se estabiliza, un repressilator al mediano/largo plazo tambien se estabilizará.
+			- Patrones temporales: Cada gen se expresa regularmente después de un periodo de tiempo transcurrido.
+			- Automatización: El circuito funciona solo una vez que ha iniciado su operación.
+		- Toggle Switch:
+			- ![[Pasted image 20241008122223.png]]
+			- Interruptor que trabaja con una represión mutua entre dos genes, ya que debo introducir señales externas para que funcione.
+			- Circuito biestable, como un bit
+			- Las represiones pueden ser interrumpidas por una señal del ambiente. Por ejemplo IPTG interrumple la represion causada por LacI y aTc se encarga de interrumpir la represión causada por TetR.
+			- Memoria a largo plazo: El sistema mantiene su estado invariable a lo largo del tiempo si es que las condiciones se preservan.
+- Biología de sistemas
