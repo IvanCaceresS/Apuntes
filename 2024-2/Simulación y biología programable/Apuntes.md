@@ -319,7 +319,7 @@ La biología programable toca dos áreas de estudio:
 
 # Clase 11-10
 ## Biología sintética y de sistemas II
-Control 2: Viernes 18-10 (intercelular y clase pasada)
+Control 2: Viernes 18-10 (intercelular y clase pasada. Probablemente entre análisis de una red)
 Tarea 2: Semana del 28 de octubre (simulador gro)
 - **Patrones espaciales**: conjunto de características espaciales distintivas que se repiten y/o se mantienen constantes en el tiempo-
 	- Ej:
