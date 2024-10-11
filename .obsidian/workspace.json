@@ -4,18 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "aa84110d4ad453e1",
+        "id": "32a0d44ebc5402b4",
         "type": "tabs",
         "children": [
           {
-            "id": "0e468fee1418608c",
+            "id": "b216d3dfed648b63",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-2/Comunicación por luz visible/Resumen Sol 1.md",
+                "file": "2024-2/Simulación y biología programable/Apuntes.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "d2c039798e78e2dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0689374d959b9882",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "2024-2/Simulación y biología programable/ppt/SSB2.pdf"
               }
             }
           }
@@ -85,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-2/Comunicación por luz visible/Resumen Sol 1.md",
+                "file": "2024-2/Simulación y biología programable/Apuntes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-2/Comunicación por luz visible/Resumen Sol 1.md",
+                "file": "2024-2/Simulación y biología programable/Apuntes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-2/Comunicación por luz visible/Resumen Sol 1.md"
+                "file": "2024-2/Simulación y biología programable/Apuntes.md"
               }
             }
           },
@@ -147,47 +163,46 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Abrir selector rápido": false,
       "graph:Abrir vista gráfica": false,
       "canvas:Crear nuevo lienzo": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "obsidian-git:Open Git source control": false
+      "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "d7a78b9cc663cb82",
+  "active": "b216d3dfed648b63",
   "lastOpenFiles": [
-    "2024-2/Evaluación de proyectos/Excels/96FA9000",
+    "2024-2/Simulación y biología programable/ppt/SSB2.pdf",
+    "2024-2/Simulación y biología programable/Apuntes.md",
+    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241011122901.png",
+    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241008122223.png",
+    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241011121503.png",
+    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241011120123.png",
+    "2024-2/Evaluación de proyectos/Excels/C2_Cáceres_Iván.xlsx",
+    "2024-2/Evaluación de proyectos/Excels/3610A000",
+    "2024-2/Evaluación de proyectos/Excels/~$C2_Cáceres_Iván.xlsx",
     "2024-2/Evaluación de proyectos/Excels/~$Estudio_C1.xlsx",
-    "2024-2/Evaluación de proyectos/Excels/C1F48000",
-    "2024-2/Evaluación de proyectos/Excels/9A5C5000",
-    "2024-2/Evaluación de proyectos/Excels/D6305000",
-    "2024-2/Evaluación de proyectos/Excels/DCF94000",
-    "2024-2/Evaluación de proyectos/Excels/10FB3000",
-    "2024-2/Evaluación de proyectos/Excels/93A33000",
-    "2024-2/Evaluación de proyectos/Excels/30A33000",
-    "2024-2/Evaluación de proyectos/Excels/39533000",
-    "2024-2/Evaluación de proyectos/Excels/C6533000",
-    "conflict-files-obsidian-git.md",
+    "2024-2/Evaluación de proyectos/Excels/~$Estudio_C2.xlsx",
+    "2024-2/Evaluación de proyectos/Excels/B3DD2000",
+    "2024-2/Evaluación de proyectos/Excels/3CE39950",
+    "2024-2/Evaluación de proyectos/Excels/06639950",
+    "2024-2/Evaluación de proyectos/Excels/B6264750",
+    "2024-2/Big Data/Apuntes.md",
     "2024-2/Comunicación por luz visible/Resumen Sol 1.md",
-    "2024-2/Simulación y biología programable/Pasted image 20241008122223.png",
-    "2024-2/Comunicación por luz visible/Apuntes.md",
-    "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240926174326.png",
     "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240926174414.png",
+    "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240926174326.png",
     "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240925183158.png",
     "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240924205859.png",
     "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240924194510.png",
-    "Sin título.md",
-    "2024-2/Big Data/Apuntes.md",
+    "conflict-files-obsidian-git.md",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240906115213.png",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240906114627.png",
-    "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240906163656.png",
-    "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240906162547.png",
+    "2024-2/Comunicación por luz visible/Apuntes.md",
     "2024-2/Evaluación de proyectos/Apuntes.md",
     "2024-2/Simulación y biología programable/Resumen Control 1.md",
-    "2024-2/Simulación y biología programable/Apuntes.md",
     "2024-2/Excel 2024-09-08 19.01.04.sheet.md",
+    "Sin título.md",
     "a.sheet.md",
     "2024-2/Simulación y biología programable/Tareas/Tarea 1/Resumen de los articulos cientificos.md",
     "README.md",
