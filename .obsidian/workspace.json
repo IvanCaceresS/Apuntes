@@ -20,22 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "d2c039798e78e2dc",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0689374d959b9882",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "2024-2/Simulación y biología programable/ppt/SSB2.pdf"
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -174,8 +158,10 @@
   },
   "active": "b216d3dfed648b63",
   "lastOpenFiles": [
-    "2024-2/Simulación y biología programable/ppt/SSB2.pdf",
+    "2024-2/Comunicación por luz visible/Apuntes.md",
+    "2024-2/Big Data/Apuntes.md",
     "2024-2/Simulación y biología programable/Apuntes.md",
+    "2024-2/Simulación y biología programable/ppt/SSB2.pdf",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241011122901.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241008122223.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241011121503.png",
@@ -189,7 +175,6 @@
     "2024-2/Evaluación de proyectos/Excels/3CE39950",
     "2024-2/Evaluación de proyectos/Excels/06639950",
     "2024-2/Evaluación de proyectos/Excels/B6264750",
-    "2024-2/Big Data/Apuntes.md",
     "2024-2/Comunicación por luz visible/Resumen Sol 1.md",
     "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240926174414.png",
     "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240926174326.png",
@@ -198,7 +183,6 @@
     "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240924194510.png",
     "conflict-files-obsidian-git.md",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240906115213.png",
-    "2024-2/Comunicación por luz visible/Apuntes.md",
     "2024-2/Evaluación de proyectos/Apuntes.md",
     "2024-2/Simulación y biología programable/Resumen Control 1.md",
     "2024-2/Excel 2024-09-08 19.01.04.sheet.md",

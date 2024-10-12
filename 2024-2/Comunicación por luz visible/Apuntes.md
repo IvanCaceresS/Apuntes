@@ -197,3 +197,16 @@ TIEMPO = D/C
 8,5ns = d/(3x10^8m/s)
 d = (8,5 x 10^-9) x 3x10^8
 d= 2,55 m
+
+# Clase 11-10
+Martes 15-10: Charla Ingeniero Diego Alonso Candía
+Viernes 25-10: Charla Miguel Contreras
+
+- Modelo Teórico: Modelo simulados (pruebas)
+	- Luego de realizar simulaciónes con la teoría se realizan las pruebas experimentales y llevarlo a un prototipo funcional
+- Factores/Fenomenos en un entorno minero bajo tierra
+	- **Scattering** (polvo, absorciones, humedad y temperatura)
+	- **NoN-Regular tunnels walls** (reflexiones, absorciones, material del tunel)
+	- **Tilted and rotated LEDs and PDs** (Distancia, forma del tunel, angulo o direccion de los LEDs)
+	- **Random Shadowing** (Bloqueo)
+	- 
