@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-2/Comunicación por luz visible/Resumen Sol 1.md",
+                "file": "2024-2/Big Data/Apuntes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-2/Comunicación por luz visible/Resumen Sol 1.md",
+                "file": "2024-2/Big Data/Apuntes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-2/Comunicación por luz visible/Resumen Sol 1.md",
+                "file": "2024-2/Big Data/Apuntes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-2/Comunicación por luz visible/Resumen Sol 1.md"
+                "file": "2024-2/Big Data/Apuntes.md"
               }
             }
           },
@@ -142,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5,
-    "collapsed": true
+    "width": 298.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,8 +155,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d7a78b9cc663cb82",
+  "active": "0e468fee1418608c",
   "lastOpenFiles": [
+    "2024-2/Comunicación por luz visible/Resumen Sol 1.md",
     "2024-2/Evaluación de proyectos/Excels/96FA9000",
     "2024-2/Evaluación de proyectos/Excels/~$Estudio_C1.xlsx",
     "2024-2/Evaluación de proyectos/Excels/C1F48000",
@@ -168,9 +168,7 @@
     "2024-2/Evaluación de proyectos/Excels/93A33000",
     "2024-2/Evaluación de proyectos/Excels/30A33000",
     "2024-2/Evaluación de proyectos/Excels/39533000",
-    "2024-2/Evaluación de proyectos/Excels/C6533000",
     "conflict-files-obsidian-git.md",
-    "2024-2/Comunicación por luz visible/Resumen Sol 1.md",
     "2024-2/Simulación y biología programable/Pasted image 20241008122223.png",
     "2024-2/Comunicación por luz visible/Apuntes.md",
     "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240926174326.png",
