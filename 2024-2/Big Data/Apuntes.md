@@ -168,3 +168,38 @@ SLA-Aware Energy-Efficient Scheduling Scheme for Hadoop YARN
 	- **Respuesta**: Cada aplicación utiliza el Performance Monitor y el Frequency Estimator, lo que permite que el procesador paralelice varias tareas, ajustando la frecuencia de cada tarea según sea necesario.
 - Pregunta 2: **¿Qué impacto tendría este esquema en la latencia de las aplicaciones?**
 - Nota sugerida: 7.0
+# Clase 11-10
+Presentación phdfs
+- contexto
+	- auge de IA
+	- Deeplearning
+	- Ayuda a mejorara en los archivos pequeños a hdfs
+- Problemas de hdfs
+	- Complicado manejar archivos pequeños.
+	- Deeplearning necesita manejar archivos pequeños.
+	- Sobrecarga del namenode.
+	- Ya que necesita escribir y leer multiples veces realentiza el rendimiento.
+- Motivación
+	- HDFS es el mas popular de almacenamiento en la nube.
+	- La presicion de un modelo de deeplearning mejora a medida aumenta la cantidad de datasets.
+	- file aggregation system, PILE.
+- Propuesta
+	- PHDFS
+		- archivos pequeños agrupados en piles
+		- para leer un batch el proceso debe completarse con solo una solicitud
+	- Arquitectura
+		- generation module
+		- management module
+		- storage module
+- Experimentos y resultados
+	- rendimiento lectura y escritura: phdfs es el ganador
+	- impacto en rendimiento dependiendo de los tamaños de los datasets: 
+- preguntas: 
+- nota: 6,9
+
+presentación CPHARIF
+- Reducir costos y gran rendimiento
+- Experimento:
+	- Benchmark
+	- 3 replicaciones por cada archivo
+- harif es optimo en relacion a otros modelos que usa hdfs como pipeline, parallel, laz

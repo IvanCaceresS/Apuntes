@@ -315,3 +315,44 @@ La biología programable toca dos áreas de estudio:
 			- Las represiones pueden ser interrumpidas por una señal del ambiente. Por ejemplo IPTG interrumple la represion causada por LacI y aTc se encarga de interrumpir la represión causada por TetR.
 			- Memoria a largo plazo: El sistema mantiene su estado invariable a lo largo del tiempo si es que las condiciones se preservan.
 - Biología de sistemas
+
+
+# Clase 11-10
+## Biología sintética y de sistemas II
+Control 2: Viernes 18-10 (intercelular y clase pasada. Probablemente entre análisis de una red)
+Tarea 2: Semana del 28 de octubre (simulador gro)
+- **Patrones espaciales**: conjunto de características espaciales distintivas que se repiten y/o se mantienen constantes en el tiempo-
+	- Ej:
+		- Formas
+		- Distribución de regiones
+		- Colores
+		- Ubicaciones dadas en lugares específicos de la colonia
+	- ¿De qué sirven?
+		- Biología del desarrollo:
+			- Lineas de los tigres, caparazones de los caracoles. Son las interacciones entre organismos de acuerdo a señales de omunicación son las que dirigen esas formaciones complejas sobre las que nos preguntamos
+		- Control a escala:
+			- Como consecuencia de poder formar patrones, poder establecer distribuciones lo más precisas posible, por ejemplo para liberación de farmacos o la organizacion para construcción de biomateriales.
+		- Identificación de características específicas en el espacio: Poder medir cual es el lugar a partir del cual la concentración de cierta sustancia en el medio es excesiva.
+	- Ejemplos de patrones
+		- Brand detector
+			- Una detección de concentraciones (alta, media, baja)
+			- Tres plásmidos (pHD, pLD, pSND)
+			- ![[Pasted image 20241011120123.png]]
+			- celeste maxima concentración, rojo alta, verde muy baja. El halo negro es el rango que no considera ninguna de las otras, por eso es como medio.
+			- Usa 2 LacI(uno normal y otro modificado)
+			- ![[Pasted image 20241011121503.png]]
+		- Edge detector
+			- Hacen el borde de la máscara de lo que está brillando (el borde entre donde hay luz y donde no la hay)
+			- Requisitos
+				- Único color: pigmento negro.
+				- No marcan las zonas de luz y las zonas de oscuridad
+				- Se busca un único circuito en todas las bacterias de la colonia
+				- Se valida su funcionamiento usando distintas formas de mascaras de luz
+				- Desde la oscuridad las bacterias emiten una señal
+				- Las bacterias que están en la luz, si están en la luz y detectan señal entonces me pinto negro.
+			- Condiciones
+				- Trabaja con proteína fotosensible
+				- Usa el sistema luz para atravesar la frontera luz-oscuridad
+				- El pigmento solo se expresa en la luz.
+			- ![[Pasted image 20241011122901.png]]
+			- En vez de pintar negro, se podria liberar un farmaco y que en vez de luz sea que existe un patógeno.
