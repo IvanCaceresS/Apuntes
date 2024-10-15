@@ -356,3 +356,18 @@ Tarea 2: Semana del 28 de octubre (simulador gro)
 				- El pigmento solo se expresa en la luz.
 			- ![[Pasted image 20241011122901.png]]
 			- En vez de pintar negro, se podria liberar un farmaco y que en vez de luz sea que existe un patógeno.
+# Clase 15-10
+## Biología sintética y de sistemas III
+- French flag
+	- Se basa en la concentración de morfógenos (algo que genera una forma, una señal que indica hacer algo. por ejemplo en el brand detector es la señal del centro)
+	- El uso de n umbrales da lugar a n+1 zonas radiales detectadas
+	- ![[Pasted image 20241015114700.png]]
+	- Si se identifica una frontera equidistantes, es decir que se detecta la misma concentración de ambos morfógenos es posible trazar patrones no radiales (lineales)
+	- ![[Pasted image 20241015115537.png]]
+	- Patrón cuadrado a partir de diversos focos de morfógenos.
+- Variante de Brand detector
+	- Dividir el procesamiento, un brazo largo(detecta concentración dejana) en un plásmido, un brazo corto(detecta concentracion a corta distancia) en otro plásmido.
+	- Esto tiene un problema porque si un plásmido de brazo largo está en el centro donde se tiró el morfógeno no tiene sentido porque es inutil. por lo que se le castiga diciendo que no prolifere. Y en caso de que un plásmido esté en una posición favorable o donde debe ser, se le premia induciendo que las demás cercanas adquieran esta propiedad(conjugación bacteriana).
+	- ![[Pasted image 20241015121601.png]]
+	- El nivel de definición del patrón depende de la movilidad o velocidad de conjugación del plásmido.
+	- Es un patrón espacial.

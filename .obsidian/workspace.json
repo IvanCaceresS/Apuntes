@@ -11,8 +11,12 @@
             "id": "1669c86e24cfe39f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2024-2/Simulación y biología programable/Apuntes.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 221.50152587890625
   },
   "right": {
     "id": "0d4e9e9009b7ee87",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2024-2/Simulación y biología programable/Apuntes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2024-2/Simulación y biología programable/Apuntes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2024-2/Simulación y biología programable/Apuntes.md"
+              }
             }
           },
           {
@@ -150,13 +158,17 @@
   },
   "active": "1669c86e24cfe39f",
   "lastOpenFiles": [
+    "2024-2/Simulación y biología programable/ppt/SSB3.pdf",
+    "2024-2/Simulación y biología programable/Apuntes.md",
+    "2024-2/Simulación y biología programable/Pasted image 20241015121601.png",
+    "2024-2/Simulación y biología programable/Pasted image 20241015115537.png",
+    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241015114700.png",
+    "2024-2/Simulación y biología programable/ppt/SSB2.pdf",
     "conflict-files-obsidian-git.md",
     "2024-2/Simulación y biología programable/Resumen Control 1.md",
     "2024-2/Simulación y biología programable/Resumen Control 2.md",
-    "2024-2/Simulación y biología programable/Apuntes.md",
     "2024-2/Comunicación por luz visible/Apuntes.md",
     "2024-2/Big Data/Apuntes.md",
-    "2024-2/Simulación y biología programable/ppt/SSB2.pdf",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241011122901.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241008122223.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241011121503.png",
@@ -169,14 +181,10 @@
     "2024-2/Evaluación de proyectos/Excels/B3DD2000",
     "2024-2/Evaluación de proyectos/Excels/3CE39950",
     "2024-2/Evaluación de proyectos/Excels/06639950",
-    "2024-2/Evaluación de proyectos/Excels/B6264750",
     "2024-2/Comunicación por luz visible/Resumen Sol 1.md",
     "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240926174414.png",
     "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240926174326.png",
     "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240925183158.png",
-    "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240924205859.png",
-    "2024-2/Comunicación por luz visible/Imagenes/Pasted image 20240924194510.png",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20240906115213.png",
     "2024-2/Evaluación de proyectos/Apuntes.md",
     "2024-2/Excel 2024-09-08 19.01.04.sheet.md",
     "Sin título.md",
@@ -195,7 +203,6 @@
     "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 3.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Apuntes Ayudantías.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 2 Gestión Organizacional.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 1 Gestión Organizacional.md",
     "Sin título.canvas"
   ]
 }
