@@ -1,8 +1,18 @@
-Intercell 1->3 y SSSB 1
+Intercell 1->3 y SSB 1.
 Analizar el circuito en su conjunto, como sistema. Más macro.
+Analizar desde un punto de vista más global, circuito.
+Saber la función del circuito en si.
+![[Pasted image 20241017194404.png]]
+
+| Método de Comunicación      | Mecanismo                                                                                                                                                                                 | Características                                                                                                                                                                                                             | Ventajas                                                                                                                 | Desventajas                                                                                                                               | Usos Principales                                                                                                                       |
+| --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Quorum Sensing (QS)         | Liberación y recepción de autoinductores (AHL)                                                                                                                                            | - Comunicación basada en pequeñas moléculas llamadas autoinductores  <br>- Sistema lux: luxI genera AHL, luxR los detecta  <br>- Coordinación basada en la densidad poblacional                                             | - Simple de programar  <br>- Comunicación de largo alcance  <br>- Bajo peso metabólico  <br>- Comunicación inter-especie | - Baja cantidad de información transmitida  <br>- No direccionable, es un broadcast  <br>- Posible crosstalk con otros sistemas similares | - Construcción de consorcios intercelulares  <br>- Biología sintética (ej. bioluminiscencia)                                           |
+| Infección por bacteriófagos | Transferencia de ADN/ARN mediante fagos                                                                                                                                                   | - Los fagos son virus que insertan su material genético en la célula huésped  <br>- Ciclo lisogénico: el ADN viral se integra en la bacteria  <br>- Ciclo lítico: el fago usa la célula para replicarse y luego la destruye | - Permite transportar circuitos completos  <br>- Mayor cantidad de información que en QS  <br>- Largo alcance            | - Difícil de controlar  <br>- No responden a antibióticos  <br>- No direccionable                                                         | - Phage therapy  <br>- Phage display  <br>- Ingeniería genética en biología sintética                                                  |
+| Conjugación bacteriana      | Transferencia de plásmidos a través de un puente citoplasmático. Relaxasa corta una de las 2 hebras de adn, T4CP guía esa hebra hasta T4SS que es el pilus que conecta a la otra bacteria | - Transferencia horizontal de genes  <br>- Requiere contacto entre bacterias  <br>- Involucra plásmidos y el sistema de secreción T4SS para la transferencia de ADN                                                         | - Muy programable  <br>- Mayor cantidad de información que QS y fagos  <br>- Comunicación más controlada                 | - Comunicación lenta  <br>- No direccionable completamente  <br>- Diseñar plásmidos puede ser complicado                                  | - Transferencia de rasgos beneficiosos  <br>- Neutralización de resistencia a antibióticos  <br>- Compartir información genética local |
+
 ## Comunicación intercelular I
-Es necesario conectar a las células.
-- Quorum sensing (QS): Sistema descubierto en 1979. Cada organismo puede estimar la densidad poblacional que le rodea de modo de efectuar o no alguna accion de forma coordinada. El sistema trabaja con pequeñas moléculas que se expelen/sienten en el entorno y denominadas **autoinductores**
+Para generar la red de organismos es necesario conectar a las células.
+- Quorum sensing (QS): Sistema descubierto en 1970. Cada organismo puede estimar la densidad poblacional que le rodea de modo de efectuar o no alguna accion de forma coordinada. El sistema trabaja con pequeñas moléculas que se expelen/sienten en el entorno y denominadas **autoinductores**.
 - ¿Qué son los autoinductores?
 	- Son moléculas emitidas por las células al ambiente. Imaginar como gritar en la sala y si hay mucho ruido se sabe que hay mucha gente se puede realizar una estimación.
 	- Permite a la célula estimar a cantidad de organismos próximos (y no tan próximos) que tiene al sentir la concentración de autoinductores en el ambiente.
@@ -12,6 +22,7 @@ Es necesario conectar a las células.
 	- Sistema lux
 		- Proviene de un circuito responsable de bioluminiscencia.
 		- El sistema consiste de un gen de emisión (luxl) de autoinductores (AHL) y otro gen distinto de recepción (luxR) de AHL que genera (esos pacman) que captan los AHL.
+		- 
 		- ![[Pasted image 20240830115116.png]] 
 		- ![[Pasted image 20240830115248.png]]Los más importantes son
 		-  El promotor de luxR siempre está activo pero con una pequeña actividad (actividad basal), generando poca cantidad de AHL pero cuando ya recibe más genera más
@@ -49,7 +60,7 @@ Otro método de comunicación entre células: **Infección por bacteriófagos**
 	- ![[Pasted image 20240903115056.png]]
 	- ![[Pasted image 20240903120827.png]]
 	- **Ciclo Lisogénico:** En este ciclo, el fago (virus) inserta su ADN en el genoma de la bacteria. Este ADN viral se integra en el ADN bacteriano y se replica de manera silenciosa y asintomática a medida que la bacteria se divide. En este estado, el virus no destruye la célula huésped inmediatamente.
-	- **Ciclo Lítico:** En este ciclo, el ADN del fago utiliza la maquinaria de la bacteria para producir nuevos virus. Durante la fase de ensamblaje ("assembly"), se ensamblan nuevas partículas de fago dentro de la bacteria. Finalmente, en la fase de lisis ("lysis"), la bacteria se rompe (o lisa), liberando los nuevos fagos, lo que resulta en la muerte de la célula bacteriana.
+	- **Ciclo Lítico:** En este ciclo, el ADN del fago utiliza la maquinaria de la bacteria para producir nuevos virus. Durante la fase de ensamblaje ("assembly"), se ensamblan nuevas partículas de fago dentro de la bacteria. Finalmente, en la fase de lisis ("lysis"), la bacteria se rompe (o lisis), liberando los nuevos fagos, lo que resulta en la muerte de la célula bacteriana.
 - **¿Por qué hariamos esto a nuestras bacterias?**
 	- El ADN/ARN no tiene por que ser maligno, puede ser benéfico como información de otras amenazas.
 - **Caracterización del uso de fagos**
@@ -87,7 +98,7 @@ La conjugación bacteriana consiste en el traspaso de un plásmido completo desd
 		- La membrana de la bacteria receptora es capaz de dejar pasar y alojar el plásmido en su citoplasma.
 	- ![[Pasted image 20240906115213.png]]
 	- a) Relaxasa, es una proteina que es causante de la conjugación. Corta una de las 2 hebras de ADN justo en ori T.
-	- b) T4CP(la azul), agarra el ADN desde el ori T y lo arrastra a T4SS(la verde, el pilus),
+	- b) T4CP(la azul), agarra el ADN desde el ori T y lo arrastra a T4SS(la verde, el pilus).
 	- c) Ambos organismos tienen la información genética.
 - **¿Programabilidad?**
 	- Se puede programar en 2 niveles:
@@ -113,26 +124,6 @@ La conjugación bacteriana consiste en el traspaso de un plásmido completo desd
 	- El uso de esta técnica en biología programable es algo poco usado aun.
 	- Compartir rasgos beneficiosos con la colonia.
 	- Neutralizar la resistencia a antibióticos y trasladar 
-## SIMULACIÓN CON GRO
-'kdiff': que tanto se esparse la gota
-'kdeg': que tanto se degrada la difusion
-'genes': es un operón
-	'proteins': es la salida del operón
-	'promoter': define la logica del promotor (YES, TRUE, NOT)
-	'transcription_factors': Que activa al promotor
-	'noise': simula fallos como, toOff probabilidad de que se pague el promotor si o si, toOn probalidad que este encendido si o si, noise_time tiempo desde el que comienza a regir estas probabilidades
-	'prot_act_times': tiempo en minutos con distribucion normal que simula la subida en la concentración de las proteinas
-	'prot_deg_times': tiempo en minutos con distribucion normal que simula la bajada en la concentración de las proteinas
-'plasmids_genes': define los operones dentro del plasmido
-'c_ecolis': c_ecolis(100,0,0,80,{"pYES"}, program p()) 
-	define un circulo con :cantidad de ecolis 100, en el centro (0,0) el radio es 80, que ciruito se aplica a esta colonia
-'action': pintar o QS(quorum sensitive)
-	'd_paint': define como cambian los colores con ausencia o expresión de por ej gfp, cuando es 1 significa que se va encendiendo y con -1 va apagandose. el resto de 0,0,0 son como rgb pero b es cyan.
-	's_get_QS':huele la arabinosa por ejemplo cuando la concentración es mayor a 0,5 entonces se activa arac
-	'set_growth_rate': define cuando se duplican por ej 0.017 son 40 minutos.
-En el main se aplican cosas acada fotograma relacionadas con el entorno completo
-	's_set_signal': es como dejar caer una gota de por ej arabinosa de 20 en 20 cada fotograma en 0,0.
-
 
 ## Biología sintética y de sistemas I
 **Control 2:** Materia que se dejó antes de las solemnes y un poco de lo visto en estas clases.
