@@ -384,3 +384,18 @@ Tarea 2: Semana del 28 de octubre (simulador gro)
 		- **Autonomous bioreactor**
 			- ![[Pasted image 20241022123146.png]]
 			- Se genera rojo,el ahl de rojo corta P1, ahl rojo  activa amarillo, ahl amarillo corta P2, ahl amarillo activa verde, ahl verde corta P3.
+# Clase 25-10
+## Biología sintética y de sistemas V
+- Un circuito para control de población de bacterias
+	- ccdB (gen de toxina, induce a la apoptosis)
+	- Con el QS al determinar cierta concentración de organismos se puede liberar este ccdB para controlar la población.
+	- ![[Pasted image 20241025115705.png]]
+	- E: corresponde a ccdB
+	- Depende de la concentraciones intermedias de proteínas y de la afinidad de expresión de promotor. Por esto no se muere toda la colonia de una vez.
+	- Se asemeja al repressitalor, ya que oscila igualemente, pero oscila en densidad poblacional.
+- Medición de crosstalk
+	- Es útil para saber cuáles son los sistemas que muestran crosstalk para no colocarlos en un mismo circuito, y cuales sistemas si.
+	- Los experimentos consisten en ir cambiando el AHL de un sistema X, usar proteínas receptoras de un sistem aY, y activar un promotor de un sistema Z.
+	- ![[Pasted image 20241025123203.png]]
+	- En resumen, hay muy pocos sistemas de comunicación de QS.
+	- Hay que tener sumo cuidado al elegirlos para implementar circuitos, porque de los pocos que hay, además presentan crosstalk.

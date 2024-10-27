@@ -11,10 +11,14 @@
             "id": "db8277a97b1e5c61",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "conflict-files-obsidian-git"
             }
           }
         ]
@@ -172,8 +176,11 @@
   },
   "active": "db8277a97b1e5c61",
   "lastOpenFiles": [
-    "2024-2/Simulación y biología programable/Apuntes.md",
     "conflict-files-obsidian-git.md",
+    "2024-2/Simulación y biología programable/Pasted image 20241025123203.png",
+    "2024-2/Simulación y biología programable/Pasted image 20241025115705.png",
+    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241022123146.png",
+    "2024-2/Simulación y biología programable/Apuntes.md",
     "2024-2/Simulación y biología programable/Pasted image 20241022123146.png",
     "2024-2/Simulación y biología programable/Resumen Control 2.md",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241017194404.png",
@@ -189,9 +196,6 @@
     "2024-2/Big Data/Apuntes.md",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241015114700.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241011122901.png",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241011121503.png",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241011120123.png",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241008122223.png",
     "2024-2/Evaluación de proyectos/Excels/C2_Cáceres_Iván.xlsx",
     "2024-2/Comunicación por luz visible/Resumen Sol 1.md",
     "2024-2/Evaluación de proyectos/Excels/96FA9000",
