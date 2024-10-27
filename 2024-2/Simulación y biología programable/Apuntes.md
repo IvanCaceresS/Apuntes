@@ -371,3 +371,16 @@ Tarea 2: Semana del 28 de octubre (simulador gro)
 	- ![[Pasted image 20241015121601.png]]
 	- El nivel de definición del patrón depende de la movilidad o velocidad de conjugación del plásmido.
 	- Es un patrón espacial.
+# Clase 22-10
+## Biología sintética y de sistemas IV
+
+- Patrones temporales:
+	- No necesariamente hay una posibilidad de ver lo que hace el patrón.
+	- Exhiben **reproducibilidad** o **predicción** en lo que ocurrirá en el tiempo
+	- Predecible y repetitivo
+	- **Circuitos relacionados:**
+		- **Repressilator**
+			- La expresión de los genes del circuito se lleva a cabo secuencialmente y de forma cíclica. Entonces es predecible y se reproduce automáticamente(aunque no sea visible)
+		- **Autonomous bioreactor**
+			- ![[Pasted image 20241022123146.png]]
+			- Se genera rojo,el ahl de rojo corta P1, ahl rojo  activa amarillo, ahl amarillo corta P2, ahl amarillo activa verde, ahl verde corta P3.
