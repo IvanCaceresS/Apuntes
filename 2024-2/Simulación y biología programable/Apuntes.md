@@ -399,3 +399,7 @@ Tarea 2: Semana del 28 de octubre (simulador gro)
 	- ![[Pasted image 20241025123203.png]]
 	- En resumen, hay muy pocos sistemas de comunicación de QS.
 	- Hay que tener sumo cuidado al elegirlos para implementar circuitos, porque de los pocos que hay, además presentan crosstalk.
+# Clase 05-11
+## Clase especial, lo que vió el profe en el congreso.
+Congreso sobre bacteriófagos, casi nada computacional.
+Usar bacteriofagos para bioremediar plantas de aji, el fago es sensible al ultravioleta.

@@ -8,13 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4f6ae9a537e8f104",
+            "id": "68169275fe772ece",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2024-2/Simulación y biología programable/Apuntes.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Apuntes"
             }
           }
         ]
@@ -170,8 +174,12 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "d7a78b9cc663cb82",
+  "active": "68169275fe772ece",
   "lastOpenFiles": [
+    "2024-2/Simulación y biología programable/ppt/SSB6.pdf",
+    "2024-2/Simulación y biología programable/Apuntes.md",
+    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241025115705.png",
+    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241025123203.png",
     "2024-2/Evaluación de proyectos/Excels/~$C3_Cáceres_Iván.xlsx",
     "2024-2/Evaluación de proyectos/Excels/432CFA30",
     "2024-2/Evaluación de proyectos/Excels/2BCBFA30",
@@ -181,12 +189,7 @@
     "2024-2/Evaluación de proyectos/Excels/4FF6FA30",
     "2024-2/Evaluación de proyectos/Excels/~$Estudio_C3.xlsx",
     "2024-2/Evaluación de proyectos/Excels/0A119730",
-    "2024-2/Evaluación de proyectos/Excels/C3_Cáceres_Iván.xlsx",
-    "2024-2/Evaluación de proyectos/Excels/22809730",
-    "2024-2/Simulación y biología programable/Apuntes.md",
     "conflict-files-obsidian-git.md",
-    "2024-2/Simulación y biología programable/Pasted image 20241025123203.png",
-    "2024-2/Simulación y biología programable/Pasted image 20241025115705.png",
     "2024-2/Big Data/Apuntes.md",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241022123146.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241017194404.png",
