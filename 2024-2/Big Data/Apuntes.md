@@ -205,3 +205,5 @@ presentación CPHARIF
 - harif es optimo en relacion a otros modelos que usa hdfs como pipeline, parallel, laz
 # Clase 22-10
 - Presentaciones batch processing, cargar resumenes tarea.
+# Clase 05-11
+## Stream Processing
