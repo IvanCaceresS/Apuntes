@@ -11,10 +11,14 @@
             "id": "070b8968fc01fc17",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "conflict-files-obsidian-git"
             }
           }
         ]
@@ -172,8 +176,12 @@
   },
   "active": "070b8968fc01fc17",
   "lastOpenFiles": [
-    "2024-2/Simulación y biología programable/Apuntes.md",
     "conflict-files-obsidian-git.md",
+    "2024-2/Simulación y biología programable/ppt/Estándares.pdf",
+    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241025123203.png",
+    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241025115705.png",
+    "2024-2/Evaluación de proyectos/Excels/C3_Cáceres_Iván.xlsx",
+    "2024-2/Simulación y biología programable/Apuntes.md",
     "2024-2/Evaluación de proyectos/Excels/Estudio_C3.xlsx",
     "2024-2/Simulación y biología programable/Pasted image 20241025123203.png",
     "2024-2/Simulación y biología programable/ppt/SSB5.pdf",
@@ -187,8 +195,6 @@
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241015121601.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241015115537.png",
     "2024-2/Simulación y biología programable/Pasted image 20241015121601.png",
-    "2024-2/Simulación y biología programable/Pasted image 20241015115537.png",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241015114700.png",
     "2024-2/Simulación y biología programable/ppt/SSB2.pdf",
     "2024-2/Simulación y biología programable/Resumen Control 1.md",
     "2024-2/Simulación y biología programable/Resumen Control 2.md",
@@ -196,8 +202,6 @@
     "2024-2/Evaluación de proyectos/Excels/C2_Cáceres_Iván.xlsx",
     "2024-2/Evaluación de proyectos/Excels/3610A000",
     "2024-2/Evaluación de proyectos/Excels/~$C2_Cáceres_Iván.xlsx",
-    "2024-2/Evaluación de proyectos/Excels/~$Estudio_C1.xlsx",
-    "2024-2/Evaluación de proyectos/Excels/~$Estudio_C2.xlsx",
     "2024-2/Comunicación por luz visible/Resumen Sol 1.md",
     "2024-2/Evaluación de proyectos/Apuntes.md",
     "2024-2/Excel 2024-09-08 19.01.04.sheet.md",

@@ -205,3 +205,35 @@ presentación CPHARIF
 - harif es optimo en relacion a otros modelos que usa hdfs como pipeline, parallel, laz
 # Clase 22-10
 - Presentaciones batch processing, cargar resumenes tarea.
+# Clase 08-11
+## Presentaciones Stream Processing
+- Presentación 1:
+	- When two choices are not enough: Balancing at scale in distributed Stream Processing
+	- Presentadores:
+		- Nicolás Chirino
+		- Bastián Verdugo
+	- Resumen: Se aborda el problema de balanceo de carga en sistemas de procesamiento distribuido en tiempo real, afectados por la alta carga en claves "calientes" en flujos de datos desequilibrados. Propone dos técnicas, D-Choices y W-Choices, que identifican claves con alta frecuencia y distribuyen su procesamiento entre varios nodos. Estas técnicas superan a métodos anteriores en balance y reducen la latencia y aumentan el rendimiento en un 150% en pruebas, aplicándose efectivamente en grandes despliegues con Apache Storm
+	- Preguntas:
+		- **¿Cuáles creen que serían los principales desafíos al implementar las técnicas D-Choices y W-Choices en un sistema de procesamiento en tiempo real como Apache Storm o Apache Flink?**
+		- **¿Cómo consideran que las técnicas D-Choices y W-Choices podrían adaptarse o modificarse para mejorar el balance de carga en flujos de datos con patrones de distribución muy variables o sujetos a cambios rápidos?**
+	- Nota sugerida: 7
+- Presentación 2:
+	- Optimal operator placement for distributed stream processing applications
+	- Presentadores: 
+		- Carlos Ruiz
+		- Rodrigo Yanez
+	- Resumen: Se presenta el problema de la colocación óptima de operadores en aplicaciones de procesamiento de flujo de datos distribuidos (DSP) para mejorar la calidad del servicio (QoS). Propone un modelo de Programación Lineal Entera (ILP) que considera la heterogeneidad de recursos computacionales y de red, optimizando métricas como latencia y disponibilidad. El modelo se probó en Apache Storm, mostrando que puede servir como benchmark para comparar con algoritmos centralizados y descentralizados previos.
+	- Preguntas:
+		- **¿Qué tipo de aplicaciones de DSP podrían beneficiarse más de la optimización de latencia en comparación con otras métricas QoS como la disponibilidad?**
+		- **¿Cuáles son los principales desafíos al escalar este modelo de colocación óptima en infraestructuras distribuidas a gran escala, y cómo podrían abordarse?**
+	- Nota sugerida: 4
+- Presentación 3:
+	- a
+	- Presentadores:
+		- a
+		- a
+	- Resumen:
+	- Preguntas:
+		- a
+		- a
+	- Nota sugerida:
