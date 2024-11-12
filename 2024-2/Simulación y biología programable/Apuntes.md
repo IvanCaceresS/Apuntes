@@ -426,3 +426,15 @@ Usar bacteriofagos para bioremediar plantas de aji, el fago es sensible al ultra
 	- iBioSim (v3)
 		- Simulador de circuitos que usa SBOL (v2) y SBML
 	- pyBrick-DNA
+# Clase 12-11
+Control 3: Solo patrones
+## Biología sintética y de sistemas VI
+- Aplicaciónes "computacionales" (Dos papers)
+	- **Decodificación de una señal BCD a 7 segmentos**
+		- Binary coded digit
+		- Primero se describe el circuito digital a su forma electrónica
+		- Luego se usa el software Cello que transforma el circuito a su equivalente en términos de circuitos basados en compuertas NOT, OR y NOR y con asignación de factores de transcripción.
+	- **Almacenamiento de datos en bacterias usando ADN**
+		- Con 42 bits se puede almacenar 4TB. 2^42
+		- Con nucleótidos al ser 4 entonces es con 21 nucleótidos. 4^21
+		- Almacenamiento de una foto y un gif.

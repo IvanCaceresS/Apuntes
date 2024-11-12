@@ -4,17 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "cb65829856853256",
+        "id": "b5165d06bf163d45",
         "type": "tabs",
         "children": [
           {
-            "id": "b191761cf3845e6e",
+            "id": "11bdb4cffc2877b3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2024-2/Simulación y biología programable/Apuntes.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Apuntes"
+            }
+          }
+        ]
+      },
+      {
+        "id": "58d3f6ecf33d7c18",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5a473e4bec928d2f",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "2024-2/Simulación y biología programable/ppt/SSB6.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "SSB6"
             }
           }
         ]
@@ -73,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.50152587890625
+    "width": 221.50152587890625,
+    "collapsed": true
   },
   "right": {
     "id": "0d4e9e9009b7ee87",
@@ -170,39 +193,38 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "b191761cf3845e6e",
+  "active": "11bdb4cffc2877b3",
   "lastOpenFiles": [
-    "2024-2/Evaluación de proyectos/Excels/B6C49600",
-    "2024-2/Evaluación de proyectos/Excels/2F718600",
-    "2024-2/Evaluación de proyectos/Excels/15E08600",
-    "2024-2/Evaluación de proyectos/Excels/4BC08600",
-    "2024-2/Evaluación de proyectos/Excels/6A008600",
-    "2024-2/Evaluación de proyectos/Excels/Estudio_C4.xlsx",
-    "2024-2/Evaluación de proyectos/Excels/C7395600",
-    "2024-2/Evaluación de proyectos/Excels/~$Estudio_C4.xlsx",
-    "conflict-files-obsidian-git.md",
-    "2024-2/Simulación y biología programable/ppt/Estándares.pdf",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241025123203.png",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241025115705.png",
-    "2024-2/Evaluación de proyectos/Excels/C3_Cáceres_Iván.xlsx",
+    "2024-2/Simulación y biología programable/ppt/SSB6.pdf",
     "2024-2/Simulación y biología programable/Apuntes.md",
-    "2024-2/Evaluación de proyectos/Excels/Estudio_C3.xlsx",
-    "2024-2/Simulación y biología programable/Pasted image 20241025123203.png",
-    "2024-2/Simulación y biología programable/Pasted image 20241025115705.png",
+    "Sin título.md",
     "2024-2/Big Data/Apuntes.md",
+    "2024-2/Evaluación de proyectos/Excels/000A3380",
+    "2024-2/Evaluación de proyectos/Excels/DCF93380",
+    "2024-2/Evaluación de proyectos/Excels/92F93380",
+    "2024-2/Evaluación de proyectos/Excels/1E993380",
+    "2024-2/Evaluación de proyectos/Excels/7052B280",
+    "2024-2/Evaluación de proyectos/Excels/93A1B280",
+    "2024-2/Evaluación de proyectos/Excels/C4_Cáceres_Iván.xlsx",
+    "2024-2/Evaluación de proyectos/Excels/0CBEA280",
+    "2024-2/Evaluación de proyectos/Excels/~$C4_Cáceres_Iván.xlsx",
+    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241025115705.png",
+    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241025123203.png",
+    "conflict-files-obsidian-git.md",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241022123146.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241017194404.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241017193005.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241015121601.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241015115537.png",
     "2024-2/Simulación y biología programable/Pasted image 20241015121601.png",
+    "2024-2/Simulación y biología programable/Pasted image 20241015115537.png",
+    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241015114700.png",
     "2024-2/Simulación y biología programable/Resumen Control 1.md",
     "2024-2/Simulación y biología programable/Resumen Control 2.md",
     "2024-2/Comunicación por luz visible/Apuntes.md",
     "2024-2/Comunicación por luz visible/Resumen Sol 1.md",
     "2024-2/Evaluación de proyectos/Apuntes.md",
     "2024-2/Excel 2024-09-08 19.01.04.sheet.md",
-    "Sin título.md",
     "a.sheet.md",
     "2024-2/Simulación y biología programable/Tareas/Tarea 1/Resumen de los articulos cientificos.md",
     "README.md",
