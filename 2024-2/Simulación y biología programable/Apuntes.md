@@ -438,3 +438,14 @@ Control 3: Solo patrones
 		- Con 42 bits se puede almacenar 4TB. 2^42
 		- Con nucleótidos al ser 4 entonces es con 21 nucleótidos. 4^21
 		- Almacenamiento de una foto y un gif.
+# Clase 15-11
+## Inteligencia Artificial in-vivo
+- IA: Persigue emular comportamientos o algoritmos inteligentes que llevaría a cabo un humano.
+- Cambio de paradigma: Aprovechar el procemiento de los bichos y codificar un tipo distinto de IA.
+	- Ventajas: podemos aprovechar su replicación, comunicación y evolución.
+	- Desventajas: Velocidad y complejidad de cálculos realizados.
+	- Trabajos relacionados
+		- Algoritmos Genéticos
+			- BAGA (Bacterial Agent Genetic Algorithm)
+		- Framework Metaheurísticas
+		- Redes Neuronales: Red se entrena en computador y se pasa a cello la funciona que describe el modelo y lo traduce a un circuito genético que se carga a los organismos.
