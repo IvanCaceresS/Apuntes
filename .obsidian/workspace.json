@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "040f7f8f71bc26ff",
+        "id": "60de5b3b26aa7bd6",
         "type": "tabs",
         "children": [
           {
-            "id": "25d17dcf8a04eaa1",
+            "id": "ebca219a88847f6d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -170,8 +170,10 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "d7a78b9cc663cb82",
+  "active": "ebca219a88847f6d",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "2024-2/Evaluación de proyectos/Excels/C4_Cáceres_Iván.xlsx",
     "2024-2/Evaluación de proyectos/Excels/7EBFF000",
     "2024-2/Evaluación de proyectos/Excels/F0ECF000",
     "2024-2/Evaluación de proyectos/Excels/A8D5F000",
@@ -181,9 +183,6 @@
     "2024-2/Evaluación de proyectos/Excels/Estudio_C5.xlsx",
     "2024-2/Evaluación de proyectos/Excels/40B4D000",
     "2024-2/Evaluación de proyectos/Excels/~$Estudio_C5.xlsx",
-    "2024-2/Evaluación de proyectos/Excels/B6C49600",
-    "2024-2/Evaluación de proyectos/Excels/2F718600",
-    "conflict-files-obsidian-git.md",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241025123203.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241025115705.png",
     "2024-2/Simulación y biología programable/Apuntes.md",

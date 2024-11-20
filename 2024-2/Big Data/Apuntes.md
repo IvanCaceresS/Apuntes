@@ -228,12 +228,22 @@ presentación CPHARIF
 		- **¿Cuáles son los principales desafíos al escalar este modelo de colocación óptima en infraestructuras distribuidas a gran escala, y cómo podrían abordarse?**
 	- Nota sugerida: 4
 - Presentación 3:
-	- a
+	- An elastic and traffic‑aware scheduler for distributed data stream processing in heterogeneous clusters
 	- Presentadores:
-		- a
-		- a
-	- Resumen:
+		- Natalia Romero
+		- Jonás Oviedo
+	- Resumen: Se presenta ER-Storm, un sistema para la programación de procesamiento de flujo de datos en clústeres heterogéneos. ER-Storm mejora la elasticidad en DSP al replicar y reubicar operadores en nodos de trabajo según el tráfico y la carga, minimizando el tiempo de respuesta y la sobrecarga de comunicación. Utiliza un algoritmo de aprendizaje por refuerzo para optimizar estas decisiones en tiempo real, demostrando mayor eficiencia que otros sistemas de programación existentes como R-Storm y el Online-Scheduler.
 	- Preguntas:
-		- a
-		- a
-	- Nota sugerida:
+		- ¿Cómo ER-Storm maneja la sobreutilización de nodos específicos y qué criterios sigue para determinar cuándo es necesario reubicar operadores?
+		- ¿Qué ventajas observan en el uso de aprendizaje por refuerzo frente a los métodos tradicionales en la gestión de elasticidad y adaptación de la carga?
+	- Nota sugerida: 7
+- Presentación 4:
+	- A Multi-level Elasticity Framework for Distributed Data Stream Processing
+	- Presentadores:
+		- Jazmín Cuitiño
+		- Gonzalo Troncoso
+	- Resumen: Se presenta E2DF, un marco de trabajo para la elasticidad multinivel en el procesamiento de datos en flujo continuo en entornos de computación distribuida. E2DF utiliza una arquitectura jerárquica para gestionar de forma autónoma la elasticidad tanto a nivel de aplicación como de infraestructura. Implementado sobre Apache Storm, el sistema ajusta dinámicamente los recursos de procesamiento y la paralelización de operadores, optimizando el uso de recursos en entornos distribuidos en la nube y de niebla, y demostrando una reducción significativa en el desperdicio de recursos sin afectar el rendimiento de la aplicación.
+	- Preguntas:
+		- ¿Cómo se implementa la interacción entre los niveles de aplicación e infraestructura en E2DF para optimizar el uso de recursos?
+		- ¿Qué desafíos específicos enfrenta E2DF al gestionar elasticidad en entornos geodistribuidos y cómo los aborda?
+	- Nota sugerida: 7
