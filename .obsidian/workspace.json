@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "385660c567bb3921",
+        "id": "b569c17f7cce218a",
         "type": "tabs",
         "children": [
           {
-            "id": "2c479fd3b21cd88a",
+            "id": "7b25e8275283ba88",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "conflict-files-obsidian-git"
             }
           }
         ]
@@ -170,8 +174,10 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "2c479fd3b21cd88a",
+  "active": "7b25e8275283ba88",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "2024-2/Evaluación de proyectos/Excels/Estudio_C5.xlsx",
     "2024-2/Simulación y biología programable/Apuntes.md",
     "2024-2/Simulación y biología programable/ppt/InVivoAI1.pdf",
     "2024-2/Simulación y biología programable/Resumen Control 2.md",
@@ -185,10 +191,8 @@
     "2024-2/Evaluación de proyectos/Excels/7052B280",
     "2024-2/Evaluación de proyectos/Excels/93A1B280",
     "2024-2/Evaluación de proyectos/Excels/C4_Cáceres_Iván.xlsx",
-    "2024-2/Evaluación de proyectos/Excels/0CBEA280",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241025115705.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241025123203.png",
-    "conflict-files-obsidian-git.md",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241022123146.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241017194404.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241017193005.png",
