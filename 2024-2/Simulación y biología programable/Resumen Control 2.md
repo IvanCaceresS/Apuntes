@@ -152,3 +152,8 @@ La biología programable toca dos áreas de estudio:
 			- Memoria a largo plazo: El sistema mantiene su estado invariable a lo largo del tiempo si es que las condiciones se preservan.
 - Biología de sistemas
 
+
+
+
+
+
