@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2444dec810191df4",
+        "id": "385660c567bb3921",
         "type": "tabs",
         "children": [
           {
-            "id": "c9b1f290602de25a",
+            "id": "2c479fd3b21cd88a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -170,7 +170,7 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "d7a78b9cc663cb82",
+  "active": "2c479fd3b21cd88a",
   "lastOpenFiles": [
     "2024-2/Simulación y biología programable/Apuntes.md",
     "2024-2/Simulación y biología programable/ppt/InVivoAI1.pdf",
