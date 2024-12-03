@@ -11,10 +11,14 @@
             "id": "36e794f6cc427bd4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "conflict-files-obsidian-git"
             }
           }
         ]
@@ -172,6 +176,9 @@
   },
   "active": "36e794f6cc427bd4",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "2024-2/Simulación y biología programable/Resumen Control 3.md",
+    "2024-2/Evaluación de proyectos/Excels/Ejercicios_sol_2.xlsx",
     "2024-2/Evaluación de proyectos/Excels/~$C5_Cáceres_Iván.xlsx",
     "2024-2/Evaluación de proyectos/Excels/708D3F10",
     "2024-2/Evaluación de proyectos/Excels/C5_Cáceres_Iván.xlsx",
@@ -179,15 +186,12 @@
     "2024-2/Evaluación de proyectos/Excels/~$Estudio_C5.xlsx",
     "2024-2/Evaluación de proyectos/Excels/9A3C3F10",
     "2024-2/Evaluación de proyectos/Excels/E4040F10",
-    "conflict-files-obsidian-git.md",
     "2024-2/Evaluación de proyectos/Excels/Estudio_C5.xlsx",
     "2024-2/Simulación y biología programable/Apuntes.md",
     "2024-2/Simulación y biología programable/ppt/InVivoAI1.pdf",
     "2024-2/Simulación y biología programable/Resumen Control 2.md",
     "2024-2/Big Data/Apuntes.md",
-    "2024-2/Simulación y biología programable/ppt/SSB6.pdf",
     "Sin título.md",
-    "2024-2/Evaluación de proyectos/Excels/000A3380",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241025115705.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241025123203.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241022123146.png",
