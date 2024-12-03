@@ -449,3 +449,4 @@ Control 3: Solo patrones
 			- BAGA (Bacterial Agent Genetic Algorithm)
 		- Framework Metaheurísticas
 		- Redes Neuronales: Red se entrena en computador y se pasa a cello la funciona que describe el modelo y lo traduce a un circuito genético que se carga a los organismos.
+# Clase 19-11
