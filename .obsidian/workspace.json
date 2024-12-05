@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "484d1673d0d99c7e",
+        "id": "8d1bdab2011506d4",
         "type": "tabs",
         "children": [
           {
-            "id": "36e794f6cc427bd4",
+            "id": "8e166884c1d6fe80",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Solicitud Práctica.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Solicitud Práctica"
             }
           }
         ]
@@ -174,24 +174,24 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "36e794f6cc427bd4",
+  "active": "8e166884c1d6fe80",
   "lastOpenFiles": [
+    "Solicitud Práctica.md",
+    "2024-2/Evaluación de proyectos/Excels/~$Cáceres_Iván_S2.xlsx",
+    "2024-2/Evaluación de proyectos/Excels/73A6E300",
+    "2024-2/Evaluación de proyectos/Excels/A2A6E300",
+    "2024-2/Evaluación de proyectos/Excels/E1A6E300",
+    "2024-2/Evaluación de proyectos/Excels/11A6E300",
+    "2024-2/Evaluación de proyectos/Excels/50A6E300",
+    "2024-2/Evaluación de proyectos/Excels/8F96E300",
+    "2024-2/Evaluación de proyectos/Excels/D28AC300",
+    "2024-2/Evaluación de proyectos/Excels/~$C5_Cáceres_Iván.xlsx",
+    "2024-2/Evaluación de proyectos/Excels/~$C3_Cáceres_Iván.xlsx",
     "conflict-files-obsidian-git.md",
     "2024-2/Simulación y biología programable/Resumen Control 3.md",
-    "2024-2/Evaluación de proyectos/Excels/Ejercicios_sol_2.xlsx",
-    "2024-2/Evaluación de proyectos/Excels/~$C5_Cáceres_Iván.xlsx",
-    "2024-2/Evaluación de proyectos/Excels/708D3F10",
-    "2024-2/Evaluación de proyectos/Excels/C5_Cáceres_Iván.xlsx",
-    "2024-2/Evaluación de proyectos/Excels/467D3F10",
-    "2024-2/Evaluación de proyectos/Excels/~$Estudio_C5.xlsx",
-    "2024-2/Evaluación de proyectos/Excels/9A3C3F10",
-    "2024-2/Evaluación de proyectos/Excels/E4040F10",
-    "2024-2/Evaluación de proyectos/Excels/Estudio_C5.xlsx",
     "2024-2/Simulación y biología programable/Apuntes.md",
-    "2024-2/Simulación y biología programable/ppt/InVivoAI1.pdf",
     "2024-2/Simulación y biología programable/Resumen Control 2.md",
     "2024-2/Big Data/Apuntes.md",
-    "Sin título.md",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241025115705.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241025123203.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241022123146.png",
@@ -221,7 +221,6 @@
     "2024-1/INTERNET DE LAS COSAS/Apuntes IoT.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 3.md",
     "2024-1/GESTIÓN ORGANIZACIONAL/Ayudantias/Apuntes Ayudantías.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 2 Gestión Organizacional.md",
     "Sin título.canvas"
   ]
 }
