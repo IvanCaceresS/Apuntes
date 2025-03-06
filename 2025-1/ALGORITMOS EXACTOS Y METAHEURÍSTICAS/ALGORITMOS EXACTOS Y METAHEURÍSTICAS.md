@@ -26,3 +26,9 @@
 		- Implementar 
 		- Validar (experimentos) 
 		- Concluir
+
+FECHAS  (Se entregan o rinden)
+- Tarea 1 -> Semana 24 marzo
+- Tarea 2 y Control 1-> Semana 14 abril
+- Tarea 3 -> Semana 19 mayo
+- Tarea 4 y Control 2-> Semana 16 junio
