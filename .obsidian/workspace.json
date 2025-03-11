@@ -4,39 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8d1bdab2011506d4",
+        "id": "3b0f236a382db0bf",
         "type": "tabs",
         "children": [
           {
-            "id": "18519f7dd68cee48",
+            "id": "afb7e1b8d621ebe8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/ALGORITMOS EXACTOS Y METAHEURÍSTICAS.md",
+                "file": "2025-1/TIC II/PROYECTO EN TIC II.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ALGORITMOS EXACTOS Y METAHEURÍSTICAS"
-            }
-          }
-        ]
-      },
-      {
-        "id": "c190d0a9d526181a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d82c85c4a6fe80fe",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 1 - Reglas del juego.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Clase 1 - Reglas del juego"
+              "title": "PROYECTO EN TIC II"
             }
           }
         ]
@@ -95,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.50152587890625,
-    "collapsed": true
+    "width": 221.50152587890625
   },
   "right": {
     "id": "0d4e9e9009b7ee87",
@@ -193,10 +174,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "18519f7dd68cee48",
+  "active": "afb7e1b8d621ebe8",
   "lastOpenFiles": [
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 1 - Reglas del juego.pdf",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 2 - Modelamiento.pdf",
     "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/ALGORITMOS EXACTOS Y METAHEURÍSTICAS.md",
+    "2025-1/TIC II/PROYECTO EN TIC II.md",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 2 - Modelamiento.pdf.crdownload",
+    "2025-1/TIC II",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 1 - Reglas del juego.pdf",
     "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS",
     "2025-1/Clase 1 - Reglas del juego.pdf.crdownload",
     "Solicitud Práctica.md",
@@ -204,9 +189,6 @@
     "2024-2/Evaluación de proyectos/Excels/~$Cáceres_Iván_S2.xlsx",
     "2024-2/Evaluación de proyectos/Excels/73A6E300",
     "2024-2/Evaluación de proyectos/Excels/A2A6E300",
-    "2024-2/Evaluación de proyectos/Excels/E1A6E300",
-    "2024-2/Evaluación de proyectos/Excels/11A6E300",
-    "2024-2/Evaluación de proyectos/Excels/50A6E300",
     "conflict-files-obsidian-git.md",
     "2024-2/Simulación y biología programable/Resumen Control 3.md",
     "2024-2/Simulación y biología programable/Apuntes.md",
@@ -239,7 +221,6 @@
     "2024-1/DATA SCIENCE/Apuntes Data Science.md",
     "2024-1/INTELIGENCIA DE NEGOCIOS/Apuntes Inteligencia de negocios.md",
     "2024-1/INTERNET DE LAS COSAS/Apuntes IoT.md",
-    "2024-1/GESTIÓN ORGANIZACIONAL/Resumen Control 3.md",
     "Sin título.canvas"
   ]
 }
