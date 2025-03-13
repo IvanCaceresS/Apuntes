@@ -110,3 +110,7 @@ Suponga que el profe quiere viajar a Iquique con una maleta de bodega. Según la
 	- maximizar cantidad de juegos/ropa importantes
 - Espacio de búsqueda:
 	- 2^(n+m), n cantidad de ropa, m cantidad de juegos. 2^n x 2^m 
+# Clase 13-03-25
+Con esta materia se puede resolver la pregunta 2 de la tarea, con la clase pasada se puede resolver la pregunta 1.
+
+- Backtracking

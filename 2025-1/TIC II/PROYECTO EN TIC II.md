@@ -44,11 +44,15 @@ Fechas importantes:
 - Gestionar es realizar las acciones necesarias para llevar a cabo una actividad.
 - Conjunto de decisiones y acciones que llevan al logro de objetivos previamente establecidos.
 ### ¿Qué implicancias tiene un proyecto?
-- Tiene un propósito definido
-- Es un proceso organizado
-- Son actividades temporales (inicio y fin claros)
-- Costo y recursos presupuestados
-- Involucra riesgo
-- Planificación según un desempeño esperado
-- Variabilidad (de actividades, personal, gastos)
-- Impacto!!
+- Tiene un propósito definido.
+- Es un proceso organizado.
+- Son actividades temporales (inicio y fin claros).
+- Costo y recursos presupuestados.
+- Involucra riesgo.
+- Planificación según un desempeño esperado.
+- Variabilidad (de actividades, personal, gastos).
+- Impacto!!..
+### ¿Qué es gestionar un proyecto?
+- Gestionar el inicio y la evolución de un proyecto.
+- Controlar y responder ante problemas que surjan durante un proyecto (identificar y controlar riesgos)
+- Facilitar la finalización y aprobación del proyecto.(Tener buena comunicacion con el cliente en fases intermedias, no solo al inicio y al final)
