@@ -6,6 +6,7 @@
       {
         "id": "3b0f236a382db0bf",
         "type": "tabs",
+        "dimension": 60.053380782918154,
         "children": [
           {
             "id": "afb7e1b8d621ebe8",
@@ -19,6 +20,25 @@
               },
               "icon": "lucide-file",
               "title": "ALGORITMOS EXACTOS Y METAHEURÍSTICAS"
+            }
+          }
+        ]
+      },
+      {
+        "id": "81ac734a706cfe70",
+        "type": "tabs",
+        "dimension": 39.94661921708185,
+        "children": [
+          {
+            "id": "6e6be8079e4307cd",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 3 - AlgoritmosCompletos1.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Clase 3 - AlgoritmosCompletos1"
             }
           }
         ]
@@ -77,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.50152587890625
+    "width": 221.50152587890625,
+    "collapsed": true
   },
   "right": {
     "id": "0d4e9e9009b7ee87",
@@ -176,9 +197,11 @@
   },
   "active": "afb7e1b8d621ebe8",
   "lastOpenFiles": [
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 3 - AlgoritmosCompletos1.pdf",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/ALGORITMOS EXACTOS Y METAHEURÍSTICAS.md",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 3 - AlgoritmosCompletos1.pdf.crdownload",
     "2025-1/TIC II/PROYECTO EN TIC II.md",
     "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 2 - Modelamiento.pdf",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/ALGORITMOS EXACTOS Y METAHEURÍSTICAS.md",
     "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 2 - Modelamiento.pdf.crdownload",
     "2025-1/TIC II",
     "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 1 - Reglas del juego.pdf",
@@ -187,8 +210,6 @@
     "Solicitud Práctica.md",
     "2025-1",
     "2024-2/Evaluación de proyectos/Excels/~$Cáceres_Iván_S2.xlsx",
-    "2024-2/Evaluación de proyectos/Excels/73A6E300",
-    "2024-2/Evaluación de proyectos/Excels/A2A6E300",
     "conflict-files-obsidian-git.md",
     "2024-2/Simulación y biología programable/Resumen Control 3.md",
     "2024-2/Simulación y biología programable/Apuntes.md",

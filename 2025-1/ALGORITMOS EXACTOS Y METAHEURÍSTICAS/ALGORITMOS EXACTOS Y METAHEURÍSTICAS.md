@@ -114,3 +114,47 @@ Suponga que el profe quiere viajar a Iquique con una maleta de bodega. Según la
 Con esta materia se puede resolver la pregunta 2 de la tarea, con la clase pasada se puede resolver la pregunta 1.
 
 - Backtracking
+	- CSP: N-Reinas
+		- Posicionar en un tablero de N X N, N reinas de tal manera que no se ataquen entre ellas.
+			- Considerando un tablero de 4 x 4, con 4 reinas
+			- Definir variables y dominios
+				- Variables: Ubicaciones
+				- Dominio: 16
+			- Definir restricciones
+				- Q_i!=Q_j, con i y j pertenecientes a las columnas, (horizontal)
+				- lo mismo pero en vertical
+			- ¿Cuál es el espacio de búsqueda?: 16x16x16x16 = 16^4. Si se analiza por columna, sabiendo que no puede haber mas de una reina en una misma columna, el espacio de busqueda se reduce a 4x4x4x4 = 4^4
+	- Proceso de búsqueda: 
+		- Búsqueda completa
+			- Se explora el espacio de búsqueda del problema, de manera exhaustiva y ordenada
+			- El proceso termina cuando:
+				- Se encuentra una sokucion o todas(CSP), la óptima (COP)
+				- Se demuestra que no hay solución
+				- Se agotan los recursos computacionales (RAM)
+				- Hay timeout
+		- Árbol
+			- Elementos presentes:
+				- Estado inicial: nodo raíz, ejemplo: tablero vacío sin reinas
+				- Estado : Nodo que representa la “Foto” del momento de la búsqueda. Por ejemplo, ubicación de las reinas. Los nodos no-hoja corresponden a soluciones incompletas. 
+				- Acciones: A partir de un estado, que conjunto (finito) de acciones podemos realizar. Estas podrían tener un costo asociado. Generan nodos hijo. 
+				- Nodos hojas: si cumplen con las restricciones del problema, serían soluciones
+			- Backtracking cronológico (BT)
+				- Se realiza en profundidad 
+				- En cada rama del árbol hacemos una asignación, es decir le asignamos un valor a una variable o hacemos una acción dependiendo del problema. 
+				- Cada vez que hacemos una asignación debemos chequear si esta es consistente (Que cumpla con todas las restricciones del problema). Esto quiere decir que todas las otras variables tienen al menos un valor en su dominio que soporta dicha asignación.
+			- Backjumping 
+				- ¿Hay algún problema con lo anterior? 
+					- Si, como se puede ver en el ejemplo, la primera asignación es incompatible con todas las decisiones posteriores. 
+					- Generamos nodos innecesarios en la búsqueda. Esto es conocido como Thrashing. 
+				- Una solución: Técnicas Look-Back 
+					- Hacer saltos hacia atrás más eficientes (Backjumping) 
+					- Salta a una variable responsable del bloqueo. 
+					- No enumera algunas asignaciones parciales que no conducen a una posible solución. 
+					- Reduce el Thrashing. 
+					- IMPORTANTE: Sigue siendo completa la búsqueda
+			- Backjumping dirigido por conflictos (CBJ) 
+				- Salta a la variable responsable del bloqueo 
+				- No enumera algunas asignaciones parciales que no conducen a la solución. 
+				- Para cada variable, guardar el conjunto de conflictos Conf(xi ). (Se gasta un poco más de memoria)
+				- Por cada valor erróneo, registrar en Conf(xi ) la variable más prematuramente instanciada (o todas las variables asociadas a la restricción donde esté la más prematuramente instanciada) y en conflicto con el intento actual de instanciación. 
+				- Cuando no queden valores por intentar, el conjunto entrega las causas del problema y el punto de regreso será la variable más reciente en el conjunto de conflictos
