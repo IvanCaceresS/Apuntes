@@ -158,3 +158,30 @@ Con esta materia se puede resolver la pregunta 2 de la tarea, con la clase pasad
 				- Para cada variable, guardar el conjunto de conflictos Conf(xi ). (Se gasta un poco más de memoria)
 				- Por cada valor erróneo, registrar en Conf(xi ) la variable más prematuramente instanciada (o todas las variables asociadas a la restricción donde esté la más prematuramente instanciada) y en conflicto con el intento actual de instanciación. 
 				- Cuando no queden valores por intentar, el conjunto entrega las causas del problema y el punto de regreso será la variable más reciente en el conjunto de conflictos
+				- ![[Pasted image 20250313121452.png]]
+				- Hemos llegado a un camino sin salida (deadend). Esto debido a que existe un vacío de dominio (domain wipe-out) 
+				- Dado que la última variable que está en conflicto es X4 , entonces volvemos a ese punto del árbol. 
+				- No se pierden soluciones en este proceso, es decir, la técnica sigue siendo completa.
+- EJERCICIO
+	- Supongamos que deseamos pintar un automóvil, cuyas partes son: Parachoques, Techo, Alerones, Carrocería, Puertas, Capot. Para esto tenemos los siguientes colores: Blanco, Rosado, Rojo, Negro. Sea A\B, A más claro que B, entonces BLANCO\ROSADO\ROJO\NEGRO
+	- Considere las sig. restricciones:
+		- El parachoques debe ser blanco
+		- El techo debe ser rojo
+		- Los alerones no pueden ser ni blancos ni negros
+		- La carrocería, las puertas y el capot deben ser del mismo color
+		- El parachoques, el techo y los alerones deben ser más claros que la carrocería
+	- Utilice el algoritmo BT para encontrar (en caso de existir) una solucion
+# Clase 17-03-25
+## Forward checking
+- Pertenece a un grupo de técnicas clasificadas como Técnicas Look-Ahead. 
+- Se basa en la idea de mirar hacia adelante en el árbol de búsqueda, para ver si al hacer una instanciación hace imposible asignarle un valor a otra variable no instanciada. 
+- Veamos cómo se aplicaría usando el ejemplo de las N-Reinas…
+- Disminuye el trashing
+- A pesar de que podrían existir menos nodos en el árbol, se podrían eventualmente realizar más chequeos, en comparación a las otras técnicas estudiadas. 
+- Continuar con el ejemplo…
+- ¿Es siempre FC mejor que eun BT simple? depende del tiempo
+## MFC -Minimal Forward Checking-(Variante de forward checking)
+- Es conocido también por “Lazy forward checking” 
+- Revisa hacia adelante al igual que FC, sin embargo al encontrar un valor asignación factible para una variable pasa inmediatamente a la otra. 
+- De esta manera, eventualmente, podríamos detectar vacíos de dominio (al igual que FC), pero sin realizar tantos chequeos. 
+- Sigue siendo completo

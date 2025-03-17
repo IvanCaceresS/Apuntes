@@ -6,7 +6,6 @@
       {
         "id": "3b0f236a382db0bf",
         "type": "tabs",
-        "dimension": 60.053380782918154,
         "children": [
           {
             "id": "afb7e1b8d621ebe8",
@@ -25,20 +24,19 @@
         ]
       },
       {
-        "id": "81ac734a706cfe70",
+        "id": "3b8ab02467c72692",
         "type": "tabs",
-        "dimension": 39.94661921708185,
         "children": [
           {
-            "id": "6e6be8079e4307cd",
+            "id": "1fb7be4bc0e6b2b3",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 3 - AlgoritmosCompletos1.pdf"
+                "file": "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 4 - AlgoritmosCompletos2.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Clase 3 - AlgoritmosCompletos1"
+              "title": "Clase 4 - AlgoritmosCompletos2"
             }
           }
         ]
@@ -197,8 +195,11 @@
   },
   "active": "afb7e1b8d621ebe8",
   "lastOpenFiles": [
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 3 - AlgoritmosCompletos1.pdf",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 4 - AlgoritmosCompletos2.pdf",
     "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/ALGORITMOS EXACTOS Y METAHEURÍSTICAS.md",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 4 - AlgoritmosCompletos2.pdf.crdownload",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 3 - AlgoritmosCompletos1.pdf",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Pasted image 20250313121452.png",
     "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 3 - AlgoritmosCompletos1.pdf.crdownload",
     "2025-1/TIC II/PROYECTO EN TIC II.md",
     "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 2 - Modelamiento.pdf",
@@ -208,8 +209,6 @@
     "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS",
     "2025-1/Clase 1 - Reglas del juego.pdf.crdownload",
     "Solicitud Práctica.md",
-    "2025-1",
-    "2024-2/Evaluación de proyectos/Excels/~$Cáceres_Iván_S2.xlsx",
     "conflict-files-obsidian-git.md",
     "2024-2/Simulación y biología programable/Resumen Control 3.md",
     "2024-2/Simulación y biología programable/Apuntes.md",
@@ -224,7 +223,6 @@
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241015115537.png",
     "2024-2/Simulación y biología programable/Pasted image 20241015121601.png",
     "2024-2/Simulación y biología programable/Pasted image 20241015115537.png",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241015114700.png",
     "2024-2/Simulación y biología programable/Resumen Control 1.md",
     "2024-2/Comunicación por luz visible/Apuntes.md",
     "2024-2/Comunicación por luz visible/Resumen Sol 1.md",
