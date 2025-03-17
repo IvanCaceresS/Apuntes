@@ -185,3 +185,20 @@ Con esta materia se puede resolver la pregunta 2 de la tarea, con la clase pasad
 - Revisa hacia adelante al igual que FC, sin embargo al encontrar un valor asignación factible para una variable pasa inmediatamente a la otra. 
 - De esta manera, eventualmente, podríamos detectar vacíos de dominio (al igual que FC), pero sin realizar tantos chequeos. 
 - Sigue siendo completo
+## Orden de instanciación
+- El orden en el cual son instanciadas las variables afecta el tamaño del árbol de búsqueda → desempeño del algoritmo de búsqueda. 
+- Heurísticas de selección de variable: Procedimiento generalmente no costoso computacionalmente, el cual tiene por objetivo seleccionar la siguiente variable a ser instanciada. Generalmente son tecnicas offline, y en este curso se centrará en técnicas offline y no online.
+- En general están basadas en la premisa fail-first “Para tener éxito, se debe intentar primero en donde más probablemente se fallará”
+## Heurísticas de selección de variable 
+- Generalmente entre más información utilicemos, mejor funcionará—> más costo de CPU. 
+- Algunos ejemplos (generales): 
+	- Dom: Se selecciona la de menor dominio. 
+	- Dom+Deg: Lo mismo que dom, sin embargo, si hay empate se elige aquella que aparece en más restricciones. 
+	- Dom/Deg: Se selecciona aquella que minimiza el cuociente dom/deg. 
+- Dependiente del problema 
+- Su propuesta…
+## Técnicas de preproceso: Consistencia de arcos y nodos
+- Antes de ver esto, es necesario saber ciertas propiedades de CSP/COP (se pueden demostrar, pero no lo veremos en este curso): 
+	- Todo CSP/COP puede ser transformado a un conjunto de restricciones binarias y unarias. 
+	- Todo CSP/COP con restricciones binarias y unarias puede ser modelado a través de un grafo. 
+- Con lo anterior, podemos aplicar técnicas de preproceso para CSP/COP: Nodo consistencia, Arco consistencia, Camino consistencia.
