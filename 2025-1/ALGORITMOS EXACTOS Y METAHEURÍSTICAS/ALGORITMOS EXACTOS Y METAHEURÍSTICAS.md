@@ -202,3 +202,21 @@ Con esta materia se puede resolver la pregunta 2 de la tarea, con la clase pasad
 	- Todo CSP/COP puede ser transformado a un conjunto de restricciones binarias y unarias. 
 	- Todo CSP/COP con restricciones binarias y unarias puede ser modelado a través de un grafo. 
 - Con lo anterior, podemos aplicar técnicas de preproceso para CSP/COP: Nodo consistencia, Arco consistencia, Camino consistencia.
+
+## Actividad
+Dado el siguiente CSP:
+X_1<X_2
+X_2<X_3
+X_3<X_1
+X_4<X_2
+X_1=X_4
+X_1<X_2<X_3
+X_3<X_1
+x_1<x_3<x_1
+con dominios D_i={1,2,3,4}
+- Utilice el algoritmo Forward Checking para buscar todas las soluciones al problema. Utilice el orden X_1,X_2,X_3,X_4. ¿Existirá un orden de instanciación/asignación que permita reducir el árbol? si, X_3,X_2,X_1,X_4
+	X_1 = {1,2,3,4}
+	X_2 = {2,3,4}
+	X_3 = {1}
+	X_4 = {1,2,3,4}
+- ¿Existirá un orden de instanciación/asignación que permita encontrar más soluciones que la propuesta por ud.? No, ya que al ser un algoritmo completo no importa el orden, debe encontrar todas las soluciones

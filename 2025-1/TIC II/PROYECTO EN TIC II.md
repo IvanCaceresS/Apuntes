@@ -1,4 +1,4 @@
-# Clase 07-03
+# Clase 07-03-25
 Gestión de proyectos
 Profe. Cristian Osorio
 cristian.osoriom@mail.udp.cl
@@ -19,7 +19,7 @@ Asistencia minimia 75%
 20% REPORTE AVANCE 2
 20% PRESENTACIÓN FINAL
 
-# Clase 11-03
+# Clase 11-03-25
 
 ## Gestión de proyectos
 
@@ -43,6 +43,7 @@ Fechas importantes:
 ### ¿Qué es gestionar?
 - Gestionar es realizar las acciones necesarias para llevar a cabo una actividad.
 - Conjunto de decisiones y acciones que llevan al logro de objetivos previamente establecidos.
+- Realizar todas las acciones posibles para que una actividad/objetivo finalice de forma exitosa, donde es necesario tomar decisiones algunas veces complicadas.
 ### ¿Qué implicancias tiene un proyecto?
 - Tiene un propósito definido.
 - Es un proceso organizado.
@@ -53,6 +54,22 @@ Fechas importantes:
 - Variabilidad (de actividades, personal, gastos).
 - Impacto!!..
 ### ¿Qué es gestionar un proyecto?
-- Gestionar el inicio y la evolución de un proyecto.
-- Controlar y responder ante problemas que surjan durante un proyecto (identificar y controlar riesgos)
-- Facilitar la finalización y aprobación del proyecto.(Tener buena comunicacion con el cliente en fases intermedias, no solo al inicio y al final)
+3 Puntos claves para gestionar un proyecto:
+- **Gestionar el inicio y la evolución de un proyecto.** (Preocuparme de que el proyecto inicie cuando debía ocurrir, o minimizar el riesgo de que no ocurra el inicio)
+- **Controlar y responder ante problemas que surjan durante un proyecto** (identificar y controlar riesgos)
+- **Facilitar la finalización y aprobación del proyecto.**(Tener buena comunicacion con el cliente en fases intermedias, no solo al inicio y al final)
+# Clase 18-03-25
+![[Pasted image 20250318174544.png]]
+## Gestión Eficaz
+Una buena gestión puede verse reflejado en los siguientes puntos: 
+- Cumplir los objetivos del negocio 
+- Satisfacer las expectativas de los interesados 
+- Ser más predecibles 
+- Aumentar las posibilidades de éxito
+- Entregar los productos adecuados en el momento adecuado
+- Resolver problemas e incidentes
+- Responder a los riesgos de manera oportuna
+- Optimizar el uso de los recursos de la organización 
+- Gestionar las restricciones (p.ej., alcance, calidad, cronograma, costos, recursos) 
+- Equilibrar la influencia de las restricciones en el proyecto (p.ej., un mayor alcance puede aumentar el costo o cronograma) 
+- Gestionar el cambio de una mejor manera
