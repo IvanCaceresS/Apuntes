@@ -55,9 +55,9 @@ Fechas importantes:
 - Impacto!!..
 ### ¿Qué es gestionar un proyecto?
 3 Puntos claves para gestionar un proyecto:
-- **Gestionar el inicio y la evolución de un proyecto.** (Preocuparme de que el proyecto inicie cuando debía ocurrir, o minimizar el riesgo de que no ocurra el inicio)
+- **Gestionar el inicio y la evolución de un proyecto.** (Preocuparme de que el proyecto inicie cuando debía ocurrir, o minimizar el riesgo de que no ocurra el inicio. Chequear que el proyecto esté evolucionando)
 - **Controlar y responder ante problemas que surjan durante un proyecto** (identificar y controlar riesgos)
-- **Facilitar la finalización y aprobación del proyecto.**(Tener buena comunicacion con el cliente en fases intermedias, no solo al inicio y al final)
+- **Facilitar la finalización y aprobación del proyecto.** (Tener buena comunicacion con el cliente en fases intermedias, no solo al inicio y al final)
 # Clase 18-03-25
 ![[Pasted image 20250318174544.png]]
 ## Gestión Eficaz
@@ -73,3 +73,13 @@ Una buena gestión puede verse reflejado en los siguientes puntos:
 - Gestionar las restricciones (p.ej., alcance, calidad, cronograma, costos, recursos) 
 - Equilibrar la influencia de las restricciones en el proyecto (p.ej., un mayor alcance puede aumentar el costo o cronograma) 
 - Gestionar el cambio de una mejor manera
+ ## Gestión Deficiente
+ La carencia de gestión o gestión deficiente puede llevar a lo siguiente: 
+ - Incumplimiento de plazos
+ - Sobrecostos 
+ - Calidad deficiente 
+ - Retrabajo 
+ - Expansión no controlada del proyecto
+ - Pérdida de reputación para la organización 
+ - Interesados insatisfechos 
+ - Incumplimiento de los objetivos propuestos del proyecto

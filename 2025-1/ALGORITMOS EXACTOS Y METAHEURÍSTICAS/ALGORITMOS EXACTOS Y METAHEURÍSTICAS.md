@@ -220,3 +220,17 @@ con dominios D_i={1,2,3,4}
 	X_3 = {1}
 	X_4 = {1,2,3,4}
 - ¿Existirá un orden de instanciación/asignación que permita encontrar más soluciones que la propuesta por ud.? No, ya que al ser un algoritmo completo no importa el orden, debe encontrar todas las soluciones
+
+# Clase 24-03-25
+- Algoritmos Greedy: Deterministas y Estocásticos.
+- Greedy randomized adaptive search procedure (GRASP)
+## Técnicas de resolución
+- Búsqueda aproximada (técnicas incompletas): 
+	- Normalmente estocásticas. 
+	- Entregan la mejor solución encontrada sin garantía de optimalidad. 
+	- Capaces de manejarse en grandes espacios de búsqueda. 
+	- No es necesario conocimiento a priori del problema.
+- ![[Pasted image 20250324113842.png]]
+- **Heurísticas:**
+	- Derivado del griego heuriskein: encontrar, descubrir
+	- 
