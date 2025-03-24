@@ -233,4 +233,26 @@ con dominios D_i={1,2,3,4}
 - ![[Pasted image 20250324113842.png]]
 - **Heurísticas:**
 	- Derivado del griego heuriskein: encontrar, descubrir
-	- 
+	- No garantizan encontrar la mejor solución
+	- Yo la diseño para el problema
+	- Se requiere de alguien que sepa como funciona el problema y que sepa valorar que aspectos son importantes en el problema
+	- El objetivo es resolver un problema rápidamente
+- **Metaheurísticas:**
+	- Es una combinación de heurísticas, es una heurística pero más general. Usa heurísticas para buscar/construir soluciones.
+	- No son diseñadas para un problema especifico
+	- No requiere de mucha información del problema a resolver.
+	- **Problema:** requieren de tiempo para poder ajustar su(s) parámetro(s).
+- Dos tipos de técnicas incompletas:
+	- Constructivas:
+		- No requieren de una solución inicial.
+		- Van construyendo una solución: asignando iterativamente valores a las variables del problema.
+		- Manejan soluciones parciales
+	- Perturbadores
+		- Requiere de una o varias soluciones iniciales
+		- Modifican una solución: Aplicando un movimiento o función de vecindario
+		- Manejan soluciones completas.
+- Heurísticas constructivas (Greddy o Voraces):
+	- Son reglas locales para seleccionar los valores de las variables del problema
+	- Utilizan la información del problema para definir estas reglas.
+	- El objetivo es encontrar soluciones al problema de manera rápida.
+- 
