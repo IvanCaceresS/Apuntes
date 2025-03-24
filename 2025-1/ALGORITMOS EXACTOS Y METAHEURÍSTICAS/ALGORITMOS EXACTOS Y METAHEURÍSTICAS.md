@@ -255,4 +255,14 @@ con dominios D_i={1,2,3,4}
 	- Son reglas locales para seleccionar los valores de las variables del problema
 	- Utilizan la información del problema para definir estas reglas.
 	- El objetivo es encontrar soluciones al problema de manera rápida.
-- 
+	- **¿Qué necesitamos para definir un Greedy?** 
+		- Representación: Interpretación de la estructura de la solución. 
+		- Función de evaluación o miope: Función para evaluar la acción a realizar. 
+	- Greedy determinista vs estocástico: Determinista llega siempre a la misma solución. Estocástico…no. 
+	- Greedy estocástico: en vez de movernos a la mejor solución, asignamos una probabilidad a las alternativas a partir de la función miope.
+	- **GRASP: Greedy Randomized Adaptive Search Procedure.**
+		- Metaheurística la cual consiste en dos pasos: un greedy aleatorio y un algoritmo de búsqueda local. 
+		- En vez de elegir la mejor alternativa con la función miope, se hace un ranking con las alternativas posibles y le es asignado una probabilidad a cada una de ellas. De esta forma tendremos variabilidad en las soluciones. 
+		- Una vez construida la solución intentamos mejorarla utilizando búsqueda local. 
+		- Existen muchas otras variantes: agregar ruido a las soluciones, a partir de soluciones parciales aplicar búsqueda local, entre otras. 
+		- También se podría generar una población (conjunto de soluciones) y utilizarla como soluciones iniciales en un algoritmo de este tipo.
