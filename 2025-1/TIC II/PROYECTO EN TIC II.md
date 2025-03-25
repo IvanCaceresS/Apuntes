@@ -83,3 +83,21 @@ Una buena gestión puede verse reflejado en los siguientes puntos:
  - Pérdida de reputación para la organización 
  - Interesados insatisfechos 
  - Incumplimiento de los objetivos propuestos del proyecto
+
+# Clase 25-03-25
+## Ciclo de vida del proyecto
+- Nos permite tener una perspectiva del proyecto de inicio a fin.
+- Objetivos:
+	- Comprender las fases del ciclo de vida
+	- Identificar las actividades clave en cada fase
+	- Reconocer la importancia de cada fase en el éxito del proyecto
+- Fase 1:
+	- Marca el inicio del proyecto y sienta las bases para el futuro
+	- Definición de objetivos y alcance del proyecto
+	- Identificacion de los interesados (stakeholders)
+	- Creación del Acta de Constitución del Proyecto (Project Charter)
+	- Evaluación preliminar de viabilidad (feasibility study)
+	- Identificación de riesgos preliminares
+	- Asignación del gerente o director del proyec
+- Fase 2:
+- Fase 3:
