@@ -266,3 +266,29 @@ con dominios D_i={1,2,3,4}
 		- Una vez construida la solución intentamos mejorarla utilizando búsqueda local. 
 		- Existen muchas otras variantes: agregar ruido a las soluciones, a partir de soluciones parciales aplicar búsqueda local, entre otras. 
 		- También se podría generar una población (conjunto de soluciones) y utilizarla como soluciones iniciales en un algoritmo de este tipo.
+# Clase 27-03-25
+## Metaheurísticas
+- No garantizan el óptimo global
+- Pueden encontrar soluciones aceptables en tiempos razonables
+- Cuando diseñamos una metaheuristica nos encontramos con 2 criterios contradictorios:
+	- Por un lado tenemos la **exploración**: Deben buscarse zonas prometedoras del espacio de búsqueda. También se le conoce como **diversificación**. 
+	- También tenemos la **explotación**: Centrar la búsqueda dentro de una región en particular del espacio de búsqueda. También se le conoce como **intensificación**.
+	- De manera general lo mejor es primero explorar y luego explotar
+- Hill Climbing
+	- Tecnica de búsqueda local (Solo explota)
+	- De solución única que va cambiando en cada iteración
+	- Es pertubativo, es decir parto de una solución inicial (factible o infactible) y esa va mejorando en el tiempo, esto lo hace mediante **operadores de movimiento** buscando que valor de la función de dicha solución sea mejor que la solución actual mediante cambios minimos a la solución, esto genera un vecinadario (conjunto de soluciones cercanas a la actual) luego me muevo a la mejor en base a la funcion objetivo y que cumpla con las restricciones.
+	- Como manejar las coluciones infactibles? Reparar o penalizar (reparar es transformarmar la infactible a factible y la penalización le quita o agrega cosas a la funcion objetivo para cuando la solucion es infactible, agrega cuando es minimizar y quita cuando es maximizar.)
+- Hill Climbing Mejor-Mejora
+	-  Inicialización: Crear una solución a partir de algún criterio heurístico o aleatorio. 
+	- Mientras no se cumpla el criterio de parada (no hay mejora, tiempo, iteraciones,...) 
+		- Generar vecindario a partir del movimiento elegido y conservar la mejor solución del vecindario como solución actual. 
+	- Mostrar solución + valor f.o + tiempo
+- Hill Climbing Alguna-Mejora
+	-  En algunas ocasiones nos encontraremos con problemas en que el vecindario de una solución es muy grande. 
+	- En tal caso, solo generamos el vecindario hasta el punto de encontrar la primera solución que mejore la actual, en vez de generar el vecindario completo
+- Hill Climbing con restart
+	- Un gran problema de este algoritmo es que puede estancarse en óptimos locales. 
+	- La idea es recomenzar con el algoritmo con una nueva solución cuando este se quede estancado. 
+	- Desventaja del Hill-Climbing con restart: Pérdida de información valiosa durante la búsqueda. 
+	- ¿Qué pasa si utilizo Hill-Climbing con restart, creando la solución inicial con un greedy determinista? Siempre llegará a lo mismo, ya que no es aleatorio.

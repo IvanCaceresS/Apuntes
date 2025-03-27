@@ -91,13 +91,15 @@ Una buena gestión puede verse reflejado en los siguientes puntos:
 	- Comprender las fases del ciclo de vida
 	- Identificar las actividades clave en cada fase
 	- Reconocer la importancia de cada fase en el éxito del proyecto
-- Fase 1:
+- Fase 1: Iniciación
 	- Marca el inicio del proyecto y sienta las bases para el futuro
 	- Definición de objetivos y alcance del proyecto
+		- Es fundamenal que los objetivos sean claros, medibles y alcanzables. Se especifica que queda incluido y que queda fuera del proyecto.
 	- Identificacion de los interesados (stakeholders)
+		- Son aquellas personas que tienen un interés en el proyecto o pueden verse afectados por su éxito o fracaso.
 	- Creación del Acta de Constitución del Proyecto (Project Charter)
 	- Evaluación preliminar de viabilidad (feasibility study)
 	- Identificación de riesgos preliminares
-	- Asignación del gerente o director del proyec
+	- Asignación del gerente o director del proyecto
 - Fase 2:
 - Fase 3:
