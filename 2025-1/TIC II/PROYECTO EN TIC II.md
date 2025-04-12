@@ -103,3 +103,15 @@ Una buena gestión puede verse reflejado en los siguientes puntos:
 	- Asignación del gerente o director del proyecto
 - Fase 2:
 - Fase 3:
+
+# Clase 08-04-25
+## Actividad
+Grupo 6. Desarrollo de un software de gestión para clínicas médicas
+Objetivo: Crear un software que permita a las clinicas médicas gestionar las citas de pacientes, historiales médicos y pagos.
+- Objetivo del proyecto
+	- Objetivo general: 
+	- Objetivos específicos
+- Alcance
+- Recursos necesarios
+- Cronograma estimado
+- Riesgos potenciales

@@ -292,3 +292,80 @@ con dominios D_i={1,2,3,4}
 	- La idea es recomenzar con el algoritmo con una nueva solución cuando este se quede estancado. 
 	- Desventaja del Hill-Climbing con restart: Pérdida de información valiosa durante la búsqueda. 
 	- ¿Qué pasa si utilizo Hill-Climbing con restart, creando la solución inicial con un greedy determinista? Siempre llegará a lo mismo, ya que no es aleatorio.
+# Clase 31-03-25
+## Tabu Search
+- Previene ciclos de corta duración.
+- Elementos claves de Tabu Search
+	- Operador de movimiento
+	- Solución inicial
+	- La representación de la solución
+	- Función de evaluacion (F.O)
+	- Lista tabú
+	- Criterio de aspiración: Libera la búsqueda por medio de una función de memoria a corto plazo (olvido estratégico)
+- La lista tabú almacena movimientos prohibidos, en cada iteración se elige el movimiento factible no-tabú. (memoria a corto plazo). Es del tipo FIFO
+- Una lista tabu muy pequeña, estoy explotando mucho más
+- Una lista tabú muy grande, estoy explorando mucho más
+- El tamaño de la lista depende del problema, se puede definir mediante pruebas evaluando la calidad de la solución con un conjunto de pruebas (benchmarks)
+- El algoritmo para de iterar segun el criterio definido, por ej: el tiempo transcurrido o la solución no ha mejorado en cierta cantidad de iteraciones, etc.
+
+EJERCICIO
+La penalizacion será de F.O+nx20 donde n es unidades de falla en restricciones.
+- (x1,x4,x5,x6) -> F.O=16, infactible->F.0=56, Lista Tabu={} 
+	Vecinadario (Remplazando x1 por todas las demas opciones)
+	(x2,x4,x5,x6)-> F.O=19, infactible-> 39
+	(x3,x4,x5,x6)-> F.O=28, factible 
+	(x7,x4,x5,x6)-> F.O=27, factible->1ERA MEJOR
+- (x7,x4,x5,x6)-> F.O=27, factible, Lista Tabu={(x1,x7)} 
+	Vecinadario (Remplazando x4 por todas las demas opciones)
+	(x7,x1,x5,x6)-> F.O=26, infactible->46
+	(x7,x2,x5,x6)-> F.O=29, infactible-> 49
+	(x7,x3,x5,x6)-> F.O=38, factible -> No es mejor que la mejor pero nos movemos
+- (x7,x3,x5,x6)-> F.O=38, factible, Lista Tabu={(x1,x7),(x4,x3)} 
+	Vecinadario (Remplazando x5 por todas las demas opciones)
+	(x7,x3,x1,x6)-> F.O=44, factible
+	(x7,x3,x2,x6)-> F.O=47, infactible->67
+	(x7,x3,x4,x6)-> F.O=40, factible -> No es mejor que la mejor pero nos movemos
+- (x7,x3,x4,x6)-> F.O=40, factible, Lista Tabu={(x4,x3),(x5,x4)}
+	Vecinadario (Remplazando x6 por todas las demas opciones)
+	(x7,x3,x4,x1)-> F.O=38, factible
+	(x7,x3,x4,x2)-> F.O=41,factible
+	(x7,x3,x4,x5)-> F.O=32, factible
+Luego de 4 iteraciones la mejor solucion es:
+(x7,x4,x5,x6)-> F.O=27, factible->1ERA MEJOR
+
+# Clase 03-04-25
+## Simulated Annealing
+- Modelamiento del proceso de los cambios energéticos en un sistema de partículas conforme decrece la temperatura, hasta que converge a un estado estable (congelado).
+- Incorpora una estrategia explícita para impedir óptimos locales.
+- Tiene una componente probabilistica
+### Idea
+
+- Permitir movimientos a soluciones que empeoren la F.O, de forma de poder escapar de los óptimos locales
+- Permitir movimientos que empeoren la calidad de la F.O de acuerdo a una probabilidad asociada a la temperatura del sistema.
+- Parto con una temperatura alta y a medida que hay más iteraciones la temperatura baja, de esta manera se puede explorar para luego explotar
+- Mientras que las soluciones que mejoran la función objetivo siempre son aceptadas, las soluciones que la empeoran son aceptadas con mayor probabilidad si la temperatura es más alta.
+## Probabilidad de aceptación y temperatura
+- De manera clásica, la probabilidad de acepetación sigue la distribución de Boltzmann y solo se aplica cuando la nueva solución es peor que la actual, si la nueva es mejor no aplica la probabilidad ya que solo te mueves.
+- La temperatura es un parámetro y determina la probabilidad de aceptación de soluciones que no mejoran la solución actual.
+## Ingredientes para el SA
+- Ingredientes de HC (representación, evaluación, operadores de vecindario) 
+- Función de probabilidad de aceptación (Boltzmann) 
+- Temperatura inicial y final 
+- Proceso de enfriamiento: Esto es clave para la eficiencia y efectividad del algoritmo.
+# Clase 07-04-25
+## Algoritmos de trayectoria
+- Iterated Local Search (ILS)
+	- Dada una solución s’, se aplica una perturbación (random-walk) o pequeño cambio. 
+	- Luego, a partir de dicha nueva solución, se aplica una búsqueda local, es decir, con operadores de movimiento buscar en la vecindad por mejores soluciones. Con esto llegamos a s’’ 
+	- Si s’’ cumple con ciertos criterios (por ejemplo es “mejor” que s’), entonces, será nuestra nueva solución y repetimos el proceso, si no, volvemos a s’. 
+	- La clave está en la perturbación: Si es pequeña probablemente no mejore mucho, si es muy grande será muy aleatoria la búsqueda.
+- Large Neighbourhood Search (LNS)
+	- Utiliza dos métodos: destroy y repair. 
+	- El método destroy destruye parte de la solución (estocásticamente), mientras el método repair reconstruye la parte destruida. Dicho esto, el vecindario es definido como las soluciones a las cuales se puede llegar a partir de dicha nueva (incompleta) configuración. 
+	- Para la reparación puede ser utilizado un método heurístico.
+# Tarea 2
+- Son 2 casos, 1 con una pista y el otro con 2 pistas. Se hace todo para 1 pista, y luego todo para 2 pistas.
+- El costo asociado por diferencia de tiempo respecto a preferente son 1 unidad de costo por cada minuto de tiempo.
+- El componente restart en el grasp, no se debe hacer solo una unica vez, sino que se haga varias veces para ver como afecta ese reinicio en la solución final. La cantidad de restart debe definirse mediante pruebas, para ver que valor da mejores resultados.
+- En tabu y en SA, las 5 variaciones pueden ser 5 variaciones del tamaño de la lista con saltos grandes, y en SA la temperatura con variaciones notorias.
+- No es item necesario el modelamiento pero es util para una breve explicación, no es requerido.

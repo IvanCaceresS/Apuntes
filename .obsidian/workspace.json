@@ -4,39 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "81cfddfc63201a10",
+        "id": "8b4146b8fd13768b",
         "type": "tabs",
         "children": [
           {
-            "id": "16ad8a64568659a6",
+            "id": "2e8d3c001cf244f8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/ALGORITMOS EXACTOS Y METAHEURÍSTICAS.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "ALGORITMOS EXACTOS Y METAHEURÍSTICAS"
-            }
-          }
-        ]
-      },
-      {
-        "id": "006165bfceb3a3d7",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4ca6d2d07d8b7551",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 7 - Metaheuristicas2.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Clase 7 - Metaheuristicas2"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -193,21 +171,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "16ad8a64568659a6",
+  "active": "2e8d3c001cf244f8",
   "lastOpenFiles": [
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 7 - Metaheuristicas2.pdf",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 5 - AlgoritmosCompletos3.pdf",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 5 - AlgoritmosCompletos3.pdf.crdownload",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 10 - Metaheuristicas5.pdf",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 9 - Metaheuristicas4.pdf",
     "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/ALGORITMOS EXACTOS Y METAHEURÍSTICAS.md",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 8 - Metaheuristicas3.pdf",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 8 - Metaheuristicas3.pdf.crdownload",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 7 - Metaheuristicas2.pdf.crdownload",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/T2-CIT3352.pdf",
     "2025-1/TIC II/PROYECTO EN TIC II.md",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 6 - Metaheuristicas1.pdf",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/T2-CIT3352.pdf.crdownload",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 10 - Metaheuristicas5.pdf.crdownload",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 9 - Metaheuristicas4.pdf.crdownload",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 8 - Metaheuristicas3.pdf",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 7 - Metaheuristicas2.pdf",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 8 - Metaheuristicas3.pdf.crdownload",
     "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Pasted image 20250324113842.png",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clase 6 - Metaheuristicas1.pdf.crdownload",
-    "2025-1/TIC II/2. Gestion de Proyectos Parte I.pdf",
-    "2025-1/TIC II/mso2481.tmp",
-    "2025-1/TIC II/pptEAD3.tmp",
-    "2025-1/TIC II/~$2. Gestion de Proyectos Parte I.pptx",
     "2025-1/TIC II/Pasted image 20250318174544.png",
     "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Pasted image 20250313121452.png",
     "Solicitud Práctica.md",
