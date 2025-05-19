@@ -369,3 +369,322 @@ Luego de 4 iteraciones la mejor solucion es:
 - El componente restart en el grasp, no se debe hacer solo una unica vez, sino que se haga varias veces para ver como afecta ese reinicio en la solución final. La cantidad de restart debe definirse mediante pruebas, para ver que valor da mejores resultados.
 - En tabu y en SA, las 5 variaciones pueden ser 5 variaciones del tamaño de la lista con saltos grandes, y en SA la temperatura con variaciones notorias.
 - No es item necesario el modelamiento pero es util para una breve explicación, no es requerido.
+
+
+# Clase 12-05-25
+
+## Repaso Clase 11 y 12
+
+### Metaheurísticas Basadas en Poblaciones (MH-P)
+
+Hasta ahora, hemos explorado metaheurísticas que mejoran iterativamente una única solución, como Hill-Climbing (HC), Tabu Search (TS), y Simulated Annealing (SA). Ahora nos enfocamos en técnicas que trabajan con un conjunto o **población de soluciones** simultáneamente. Estas pertenecen en su mayoría a la categoría estocástica y suelen tener parámetros que ajustar.
+
+**Conceptos Comunes de MH-P:**
+* Comienzan con una **población inicial** de soluciones. La diversidad en esta población es crucial para evitar la convergencia prematura. 
+* Iterativamente, se genera un nuevo grupo de individuos y se actualiza la población actual. 
+* La generación y reemplazo pueden o no involucrar memoria (recordar soluciones previas). 
+* Muchas de estas técnicas se inspiran en procesos naturales. 
+
+**Plantilla General de una Metaheurística Basada en Poblaciones:**
+1.  $P = P_0$; /* Generación de la población inicial */ 
+2.  $t = 0$;
+3.  **Repeat**
+4.  Generar ($P'_t$); /* Generación de una nueva población */ 
+5.  $P_{t+1} = \text{Select-Population}(P_t \cup P'_t)$; /* Seleccionar la nueva población */ 
+6.  $t = t+1$;
+7.  **Until** Criterio de parada satisfecho 
+8.  **Output**: Mejor(es) solución(es) encontrada(s). 
+
+---
+
+### Algoritmos Evolutivos: Algoritmos Genéticos (GA)
+
+Los Algoritmos Genéticos (GA) son un tipo de algoritmo evolutivo inspirado en la teoría de la evolución de Darwin: los individuos mejor adaptados al medio ambiente tienen más posibilidades de sobrevivir y reproducirse, transmitiendo sus características genéticas. 
+
+**Componentes Clave de un GA:**
+
+1.  **Representación:** 
+    * **Gen:** Unidad básica de información (e.g., un bit, un número).
+    * **Cromosoma (Individuo):** Conjunto de genes que representa una solución al problema.
+    * **Población:** Conjunto de cromosomas (individuos).
+
+2.  **Función de Fitness:** 
+    * Mide qué tan "apta" es una solución (individuo). 
+    * Generalmente es la función objetivo del problema. 
+    * La probabilidad de selección para reproducción se basa en este valor. 
+    * Manejo de restricciones: Se debe decidir cómo tratar a individuos que no cumplen restricciones (penalizar fitness, reparar, descartar). 
+
+3.  **Estrategias de Selección (Elección de Padres):**
+    * **Ruleta (Roulette Wheel Selection):** 
+        * A cada individuo se le asigna una probabilidad de selección proporcional a su fitness. 
+        * Si se está maximizando, la probabilidad de selección $p_i$ para el individuo $i$ con fitness $f_i$ es $p_i = f_i / (\sum f_j)$. 
+        * Puede causar convergencia prematura si individuos excepcionales dominan al inicio. 
+    * **Torneo (Tournament Selection):** 
+        * Se seleccionan aleatoriamente K individuos de la población (tamaño del torneo K). 
+        * El individuo con el mejor fitness dentro de ese grupo es elegido como padre. 
+        * Se repite T veces si se necesitan T padres. 
+
+4.  **Operadores Genéticos:**
+    * **Cruzamiento (Crossover):** 
+        * Operador binario que combina información de dos padres para generar uno o más hijos, heredando características. 
+        * **Cruzamiento en 1-Punto:** Se elige un punto de corte aleatorio en los cromosomas padres. Los segmentos se intercambian para formar dos hijos. 
+        * **Cruzamiento en 2-Puntos:** Se eligen dos puntos de corte. El material genético entre los dos puntos se intercambia. 
+        * **Cruzamiento Uniforme:** Para cada gen, se decide (usualmente con una probabilidad de 0.5) de cuál padre heredará el hijo ese gen. 
+    * **Mutación:** 
+        * Operador unario que introduce variabilidad alterando aleatoriamente uno o más genes de un individuo. 
+        * La probabilidad de mutación ($p_m$) suele ser baja (e.g., $p_m \in [0.01, 0.05]$). 
+        * Ayuda a escapar de óptimos locales y a mantener la diversidad.
+        * Ejemplo en dominio binario: cambiar un bit (0 a 1 o 1 a 0). 
+        * Ejemplo en TSP: intercambiar dos ciudades en la ruta (swap). 
+
+5.  **Estrategias de Reemplazo (Selección de Sobrevivientes):** 
+    * Determina qué individuos formarán la siguiente generación, manteniendo el tamaño de la población constante. 
+    * **Reemplazo Generacional:** Todos los padres son reemplazados por los hijos. 
+    * **Elitismo:** Un porcentaje de los mejores individuos de la población actual se mantiene directamente en la siguiente generación. 
+
+**Pseudocódigo General de un GA:** 
+1.  Generar una población inicial N.
+2.  Evaluar el fitness de todos los individuos.
+3.  **Mientras** no se cumpla el criterio de término:
+    a.  Definir si se realizará mutación o cruzamiento (según probabilidades). 
+    b.  Si es cruzamiento, seleccionar padres según la estrategia.
+    c.  Generar la siguiente generación (considerar reemplazo generacional, elitismo, etc.). 
+    d.  No olvidar guardar el mejor individuo encontrado hasta el momento. 
+4.  Entregar resultados.
+
+---
+
+### Otros Algoritmos Evolutivos
+
+#### Differential Evolution (DE)
+
+Es otro algoritmo evolutivo, efectivo en problemas de optimización continua. 
+
+* **Población Inicial:** Se genera una población inicial de $k$ individuos, donde cada individuo $X_i$ es un vector de D números reales (punto flotante). Cada elemento $x_{ij}$ se genera aleatoriamente en un rango $[x_j^l, x_j^u]$:
+    $x_{ij} = x_j^l + \text{rand}_j[0,1] \cdot (x_j^u - x_j^l)$. 
+* **Mutación y Recombinación (Cruzamiento):** Es diferente al GA. Para cada individuo $X_i$ (padre): 
+    1.  Se seleccionan aleatoriamente tres individuos distintos $r_1, r_2, r_3$ de la población, diferentes de $i$. 
+    2.  Se crea un vector "mutante" o "donante" $V_i$ (a menudo llamado $u_i$ en la formulación de la diapositiva):
+        $v_{ij} = x_{r_3j} + F \cdot (x_{r_1j} - x_{r_2j})$ para una de las estrategias de DE. 
+        Donde $F$ es el factor de escala (diferencial), usualmente en $[0,1]$, e.g., 0.8. 
+    3.  Se crea un individuo "de prueba" $U_i$ mediante cruzamiento entre el padre $X_i$ y el vector mutante $V_i$. Para cada dimensión $j$:
+        $u_{ij} = v_{ij}$ si $(\text{rand}_j[0,1] < CR)$ o $(j == j_{\text{rand}})$
+        $u_{ij} = x_{ij}$ en otro caso. 
+        $CR$ es la tasa de cruzamiento (probabilidad), usualmente en $[0,1]$, e.g., 0.9. $j_{\text{rand}}$ asegura que al menos una variable del hijo sea del vector mutante. 
+* **Selección:** El individuo de prueba $U_i$ reemplaza al padre $X_i$ en la siguiente generación si tiene mejor (o igual) fitness.
+    $X_i(t+1) = U_i$ si $f(U_i) \le f(X_i(t))$ (para minimización). 
+    $X_i(t+1) = X_i(t)$ en otro caso.
+* **Aplicaciones:** Optimización continua con restricciones, funciones no diferenciables, problemas multiobjetivo. 
+
+#### Algoritmos de Coevolución Cooperativa
+
+* **Concepto:** Inspirados en la evolución complementaria de especies cercanas (e.g., plantas e insectos polinizadores). 
+* A diferencia de los GA clásicos, aquí múltiples poblaciones (especies) evolucionan en paralelo. 
+* Cada especie desarrolla un subcomponente de la solución global. 
+* Los representantes de cada especie se unen (e.g., concatenan) para formar una solución completa que luego es evaluada. 
+* **Idea Principal:** Dividir un problema grande en subproblemas más pequeños y resolverlos de manera cooperativa e independiente. 
+* **Aplicaciones:** Problemas grandes de optimización, entrenamiento de redes neuronales. 
+
+#### Scatter Search
+
+* Comienza generando una población inicial diversa y de calidad. 
+* Construye y mantiene un **Conjunto de Referencia (RefSet)** de tamaño moderado (e.g., ~10 soluciones). 
+* El RefSet incluye soluciones con buen fitness y otras que aportan diversidad. 
+* **Proceso General:** 
+    1.  Crear población inicial.
+    2.  Mejorar la población inicial (opcionalmente usando una heurística local).
+    3.  Generar el RefSet a partir de la población mejorada.
+    4.  Generar subconjuntos de soluciones a partir del RefSet.
+    5.  Combinar soluciones de estos subconjuntos para crear nuevas soluciones.
+    6.  Mejorar estas nuevas soluciones (opcionalmente).
+    7.  Actualizar el RefSet con las mejores y más diversas soluciones generadas.
+* Integra elementos de algoritmos basados en poblaciones y de metaheurísticas de una sola solución. 
+
+---
+---
+
+## Inteligencia de Enjambre (Swarm Intelligence)
+
+Los algoritmos de Inteligencia de Enjambre se inspiran en el **comportamiento colectivo y social de especies** como hormigas, abejas, peces, aves, murciélagos, etc. Estos comportamientos surgen, por ejemplo, al competir por comida. 
+
+* **Característica Principal:** La "cooperación" mediante comunicación indirecta entre los agentes (individuos) para explorar el espacio de búsqueda. 
+* **Categoría:** Metaheurísticas basadas en poblaciones. 
+
+### Particle Swarm Optimization (PSO)
+
+Propuesto por James Kennedy y Russell Eberhart en 1995, el PSO se inspira en el **movimiento de las bandadas de aves** o cardúmenes de peces. 
+
+* **Idea Central:** 
+    * Inicialmente propuesto para problemas continuos.
+    * La comunicación entre "partículas" (agentes) maneja el balance entre diversificación (exploración) e intensificación (explotación).
+
+* **Conceptos Fundamentales:**
+    1.  Cada **partícula `i`** es una solución candidata al problema y se representa por un vector de **posición** $X_i$ en el espacio de búsqueda D-dimensional. 
+    2.  Cada partícula tiene su propia **posición** $X_i = (x_{i1}, x_{i2}, ..., x_{iD})$ y una **velocidad** $V_i = (v_{i1}, v_{i2}, ..., v_{iD})$. La velocidad indica la dirección y la magnitud del movimiento. 
+    3.  Es un algoritmo **cooperativo**: las mejores partículas (o sus experiencias) influyen en el comportamiento de las demás. 
+
+**Componentes del Movimiento de una Partícula:** 
+Cada partícula ajusta su posición basándose en dos factores principales:
+1.  **La mejor posición encontrada por ella misma (experiencia personal):** Denotada como $P_i = (p_{i1}, p_{i2}, ..., p_{iD})$ (también llamada `pbest`). 
+2.  **La mejor posición encontrada por el enjambre o un subconjunto de él (experiencia social):** Denotada como $P_g = (p_{g1}, p_{g2}, ..., p_{gD})$ (también llamada `gbest` o `lbest` según el vecindario). 
+
+**Vecindario de Partículas:** 
+Define la componente social y cómo se comparte la información.
+* **`gbest` (Mejor Global):** El vecindario es toda la población. Todas las partículas son influenciadas por la mejor solución encontrada globalmente por cualquier partícula del enjambre. (Ver imagen 'Complete graph' )
+* **`lbest` (Mejor Local):** Se define una topología (e.g., anillo, estrella) y el vecindario de una partícula es un conjunto más pequeño de partículas conectadas. La partícula es influenciada por la mejor solución encontrada dentro de su vecindario local. (Ver imagen 'Local structure: a ring' )
+
+**Composición de una Partícula:** 
+* Vector de posición actual: $X_i(t)$. 
+* Vector de la mejor posición personal encontrada: $P_i$ (`pbest`). 
+* Vector de velocidad: $V_i(t)$. 
+
+**Actualizaciones en Cada Iteración:** 
+
+1.  **Actualización de la Velocidad:** 
+    La velocidad de cada partícula `i` en cada dimensión `d` se actualiza como:
+    $v_{id}(t) = \omega \cdot v_{id}(t-1) + c_1 \cdot \rho_{1d} \cdot (p_{id} - x_{id}(t-1)) + c_2 \cdot \rho_{2d} \cdot (p_{gd} - x_{id}(t-1))$
+    Donde:
+    * $v_{id}(t-1)$: Velocidad anterior.
+    * $\omega$: **Peso de inercia**. Controla la influencia de la velocidad anterior. Valores grandes favorecen la exploración global, valores pequeños la explotación local. 
+    * $c_1, c_2$: Coeficientes de aceleración (constantes). $c_1$ es el factor cognitivo (atracción hacia su propio mejor) y $c_2$ es el factor social (atracción hacia el mejor del vecindario). 
+    * $\rho_{1d}, \rho_{2d}$: Números aleatorios uniformemente distribuidos en $[0,1]$, generados para cada dimensión y partícula. Introducen un componente estocástico.
+    * $x_{id}(t-1)$: Posición actual (anterior a la actualización).
+    * $p_{id}$: Mejor posición personal de la partícula `i`.
+    * $p_{gd}$: Mejor posición del vecindario (gbest o lbest).
+
+    *Nota: La fórmula original sin inercia es: $v_{i}(t) = v_{i}(t-1) + \rho_{1}C_{1}\times(p_{i}-x_{i}(t-1)) + \rho_{2}C_{2}\times(g_{i}-x_{i}(t-1))$.* 
+
+2.  **Actualización de la Posición:** 
+    La nueva posición se calcula sumando la nueva velocidad a la posición actual:
+    $x_{id}(t) = x_{id}(t-1) + v_{id}(t)$ 
+
+3.  **Actualización de las Mejores Posiciones:** 
+    * **Actualizar `pbest`:** Si la nueva posición $X_i(t)$ es mejor (según la función de fitness $f$) que $P_i$, entonces $P_i = X_i(t)$.
+      `Si f(xi) < f(pbesti) Entonces pbesti = xi` (para minimización) 
+    * **Actualizar `gbest` (o `lbest`):** Si la nueva posición $X_i(t)$ es mejor que la actual $P_g$, entonces $P_g = X_i(t)$.
+      `Si f(xi) < f(gbest) Entonces gbest = xi` (para minimización y usando gbest) 
+
+**Representación Gráfica del Movimiento:** 
+Una partícula en $x(t)$ se mueve a $x(t+1)$ influenciada por su velocidad actual $v(t)$, su mejor experiencia personal $p_i$, y la mejor experiencia de sus vecinos $p_g$.
+
+**Pseudocódigo del PSO:** 
+1.  Inicializar aleatoriamente la población de partículas (posiciones $X_i$ y velocidades $V_i$).
+2.  Para cada partícula, inicializar $P_i = X_i$.
+3.  Identificar $P_g$ entre todos los $P_i$.
+4.  **Repeat**
+5.  Para cada partícula $i$:
+    a.  Evaluar $f(X_i)$.
+    b.  Actualizar $P_i$ si $f(X_i)$ es mejor que $f(P_i)$.
+    c.  Actualizar $P_g$ si $f(X_i)$ es mejor que $f(P_g)$ (o el $P_{lbest}$ correspondiente).
+    d.  Actualizar velocidad $V_i(t)$ usando la ecuación de velocidad. 
+    e.  Actualizar posición $X_i(t) = X_i(t-1) + V_i(t)$. 
+    f.  `If f(xi) < f(pbesti) Then pbesti = xi` 
+    g.  `If f(xi) < f(gbest) Then gbest = xi` 
+6.  **Until** Criterio de parada satisfecho (e.g., número de iteraciones, convergencia). 
+7.  **Output**: $P_g$ (la mejor solución encontrada).
+
+**Parámetros del algoritmo**
+- $C_1$
+- $C_2$
+- $w$
+- N (Cantidad de individuos)
+
+## Actividad
+
+Se busca encontrar el mínimo de la función:
+$f(x) = \sum_{i=1}^{N-1} [100(x_{i+1} - x_i^2)^2 + (1 - x_i)^2]$
+donde $x_i \in [-10, 10]$ y $N=3$. Para $N=3$, la función es:
+$f(x_1, x_2, x_3) = [100(x_2 - x_1^2)^2 + (1 - x_1)^2] + [100(x_3 - x_2^2)^2 + (1 - x_2)^2]$
+
+Dados los siguientes parámetros de una partícula en un algoritmo PSO:
+
+A. Posición actual de la partícula: $x(t-1) = (x_1, x_2, x_3) = (0.4, 1.2, -3.2)$
+B. Mejor posición personal: $p = (p_1, p_2, p_3) = (1.2, 2.5, -2.1)$
+C. Mejor posición global: $g = (g_1, g_2, g_3) = (1.4, 1.1, -0.4)$
+D. Constantes del PSO: $C_1 = 1$, $C_2 = 1$, $\omega = 1$
+E. Velocidad actual de la partícula: $v(t-1) = (v_1, v_2, v_3) = (-0.8, 0.2, -1.2)$
+F. Números aleatorios proporcionados: Se utilizará $\rho_1 = 0.21$ para el componente cognitivo y $\rho_2 = 0.43$ para el componente social.
+
+Se pide calcular la nueva posición de la partícula $x(t)$.
+
+---
+
+### Resolución
+
+Las ecuaciones para la actualización de la velocidad y la posición de una partícula en PSO son:
+
+1.  **Actualización de la velocidad (para cada dimensión $d$):**
+    $v_d(t) = \omega \cdot v_d(t-1) + C_1 \cdot \rho_1 \cdot (p_d - x_d(t-1)) + C_2 \cdot \rho_2 \cdot (g_d - x_d(t-1))$
+
+2.  **Actualización de la posición (para cada dimensión $d$):**
+    $x_d(t) = x_d(t-1) + v_d(t)$
+
+En este cálculo, utilizaremos $\rho_1 = 0.21$ y $\rho_2 = 0.43$ como los números aleatorios escalares aplicados a los componentes cognitivo y social, respectivamente, para todas las dimensiones.
+
+#### Paso 1: Calcular la nueva velocidad $v(t)$
+
+* **Para la dimensión 1 ($d=1$):**
+    $v_1(t-1) = -0.8$
+    $x_1(t-1) = 0.4$
+    $p_1 = 1.2$
+    $g_1 = 1.4$
+    $v_1(t) = (1 \cdot -0.8) + (1 \cdot 0.21 \cdot (1.2 - 0.4)) + (1 \cdot 0.43 \cdot (1.4 - 0.4))$
+    $v_1(t) = -0.8 + (0.21 \cdot 0.8) + (0.43 \cdot 1.0)$
+    $v_1(t) = -0.8 + 0.168 + 0.43$
+    $v_1(t) = -0.8 + 0.598$
+    $v_1(t) = -0.202$
+
+* **Para la dimensión 2 ($d=2$):**
+    $v_2(t-1) = 0.2$
+    $x_2(t-1) = 1.2$
+    $p_2 = 2.5$
+    $g_2 = 1.1$
+    $v_2(t) = (1 \cdot 0.2) + (1 \cdot 0.21 \cdot (2.5 - 1.2)) + (1 \cdot 0.43 \cdot (1.1 - 1.2))$
+    $v_2(t) = 0.2 + (0.21 \cdot 1.3) + (0.43 \cdot -0.1)$
+    $v_2(t) = 0.2 + 0.273 - 0.043$
+    $v_2(t) = 0.2 + 0.23$
+    $v_2(t) = 0.43$
+
+* **Para la dimensión 3 ($d=3$):**
+    $v_3(t-1) = -1.2$
+    $x_3(t-1) = -3.2$
+    $p_3 = -2.1$
+    $g_3 = -0.4$
+    $v_3(t) = (1 \cdot -1.2) + (1 \cdot 0.21 \cdot (-2.1 - (-3.2))) + (1 \cdot 0.43 \cdot (-0.4 - (-3.2)))$
+    $v_3(t) = -1.2 + (0.21 \cdot (-2.1 + 3.2)) + (0.43 \cdot (-0.4 + 3.2))$
+    $v_3(t) = -1.2 + (0.21 \cdot 1.1) + (0.43 \cdot 2.8)$
+    $v_3(t) = -1.2 + 0.231 + 1.204$
+    $v_3(t) = -1.2 + 1.435$
+    $v_3(t) = 0.235$
+
+Por lo tanto, la nueva velocidad es $v(t) = (-0.202, 0.43, 0.235)$.
+
+#### Paso 2: Calcular la nueva posición $x(t)$
+
+* **Para la dimensión 1 ($d=1$):**
+    $x_1(t) = x_1(t-1) + v_1(t)$
+    $x_1(t) = 0.4 + (-0.202)$
+    $x_1(t) = 0.198$
+
+* **Para la dimensión 2 ($d=2$):**
+    $x_2(t) = x_2(t-1) + v_2(t)$
+    $x_2(t) = 1.2 + 0.43$
+    $x_2(t) = 1.63$
+
+* **Para la dimensión 3 ($d=3$):**
+    $x_3(t) = x_3(t-1) + v_3(t)$
+    $x_3(t) = -3.2 + 0.235$
+    $x_3(t) = -2.965$
+
+La nueva posición de la partícula es $x(t) = (0.198, 1.63, -2.965)$.
+
+Verificamos si los componentes de la nueva posición están dentro del dominio $x_i \in [-10, 10]$:
+* $x_1(t) = 0.198$ (Dentro del rango)
+* $x_2(t) = 1.63$ (Dentro del rango)
+* $x_3(t) = -2.965$ (Dentro del rango)
+Todos los componentes están dentro de los límites permitidos.
+
+---
+
+**Respuesta Final:**
+La nueva posición de la partícula es $x(t) = (0.198, 1.63, -2.965)$.

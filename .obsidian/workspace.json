@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2a13a719ad9b3a8e",
+        "id": "adf524b96acd2dba",
         "type": "tabs",
         "children": [
           {
-            "id": "3103a801a43b8816",
+            "id": "6967b98db9e240e7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/ALGORITMOS EXACTOS Y METAHEURÍSTICAS.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "ALGORITMOS EXACTOS Y METAHEURÍSTICAS"
             }
           }
         ]
@@ -167,28 +171,31 @@
       "canvas:Crear nuevo lienzo": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d7a78b9cc663cb82",
+  "active": "6967b98db9e240e7",
   "lastOpenFiles": [
-    "Sin título.md",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 14 - Metaheuristicas9.pdf",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 14 - Metaheuristicas9.pdf.crdownload",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 13 - Metaheuristicas8.pdf",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Pasted image 20250324113842.png",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Pasted image 20250313121452.png",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/ALGORITMOS EXACTOS Y METAHEURÍSTICAS.md",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 11 - Metaheuristicas6.pdf",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 12 - Metaheuristicas7.pdf",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Tareas/T2-CIT3352.pdf",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Tareas/T1-CIT3352.pdf",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Tareas/Rúbrica Tarea 1 Metaheurísticas.pdf",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Tareas",
     "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Control 1/Resumen Control 1.md",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 7 - Metaheuristicas2.pdf",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 6 - Metaheuristicas1.pdf",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 3 - AlgoritmosCompletos1.pdf",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 4 - AlgoritmosCompletos2.pdf",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 5 - AlgoritmosCompletos3.pdf",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 9 - Metaheuristicas4.pdf",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 8 - Metaheuristicas3.pdf",
     "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Control 1/C2-MH-2023.pdf",
     "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Control 1/C1-MH-2024.pdf",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 10 - Metaheuristicas5.pdf",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Pasted image 20250313121452.png",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Pasted image 20250324113842.png",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/ALGORITMOS EXACTOS Y METAHEURÍSTICAS.md",
     "2025-1/TIC II/PROYECTO EN TIC II.md",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Pasted image 20250324113842.png",
     "2025-1/TIC II/Pasted image 20250318174544.png",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Pasted image 20250313121452.png",
     "Solicitud Práctica.md",
     "conflict-files-obsidian-git.md",
     "2024-2/Simulación y biología programable/Resumen Control 3.md",
@@ -200,8 +207,6 @@
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241022123146.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241017194404.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241017193005.png",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241015121601.png",
-    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241015115537.png",
     "2024-2/Simulación y biología programable/Resumen Control 1.md",
     "2024-2/Comunicación por luz visible/Apuntes.md",
     "2024-2/Comunicación por luz visible/Resumen Sol 1.md",
