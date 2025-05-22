@@ -688,3 +688,61 @@ Todos los componentes están dentro de los límites permitidos.
 
 **Respuesta Final:**
 La nueva posición de la partícula es $x(t) = (0.198, 1.63, -2.965)$.
+
+# Clase 22-05-25
+
+## Sintonización de Parámetros
+
+La sintonización de parámetros es un problema fundamental y costoso en el diseño de Algoritmos Exactos y Metaheurísticas (MHs). Consiste en asignar valores a los elementos numéricos de un algoritmo para optimizar su rendimiento.
+
+### Decisiones de Diseño en MHs
+
+Diferentes metaheurísticas tienen parámetros específicos que requieren sintonización:
+
+- **Tabu Search**: Tamaño de la lista Tabú.
+    
+- **Simulated Annealing**: Temperatura inicial, parámetro de enfriamiento, y cantidad de iteraciones para enfriamiento y calentamiento.
+    
+- **Algoritmos Genéticos (GA)**: Probabilidad de cruzamiento/mutación, operadores y porcentaje de elitismo.
+    
+- **ACO**: Tasa de evaporación.
+    
+- **PSO**: Ponderación global best-local best-inertia.
+    
+
+### Consideraciones Clave
+
+Un buen algoritmo debe explorar el espacio de búsqueda y luego explotar las zonas favorables. Los parámetros están interrelacionados, lo que complejiza el proceso de diseño. Los valores de los parámetros se determinan a partir de un conjunto de benchmarks.
+
+### Sintonización vs. Control
+
+Es importante diferenciar entre sintonización y control de parámetros:
+
+- **Sintonización**: Proceso previo a la ejecución del algoritmo, consume mucho tiempo, y los valores de los parámetros son fijos durante la ejecución. (Estrategia offline)
+    
+- **Control**: Proceso que ocurre durante la ejecución del algoritmo, con valores variables, y puede ser dinámico, adaptativo o auto-adaptativo. (Estrategia online)
+    
+
+### Técnicas de Sintonización de Parámetros
+
+Existen varias técnicas para la sintonización de parámetros:
+
+- **Manual**: Ajuste manual de los parámetros.
+    
+- **Estadística (Racing)**: Basada en pruebas estadísticas, donde los algoritmos son evaluados iterativamente y eliminados si se encuentra evidencia de inferioridad. Un ejemplo es el test de Friedman. Ejemplos incluyen Pygmo e irace.
+    
+- **Meta-Algoritmos**: Utilizan otros algoritmos para encontrar la mejor configuración de parámetros.
+    - **Búsqueda Local**: Consiste en experimentar cambiando un parámetro y aceptando la nueva configuración solo si mejora el desempeño. Esto puede optimizarse con Iterated Local Search (ILS).
+        
+    - **ParamILS**: Un ejemplo de meta-algoritmo que utiliza un enfoque de búsqueda local iterativa con perturbación y un criterio de aceptación para encontrar la mejor configuración de parámetros.
+        
+
+### Análisis de Desempeño en MHs
+
+Para analizar el desempeño de las metaheurísticas, se consideran:
+
+- **Diseño experimental**: Selección de benchmarks.
+    
+- **Mediciones**: Análisis estadístico de resultados (tiempo de CPU, valor de la función objetivo) y comparación con técnicas del estado del arte.
+    
+- **Reporte**: Gráficos de convergencia, gráficos de cajas, reporte de tiempo de CPU y generaciones, asegurando la reproducibilidad de los experimentos.

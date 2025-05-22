@@ -6,6 +6,7 @@
       {
         "id": "adf524b96acd2dba",
         "type": "tabs",
+        "dimension": 46.52014652014652,
         "children": [
           {
             "id": "6967b98db9e240e7",
@@ -19,6 +20,25 @@
               },
               "icon": "lucide-file",
               "title": "ALGORITMOS EXACTOS Y METAHEURÍSTICAS"
+            }
+          }
+        ]
+      },
+      {
+        "id": "b9efcc0b6ddaa405",
+        "type": "tabs",
+        "dimension": 53.47985347985348,
+        "children": [
+          {
+            "id": "85b0a99251f40d30",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 15 - Sintonizacion de parametros.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Clase 15 - Sintonizacion de parametros"
             }
           }
         ]
@@ -78,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.50152587890625
+    "width": 221.50152587890625,
+    "collapsed": true
   },
   "right": {
     "id": "0d4e9e9009b7ee87",
@@ -178,11 +199,13 @@
   "active": "6967b98db9e240e7",
   "lastOpenFiles": [
     "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 14 - Metaheuristicas9.pdf",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 15 - Sintonizacion de parametros.pdf",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 15 - Sintonizacion de parametros.pdf.crdownload",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/ALGORITMOS EXACTOS Y METAHEURÍSTICAS.md",
     "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 14 - Metaheuristicas9.pdf.crdownload",
     "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 13 - Metaheuristicas8.pdf",
     "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Pasted image 20250324113842.png",
     "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Pasted image 20250313121452.png",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/ALGORITMOS EXACTOS Y METAHEURÍSTICAS.md",
     "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 11 - Metaheuristicas6.pdf",
     "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 12 - Metaheuristicas7.pdf",
     "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Tareas/T2-CIT3352.pdf",
@@ -190,8 +213,6 @@
     "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Tareas/Rúbrica Tarea 1 Metaheurísticas.pdf",
     "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Tareas",
     "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Control 1/Resumen Control 1.md",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Control 1/C2-MH-2023.pdf",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Control 1/C1-MH-2024.pdf",
     "2025-1/TIC II/PROYECTO EN TIC II.md",
     "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Pasted image 20250324113842.png",
     "2025-1/TIC II/Pasted image 20250318174544.png",
