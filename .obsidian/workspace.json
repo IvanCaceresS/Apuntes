@@ -4,44 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "adf524b96acd2dba",
+        "id": "9afb4863c708e245",
         "type": "tabs",
-        "dimension": 46.52014652014652,
         "children": [
           {
-            "id": "6967b98db9e240e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/ALGORITMOS EXACTOS Y METAHEURÍSTICAS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ALGORITMOS EXACTOS Y METAHEURÍSTICAS"
-            }
-          }
-        ]
-      },
-      {
-        "id": "b9efcc0b6ddaa405",
-        "type": "tabs",
-        "dimension": 53.47985347985348,
-        "children": [
-          {
-            "id": "85b0a99251f40d30",
+            "id": "ad7c23f62a4dc72f",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 15 - Sintonizacion de parametros.pdf"
+                "file": "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Control 1/C2-MH-2023.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Clase 15 - Sintonizacion de parametros"
+              "title": "C2-MH-2023"
+            }
+          },
+          {
+            "id": "5f00a1bace840cbd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Control 2/Resumen Control 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Resumen Control 1"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.50152587890625,
-    "collapsed": true
+    "width": 221.50152587890625
   },
   "right": {
     "id": "0d4e9e9009b7ee87",
@@ -192,31 +184,28 @@
       "canvas:Crear nuevo lienzo": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "obsidian-git:Open Git source control": false
+      "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "6967b98db9e240e7",
+  "active": "5f00a1bace840cbd",
   "lastOpenFiles": [
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 14 - Metaheuristicas9.pdf",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 15 - Sintonizacion de parametros.pdf",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 15 - Sintonizacion de parametros.pdf.crdownload",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Control 1/C2-MH-2023.pdf",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Control 2/Resumen Control 1.md",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Control 2",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Control 1/C1-MH-2024.pdf",
     "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/ALGORITMOS EXACTOS Y METAHEURÍSTICAS.md",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 14 - Metaheuristicas9.pdf.crdownload",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 13 - Metaheuristicas8.pdf",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Pasted image 20250324113842.png",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Pasted image 20250313121452.png",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 11 - Metaheuristicas6.pdf",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 12 - Metaheuristicas7.pdf",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Tareas/T2-CIT3352.pdf",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Tareas/T1-CIT3352.pdf",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Tareas/Rúbrica Tarea 1 Metaheurísticas.pdf",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Tareas",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 15 - Sintonizacion de parametros.pdf",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 14 - Metaheuristicas9.pdf",
     "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Control 1/Resumen Control 1.md",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 7 - Metaheuristicas2.pdf",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 6 - Metaheuristicas1.pdf",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 3 - AlgoritmosCompletos1.pdf",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 4 - AlgoritmosCompletos2.pdf",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Clase 5 - AlgoritmosCompletos3.pdf",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Pasted image 20250313121452.png",
+    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Clases/Pasted image 20250324113842.png",
     "2025-1/TIC II/PROYECTO EN TIC II.md",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Pasted image 20250324113842.png",
     "2025-1/TIC II/Pasted image 20250318174544.png",
-    "2025-1/ALGORITMOS EXACTOS Y METAHEURÍSTICAS/Pasted image 20250313121452.png",
     "Solicitud Práctica.md",
     "conflict-files-obsidian-git.md",
     "2024-2/Simulación y biología programable/Resumen Control 3.md",
@@ -228,6 +217,8 @@
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241022123146.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241017194404.png",
     "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241017193005.png",
+    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241015121601.png",
+    "2024-2/Simulación y biología programable/Imagenes/Pasted image 20241015115537.png",
     "2024-2/Simulación y biología programable/Resumen Control 1.md",
     "2024-2/Comunicación por luz visible/Apuntes.md",
     "2024-2/Comunicación por luz visible/Resumen Sol 1.md",
@@ -243,7 +234,6 @@
     "2024-1/GESTIÓN ORGANIZACIONAL/Apuntes Gestión Organizacional.md",
     "2024-1/ARQUITECTURA DE SOFTWARE/Resumen Control 2.md",
     "2024-1/DATA SCIENCE/Apuntes Data Science.md",
-    "2024-1/INTELIGENCIA DE NEGOCIOS/Apuntes Inteligencia de negocios.md",
     "Sin título.canvas"
   ]
 }

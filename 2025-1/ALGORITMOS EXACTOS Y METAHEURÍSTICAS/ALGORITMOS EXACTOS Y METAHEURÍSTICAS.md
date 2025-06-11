@@ -746,3 +746,4 @@ Para analizar el desempeño de las metaheurísticas, se consideran:
 - **Mediciones**: Análisis estadístico de resultados (tiempo de CPU, valor de la función objetivo) y comparación con técnicas del estado del arte.
     
 - **Reporte**: Gráficos de convergencia, gráficos de cajas, reporte de tiempo de CPU y generaciones, asegurando la reproducibilidad de los experimentos.
+
